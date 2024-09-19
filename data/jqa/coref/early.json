@@ -1,0 +1,30 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "degree": 1,
+            "betweenness": 0.0,
+            "eigenvector": 0.7071067811865476,
+            "degree_cent": 1.0,
+            "modularity": 0,
+            "id": "fricke-john"
+        },
+        {
+            "degree": 1,
+            "betweenness": 0.0,
+            "eigenvector": 0.7071067811865476,
+            "degree_cent": 1.0,
+            "modularity": 0,
+            "id": "dana-francis"
+        }
+    ],
+    "links": [
+        {
+            "weight": 21,
+            "source": "fricke-john",
+            "target": "dana-francis"
+        }
+    ]
+}
