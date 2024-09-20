@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../../../styles/main-dark.css"></link>
+        <link rel="stylesheet" href="../../../styles/d3-dark.css"></link>
+
+
+        <script src="../../../JsScripts/multiselect-dropdown.js?v1" ></script>
+        <script src="../../../JsScripts/CreateSliders.js?v2"></script> <!-- Holds the code for the modular sliders-->
+        <script type="text/javascript" src="../../../JsScripts/coRef.js?v1"></script> <!-- Holds the code for the network viz-->
+        
+        <script src="https://d3js.org/d3.v7.min.js"></script>   
+        <!-- Dark Mode Colors
+            Xiketic: 110b11
+            Raisin Black: 242124
+            Black Coffee: 353135
+            Steel Teal: 688F88
+            Granny Smith Apple: 91f3b6
+            Opal: abc3c0;
+            Deep Champagne: FAD6A5
+            Antique White: fdeed8
+            Floral White: FFFAF0
+        -->
+        <style></style>
+    </head>
+
+    <body>
+        <header id="menu">
+            <script src="../../../styles/menu.js"></script>
+        </header>
+        <div class="main-body">
+            <div class="container">
+
+                <h1 class="title">Network Analysis</h1>
+
+                <div class="row justify-content-center">
+                    <div class="column">
+                        <p>Network introduction...</p>
+                    </div>
+                </div>
+
+                <h2 class="svgTitle">Co-References</h2>
+                <div class="row justify-content-center">
+                    <div class="network"></div>
+                    <script>
+                    graph("../../../data/jqa/coref/subjects_1825_1829.json","network");
+                    </script>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </body>
+</html>

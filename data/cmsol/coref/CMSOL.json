@@ -4,1853 +4,2983 @@
     "graph": {},
     "nodes": [
         {
-            "degree": 23,
-            "betweenness": 0.24298045233218116,
-            "eigenvector": 0.109067414263506,
-            "degree_cent": 0.29870129870129875,
+            "degree": 18,
+            "betweenness": 0.0013699368435629137,
+            "eigenvector": 0.15229652304103825,
+            "degree_cent": 0.25,
             "modularity": 1,
-            "id": "adams-abigail4",
-            "name": "Abigail Adams"
+            "id": "pomeroy-thaddeus",
+            "name": "Thaddeus Pomeroy"
+        },
+        {
+            "degree": 7,
+            "betweenness": 0.0,
+            "eigenvector": 0.06914856128571309,
+            "degree_cent": 0.09722222222222221,
+            "modularity": 0,
+            "id": "ashburner-luke",
+            "name": "Luke Ashburner"
+        },
+        {
+            "degree": 54,
+            "betweenness": 0.11909124557564212,
+            "eigenvector": 0.26866531075269134,
+            "degree_cent": 0.75,
+            "modularity": 0,
+            "id": "sedgwick-charles",
+            "name": "Charles Sedgwick"
+        },
+        {
+            "degree": 16,
+            "betweenness": 0.0028860734553222815,
+            "eigenvector": 0.11539394551269176,
+            "degree_cent": 0.2222222222222222,
+            "modularity": 0,
+            "id": "sedgwick-elizabeth",
+            "name": "Elizabeth Sedgwick"
+        },
+        {
+            "degree": 42,
+            "betweenness": 0.042446337837804285,
+            "eigenvector": 0.242532001973955,
+            "degree_cent": 0.5833333333333333,
+            "modularity": 1,
+            "id": "sedgwick-henry",
+            "name": "Henry Sedgwick"
+        },
+        {
+            "degree": 39,
+            "betweenness": 0.05015673005178667,
+            "eigenvector": 0.21571257339683314,
+            "degree_cent": 0.5416666666666666,
+            "modularity": 0,
+            "id": "sedgwick-jane",
+            "name": "Jane Sedgwick"
+        },
+        {
+            "degree": 53,
+            "betweenness": 0.10824340036746831,
+            "eigenvector": 0.266620549947119,
+            "degree_cent": 0.736111111111111,
+            "modularity": 2,
+            "id": "sedgwick-robert",
+            "name": "Robert Sedgwick"
+        },
+        {
+            "degree": 69,
+            "betweenness": 0.35055707810299075,
+            "eigenvector": 0.2909425591494829,
+            "degree_cent": 0.9583333333333333,
+            "modularity": 0,
+            "id": "sedgwick-catharine",
+            "name": "Catharine Sedgwick"
         },
         {
             "degree": 4,
             "betweenness": 0.0,
-            "eigenvector": 0.030168171923283,
-            "degree_cent": 0.05194805194805195,
+            "eigenvector": 0.0401311197596104,
+            "degree_cent": 0.05555555555555555,
             "modularity": 1,
-            "id": "adams-abigail2",
-            "name": "Abigail Angier"
-        },
-        {
-            "degree": 5,
-            "betweenness": 8.544087491455913e-05,
-            "eigenvector": 0.03543509913129335,
-            "degree_cent": 0.06493506493506494,
-            "modularity": 1,
-            "id": "adams-ann",
-            "name": "Ann Adams"
+            "id": "jay-sarah",
+            "name": "Sarah Jay"
         },
         {
             "degree": 10,
-            "betweenness": 0.005336664171250638,
-            "eigenvector": 0.05714225645921182,
-            "degree_cent": 0.12987012987012989,
+            "betweenness": 0.0006194574856546687,
+            "eigenvector": 0.0928393126915108,
+            "degree_cent": 0.1388888888888889,
             "modularity": 1,
-            "id": "adams-elizabeth",
-            "name": "Elizabeth Adams"
+            "id": "banyer-maria",
+            "name": "Maria Banyer"
         },
         {
-            "degree": 19,
-            "betweenness": 0.24654719064277636,
-            "eigenvector": 0.13469287006843567,
-            "degree_cent": 0.24675324675324678,
+            "degree": 34,
+            "betweenness": 0.019776762586069408,
+            "eigenvector": 0.21891608260660894,
+            "degree_cent": 0.4722222222222222,
             "modularity": 1,
-            "id": "hellen-mary",
-            "name": "Mary Adams"
+            "id": "sedgwick-susan",
+            "name": "Susannah Sedgwick"
+        },
+        {
+            "degree": 14,
+            "betweenness": 0.0003330166182278858,
+            "eigenvector": 0.1264090632817568,
+            "degree_cent": 0.19444444444444442,
+            "modularity": 1,
+            "id": "sedgwick-theodorei"
+        },
+        {
+            "degree": 47,
+            "betweenness": 0.09450365848978111,
+            "eigenvector": 0.2504119334212167,
+            "degree_cent": 0.6527777777777778,
+            "modularity": 1,
+            "id": "watson-frances",
+            "name": "Frances Watson"
+        },
+        {
+            "degree": 20,
+            "betweenness": 0.0014039045711926128,
+            "eigenvector": 0.16360487688889755,
+            "degree_cent": 0.2777777777777778,
+            "modularity": 1,
+            "id": "webb-catherine",
+            "name": "Catherine Webb"
+        },
+        {
+            "degree": 22,
+            "betweenness": 0.005997253907016403,
+            "eigenvector": 0.16159488559604862,
+            "degree_cent": 0.3055555555555555,
+            "modularity": 1,
+            "id": "payne-eloise",
+            "name": "Eloise Payne"
+        },
+        {
+            "degree": 8,
+            "betweenness": 0.0,
+            "eigenvector": 0.0741115490504909,
+            "degree_cent": 0.1111111111111111,
+            "modularity": 1,
+            "id": "bleecker-harmanus",
+            "name": "Harmanus Bleecker"
+        },
+        {
+            "degree": 11,
+            "betweenness": 0.00014671361502347418,
+            "eigenvector": 0.10404565471261941,
+            "degree_cent": 0.15277777777777776,
+            "modularity": 1,
+            "id": "symmes-susannah",
+            "name": "Susan Symmes"
+        },
+        {
+            "degree": 31,
+            "betweenness": 0.01430724514472098,
+            "eigenvector": 0.20446499485714179,
+            "degree_cent": 0.4305555555555555,
+            "modularity": 1,
+            "id": "watson-ebenezer",
+            "name": "Ebenezer Watson"
+        },
+        {
+            "degree": 22,
+            "betweenness": 0.004320750592498728,
+            "eigenvector": 0.1665725922174326,
+            "degree_cent": 0.3055555555555555,
+            "modularity": 1,
+            "id": "watson-robert",
+            "name": "Robert Watson"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.04761315502797459,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 2,
+            "id": "brown-unknown"
+        },
+        {
+            "degree": 5,
+            "betweenness": 0.0,
+            "eigenvector": 0.05722309988228658,
+            "degree_cent": 0.06944444444444445,
+            "modularity": 0,
+            "id": "brush-unknown"
+        },
+        {
+            "degree": 17,
+            "betweenness": 0.007152041947333302,
+            "eigenvector": 0.10415783459917123,
+            "degree_cent": 0.2361111111111111,
+            "modularity": 0,
+            "id": "channing-susan",
+            "name": "Susan Channing"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.03377422380611183,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 0,
+            "id": "cabot-susan",
+            "name": "Susan Cabot"
+        },
+        {
+            "degree": 15,
+            "betweenness": 0.021977995921657896,
+            "eigenvector": 0.09435731831895595,
+            "degree_cent": 0.20833333333333331,
+            "modularity": 0,
+            "id": "follen-eliza",
+            "name": "Eliza Follen"
+        },
+        {
+            "degree": 11,
+            "betweenness": 0.0006012929428422387,
+            "eigenvector": 0.08770724336516926,
+            "degree_cent": 0.15277777777777776,
+            "modularity": 0,
+            "id": "channing-william",
+            "name": "William Channing"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.0312975034330392,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 0,
+            "id": "everett-edward",
+            "name": "Edward Everett"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.03377422380611183,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 0,
+            "id": "howe-samuel3",
+            "name": "Samuel Howe"
+        },
+        {
+            "degree": 7,
+            "betweenness": 0.008668848105467827,
+            "eigenvector": 0.04880904711211953,
+            "degree_cent": 0.09722222222222221,
+            "modularity": 0,
+            "id": "minot-katharine",
+            "name": "Katharine Minot"
+        },
+        {
+            "degree": 10,
+            "betweenness": 0.0005678679922673295,
+            "eigenvector": 0.08599378594034018,
+            "degree_cent": 0.1388888888888889,
+            "modularity": 0,
+            "id": "payne-anna",
+            "name": "Anna Payne"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.00010479543930248156,
+            "eigenvector": 0.04232743895734322,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 0,
+            "id": "payne-thatcher",
+            "name": "Thatcher Payne"
         },
         {
             "degree": 13,
-            "betweenness": 0.011750425848170213,
-            "eigenvector": 0.06398569477576016,
-            "degree_cent": 0.16883116883116883,
-            "modularity": 1,
-            "id": "adams-charles2",
-            "name": "Charles Adams"
+            "betweenness": 0.0022108969257546994,
+            "eigenvector": 0.09171630127378103,
+            "degree_cent": 0.18055555555555555,
+            "modularity": 0,
+            "id": "russell-lucy",
+            "name": "Lucy Russell"
         },
         {
-            "degree": 4,
-            "betweenness": 0.0,
-            "eigenvector": 0.015051798790475935,
-            "degree_cent": 0.05194805194805195,
+            "degree": 27,
+            "betweenness": 0.008210592275767642,
+            "eigenvector": 0.19066118119751874,
+            "degree_cent": 0.375,
             "modularity": 1,
-            "id": "adams-charles7",
-            "name": "Charles Adams"
+            "id": "pomeroy-eliza",
+            "name": "Eliza Pomeroy"
         },
         {
             "degree": 9,
-            "betweenness": 0.02218305841448624,
-            "eigenvector": 0.08329635281405987,
-            "degree_cent": 0.1168831168831169,
-            "modularity": 1,
-            "id": "adams-georgeanna",
-            "name": "Georgeanna (Fanny) Adams"
+            "betweenness": 7.82472613458529e-05,
+            "eigenvector": 0.0801096900916381,
+            "degree_cent": 0.125,
+            "modularity": 0,
+            "id": "sedgwick-jane2",
+            "name": "Jane Sedgwick"
         },
         {
-            "degree": 4,
+            "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.015051798790475935,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 1,
-            "id": "adams-henry4",
-            "name": "Henry Adams"
+            "eigenvector": 0.012961476822886016,
+            "degree_cent": 0.013888888888888888,
+            "modularity": 0,
+            "id": "coles-margaret",
+            "name": "Margaret Coles"
         },
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.026989728815127643,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 1,
-            "id": "adams-isaac",
-            "name": "Isaac Adams"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.0,
-            "eigenvector": 0.015051798790475935,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 1,
-            "id": "adams-john17",
-            "name": "John Adams"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.020647829073892145,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 1,
-            "id": "adams-john3",
-            "name": "John Adams"
-        },
-        {
-            "degree": 8,
-            "betweenness": 0.05177717019822283,
-            "eigenvector": 0.05104001036418675,
-            "degree_cent": 0.1038961038961039,
-            "modularity": 1,
-            "id": "adams-louisa-catherine",
-            "name": "Louisa Adams"
-        },
-        {
-            "degree": 6,
-            "betweenness": 0.002563226247436774,
-            "eigenvector": 0.02863640925845281,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 1,
-            "id": "adams-louisa3",
-            "name": "Louisa Adams"
-        },
-        {
-            "degree": 10,
-            "betweenness": 0.09409629445514607,
-            "eigenvector": 0.08174105942732658,
-            "degree_cent": 0.12987012987012989,
-            "modularity": 1,
-            "id": "adams-mary4",
-            "name": "Mary Adams"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.02760357791023503,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 1,
-            "id": "beale-george",
-            "name": "George Beale"
-        },
-        {
-            "degree": 6,
-            "betweenness": 0.07809295967190705,
-            "eigenvector": 0.023710927940374077,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 4,
-            "id": "cicero-marcus",
-            "name": "Marcus Cicero"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.01552231199399334,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 1,
-            "id": "greenleaf-ezekial",
-            "name": "Ezekiel Greenleaf"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.0,
-            "eigenvector": 0.03507488211281447,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 1,
-            "id": "holbrook-amos",
-            "name": "Amos Holbrook"
-        },
-        {
-            "degree": 6,
-            "betweenness": 0.004283435862383232,
-            "eigenvector": 0.03449177217822424,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 1,
-            "id": "lunt-william",
-            "name": "William Lunt"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.012876774457169381,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 1,
-            "id": "saurin-jacques",
-            "name": "Jacques Saurin"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.02760357791023503,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 1,
-            "id": "smith-louisa",
-            "name": "Louisa Smith"
-        },
-        {
-            "degree": 30,
-            "betweenness": 0.4613710390331969,
-            "eigenvector": 0.36728509261924375,
-            "degree_cent": 0.38961038961038963,
+            "eigenvector": 0.032610130407579783,
+            "degree_cent": 0.041666666666666664,
             "modularity": 2,
-            "id": "vanburen-martin",
-            "name": "Martin Van Buren"
+            "id": "danforth-samuel",
+            "name": "Samuel Danforth"
         },
         {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.012876774457169381,
-            "degree_cent": 0.025974025974025976,
+            "degree": 26,
+            "betweenness": 0.011857860449409745,
+            "eigenvector": 0.1744288796238003,
+            "degree_cent": 0.3611111111111111,
             "modularity": 1,
-            "id": "whitney-peter",
-            "name": "Peter Whitney"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.025974025974025976,
-            "eigenvector": 0.004615287139969394,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 5,
-            "id": "smith-catherine-johnson",
-            "name": "Catherine Smith"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.008060140608853092,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 1,
-            "id": "frye-thomas",
-            "name": "Thomas Frye"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.025974025974025976,
-            "eigenvector": 0.008120093830367445,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 1,
-            "id": "hawley-william",
-            "name": "William Hawley"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.002126792738694005,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 4,
-            "id": "antony-mark",
-            "name": "Mark Antony"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.002126792738694005,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 4,
-            "id": "atticus-titus",
-            "name": "Titus Atticus"
-        },
-        {
-            "degree": 25,
-            "betweenness": 0.10580187925539944,
-            "eigenvector": 0.32767432920813416,
-            "degree_cent": 0.3246753246753247,
-            "modularity": 0,
-            "id": "cambreleng-churchill",
-            "name": "Churchill Cambreleng"
+            "id": "sedgwick-theodore",
+            "name": "Theodore Sedgwick"
         },
         {
             "degree": 6,
             "betweenness": 0.0,
-            "eigenvector": 0.1589605560597251,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 0,
-            "id": "bell-john",
-            "name": "John Bell"
+            "eigenvector": 0.06204007237661263,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 2,
+            "id": "dwight-henryw",
+            "name": "Henry Dwight"
         },
         {
             "degree": 12,
-            "betweenness": 0.03906211317352808,
-            "eigenvector": 0.20716324696981178,
-            "degree_cent": 0.15584415584415584,
-            "modularity": 0,
-            "id": "cushing-caleb",
-            "name": "Caleb Cushing"
+            "betweenness": 0.0007120245072468215,
+            "eigenvector": 0.10812679783005744,
+            "degree_cent": 0.16666666666666666,
+            "modularity": 2,
+            "id": "dwight-abigail",
+            "name": "Abigail Dwight"
         },
         {
-            "degree": 10,
-            "betweenness": 0.002155686836137964,
-            "eigenvector": 0.20832616154205882,
-            "degree_cent": 0.12987012987012989,
-            "modularity": 0,
-            "id": "howard-benjamin",
-            "name": "Benjamin Howard"
-        },
-        {
-            "degree": 28,
-            "betweenness": 0.22572725323426837,
-            "eigenvector": 0.36642711820483254,
-            "degree_cent": 0.36363636363636365,
-            "modularity": 0,
-            "id": "polk-james",
-            "name": "James Polk"
-        },
-        {
-            "degree": 21,
-            "betweenness": 0.08225365903937334,
-            "eigenvector": 0.29542241791071655,
-            "degree_cent": 0.27272727272727276,
-            "modularity": 0,
-            "id": "wise-henry",
-            "name": "Henry Wise"
-        },
-        {
-            "degree": 10,
-            "betweenness": 0.018222104589338466,
-            "eigenvector": 0.16522662122603593,
-            "degree_cent": 0.12987012987012989,
-            "modularity": 3,
-            "id": "biddle-richard",
-            "name": "Richard Biddle"
+            "degree": 17,
+            "betweenness": 0.0005643374187975128,
+            "eigenvector": 0.14522860946585098,
+            "degree_cent": 0.2361111111111111,
+            "modularity": 1,
+            "id": "sedgwick-pamela",
+            "name": "Pamela Sedgwick"
         },
         {
             "degree": 8,
-            "betweenness": 0.003871049804963538,
-            "eigenvector": 0.10802492280800324,
-            "degree_cent": 0.1038961038961039,
-            "modularity": 3,
-            "id": "foster-henry",
-            "name": "Henry Foster"
+            "betweenness": 2.3013900395839086e-05,
+            "eigenvector": 0.0833486183473333,
+            "degree_cent": 0.1111111111111111,
+            "modularity": 0,
+            "id": "dwight-henry",
+            "name": "Henry Dwight"
         },
         {
-            "degree": 8,
-            "betweenness": 0.006639541151808664,
-            "eigenvector": 0.1080956607160088,
-            "degree_cent": 0.1038961038961039,
-            "modularity": 3,
-            "id": "hunter-robert",
-            "name": "Robert Hunter"
+            "degree": 2,
+            "betweenness": 0.0,
+            "eigenvector": 0.006377971934778765,
+            "degree_cent": 0.027777777777777776,
+            "modularity": 0,
+            "id": "greenwood-francis",
+            "name": "Francis Greenwood"
         },
         {
-            "degree": 8,
-            "betweenness": 0.006639541151808664,
-            "eigenvector": 0.1080956607160088,
-            "degree_cent": 0.1038961038961039,
-            "modularity": 3,
-            "id": "naylor-charles",
-            "name": "Charles Naylor"
+            "degree": 6,
+            "betweenness": 0.0,
+            "eigenvector": 0.06142666076383833,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 0,
+            "id": "sedgwick-elizabeth2",
+            "name": "Elizabeth Sedgwick"
         },
         {
-            "degree": 10,
-            "betweenness": 0.016776255117173205,
-            "eigenvector": 0.16257199471765188,
-            "degree_cent": 0.12987012987012989,
-            "modularity": 3,
-            "id": "slade-william",
-            "name": "William Slade"
+            "degree": 7,
+            "betweenness": 0.0,
+            "eigenvector": 0.0722645125878167,
+            "degree_cent": 0.09722222222222221,
+            "modularity": 1,
+            "id": "freeman-elizabeth",
+            "name": "Elizabeth Freeman"
+        },
+        {
+            "degree": 1,
+            "betweenness": 0.0,
+            "eigenvector": 0.011155806538463603,
+            "degree_cent": 0.013888888888888888,
+            "modularity": 1,
+            "id": "jones-frances",
+            "name": "Frances Jones"
+        },
+        {
+            "degree": 2,
+            "betweenness": 0.0,
+            "eigenvector": 0.022571421677197997,
+            "degree_cent": 0.027777777777777776,
+            "modularity": 0,
+            "id": "ledyard-susan",
+            "name": "Susan Ledyard"
+        },
+        {
+            "degree": 11,
+            "betweenness": 0.0,
+            "eigenvector": 0.10770550805979365,
+            "degree_cent": 0.15277777777777776,
+            "modularity": 1,
+            "id": "lindsey-frances",
+            "name": "Frances Lindsey"
+        },
+        {
+            "degree": 18,
+            "betweenness": 0.0006266964289609969,
+            "eigenvector": 0.1542540932034811,
+            "degree_cent": 0.25,
+            "modularity": 1,
+            "id": "watson-ebenezer2",
+            "name": "Ebenezer Watson"
+        },
+        {
+            "degree": 13,
+            "betweenness": 0.0003064684402712572,
+            "eigenvector": 0.11775869874768656,
+            "degree_cent": 0.18055555555555555,
+            "modularity": 1,
+            "id": "mason-john",
+            "name": "John Mason"
         },
         {
             "degree": 9,
-            "betweenness": 0.010510590956772205,
-            "eigenvector": 0.13825601637846116,
-            "degree_cent": 0.1168831168831169,
-            "modularity": 3,
-            "id": "tillinghast-joseph",
-            "name": "Joseph Tillinghast"
-        },
-        {
-            "degree": 7,
-            "betweenness": 0.0,
-            "eigenvector": 0.07786456714555087,
-            "degree_cent": 0.09090909090909091,
-            "modularity": 3,
-            "id": "vail-henry",
-            "name": "Henry Vail"
-        },
-        {
-            "degree": 7,
-            "betweenness": 0.0,
-            "eigenvector": 0.07786456714555087,
-            "degree_cent": 0.09090909090909091,
-            "modularity": 3,
-            "id": "webster-taylor",
-            "name": "Taylor Webster"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.032865488378050874,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 0,
-            "id": "boon-ratliff",
-            "name": "Ratliff Boon"
-        },
-        {
-            "degree": 5,
-            "betweenness": 0.0016218108237930522,
-            "eigenvector": 0.09690255111734346,
-            "degree_cent": 0.06493506493506494,
-            "modularity": 0,
-            "id": "briggs-george",
-            "name": "George Briggs"
-        },
-        {
-            "degree": 5,
-            "betweenness": 0.0015601775000271241,
-            "eigenvector": 0.12246986504448605,
-            "degree_cent": 0.06493506493506494,
-            "modularity": 0,
-            "id": "lincoln-levi2",
-            "name": "Levi Lincoln"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.05666179068296981,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 0,
-            "id": "reed-john",
-            "name": "John Reed"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.01420805865493569,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 4,
-            "id": "buchanan-robert",
-            "name": "Robert Buchanan"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.002126792738694005,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 4,
-            "id": "caesar-julius",
-            "name": "Julius Caesar"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.006408065618591934,
-            "eigenvector": 0.049864492376828246,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 2,
-            "id": "jackson-andrew",
-            "name": "Andrew Jackson"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.03741509116352362,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 2,
-            "id": "calhoun-john",
-            "name": "John Calhoun"
-        },
-        {
-            "degree": 6,
-            "betweenness": 0.0005126452494873548,
-            "eigenvector": 0.1356476489268244,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 0,
-            "id": "cushman-samuel",
-            "name": "Samuel Cushman"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.029389638861487405,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 0,
-            "id": "dawson-william",
-            "name": "William Dawson"
-        },
-        {
-            "degree": 6,
-            "betweenness": 0.00011392116655274551,
-            "eigenvector": 0.15536690174001708,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 0,
-            "id": "haynes-charles",
-            "name": "Charles Haynes (Haines)"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.08875204238927825,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 0,
-            "id": "johnson-william2",
-            "name": "William Johnson"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.0011019160455250684,
-            "eigenvector": 0.10736416176604639,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 0,
-            "id": "legare-hugh",
-            "name": "Hugh Legaré"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.0,
-            "eigenvector": 0.12169462837274361,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 0,
-            "id": "mercer-charles",
-            "name": "Charles Mercer"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.08875204238927825,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 0,
-            "id": "patton-john",
-            "name": "John Patton"
-        },
-        {
-            "degree": 2,
-            "betweenness": 0.0,
-            "eigenvector": 0.05588655401122737,
-            "degree_cent": 0.025974025974025976,
-            "modularity": 0,
-            "id": "pickens-francis",
-            "name": "Francis Pickens"
-        },
-        {
-            "degree": 5,
-            "betweenness": 0.0,
-            "eigenvector": 0.14037974525371233,
-            "degree_cent": 0.06493506493506494,
-            "modularity": 0,
-            "id": "robertson-john2",
-            "name": "John Robertson"
-        },
-        {
-            "degree": 3,
-            "betweenness": 0.0,
-            "eigenvector": 0.08875204238927825,
-            "degree_cent": 0.03896103896103896,
-            "modularity": 0,
-            "id": "sergeant-john",
-            "name": "John Sergeant"
-        },
-        {
-            "degree": 6,
-            "betweenness": 0.0,
-            "eigenvector": 0.1554712078149731,
-            "degree_cent": 0.07792207792207792,
-            "modularity": 0,
-            "id": "thomas-francis",
-            "name": "Francis Thomas"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.0,
-            "eigenvector": 0.12169462837274361,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 0,
-            "id": "thompson-waddy",
-            "name": "Waddy Thompson"
-        },
-        {
-            "degree": 4,
-            "betweenness": 0.0,
-            "eigenvector": 0.12169462837274361,
-            "degree_cent": 0.05194805194805195,
-            "modularity": 0,
-            "id": "underwood-joseph",
-            "name": "Joseph Underwood"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.029389638861487405,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 0,
-            "id": "whittlesey-elisha",
-            "name": "Elisha Whittlesey"
-        },
-        {
-            "degree": 7,
-            "betweenness": 0.00012531328320802008,
-            "eigenvector": 0.16825933904119875,
-            "degree_cent": 0.09090909090909091,
-            "modularity": 0,
-            "id": "woodbury-levi",
-            "name": "Levi Woodbury"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.01858081080601273,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 0,
-            "id": "fletcher-richard",
-            "name": "Richard Fletcher"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.026496915149739966,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 0,
-            "id": "duncan-alexander",
-            "name": "Alexander Duncan"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.03294258598346534,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 2,
-            "id": "forsyth-john",
-            "name": "John Forsyth"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.000728344513130842,
-            "degree_cent": 0.012987012987012988,
+            "betweenness": 3.5566936975387683e-05,
+            "eigenvector": 0.08967506094068903,
+            "degree_cent": 0.125,
             "modularity": 1,
-            "id": "fowler-philemon",
-            "name": "Philemon Fowler"
+            "id": "sedgwick-george",
+            "name": "George Sedgwick"
+        },
+        {
+            "degree": 12,
+            "betweenness": 0.0002417281466577241,
+            "eigenvector": 0.11093713436343884,
+            "degree_cent": 0.16666666666666666,
+            "modularity": 1,
+            "id": "warner-thomas",
+            "name": "Thomas Warner"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.0,
+            "eigenvector": 0.06697574394856877,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 0,
+            "id": "minot-louisa",
+            "name": "Louisa Minot"
+        },
+        {
+            "degree": 3,
+            "betweenness": 0.0,
+            "eigenvector": 0.03500273132276567,
+            "degree_cent": 0.041666666666666664,
+            "modularity": 2,
+            "id": "morgan-george",
+            "name": "George Morgan"
         },
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.032865488378050874,
-            "degree_cent": 0.012987012987012988,
+            "eigenvector": 0.012961476822886016,
+            "degree_cent": 0.013888888888888888,
             "modularity": 0,
-            "id": "franklin-walter",
-            "name": "Walter Franklin"
+            "id": "osborne-laura",
+            "name": "Laura Osborne"
+        },
+        {
+            "degree": 11,
+            "betweenness": 0.0,
+            "eigenvector": 0.10851477392278001,
+            "degree_cent": 0.15277777777777776,
+            "modularity": 1,
+            "id": "sedgwick-penelope",
+            "name": "Penelope Sedgwick"
+        },
+        {
+            "degree": 3,
+            "betweenness": 0.0,
+            "eigenvector": 0.03599519836072104,
+            "degree_cent": 0.041666666666666664,
+            "modularity": 2,
+            "id": "phillips-abigail",
+            "name": "Abigail Phillips"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.0,
+            "eigenvector": 0.06606803405235318,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 0,
+            "id": "pomeroy-egbert",
+            "name": "Egbert Pomeroy"
+        },
+        {
+            "degree": 7,
+            "betweenness": 0.0,
+            "eigenvector": 0.07637168900186576,
+            "degree_cent": 0.09722222222222221,
+            "modularity": 1,
+            "id": "pomeroy-frances",
+            "name": "Frances Pomeroy"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.0,
+            "eigenvector": 0.06029550280288605,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 1,
+            "id": "pomeroy-frances2",
+            "name": "Frances Pomeroy"
+        },
+        {
+            "degree": 16,
+            "betweenness": 0.00043800384003366607,
+            "eigenvector": 0.14135853828748132,
+            "degree_cent": 0.2222222222222222,
+            "modularity": 1,
+            "id": "sedgwick-theodore2",
+            "name": "Theodore Sedgwick"
+        },
+        {
+            "degree": 16,
+            "betweenness": 0.00013508232232341594,
+            "eigenvector": 0.144638207204458,
+            "degree_cent": 0.2222222222222222,
+            "modularity": 1,
+            "id": "watson-theodore",
+            "name": "Theodore Watson"
+        },
+        {
+            "degree": 3,
+            "betweenness": 0.0,
+            "eigenvector": 0.03680840160718808,
+            "degree_cent": 0.041666666666666664,
+            "modularity": 0,
+            "id": "pomeroy-george",
+            "name": "George Pomeroy"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.04519513952931833,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 0,
+            "id": "pomeroy-theodore",
+            "name": "Theodore Pomeroy"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.04376593694604338,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 2,
+            "id": "russell-catharine",
+            "name": "Catharine Russell"
+        },
+        {
+            "degree": 4,
+            "betweenness": 0.0,
+            "eigenvector": 0.04210385960214774,
+            "degree_cent": 0.05555555555555555,
+            "modularity": 0,
+            "id": "sedgwick-maria",
+            "name": "Maria Sedgwick"
+        },
+        {
+            "degree": 3,
+            "betweenness": 0.0,
+            "eigenvector": 0.03454043146212864,
+            "degree_cent": 0.041666666666666664,
+            "modularity": 0,
+            "id": "sergeant-clarissa",
+            "name": "Clarissa Sergeant"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.0,
+            "eigenvector": 0.06787780794947627,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 2,
+            "id": "sergeant-erastus",
+            "name": "Erastus Sergeant"
         },
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03618840267891153,
-            "degree_cent": 0.025974025974025976,
+            "eigenvector": 0.024930486607816656,
+            "degree_cent": 0.027777777777777776,
+            "modularity": 0,
+            "id": "sparks-jared",
+            "name": "Jared Sparks"
+        },
+        {
+            "degree": 5,
+            "betweenness": 0.0,
+            "eigenvector": 0.05573494673097403,
+            "degree_cent": 0.06944444444444445,
             "modularity": 2,
-            "id": "seaton-william",
-            "name": "William Seaton"
+            "id": "west-stephen",
+            "name": "Stephen West"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.0,
+            "eigenvector": 0.06155426581677875,
+            "degree_cent": 0.08333333333333333,
+            "modularity": 1,
+            "id": "watts-matilda",
+            "name": "Matilda Watts"
         },
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03618840267891153,
-            "degree_cent": 0.025974025974025976,
+            "eigenvector": 0.02483939182225744,
+            "degree_cent": 0.027777777777777776,
             "modularity": 2,
-            "id": "gales-joseph",
-            "name": "Joseph Gales"
+            "id": "wilkins-c"
         },
         {
-            "degree": 2,
+            "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.016553771096299966,
-            "degree_cent": 0.025974025974025976,
+            "eigenvector": 0.03599519836072104,
+            "degree_cent": 0.041666666666666664,
             "modularity": 2,
-            "id": "johnson-thomas-baker",
-            "name": "Thomas Johnson"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.03294258598346534,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 2,
-            "id": "poinsett-joel",
-            "name": "Joel Poinsett"
+            "id": "williams-unknown"
         },
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.032865488378050874,
-            "degree_cent": 0.012987012987012988,
+            "eigenvector": 0.012961476822886016,
+            "degree_cent": 0.013888888888888888,
             "modularity": 0,
-            "id": "williams-sherrod",
-            "name": "Sherrod Williams"
+            "id": "swift-ephraim",
+            "name": "Ephraim Swift"
         },
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.026496915149739966,
-            "degree_cent": 0.012987012987012988,
+            "eigenvector": 0.012961476822886016,
+            "degree_cent": 0.013888888888888888,
             "modularity": 0,
-            "id": "rhett-robert",
-            "name": "Robert Rhett"
-        },
-        {
-            "degree": 1,
-            "betweenness": 0.0,
-            "eigenvector": 0.00041398643756900325,
-            "degree_cent": 0.012987012987012988,
-            "modularity": 5,
-            "id": "smith-william-steuben",
-            "name": "William Smith"
+            "id": "unknown-cato-cms",
+            "name": "Cato "
         }
     ],
     "links": [
         {
-            "weight": 21,
-            "source": "adams-abigail4",
-            "target": "adams-abigail2"
+            "weight": 4,
+            "source": "pomeroy-thaddeus",
+            "target": "ashburner-luke"
         },
         {
-            "weight": 30,
-            "source": "adams-abigail4",
-            "target": "adams-ann"
+            "weight": 4,
+            "source": "pomeroy-thaddeus",
+            "target": "payne-eloise"
         },
         {
-            "weight": 93,
-            "source": "adams-abigail4",
-            "target": "adams-charles2"
+            "weight": 11,
+            "source": "pomeroy-thaddeus",
+            "target": "pomeroy-eliza"
         },
         {
-            "weight": 27,
-            "source": "adams-abigail4",
-            "target": "adams-charles7"
+            "weight": 14,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-charles"
         },
         {
-            "weight": 30,
-            "source": "adams-abigail4",
-            "target": "adams-elizabeth"
+            "weight": 4,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-elizabeth"
         },
         {
-            "weight": 48,
-            "source": "adams-abigail4",
-            "target": "adams-georgeanna"
+            "weight": 11,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-henry"
         },
         {
-            "weight": 21,
-            "source": "adams-abigail4",
-            "target": "adams-henry4"
+            "weight": 6,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-jane"
         },
         {
-            "weight": 17,
-            "source": "adams-abigail4",
-            "target": "adams-isaac"
+            "weight": 4,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-pamela"
         },
         {
-            "weight": 32,
-            "source": "adams-abigail4",
-            "target": "adams-john17"
+            "weight": 12,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-robert"
+        },
+        {
+            "weight": 7,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-susan"
+        },
+        {
+            "weight": 6,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 6,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 11,
+            "source": "pomeroy-thaddeus",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 4,
+            "source": "pomeroy-thaddeus",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 13,
+            "source": "pomeroy-thaddeus",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 6,
+            "source": "pomeroy-thaddeus",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "pomeroy-thaddeus",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 18,
+            "source": "pomeroy-thaddeus",
+            "target": "sedgwick-catharine"
+        },
+        {
+            "weight": 7,
+            "source": "ashburner-luke",
+            "target": "sedgwick-charles"
+        },
+        {
+            "weight": 5,
+            "source": "ashburner-luke",
+            "target": "sedgwick-elizabeth"
+        },
+        {
+            "weight": 6,
+            "source": "ashburner-luke",
+            "target": "sedgwick-henry"
+        },
+        {
+            "weight": 5,
+            "source": "ashburner-luke",
+            "target": "sedgwick-jane"
+        },
+        {
+            "weight": 6,
+            "source": "ashburner-luke",
+            "target": "sedgwick-robert"
+        },
+        {
+            "weight": 7,
+            "source": "ashburner-luke",
+            "target": "sedgwick-catharine"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "banyer-maria"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "brown-unknown"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "brush-unknown"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "cabot-susan"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-charles",
+            "target": "channing-susan"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "channing-william"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-charles",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-charles",
+            "target": "dwight-henry"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "dwight-henryw"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-charles",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "howe-samuel3"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-charles",
+            "target": "mason-john"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-charles",
+            "target": "minot-katharine"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-charles",
+            "target": "minot-louisa"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "morgan-george"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "payne-anna"
         },
         {
             "weight": 16,
-            "source": "adams-abigail4",
-            "target": "adams-john3"
+            "source": "sedgwick-charles",
+            "target": "payne-eloise"
         },
         {
-            "weight": 48,
-            "source": "adams-abigail4",
-            "target": "adams-louisa-catherine"
+            "weight": 8,
+            "source": "sedgwick-charles",
+            "target": "pomeroy-egbert"
+        },
+        {
+            "weight": 26,
+            "source": "sedgwick-charles",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-charles",
+            "target": "pomeroy-frances"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "pomeroy-george"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "pomeroy-theodore"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-charles",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-elizabeth"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-elizabeth2"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-george"
+        },
+        {
+            "weight": 49,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-henry"
+        },
+        {
+            "weight": 29,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-jane"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-jane2"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-maria"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 15,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 60,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-robert"
+        },
+        {
+            "weight": 31,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-susan"
+        },
+        {
+            "weight": 32,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 15,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-theodorei"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "sergeant-clarissa"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "sergeant-erastus"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "sparks-jared"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-charles",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-charles",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 32,
+            "source": "sedgwick-charles",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 13,
+            "source": "sedgwick-charles",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 49,
+            "source": "sedgwick-charles",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 12,
+            "source": "sedgwick-charles",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-charles",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-charles",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-charles",
+            "target": "west-stephen"
+        },
+        {
+            "weight": 86,
+            "source": "sedgwick-charles",
+            "target": "sedgwick-catharine"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-elizabeth",
+            "target": "channing-susan"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-elizabeth",
+            "target": "channing-william"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-elizabeth",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-elizabeth",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-elizabeth",
+            "target": "minot-katharine"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-elizabeth",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-elizabeth",
+            "target": "sedgwick-henry"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-elizabeth",
+            "target": "sedgwick-jane"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-elizabeth",
+            "target": "sedgwick-jane2"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-elizabeth",
+            "target": "sedgwick-robert"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-elizabeth",
+            "target": "sedgwick-susan"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-elizabeth",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 16,
+            "source": "sedgwick-elizabeth",
+            "target": "sedgwick-catharine"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-henry",
+            "target": "banyer-maria"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "brown-unknown"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-henry",
+            "target": "brush-unknown"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-henry",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-henry",
+            "target": "dwight-henry"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "dwight-henryw"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-henry",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-henry",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-henry",
+            "target": "mason-john"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-henry",
+            "target": "minot-louisa"
+        },
+        {
+            "weight": 15,
+            "source": "sedgwick-henry",
+            "target": "payne-eloise"
+        },
+        {
+            "weight": 25,
+            "source": "sedgwick-henry",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-henry",
+            "target": "pomeroy-frances"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "pomeroy-frances2"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-henry",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-elizabeth2"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-george"
         },
         {
             "weight": 37,
-            "source": "adams-abigail4",
-            "target": "adams-louisa3"
+            "source": "sedgwick-henry",
+            "target": "sedgwick-jane"
         },
         {
-            "weight": 35,
-            "source": "adams-abigail4",
-            "target": "adams-mary4"
+            "weight": 5,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-jane2"
         },
         {
-            "weight": 28,
-            "source": "adams-abigail4",
-            "target": "beale-george"
+            "weight": 11,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-pamela"
         },
         {
-            "weight": 25,
-            "source": "adams-abigail4",
-            "target": "cicero-marcus"
-        },
-        {
-            "weight": 28,
-            "source": "adams-abigail4",
-            "target": "greenleaf-ezekial"
-        },
-        {
-            "weight": 96,
-            "source": "adams-abigail4",
-            "target": "hellen-mary"
-        },
-        {
-            "weight": 23,
-            "source": "adams-abigail4",
-            "target": "holbrook-amos"
-        },
-        {
-            "weight": 47,
-            "source": "adams-abigail4",
-            "target": "lunt-william"
-        },
-        {
-            "weight": 20,
-            "source": "adams-abigail4",
-            "target": "saurin-jacques"
-        },
-        {
-            "weight": 21,
-            "source": "adams-abigail4",
-            "target": "smith-louisa"
-        },
-        {
-            "weight": 23,
-            "source": "adams-abigail4",
-            "target": "vanburen-martin"
-        },
-        {
-            "weight": 18,
-            "source": "adams-abigail4",
-            "target": "whitney-peter"
-        },
-        {
-            "weight": 18,
-            "source": "adams-abigail2",
-            "target": "adams-ann"
-        },
-        {
-            "weight": 20,
-            "source": "adams-abigail2",
-            "target": "adams-elizabeth"
-        },
-        {
-            "weight": 18,
-            "source": "adams-abigail2",
-            "target": "hellen-mary"
-        },
-        {
-            "weight": 19,
-            "source": "adams-ann",
-            "target": "adams-charles2"
-        },
-        {
-            "weight": 25,
-            "source": "adams-ann",
-            "target": "adams-elizabeth"
-        },
-        {
-            "weight": 23,
-            "source": "adams-ann",
-            "target": "hellen-mary"
-        },
-        {
-            "weight": 31,
-            "source": "adams-elizabeth",
-            "target": "adams-charles2"
-        },
-        {
-            "weight": 21,
-            "source": "adams-elizabeth",
-            "target": "adams-georgeanna"
-        },
-        {
-            "weight": 16,
-            "source": "adams-elizabeth",
-            "target": "adams-isaac"
-        },
-        {
-            "weight": 18,
-            "source": "adams-elizabeth",
-            "target": "adams-john3"
-        },
-        {
-            "weight": 23,
-            "source": "adams-elizabeth",
-            "target": "adams-louisa-catherine"
-        },
-        {
-            "weight": 18,
-            "source": "adams-elizabeth",
-            "target": "adams-mary4"
-        },
-        {
-            "weight": 35,
-            "source": "adams-elizabeth",
-            "target": "hellen-mary"
-        },
-        {
-            "weight": 51,
-            "source": "hellen-mary",
-            "target": "adams-charles2"
-        },
-        {
-            "weight": 72,
-            "source": "hellen-mary",
-            "target": "adams-georgeanna"
-        },
-        {
-            "weight": 18,
-            "source": "hellen-mary",
-            "target": "adams-isaac"
+            "weight": 11,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-penelope"
         },
         {
             "weight": 65,
-            "source": "hellen-mary",
-            "target": "adams-louisa-catherine"
-        },
-        {
-            "weight": 66,
-            "source": "hellen-mary",
-            "target": "adams-mary4"
-        },
-        {
-            "weight": 17,
-            "source": "hellen-mary",
-            "target": "beale-george"
-        },
-        {
-            "weight": 20,
-            "source": "hellen-mary",
-            "target": "buchanan-robert"
+            "source": "sedgwick-henry",
+            "target": "sedgwick-robert"
         },
         {
             "weight": 33,
-            "source": "hellen-mary",
-            "target": "cicero-marcus"
-        },
-        {
-            "weight": 24,
-            "source": "hellen-mary",
-            "target": "holbrook-amos"
-        },
-        {
-            "weight": 20,
-            "source": "hellen-mary",
-            "target": "jackson-andrew"
-        },
-        {
-            "weight": 22,
-            "source": "hellen-mary",
-            "target": "johnson-thomas-baker"
-        },
-        {
-            "weight": 21,
-            "source": "hellen-mary",
-            "target": "lunt-william"
-        },
-        {
-            "weight": 20,
-            "source": "hellen-mary",
-            "target": "polk-james"
-        },
-        {
-            "weight": 19,
-            "source": "hellen-mary",
-            "target": "smith-louisa"
-        },
-        {
-            "weight": 34,
-            "source": "hellen-mary",
-            "target": "vanburen-martin"
-        },
-        {
-            "weight": 41,
-            "source": "adams-charles2",
-            "target": "adams-georgeanna"
-        },
-        {
-            "weight": 18,
-            "source": "adams-charles2",
-            "target": "adams-john3"
-        },
-        {
-            "weight": 67,
-            "source": "adams-charles2",
-            "target": "adams-louisa-catherine"
-        },
-        {
-            "weight": 20,
-            "source": "adams-charles2",
-            "target": "adams-mary4"
-        },
-        {
-            "weight": 22,
-            "source": "adams-charles2",
-            "target": "beale-george"
-        },
-        {
-            "weight": 25,
-            "source": "adams-charles2",
-            "target": "greenleaf-ezekial"
-        },
-        {
-            "weight": 18,
-            "source": "adams-charles2",
-            "target": "holbrook-amos"
-        },
-        {
-            "weight": 41,
-            "source": "adams-charles2",
-            "target": "lunt-william"
-        },
-        {
-            "weight": 18,
-            "source": "adams-charles2",
-            "target": "smith-louisa"
-        },
-        {
-            "weight": 19,
-            "source": "adams-charles7",
-            "target": "adams-henry4"
-        },
-        {
-            "weight": 29,
-            "source": "adams-charles7",
-            "target": "adams-john17"
-        },
-        {
-            "weight": 26,
-            "source": "adams-charles7",
-            "target": "adams-louisa3"
-        },
-        {
-            "weight": 40,
-            "source": "adams-georgeanna",
-            "target": "adams-louisa-catherine"
-        },
-        {
-            "weight": 20,
-            "source": "adams-georgeanna",
-            "target": "adams-louisa3"
-        },
-        {
-            "weight": 97,
-            "source": "adams-georgeanna",
-            "target": "adams-mary4"
-        },
-        {
-            "weight": 24,
-            "source": "adams-georgeanna",
-            "target": "holbrook-amos"
-        },
-        {
-            "weight": 25,
-            "source": "adams-georgeanna",
-            "target": "vanburen-martin"
-        },
-        {
-            "weight": 20,
-            "source": "adams-henry4",
-            "target": "adams-john17"
-        },
-        {
-            "weight": 19,
-            "source": "adams-henry4",
-            "target": "adams-louisa3"
-        },
-        {
-            "weight": 28,
-            "source": "adams-john17",
-            "target": "adams-louisa3"
-        },
-        {
-            "weight": 24,
-            "source": "adams-louisa-catherine",
-            "target": "adams-mary4"
-        },
-        {
-            "weight": 22,
-            "source": "adams-louisa-catherine",
-            "target": "lunt-william"
-        },
-        {
-            "weight": 20,
-            "source": "adams-louisa-catherine",
-            "target": "smith-catherine-johnson"
-        },
-        {
-            "weight": 19,
-            "source": "adams-louisa3",
-            "target": "adams-mary4"
-        },
-        {
-            "weight": 16,
-            "source": "adams-mary4",
-            "target": "frye-thomas"
-        },
-        {
-            "weight": 21,
-            "source": "adams-mary4",
-            "target": "hawley-william"
-        },
-        {
-            "weight": 24,
-            "source": "adams-mary4",
-            "target": "vanburen-martin"
-        },
-        {
-            "weight": 19,
-            "source": "cicero-marcus",
-            "target": "antony-mark"
-        },
-        {
-            "weight": 21,
-            "source": "cicero-marcus",
-            "target": "atticus-titus"
-        },
-        {
-            "weight": 18,
-            "source": "cicero-marcus",
-            "target": "buchanan-robert"
-        },
-        {
-            "weight": 30,
-            "source": "cicero-marcus",
-            "target": "caesar-julius"
-        },
-        {
-            "weight": 26,
-            "source": "lunt-william",
-            "target": "saurin-jacques"
-        },
-        {
-            "weight": 18,
-            "source": "lunt-william",
-            "target": "whitney-peter"
-        },
-        {
-            "weight": 22,
-            "source": "vanburen-martin",
-            "target": "bell-john"
-        },
-        {
-            "weight": 19,
-            "source": "vanburen-martin",
-            "target": "biddle-richard"
-        },
-        {
-            "weight": 20,
-            "source": "vanburen-martin",
-            "target": "calhoun-john"
-        },
-        {
-            "weight": 41,
-            "source": "vanburen-martin",
-            "target": "cambreleng-churchill"
-        },
-        {
-            "weight": 31,
-            "source": "vanburen-martin",
-            "target": "cushing-caleb"
-        },
-        {
-            "weight": 24,
-            "source": "vanburen-martin",
-            "target": "forsyth-john"
-        },
-        {
-            "weight": 19,
-            "source": "vanburen-martin",
-            "target": "gales-joseph"
-        },
-        {
-            "weight": 21,
-            "source": "vanburen-martin",
-            "target": "haynes-charles"
-        },
-        {
-            "weight": 33,
-            "source": "vanburen-martin",
-            "target": "howard-benjamin"
-        },
-        {
-            "weight": 16,
-            "source": "vanburen-martin",
-            "target": "hunter-robert"
-        },
-        {
-            "weight": 44,
-            "source": "vanburen-martin",
-            "target": "jackson-andrew"
-        },
-        {
-            "weight": 18,
-            "source": "vanburen-martin",
-            "target": "legare-hugh"
-        },
-        {
-            "weight": 21,
-            "source": "vanburen-martin",
-            "target": "lincoln-levi2"
-        },
-        {
-            "weight": 24,
-            "source": "vanburen-martin",
-            "target": "mercer-charles"
-        },
-        {
-            "weight": 17,
-            "source": "vanburen-martin",
-            "target": "naylor-charles"
+            "source": "sedgwick-henry",
+            "target": "sedgwick-susan"
         },
         {
             "weight": 23,
-            "source": "vanburen-martin",
-            "target": "poinsett-joel"
+            "source": "sedgwick-henry",
+            "target": "sedgwick-theodore"
         },
         {
-            "weight": 47,
-            "source": "vanburen-martin",
-            "target": "polk-james"
+            "weight": 16,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-theodore2"
         },
         {
-            "weight": 17,
-            "source": "vanburen-martin",
-            "target": "robertson-john2"
+            "weight": 10,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-theodorei"
         },
         {
-            "weight": 17,
-            "source": "vanburen-martin",
-            "target": "seaton-william"
+            "weight": 5,
+            "source": "sedgwick-henry",
+            "target": "sergeant-erastus"
         },
         {
-            "weight": 20,
-            "source": "vanburen-martin",
-            "target": "slade-william"
+            "weight": 5,
+            "source": "sedgwick-henry",
+            "target": "symmes-susannah"
         },
         {
-            "weight": 18,
-            "source": "vanburen-martin",
-            "target": "thomas-francis"
-        },
-        {
-            "weight": 17,
-            "source": "vanburen-martin",
-            "target": "thompson-waddy"
-        },
-        {
-            "weight": 17,
-            "source": "vanburen-martin",
-            "target": "tillinghast-joseph"
-        },
-        {
-            "weight": 17,
-            "source": "vanburen-martin",
-            "target": "underwood-joseph"
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "warner-thomas"
         },
         {
             "weight": 36,
-            "source": "vanburen-martin",
-            "target": "wise-henry"
-        },
-        {
-            "weight": 47,
-            "source": "vanburen-martin",
-            "target": "woodbury-levi"
-        },
-        {
-            "weight": 25,
-            "source": "smith-catherine-johnson",
-            "target": "smith-william-steuben"
-        },
-        {
-            "weight": 19,
-            "source": "frye-thomas",
-            "target": "hawley-william"
-        },
-        {
-            "weight": 32,
-            "source": "hawley-william",
-            "target": "fowler-philemon"
-        },
-        {
-            "weight": 26,
-            "source": "cambreleng-churchill",
-            "target": "bell-john"
+            "source": "sedgwick-henry",
+            "target": "watson-ebenezer"
         },
         {
             "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "biddle-richard"
-        },
-        {
-            "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "briggs-george"
-        },
-        {
-            "weight": 31,
-            "source": "cambreleng-churchill",
-            "target": "cushing-caleb"
-        },
-        {
-            "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "cushman-samuel"
-        },
-        {
-            "weight": 16,
-            "source": "cambreleng-churchill",
-            "target": "dawson-william"
-        },
-        {
-            "weight": 29,
-            "source": "cambreleng-churchill",
-            "target": "haynes-charles"
-        },
-        {
-            "weight": 30,
-            "source": "cambreleng-churchill",
-            "target": "howard-benjamin"
-        },
-        {
-            "weight": 18,
-            "source": "cambreleng-churchill",
-            "target": "johnson-william2"
-        },
-        {
-            "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "legare-hugh"
-        },
-        {
-            "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "lincoln-levi2"
-        },
-        {
-            "weight": 19,
-            "source": "cambreleng-churchill",
-            "target": "mercer-charles"
-        },
-        {
-            "weight": 16,
-            "source": "cambreleng-churchill",
-            "target": "patton-john"
-        },
-        {
-            "weight": 19,
-            "source": "cambreleng-churchill",
-            "target": "pickens-francis"
+            "source": "sedgwick-henry",
+            "target": "watson-ebenezer2"
         },
         {
             "weight": 45,
-            "source": "cambreleng-churchill",
-            "target": "polk-james"
+            "source": "sedgwick-henry",
+            "target": "watson-frances"
         },
         {
-            "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "reed-john"
+            "weight": 13,
+            "source": "sedgwick-henry",
+            "target": "watson-robert"
         },
         {
-            "weight": 21,
-            "source": "cambreleng-churchill",
-            "target": "robertson-john2"
+            "weight": 10,
+            "source": "sedgwick-henry",
+            "target": "watson-theodore"
         },
         {
-            "weight": 19,
-            "source": "cambreleng-churchill",
-            "target": "sergeant-john"
+            "weight": 4,
+            "source": "sedgwick-henry",
+            "target": "watts-matilda"
         },
         {
-            "weight": 20,
-            "source": "cambreleng-churchill",
-            "target": "thomas-francis"
+            "weight": 11,
+            "source": "sedgwick-henry",
+            "target": "webb-catherine"
         },
         {
-            "weight": 20,
-            "source": "cambreleng-churchill",
-            "target": "thompson-waddy"
+            "weight": 76,
+            "source": "sedgwick-henry",
+            "target": "sedgwick-catharine"
         },
         {
-            "weight": 25,
-            "source": "cambreleng-churchill",
-            "target": "underwood-joseph"
+            "weight": 9,
+            "source": "sedgwick-jane",
+            "target": "banyer-maria"
         },
         {
-            "weight": 17,
-            "source": "cambreleng-churchill",
-            "target": "whittlesey-elisha"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "brush-unknown"
         },
         {
-            "weight": 36,
-            "source": "cambreleng-churchill",
-            "target": "wise-henry"
+            "weight": 8,
+            "source": "sedgwick-jane",
+            "target": "channing-susan"
         },
         {
-            "weight": 35,
-            "source": "cambreleng-churchill",
-            "target": "woodbury-levi"
+            "weight": 5,
+            "source": "sedgwick-jane",
+            "target": "channing-william"
         },
         {
-            "weight": 18,
-            "source": "bell-john",
-            "target": "cushing-caleb"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "dwight-abigail"
         },
         {
-            "weight": 17,
-            "source": "bell-john",
-            "target": "howard-benjamin"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "dwight-henry"
         },
         {
-            "weight": 25,
-            "source": "bell-john",
-            "target": "polk-james"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "dwight-henryw"
         },
         {
-            "weight": 19,
-            "source": "bell-john",
-            "target": "wise-henry"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "everett-edward"
         },
         {
-            "weight": 22,
-            "source": "cushing-caleb",
-            "target": "briggs-george"
+            "weight": 9,
+            "source": "sedgwick-jane",
+            "target": "follen-eliza"
         },
         {
-            "weight": 19,
-            "source": "cushing-caleb",
-            "target": "cushman-samuel"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "ledyard-susan"
         },
         {
-            "weight": 18,
-            "source": "cushing-caleb",
-            "target": "fletcher-richard"
+            "weight": 7,
+            "source": "sedgwick-jane",
+            "target": "mason-john"
         },
         {
-            "weight": 19,
-            "source": "cushing-caleb",
-            "target": "haynes-charles"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "minot-katharine"
         },
         {
-            "weight": 27,
-            "source": "cushing-caleb",
-            "target": "howard-benjamin"
+            "weight": 7,
+            "source": "sedgwick-jane",
+            "target": "minot-louisa"
         },
         {
-            "weight": 21,
-            "source": "cushing-caleb",
-            "target": "lincoln-levi2"
+            "weight": 5,
+            "source": "sedgwick-jane",
+            "target": "payne-anna"
         },
         {
-            "weight": 33,
-            "source": "cushing-caleb",
-            "target": "polk-james"
+            "weight": 10,
+            "source": "sedgwick-jane",
+            "target": "payne-eloise"
         },
         {
-            "weight": 19,
-            "source": "cushing-caleb",
-            "target": "reed-john"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "payne-thatcher"
         },
         {
-            "weight": 28,
-            "source": "cushing-caleb",
-            "target": "wise-henry"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "pomeroy-egbert"
         },
         {
-            "weight": 17,
-            "source": "howard-benjamin",
-            "target": "cushman-samuel"
+            "weight": 8,
+            "source": "sedgwick-jane",
+            "target": "pomeroy-eliza"
         },
         {
-            "weight": 35,
-            "source": "howard-benjamin",
-            "target": "polk-james"
+            "weight": 10,
+            "source": "sedgwick-jane",
+            "target": "russell-lucy"
         },
         {
-            "weight": 17,
-            "source": "howard-benjamin",
-            "target": "robertson-john2"
+            "weight": 5,
+            "source": "sedgwick-jane",
+            "target": "sedgwick-elizabeth2"
         },
         {
-            "weight": 17,
-            "source": "howard-benjamin",
-            "target": "thomas-francis"
+            "weight": 11,
+            "source": "sedgwick-jane",
+            "target": "sedgwick-george"
         },
         {
-            "weight": 30,
-            "source": "howard-benjamin",
-            "target": "wise-henry"
+            "weight": 8,
+            "source": "sedgwick-jane",
+            "target": "sedgwick-jane2"
         },
         {
-            "weight": 19,
-            "source": "howard-benjamin",
-            "target": "woodbury-levi"
-        },
-        {
-            "weight": 16,
-            "source": "polk-james",
-            "target": "biddle-richard"
-        },
-        {
-            "weight": 17,
-            "source": "polk-james",
-            "target": "boon-ratliff"
-        },
-        {
-            "weight": 17,
-            "source": "polk-james",
-            "target": "briggs-george"
-        },
-        {
-            "weight": 30,
-            "source": "polk-james",
-            "target": "cushman-samuel"
-        },
-        {
-            "weight": 17,
-            "source": "polk-james",
-            "target": "foster-henry"
-        },
-        {
-            "weight": 17,
-            "source": "polk-james",
-            "target": "franklin-walter"
-        },
-        {
-            "weight": 33,
-            "source": "polk-james",
-            "target": "haynes-charles"
-        },
-        {
-            "weight": 16,
-            "source": "polk-james",
-            "target": "johnson-william2"
-        },
-        {
-            "weight": 24,
-            "source": "polk-james",
-            "target": "legare-hugh"
-        },
-        {
-            "weight": 21,
-            "source": "polk-james",
-            "target": "lincoln-levi2"
-        },
-        {
-            "weight": 24,
-            "source": "polk-james",
-            "target": "mercer-charles"
-        },
-        {
-            "weight": 21,
-            "source": "polk-james",
-            "target": "patton-john"
-        },
-        {
-            "weight": 17,
-            "source": "polk-james",
-            "target": "robertson-john2"
+            "weight": 39,
+            "source": "sedgwick-jane",
+            "target": "sedgwick-robert"
         },
         {
             "weight": 18,
-            "source": "polk-james",
-            "target": "sergeant-john"
+            "source": "sedgwick-jane",
+            "target": "sedgwick-susan"
         },
         {
-            "weight": 20,
-            "source": "polk-james",
-            "target": "slade-william"
+            "weight": 10,
+            "source": "sedgwick-jane",
+            "target": "sedgwick-theodore2"
         },
         {
-            "weight": 22,
-            "source": "polk-james",
-            "target": "thomas-francis"
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "sergeant-clarissa"
         },
         {
-            "weight": 21,
-            "source": "polk-james",
-            "target": "thompson-waddy"
+            "weight": 6,
+            "source": "sedgwick-jane",
+            "target": "warner-thomas"
         },
         {
-            "weight": 16,
-            "source": "polk-james",
-            "target": "tillinghast-joseph"
+            "weight": 9,
+            "source": "sedgwick-jane",
+            "target": "watson-ebenezer"
         },
         {
-            "weight": 22,
-            "source": "polk-james",
-            "target": "underwood-joseph"
+            "weight": 6,
+            "source": "sedgwick-jane",
+            "target": "watson-ebenezer2"
         },
         {
-            "weight": 18,
-            "source": "polk-james",
-            "target": "williams-sherrod"
+            "weight": 23,
+            "source": "sedgwick-jane",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-jane",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-jane",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-jane",
+            "target": "webb-catherine"
         },
         {
             "weight": 46,
-            "source": "polk-james",
-            "target": "wise-henry"
+            "source": "sedgwick-jane",
+            "target": "sedgwick-catharine"
         },
         {
-            "weight": 36,
-            "source": "polk-james",
-            "target": "woodbury-levi"
+            "weight": 10,
+            "source": "sedgwick-robert",
+            "target": "banyer-maria"
         },
         {
-            "weight": 18,
-            "source": "wise-henry",
-            "target": "cushman-samuel"
+            "weight": 7,
+            "source": "sedgwick-robert",
+            "target": "bleecker-harmanus"
         },
         {
-            "weight": 17,
-            "source": "wise-henry",
-            "target": "duncan-alexander"
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "brown-unknown"
         },
         {
-            "weight": 22,
-            "source": "wise-henry",
-            "target": "haynes-charles"
+            "weight": 6,
+            "source": "sedgwick-robert",
+            "target": "brush-unknown"
         },
         {
-            "weight": 18,
-            "source": "wise-henry",
-            "target": "johnson-william2"
+            "weight": 6,
+            "source": "sedgwick-robert",
+            "target": "channing-susan"
         },
         {
-            "weight": 17,
-            "source": "wise-henry",
-            "target": "mercer-charles"
+            "weight": 8,
+            "source": "sedgwick-robert",
+            "target": "channing-william"
         },
         {
-            "weight": 18,
-            "source": "wise-henry",
-            "target": "patton-john"
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "danforth-samuel"
         },
         {
-            "weight": 22,
-            "source": "wise-henry",
-            "target": "pickens-francis"
+            "weight": 9,
+            "source": "sedgwick-robert",
+            "target": "dwight-abigail"
         },
         {
-            "weight": 18,
-            "source": "wise-henry",
-            "target": "rhett-robert"
+            "weight": 7,
+            "source": "sedgwick-robert",
+            "target": "dwight-henry"
         },
         {
-            "weight": 19,
-            "source": "wise-henry",
-            "target": "robertson-john2"
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "dwight-henryw"
         },
         {
-            "weight": 22,
-            "source": "wise-henry",
-            "target": "sergeant-john"
+            "weight": 7,
+            "source": "sedgwick-robert",
+            "target": "follen-eliza"
         },
         {
-            "weight": 16,
-            "source": "wise-henry",
-            "target": "slade-william"
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "jay-sarah"
         },
         {
-            "weight": 19,
-            "source": "wise-henry",
-            "target": "thomas-francis"
+            "weight": 9,
+            "source": "sedgwick-robert",
+            "target": "lindsey-frances"
         },
         {
-            "weight": 19,
-            "source": "wise-henry",
-            "target": "thompson-waddy"
+            "weight": 13,
+            "source": "sedgwick-robert",
+            "target": "mason-john"
         },
         {
-            "weight": 18,
-            "source": "wise-henry",
-            "target": "underwood-joseph"
+            "weight": 6,
+            "source": "sedgwick-robert",
+            "target": "minot-louisa"
         },
         {
-            "weight": 23,
-            "source": "wise-henry",
-            "target": "woodbury-levi"
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "morgan-george"
         },
         {
-            "weight": 19,
-            "source": "biddle-richard",
-            "target": "foster-henry"
-        },
-        {
-            "weight": 20,
-            "source": "biddle-richard",
-            "target": "hunter-robert"
-        },
-        {
-            "weight": 23,
-            "source": "biddle-richard",
-            "target": "naylor-charles"
-        },
-        {
-            "weight": 24,
-            "source": "biddle-richard",
-            "target": "slade-william"
-        },
-        {
-            "weight": 23,
-            "source": "biddle-richard",
-            "target": "tillinghast-joseph"
-        },
-        {
-            "weight": 23,
-            "source": "biddle-richard",
-            "target": "vail-henry"
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "payne-anna"
         },
         {
             "weight": 21,
-            "source": "biddle-richard",
-            "target": "webster-taylor"
+            "source": "sedgwick-robert",
+            "target": "payne-eloise"
         },
         {
-            "weight": 19,
-            "source": "foster-henry",
-            "target": "hunter-robert"
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "phillips-abigail"
         },
         {
-            "weight": 22,
-            "source": "foster-henry",
-            "target": "naylor-charles"
-        },
-        {
-            "weight": 23,
-            "source": "foster-henry",
-            "target": "slade-william"
-        },
-        {
-            "weight": 22,
-            "source": "foster-henry",
-            "target": "tillinghast-joseph"
-        },
-        {
-            "weight": 19,
-            "source": "foster-henry",
-            "target": "vail-henry"
-        },
-        {
-            "weight": 20,
-            "source": "foster-henry",
-            "target": "webster-taylor"
-        },
-        {
-            "weight": 23,
-            "source": "hunter-robert",
-            "target": "naylor-charles"
-        },
-        {
-            "weight": 21,
-            "source": "hunter-robert",
-            "target": "slade-william"
-        },
-        {
-            "weight": 22,
-            "source": "hunter-robert",
-            "target": "tillinghast-joseph"
-        },
-        {
-            "weight": 22,
-            "source": "hunter-robert",
-            "target": "vail-henry"
-        },
-        {
-            "weight": 19,
-            "source": "hunter-robert",
-            "target": "webster-taylor"
-        },
-        {
-            "weight": 27,
-            "source": "naylor-charles",
-            "target": "slade-william"
+            "weight": 6,
+            "source": "sedgwick-robert",
+            "target": "pomeroy-egbert"
         },
         {
             "weight": 29,
-            "source": "naylor-charles",
-            "target": "tillinghast-joseph"
+            "source": "sedgwick-robert",
+            "target": "pomeroy-eliza"
         },
         {
-            "weight": 25,
-            "source": "naylor-charles",
-            "target": "vail-henry"
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "pomeroy-frances"
         },
         {
-            "weight": 24,
-            "source": "naylor-charles",
-            "target": "webster-taylor"
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "pomeroy-george"
         },
         {
-            "weight": 25,
-            "source": "slade-william",
-            "target": "tillinghast-joseph"
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "russell-catharine"
         },
         {
-            "weight": 22,
-            "source": "slade-william",
-            "target": "vail-henry"
+            "weight": 11,
+            "source": "sedgwick-robert",
+            "target": "russell-lucy"
         },
         {
-            "weight": 21,
-            "source": "slade-william",
-            "target": "webster-taylor"
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-elizabeth2"
         },
         {
-            "weight": 26,
-            "source": "tillinghast-joseph",
-            "target": "vail-henry"
+            "weight": 9,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-george"
         },
         {
-            "weight": 25,
-            "source": "tillinghast-joseph",
-            "target": "webster-taylor"
+            "weight": 8,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-jane2"
         },
         {
-            "weight": 24,
-            "source": "vail-henry",
-            "target": "webster-taylor"
-        },
-        {
-            "weight": 17,
-            "source": "briggs-george",
-            "target": "lincoln-levi2"
-        },
-        {
-            "weight": 17,
-            "source": "briggs-george",
-            "target": "reed-john"
-        },
-        {
-            "weight": 26,
-            "source": "jackson-andrew",
-            "target": "calhoun-john"
+            "weight": 13,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-pamela"
         },
         {
             "weight": 19,
-            "source": "jackson-andrew",
-            "target": "johnson-thomas-baker"
+            "source": "sedgwick-robert",
+            "target": "sedgwick-penelope"
         },
         {
-            "weight": 18,
-            "source": "cushman-samuel",
-            "target": "legare-hugh"
+            "weight": 43,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-susan"
+        },
+        {
+            "weight": 31,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-theodorei"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-robert",
+            "target": "sergeant-erastus"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-robert",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-robert",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 46,
+            "source": "sedgwick-robert",
+            "target": "watson-ebenezer"
         },
         {
             "weight": 17,
-            "source": "haynes-charles",
-            "target": "woodbury-levi"
+            "source": "sedgwick-robert",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 62,
+            "source": "sedgwick-robert",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 19,
+            "source": "sedgwick-robert",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-robert",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 13,
+            "source": "sedgwick-robert",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "west-stephen"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-robert",
+            "target": "wilkins-c"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-robert",
+            "target": "williams-unknown"
+        },
+        {
+            "weight": 99,
+            "source": "sedgwick-robert",
+            "target": "sedgwick-catharine"
+        },
+        {
+            "weight": 11,
+            "source": "sedgwick-catharine",
+            "target": "banyer-maria"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-catharine",
+            "target": "bleecker-harmanus"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "brown-unknown"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-catharine",
+            "target": "brush-unknown"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "cabot-susan"
+        },
+        {
+            "weight": 16,
+            "source": "sedgwick-catharine",
+            "target": "channing-susan"
+        },
+        {
+            "weight": 11,
+            "source": "sedgwick-catharine",
+            "target": "channing-william"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "coles-margaret"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "danforth-samuel"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-catharine",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-catharine",
+            "target": "dwight-henry"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-catharine",
+            "target": "dwight-henryw"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "everett-edward"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-catharine",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-catharine",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "howe-samuel3"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "jay-sarah"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "ledyard-susan"
+        },
+        {
+            "weight": 11,
+            "source": "sedgwick-catharine",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 16,
+            "source": "sedgwick-catharine",
+            "target": "mason-john"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-catharine",
+            "target": "minot-katharine"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-catharine",
+            "target": "minot-louisa"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "osborne-laura"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-catharine",
+            "target": "payne-anna"
+        },
+        {
+            "weight": 28,
+            "source": "sedgwick-catharine",
+            "target": "payne-eloise"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "payne-thatcher"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "phillips-abigail"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-catharine",
+            "target": "pomeroy-egbert"
+        },
+        {
+            "weight": 44,
+            "source": "sedgwick-catharine",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-catharine",
+            "target": "pomeroy-frances"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "pomeroy-frances2"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "pomeroy-george"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "pomeroy-theodore"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-catharine",
+            "target": "russell-catharine"
+        },
+        {
+            "weight": 11,
+            "source": "sedgwick-catharine",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-elizabeth2"
+        },
+        {
+            "weight": 12,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-george"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-jane2"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-maria"
+        },
+        {
+            "weight": 33,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 25,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 55,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-susan"
+        },
+        {
+            "weight": 61,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 27,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 12,
+            "source": "sedgwick-catharine",
+            "target": "sedgwick-theodorei"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "sergeant-clarissa"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-catharine",
+            "target": "sergeant-erastus"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "sparks-jared"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "swift-ephraim"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-catharine",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "unknown-cato-cms"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-catharine",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 62,
+            "source": "sedgwick-catharine",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 24,
+            "source": "sedgwick-catharine",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 94,
+            "source": "sedgwick-catharine",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 23,
+            "source": "sedgwick-catharine",
+            "target": "watson-robert"
         },
         {
             "weight": 18,
-            "source": "thomas-francis",
-            "target": "woodbury-levi"
+            "source": "sedgwick-catharine",
+            "target": "watson-theodore"
         },
         {
-            "weight": 35,
-            "source": "seaton-william",
-            "target": "gales-joseph"
+            "weight": 6,
+            "source": "sedgwick-catharine",
+            "target": "watts-matilda"
+        },
+        {
+            "weight": 18,
+            "source": "sedgwick-catharine",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-catharine",
+            "target": "west-stephen"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-catharine",
+            "target": "wilkins-c"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-catharine",
+            "target": "williams-unknown"
+        },
+        {
+            "weight": 5,
+            "source": "jay-sarah",
+            "target": "banyer-maria"
+        },
+        {
+            "weight": 4,
+            "source": "jay-sarah",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 4,
+            "source": "banyer-maria",
+            "target": "sedgwick-susan"
+        },
+        {
+            "weight": 5,
+            "source": "banyer-maria",
+            "target": "sedgwick-theodorei"
+        },
+        {
+            "weight": 7,
+            "source": "banyer-maria",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 4,
+            "source": "banyer-maria",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-susan",
+            "target": "bleecker-harmanus"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-susan",
+            "target": "channing-susan"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-susan",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-susan",
+            "target": "mason-john"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-susan",
+            "target": "minot-louisa"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-susan",
+            "target": "payne-anna"
+        },
+        {
+            "weight": 17,
+            "source": "sedgwick-susan",
+            "target": "payne-eloise"
+        },
+        {
+            "weight": 16,
+            "source": "sedgwick-susan",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-susan",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-george"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-jane2"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-maria"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 16,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-susan",
+            "target": "sedgwick-theodorei"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-susan",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-susan",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 27,
+            "source": "sedgwick-susan",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 13,
+            "source": "sedgwick-susan",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 36,
+            "source": "sedgwick-susan",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 14,
+            "source": "sedgwick-susan",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-susan",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-susan",
+            "target": "watts-matilda"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-susan",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodorei",
+            "target": "payne-eloise"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-theodorei",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodorei",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodorei",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-theodorei",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-theodorei",
+            "target": "watson-frances"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodorei",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodorei",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 8,
+            "source": "watson-frances",
+            "target": "bleecker-harmanus"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "channing-susan"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "channing-william"
+        },
+        {
+            "weight": 9,
+            "source": "watson-frances",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 7,
+            "source": "watson-frances",
+            "target": "dwight-henry"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 5,
+            "source": "watson-frances",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "jones-frances"
+        },
+        {
+            "weight": 11,
+            "source": "watson-frances",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 11,
+            "source": "watson-frances",
+            "target": "mason-john"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "morgan-george"
+        },
+        {
+            "weight": 5,
+            "source": "watson-frances",
+            "target": "payne-anna"
+        },
+        {
+            "weight": 21,
+            "source": "watson-frances",
+            "target": "payne-eloise"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "phillips-abigail"
+        },
+        {
+            "weight": 5,
+            "source": "watson-frances",
+            "target": "pomeroy-egbert"
+        },
+        {
+            "weight": 36,
+            "source": "watson-frances",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "pomeroy-frances"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "pomeroy-frances2"
+        },
+        {
+            "weight": 5,
+            "source": "watson-frances",
+            "target": "pomeroy-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "russell-catharine"
+        },
+        {
+            "weight": 6,
+            "source": "watson-frances",
+            "target": "sedgwick-george"
+        },
+        {
+            "weight": 22,
+            "source": "watson-frances",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 22,
+            "source": "watson-frances",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 41,
+            "source": "watson-frances",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 19,
+            "source": "watson-frances",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 5,
+            "source": "watson-frances",
+            "target": "sergeant-erastus"
+        },
+        {
+            "weight": 7,
+            "source": "watson-frances",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 6,
+            "source": "watson-frances",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 59,
+            "source": "watson-frances",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 21,
+            "source": "watson-frances",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 22,
+            "source": "watson-frances",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 16,
+            "source": "watson-frances",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "watts-matilda"
+        },
+        {
+            "weight": 17,
+            "source": "watson-frances",
+            "target": "webb-catherine"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "west-stephen"
+        },
+        {
+            "weight": 4,
+            "source": "watson-frances",
+            "target": "williams-unknown"
+        },
+        {
+            "weight": 4,
+            "source": "webb-catherine",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 5,
+            "source": "webb-catherine",
+            "target": "mason-john"
+        },
+        {
+            "weight": 9,
+            "source": "webb-catherine",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "webb-catherine",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 8,
+            "source": "webb-catherine",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 5,
+            "source": "webb-catherine",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 14,
+            "source": "webb-catherine",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 11,
+            "source": "webb-catherine",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 6,
+            "source": "webb-catherine",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 8,
+            "source": "webb-catherine",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 6,
+            "source": "payne-eloise",
+            "target": "bleecker-harmanus"
+        },
+        {
+            "weight": 6,
+            "source": "payne-eloise",
+            "target": "channing-susan"
+        },
+        {
+            "weight": 5,
+            "source": "payne-eloise",
+            "target": "dwight-henry"
+        },
+        {
+            "weight": 8,
+            "source": "payne-eloise",
+            "target": "payne-anna"
+        },
+        {
+            "weight": 4,
+            "source": "payne-eloise",
+            "target": "payne-thatcher"
+        },
+        {
+            "weight": 8,
+            "source": "payne-eloise",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "payne-eloise",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 5,
+            "source": "payne-eloise",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 8,
+            "source": "payne-eloise",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 5,
+            "source": "payne-eloise",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 7,
+            "source": "payne-eloise",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 11,
+            "source": "payne-eloise",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 9,
+            "source": "payne-eloise",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 4,
+            "source": "bleecker-harmanus",
+            "target": "symmes-susannah"
+        },
+        {
+            "weight": 6,
+            "source": "bleecker-harmanus",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 4,
+            "source": "bleecker-harmanus",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 4,
+            "source": "symmes-susannah",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 6,
+            "source": "symmes-susannah",
+            "target": "watson-ebenezer"
+        },
+        {
+            "weight": 4,
+            "source": "symmes-susannah",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 5,
+            "source": "watson-ebenezer",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 7,
+            "source": "watson-ebenezer",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 9,
+            "source": "watson-ebenezer",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 8,
+            "source": "watson-ebenezer",
+            "target": "mason-john"
+        },
+        {
+            "weight": 27,
+            "source": "watson-ebenezer",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "watson-ebenezer",
+            "target": "pomeroy-frances"
+        },
+        {
+            "weight": 4,
+            "source": "watson-ebenezer",
+            "target": "pomeroy-frances2"
+        },
+        {
+            "weight": 4,
+            "source": "watson-ebenezer",
+            "target": "pomeroy-theodore"
+        },
+        {
+            "weight": 16,
+            "source": "watson-ebenezer",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 19,
+            "source": "watson-ebenezer",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 31,
+            "source": "watson-ebenezer",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 18,
+            "source": "watson-ebenezer",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 5,
+            "source": "watson-ebenezer",
+            "target": "sergeant-erastus"
+        },
+        {
+            "weight": 4,
+            "source": "watson-ebenezer",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 22,
+            "source": "watson-ebenezer",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 17,
+            "source": "watson-ebenezer",
+            "target": "watson-robert"
+        },
+        {
+            "weight": 13,
+            "source": "watson-ebenezer",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "watson-ebenezer",
+            "target": "watts-matilda"
+        },
+        {
+            "weight": 8,
+            "source": "watson-robert",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 5,
+            "source": "watson-robert",
+            "target": "mason-john"
+        },
+        {
+            "weight": 9,
+            "source": "watson-robert",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "watson-robert",
+            "target": "sedgwick-maria"
+        },
+        {
+            "weight": 6,
+            "source": "watson-robert",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 7,
+            "source": "watson-robert",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 5,
+            "source": "watson-robert",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 7,
+            "source": "watson-robert",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 4,
+            "source": "watson-robert",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 5,
+            "source": "channing-susan",
+            "target": "cabot-susan"
+        },
+        {
+            "weight": 6,
+            "source": "channing-susan",
+            "target": "channing-william"
+        },
+        {
+            "weight": 4,
+            "source": "channing-susan",
+            "target": "everett-edward"
+        },
+        {
+            "weight": 10,
+            "source": "channing-susan",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "channing-susan",
+            "target": "howe-samuel3"
+        },
+        {
+            "weight": 5,
+            "source": "channing-susan",
+            "target": "minot-katharine"
+        },
+        {
+            "weight": 7,
+            "source": "channing-susan",
+            "target": "payne-anna"
+        },
+        {
+            "weight": 6,
+            "source": "channing-susan",
+            "target": "payne-thatcher"
+        },
+        {
+            "weight": 7,
+            "source": "channing-susan",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 6,
+            "source": "cabot-susan",
+            "target": "follen-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "follen-eliza",
+            "target": "channing-william"
+        },
+        {
+            "weight": 4,
+            "source": "follen-eliza",
+            "target": "greenwood-francis"
+        },
+        {
+            "weight": 6,
+            "source": "follen-eliza",
+            "target": "howe-samuel3"
+        },
+        {
+            "weight": 7,
+            "source": "follen-eliza",
+            "target": "minot-katharine"
+        },
+        {
+            "weight": 4,
+            "source": "follen-eliza",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 4,
+            "source": "follen-eliza",
+            "target": "sedgwick-elizabeth2"
+        },
+        {
+            "weight": 4,
+            "source": "channing-william",
+            "target": "pomeroy-eliza"
+        },
+        {
+            "weight": 4,
+            "source": "channing-william",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 4,
+            "source": "channing-william",
+            "target": "sedgwick-jane2"
+        },
+        {
+            "weight": 4,
+            "source": "everett-edward",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 4,
+            "source": "minot-katharine",
+            "target": "greenwood-francis"
+        },
+        {
+            "weight": 4,
+            "source": "payne-anna",
+            "target": "payne-thatcher"
+        },
+        {
+            "weight": 4,
+            "source": "payne-anna",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 4,
+            "source": "payne-thatcher",
+            "target": "russell-lucy"
+        },
+        {
+            "weight": 6,
+            "source": "russell-lucy",
+            "target": "sedgwick-jane2"
+        },
+        {
+            "weight": 6,
+            "source": "pomeroy-eliza",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 4,
+            "source": "pomeroy-eliza",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 5,
+            "source": "pomeroy-eliza",
+            "target": "lindsey-frances"
+        },
+        {
+            "weight": 5,
+            "source": "pomeroy-eliza",
+            "target": "pomeroy-egbert"
+        },
+        {
+            "weight": 4,
+            "source": "pomeroy-eliza",
+            "target": "pomeroy-frances"
+        },
+        {
+            "weight": 4,
+            "source": "pomeroy-eliza",
+            "target": "pomeroy-frances2"
+        },
+        {
+            "weight": 10,
+            "source": "pomeroy-eliza",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 15,
+            "source": "pomeroy-eliza",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 23,
+            "source": "pomeroy-eliza",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 8,
+            "source": "pomeroy-eliza",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 10,
+            "source": "pomeroy-eliza",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 6,
+            "source": "pomeroy-eliza",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "danforth-samuel",
+            "target": "sedgwick-theodore"
+        },
+        {
+            "weight": 8,
+            "source": "sedgwick-theodore",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodore",
+            "target": "dwight-henry"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-theodore",
+            "target": "freeman-elizabeth"
+        },
+        {
+            "weight": 5,
+            "source": "sedgwick-theodore",
+            "target": "pomeroy-frances2"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodore",
+            "target": "russell-catharine"
+        },
+        {
+            "weight": 27,
+            "source": "sedgwick-theodore",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 21,
+            "source": "sedgwick-theodore",
+            "target": "sedgwick-penelope"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-theodore",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 9,
+            "source": "sedgwick-theodore",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-theodore",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-theodore",
+            "target": "watts-matilda"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-theodore",
+            "target": "west-stephen"
+        },
+        {
+            "weight": 4,
+            "source": "dwight-henryw",
+            "target": "dwight-abigail"
+        },
+        {
+            "weight": 6,
+            "source": "dwight-abigail",
+            "target": "sedgwick-pamela"
+        },
+        {
+            "weight": 11,
+            "source": "sedgwick-pamela",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 6,
+            "source": "sedgwick-pamela",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 7,
+            "source": "sedgwick-pamela",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 5,
+            "source": "lindsey-frances",
+            "target": "watson-ebenezer2"
+        },
+        {
+            "weight": 5,
+            "source": "watson-ebenezer2",
+            "target": "mason-john"
+        },
+        {
+            "weight": 9,
+            "source": "watson-ebenezer2",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 11,
+            "source": "watson-ebenezer2",
+            "target": "watson-theodore"
+        },
+        {
+            "weight": 4,
+            "source": "mason-john",
+            "target": "sedgwick-george"
+        },
+        {
+            "weight": 4,
+            "source": "mason-john",
+            "target": "warner-thomas"
+        },
+        {
+            "weight": 4,
+            "source": "sedgwick-george",
+            "target": "sedgwick-theodore2"
+        },
+        {
+            "weight": 10,
+            "source": "sedgwick-theodore2",
+            "target": "watson-theodore"
         }
     ]
 }

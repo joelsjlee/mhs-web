@@ -1,0 +1,3809 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "degree": 8,
+            "betweenness": 0.03705126430056845,
+            "eigenvector": 0.02300231546162016,
+            "degree_cent": 0.1509433962264151,
+            "modularity": 2,
+            "id": "Corrupt Bargain"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.018124970529445773,
+            "eigenvector": 0.012641276188504589,
+            "degree_cent": 0.11320754716981132,
+            "modularity": 2,
+            "id": "Adams-Onis Treaty"
+        },
+        {
+            "degree": 39,
+            "betweenness": 0.05818605247578653,
+            "eigenvector": 0.17591123901906874,
+            "degree_cent": 0.7358490566037735,
+            "modularity": 2,
+            "id": "Dueling"
+        },
+        {
+            "degree": 2,
+            "betweenness": 0.0,
+            "eigenvector": 0.0010807034517247485,
+            "degree_cent": 0.03773584905660377,
+            "modularity": 2,
+            "id": "Elections"
+        },
+        {
+            "degree": 5,
+            "betweenness": 0.02369780141913669,
+            "eigenvector": 0.002604594260853495,
+            "degree_cent": 0.09433962264150943,
+            "modularity": 2,
+            "id": "Presidential 1824"
+        },
+        {
+            "degree": 13,
+            "betweenness": 0.08337278690296973,
+            "eigenvector": 0.04857928471929297,
+            "degree_cent": 0.24528301886792453,
+            "modularity": 2,
+            "id": "Presidential 1828"
+        },
+        {
+            "degree": 35,
+            "betweenness": 0.039493907594185126,
+            "eigenvector": 0.16576141367640396,
+            "degree_cent": 0.660377358490566,
+            "modularity": 2,
+            "id": "Sectionalism"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.005617454849256709,
+            "eigenvector": 0.17447033501296572,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 0,
+            "id": "American Revolution"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.007610297697231789,
+            "eigenvector": 0.17300641870089203,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 1,
+            "id": "African Americans"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.0038539997403408102,
+            "eigenvector": 0.17568467943338498,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 0,
+            "id": "Anti-Masonic Party"
+        },
+        {
+            "degree": 23,
+            "betweenness": 0.00256787464801834,
+            "eigenvector": 0.11385717552182893,
+            "degree_cent": 0.43396226415094336,
+            "modularity": 1,
+            "id": "Bank of the United States"
+        },
+        {
+            "degree": 20,
+            "betweenness": 0.005047396200242262,
+            "eigenvector": 0.09324985578706796,
+            "degree_cent": 0.3773584905660377,
+            "modularity": 1,
+            "id": "Blockades"
+        },
+        {
+            "degree": 37,
+            "betweenness": 0.016321383498698452,
+            "eigenvector": 0.17589988015667368,
+            "degree_cent": 0.6981132075471698,
+            "modularity": 0,
+            "id": "Canals"
+        },
+        {
+            "degree": 37,
+            "betweenness": 0.027370432341523195,
+            "eigenvector": 0.1750470350815097,
+            "degree_cent": 0.6981132075471698,
+            "modularity": 2,
+            "id": "Colonization Movements"
+        },
+        {
+            "degree": 35,
+            "betweenness": 0.0048118197436721405,
+            "eigenvector": 0.17016212470143596,
+            "degree_cent": 0.660377358490566,
+            "modularity": 1,
+            "id": "Commerce"
+        },
+        {
+            "degree": 30,
+            "betweenness": 0.0014656788519163658,
+            "eigenvector": 0.15266829430684592,
+            "degree_cent": 0.5660377358490566,
+            "modularity": 0,
+            "id": "Emancipation"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.005617454849256709,
+            "eigenvector": 0.17447033501296574,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 0,
+            "id": "Family Finances (Adams Family)"
+        },
+        {
+            "degree": 28,
+            "betweenness": 4.192850646982072e-05,
+            "eigenvector": 0.1463325785705402,
+            "degree_cent": 0.5283018867924528,
+            "modularity": 0,
+            "id": "Family Relations (Adams Family)"
+        },
+        {
+            "degree": 35,
+            "betweenness": 0.004897873629338561,
+            "eigenvector": 0.17119966358757394,
+            "degree_cent": 0.660377358490566,
+            "modularity": 0,
+            "id": "Family Residences (Adams Family)"
+        },
+        {
+            "degree": 31,
+            "betweenness": 0.007347176620744656,
+            "eigenvector": 0.1571357427864608,
+            "degree_cent": 0.5849056603773585,
+            "modularity": 0,
+            "id": "Federalist Party"
+        },
+        {
+            "degree": 37,
+            "betweenness": 0.008174861554100278,
+            "eigenvector": 0.176867007864439,
+            "degree_cent": 0.6981132075471698,
+            "modularity": 0,
+            "id": "Foreign Relations"
+        },
+        {
+            "degree": 39,
+            "betweenness": 0.022027531071858737,
+            "eigenvector": 0.18033246519142562,
+            "degree_cent": 0.7358490566037735,
+            "modularity": 0,
+            "id": "Health and Illness"
+        },
+        {
+            "degree": 35,
+            "betweenness": 0.032730220834927666,
+            "eigenvector": 0.1650274059260145,
+            "degree_cent": 0.660377358490566,
+            "modularity": 1,
+            "id": "Impressment"
+        },
+        {
+            "degree": 37,
+            "betweenness": 0.00869200836452197,
+            "eigenvector": 0.17627709012628384,
+            "degree_cent": 0.6981132075471698,
+            "modularity": 1,
+            "id": "Internal Improvements"
+        },
+        {
+            "degree": 16,
+            "betweenness": 0.0157461117159647,
+            "eigenvector": 0.06261069653371198,
+            "degree_cent": 0.3018867924528302,
+            "modularity": 1,
+            "id": "Louisiana Purchase"
+        },
+        {
+            "degree": 34,
+            "betweenness": 0.0038852701521974848,
+            "eigenvector": 0.16694362116407493,
+            "degree_cent": 0.6415094339622641,
+            "modularity": 0,
+            "id": "Missouri Compromise"
+        },
+        {
+            "degree": 35,
+            "betweenness": 0.006361455195361898,
+            "eigenvector": 0.16863212128828287,
+            "degree_cent": 0.660377358490566,
+            "modularity": 0,
+            "id": "Native Americans"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.005719161035952786,
+            "eigenvector": 0.1734327961268278,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 1,
+            "id": "Oregon Country"
+        },
+        {
+            "degree": 38,
+            "betweenness": 0.017988699211267858,
+            "eigenvector": 0.17821280696314562,
+            "degree_cent": 0.7169811320754716,
+            "modularity": 1,
+            "id": "Privateering"
+        },
+        {
+            "degree": 32,
+            "betweenness": 0.0023493398097431673,
+            "eigenvector": 0.16124055294015385,
+            "degree_cent": 0.6037735849056604,
+            "modularity": 0,
+            "id": "Railroads"
+        },
+        {
+            "degree": 33,
+            "betweenness": 0.0011708847056436638,
+            "eigenvector": 0.16723752629891983,
+            "degree_cent": 0.6226415094339622,
+            "modularity": 0,
+            "id": "Science and Technology"
+        },
+        {
+            "degree": 38,
+            "betweenness": 0.01112193606614509,
+            "eigenvector": 0.17870948692481312,
+            "degree_cent": 0.7169811320754716,
+            "modularity": 1,
+            "id": "Slave Trade"
+        },
+        {
+            "degree": 38,
+            "betweenness": 0.011315354082984957,
+            "eigenvector": 0.17796559025049172,
+            "degree_cent": 0.7169811320754716,
+            "modularity": 1,
+            "id": "Slavery and Enslaved Persons"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.005617454849256709,
+            "eigenvector": 0.17447033501296574,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 0,
+            "id": "Spoils System"
+        },
+        {
+            "degree": 32,
+            "betweenness": 0.06183965839940905,
+            "eigenvector": 0.14191841735851962,
+            "degree_cent": 0.6037735849056604,
+            "modularity": 1,
+            "id": "States Rights"
+        },
+        {
+            "degree": 37,
+            "betweenness": 0.01360970399989126,
+            "eigenvector": 0.17711422457709292,
+            "degree_cent": 0.6981132075471698,
+            "modularity": 0,
+            "id": "Supreme Court"
+        },
+        {
+            "degree": 25,
+            "betweenness": 0.0,
+            "eigenvector": 0.13167459296872652,
+            "degree_cent": 0.4716981132075472,
+            "modularity": 0,
+            "id": "Telegraph"
+        },
+        {
+            "degree": 35,
+            "betweenness": 0.016830412081748496,
+            "eigenvector": 0.16581578711575487,
+            "degree_cent": 0.660377358490566,
+            "modularity": 1,
+            "id": "Treaty of Ghent"
+        },
+        {
+            "degree": 36,
+            "betweenness": 0.0038539997403408102,
+            "eigenvector": 0.17568467943338498,
+            "degree_cent": 0.6792452830188679,
+            "modularity": 0,
+            "id": "US Constitution"
+        },
+        {
+            "degree": 10,
+            "betweenness": 0.005977654723621799,
+            "eigenvector": 0.04017782042775394,
+            "degree_cent": 0.18867924528301885,
+            "modularity": 1,
+            "id": "Utopian Communities"
+        },
+        {
+            "degree": 38,
+            "betweenness": 0.029630801678889485,
+            "eigenvector": 0.1770472233177324,
+            "degree_cent": 0.7169811320754716,
+            "modularity": 2,
+            "id": "War of 1812"
+        },
+        {
+            "degree": 34,
+            "betweenness": 0.0038852701521974848,
+            "eigenvector": 0.16694362116407493,
+            "degree_cent": 0.6415094339622641,
+            "modularity": 0,
+            "id": "West"
+        },
+        {
+            "degree": 21,
+            "betweenness": 0.0,
+            "eigenvector": 0.11114601266538798,
+            "degree_cent": 0.3962264150943396,
+            "modularity": 2,
+            "id": "Hartford Convention"
+        },
+        {
+            "degree": 10,
+            "betweenness": 0.0,
+            "eigenvector": 0.05198506511815969,
+            "degree_cent": 0.18867924528301885,
+            "modularity": 0,
+            "id": "Religion"
+        },
+        {
+            "degree": 16,
+            "betweenness": 0.0001036699149906697,
+            "eigenvector": 0.08265960967888125,
+            "degree_cent": 0.3018867924528302,
+            "modularity": 0,
+            "id": "Suffrage"
+        },
+        {
+            "degree": 7,
+            "betweenness": 0.0025809899620621054,
+            "eigenvector": 0.016448511003699626,
+            "degree_cent": 0.1320754716981132,
+            "modularity": 1,
+            "id": "Latin American Wars of Independence"
+        },
+        {
+            "degree": 13,
+            "betweenness": 0.003357854275839349,
+            "eigenvector": 0.05737872742889256,
+            "degree_cent": 0.24528301886792453,
+            "modularity": 1,
+            "id": "Territorial Expansion"
+        },
+        {
+            "degree": 7,
+            "betweenness": 0.024431944139293938,
+            "eigenvector": 0.013194275067461902,
+            "degree_cent": 0.1320754716981132,
+            "modularity": 1,
+            "id": "Temperance Movement"
+        },
+        {
+            "degree": 6,
+            "betweenness": 0.012212513090221838,
+            "eigenvector": 0.008338018047609625,
+            "degree_cent": 0.11320754716981132,
+            "modularity": 1,
+            "id": "Recreation"
+        },
+        {
+            "degree": 2,
+            "betweenness": 0.0,
+            "eigenvector": 0.00012615136861255993,
+            "degree_cent": 0.03773584905660377,
+            "modularity": 2,
+            "id": "Presidential 1812"
+        },
+        {
+            "degree": 3,
+            "betweenness": 0.012949513530065055,
+            "eigenvector": 0.0015556965123204628,
+            "degree_cent": 0.05660377358490566,
+            "modularity": 2,
+            "id": "Presidential 1832"
+        },
+        {
+            "degree": 2,
+            "betweenness": 0.0,
+            "eigenvector": 0.0006529027146346005,
+            "degree_cent": 0.03773584905660377,
+            "modularity": 1,
+            "id": "Textile Industry"
+        },
+        {
+            "degree": 1,
+            "betweenness": 0.0,
+            "eigenvector": 2.2810007665899568e-11,
+            "degree_cent": 0.018867924528301886,
+            "id": "Unitarianism"
+        },
+        {
+            "degree": 1,
+            "betweenness": 0.0,
+            "eigenvector": 2.2810007665899568e-11,
+            "degree_cent": 0.018867924528301886,
+            "id": "Steam Power"
+        }
+    ],
+    "links": [
+        {
+            "weight": 0.9326241134751778,
+            "source": "Corrupt Bargain",
+            "target": "Adams-Onis Treaty"
+        },
+        {
+            "weight": 0.6072138506995481,
+            "source": "Corrupt Bargain",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.7012447243915877,
+            "source": "Corrupt Bargain",
+            "target": "Dueling"
+        },
+        {
+            "weight": 0.6546939717938404,
+            "source": "Corrupt Bargain",
+            "target": "Elections"
+        },
+        {
+            "weight": 0.663248101193449,
+            "source": "Corrupt Bargain",
+            "target": "Presidential 1824"
+        },
+        {
+            "weight": 0.7663092542515105,
+            "source": "Corrupt Bargain",
+            "target": "Presidential 1828"
+        },
+        {
+            "weight": 0.604842391792733,
+            "source": "Corrupt Bargain",
+            "target": "Sectionalism"
+        },
+        {
+            "weight": 0.6623914395005345,
+            "source": "Corrupt Bargain",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.6299407883487123,
+            "source": "Adams-Onis Treaty",
+            "target": "Dueling"
+        },
+        {
+            "weight": 0.6610428507890574,
+            "source": "Adams-Onis Treaty",
+            "target": "Elections"
+        },
+        {
+            "weight": 0.6822552111824011,
+            "source": "Adams-Onis Treaty",
+            "target": "Presidential 1824"
+        },
+        {
+            "weight": 0.7728671238789886,
+            "source": "Adams-Onis Treaty",
+            "target": "Presidential 1828"
+        },
+        {
+            "weight": 0.6310051816483093,
+            "source": "Adams-Onis Treaty",
+            "target": "Sectionalism"
+        },
+        {
+            "weight": 0.7087924344937889,
+            "source": "Dueling",
+            "target": "African Americans"
+        },
+        {
+            "weight": 0.7539615162757017,
+            "source": "Dueling",
+            "target": "American Revolution"
+        },
+        {
+            "weight": 0.7652354590089642,
+            "source": "Dueling",
+            "target": "Anti-Masonic Party"
+        },
+        {
+            "weight": 0.629596306718807,
+            "source": "Dueling",
+            "target": "Blockades"
+        },
+        {
+            "weight": 0.7765844819610568,
+            "source": "Dueling",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.8452755039764314,
+            "source": "Dueling",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.8563090726310735,
+            "source": "Dueling",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.7608346816462779,
+            "source": "Dueling",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.7921147820706381,
+            "source": "Dueling",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.6285234067290625,
+            "source": "Dueling",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.7531606661337202,
+            "source": "Dueling",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.6919748265148027,
+            "source": "Dueling",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.7712593279742463,
+            "source": "Dueling",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6158871733599253,
+            "source": "Dueling",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.8287355889566673,
+            "source": "Dueling",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.6548966409973488,
+            "source": "Dueling",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.762810972181767,
+            "source": "Dueling",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.604917398119784,
+            "source": "Dueling",
+            "target": "Louisiana Purchase"
+        },
+        {
+            "weight": 0.7642857142857143,
+            "source": "Dueling",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.8452655865384028,
+            "source": "Dueling",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8736076682522123,
+            "source": "Dueling",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.6327580992151614,
+            "source": "Dueling",
+            "target": "Presidential 1828"
+        },
+        {
+            "weight": 0.8929129889455076,
+            "source": "Dueling",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.6567284148476,
+            "source": "Dueling",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.7496295381349674,
+            "source": "Dueling",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.7344501196879529,
+            "source": "Dueling",
+            "target": "Sectionalism"
+        },
+        {
+            "weight": 0.7844896554870651,
+            "source": "Dueling",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8370745561518816,
+            "source": "Dueling",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8147447075307583,
+            "source": "Dueling",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6282875825921191,
+            "source": "Dueling",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.801726055686945,
+            "source": "Dueling",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6548966409973488,
+            "source": "Dueling",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.6819097024665796,
+            "source": "Dueling",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.79804820354258,
+            "source": "Dueling",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.7522932595814839,
+            "source": "Dueling",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8412604001635922,
+            "source": "Dueling",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7642857142857143,
+            "source": "Dueling",
+            "target": "West"
+        },
+        {
+            "weight": 0.6442366982235097,
+            "source": "Presidential 1824",
+            "target": "Presidential 1812"
+        },
+        {
+            "weight": 0.9182176230276445,
+            "source": "Presidential 1824",
+            "target": "Presidential 1828"
+        },
+        {
+            "weight": 0.8284973947659606,
+            "source": "Presidential 1824",
+            "target": "Presidential 1832"
+        },
+        {
+            "weight": 0.6032230222062446,
+            "source": "Presidential 1828",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.6169556317360004,
+            "source": "Presidential 1828",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.6483933265314541,
+            "source": "Presidential 1828",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.6412680732048854,
+            "source": "Presidential 1828",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.710185748665245,
+            "source": "Presidential 1828",
+            "target": "Presidential 1832"
+        },
+        {
+            "weight": 0.6489483233071439,
+            "source": "Presidential 1828",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.6191230797030436,
+            "source": "Presidential 1828",
+            "target": "Sectionalism"
+        },
+        {
+            "weight": 0.6471522694165123,
+            "source": "Presidential 1828",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6346413222437035,
+            "source": "Presidential 1828",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7242342783650761,
+            "source": "Sectionalism",
+            "target": "African Americans"
+        },
+        {
+            "weight": 0.8010426607373464,
+            "source": "Sectionalism",
+            "target": "American Revolution"
+        },
+        {
+            "weight": 0.8071135063017654,
+            "source": "Sectionalism",
+            "target": "Anti-Masonic Party"
+        },
+        {
+            "weight": 0.8301516151435848,
+            "source": "Sectionalism",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.8143655813053003,
+            "source": "Sectionalism",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.7191846049527396,
+            "source": "Sectionalism",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.7134818195390169,
+            "source": "Sectionalism",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.7957024720743541,
+            "source": "Sectionalism",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.6523791771574937,
+            "source": "Sectionalism",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.7600413325768084,
+            "source": "Sectionalism",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.7306646543774942,
+            "source": "Sectionalism",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.7883821853864141,
+            "source": "Sectionalism",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.8098947180405156,
+            "source": "Sectionalism",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.8392373721647612,
+            "source": "Sectionalism",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.6763144516465321,
+            "source": "Sectionalism",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.7500328248743716,
+            "source": "Sectionalism",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.8225107501917546,
+            "source": "Sectionalism",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.8288947789710521,
+            "source": "Sectionalism",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.7366513536024488,
+            "source": "Sectionalism",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.7952725999455764,
+            "source": "Sectionalism",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.7054330106751928,
+            "source": "Sectionalism",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.73347610858265,
+            "source": "Sectionalism",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8163432289199847,
+            "source": "Sectionalism",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.7612061734050684,
+            "source": "Sectionalism",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8330179361550375,
+            "source": "Sectionalism",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6070847039549465,
+            "source": "Sectionalism",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.8330021468544804,
+            "source": "Sectionalism",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7206473299898286,
+            "source": "Sectionalism",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.827931595645437,
+            "source": "Sectionalism",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7702682383479892,
+            "source": "Sectionalism",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8225107501917546,
+            "source": "Sectionalism",
+            "target": "West"
+        },
+        {
+            "weight": 0.8115763746657843,
+            "source": "American Revolution",
+            "target": "African Americans"
+        },
+        {
+            "weight": 0.9086983394882503,
+            "source": "American Revolution",
+            "target": "Anti-Masonic Party"
+        },
+        {
+            "weight": 0.6874336700031077,
+            "source": "American Revolution",
+            "target": "Bank of the United States"
+        },
+        {
+            "weight": 0.9687752963104339,
+            "source": "American Revolution",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.8687110484714663,
+            "source": "American Revolution",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.8006347787379208,
+            "source": "American Revolution",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.7529849498784265,
+            "source": "American Revolution",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.9460963796545506,
+            "source": "American Revolution",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.8654294837765428,
+            "source": "American Revolution",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.918777584279881,
+            "source": "American Revolution",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.6955990397614218,
+            "source": "American Revolution",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.8936397720297082,
+            "source": "American Revolution",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6183043218925061,
+            "source": "American Revolution",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9312705596114051,
+            "source": "American Revolution",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.7635898195608172,
+            "source": "American Revolution",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.8785420412413033,
+            "source": "American Revolution",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9396131848164809,
+            "source": "American Revolution",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.9266469082196493,
+            "source": "American Revolution",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.7953913535427983,
+            "source": "American Revolution",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8502362545005264,
+            "source": "American Revolution",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8958034206893235,
+            "source": "American Revolution",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6119230071755085,
+            "source": "American Revolution",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.8962556374547803,
+            "source": "American Revolution",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9171315901937859,
+            "source": "American Revolution",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8481579596452808,
+            "source": "American Revolution",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9184953549825962,
+            "source": "American Revolution",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6645391932937305,
+            "source": "American Revolution",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6481398998924708,
+            "source": "American Revolution",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8970897933562679,
+            "source": "American Revolution",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7635898195608172,
+            "source": "American Revolution",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7203224145896964,
+            "source": "American Revolution",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9388160292627802,
+            "source": "American Revolution",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8516102907352545,
+            "source": "American Revolution",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9396131848164809,
+            "source": "American Revolution",
+            "target": "West"
+        },
+        {
+            "weight": 0.7901305794283833,
+            "source": "African Americans",
+            "target": "Anti-Masonic Party"
+        },
+        {
+            "weight": 0.7225504896565528,
+            "source": "African Americans",
+            "target": "Bank of the United States"
+        },
+        {
+            "weight": 0.6644651538133024,
+            "source": "African Americans",
+            "target": "Blockades"
+        },
+        {
+            "weight": 0.8713370654589289,
+            "source": "African Americans",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.7817234175662195,
+            "source": "African Americans",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.7164443557923119,
+            "source": "African Americans",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.6008888145354875,
+            "source": "African Americans",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.7756977701812131,
+            "source": "African Americans",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.7281519464772618,
+            "source": "African Americans",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.8246687455769169,
+            "source": "African Americans",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.673189343775865,
+            "source": "African Americans",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.9242750828381898,
+            "source": "African Americans",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.8828790166718693,
+            "source": "African Americans",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.8811922097253254,
+            "source": "African Americans",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.9069576707452538,
+            "source": "African Americans",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.6072613235914165,
+            "source": "African Americans",
+            "target": "Louisiana Purchase"
+        },
+        {
+            "weight": 0.735227583565819,
+            "source": "African Americans",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.7378193441069304,
+            "source": "African Americans",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.7566814493304135,
+            "source": "African Americans",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8131439379473805,
+            "source": "African Americans",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.7322849693660929,
+            "source": "African Americans",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8354043621019219,
+            "source": "African Americans",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9231324532132617,
+            "source": "African Americans",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8692624452974768,
+            "source": "African Americans",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.7652139071179648,
+            "source": "African Americans",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.8506054884892745,
+            "source": "African Americans",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.8642110752180701,
+            "source": "African Americans",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6012147517858407,
+            "source": "African Americans",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7608210656253813,
+            "source": "African Americans",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8532944296699242,
+            "source": "African Americans",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7797613432982392,
+            "source": "African Americans",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.8171537090189154,
+            "source": "African Americans",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.735227583565819,
+            "source": "African Americans",
+            "target": "West"
+        },
+        {
+            "weight": 0.669749052347976,
+            "source": "Anti-Masonic Party",
+            "target": "Bank of the United States"
+        },
+        {
+            "weight": 0.605652308228427,
+            "source": "Anti-Masonic Party",
+            "target": "Blockades"
+        },
+        {
+            "weight": 0.9363983655799664,
+            "source": "Anti-Masonic Party",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.8920536023466654,
+            "source": "Anti-Masonic Party",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.8137236728555259,
+            "source": "Anti-Masonic Party",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.7850958677337425,
+            "source": "Anti-Masonic Party",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.9279296292302159,
+            "source": "Anti-Masonic Party",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.7834965003757952,
+            "source": "Anti-Masonic Party",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.8857187250180002,
+            "source": "Anti-Masonic Party",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.7419056752978256,
+            "source": "Anti-Masonic Party",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.8856136462567338,
+            "source": "Anti-Masonic Party",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6354868963234126,
+            "source": "Anti-Masonic Party",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9398477902726008,
+            "source": "Anti-Masonic Party",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.8034684824458762,
+            "source": "Anti-Masonic Party",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.9035754907361468,
+            "source": "Anti-Masonic Party",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9209617121552087,
+            "source": "Anti-Masonic Party",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.9066142404720914,
+            "source": "Anti-Masonic Party",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8187461906397036,
+            "source": "Anti-Masonic Party",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8749894407470422,
+            "source": "Anti-Masonic Party",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8812504324318782,
+            "source": "Anti-Masonic Party",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8528224800812265,
+            "source": "Anti-Masonic Party",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9092789614171598,
+            "source": "Anti-Masonic Party",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8821625756619649,
+            "source": "Anti-Masonic Party",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9407214627481979,
+            "source": "Anti-Masonic Party",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7277385936197893,
+            "source": "Anti-Masonic Party",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.633216796574445,
+            "source": "Anti-Masonic Party",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8986734883278247,
+            "source": "Anti-Masonic Party",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.633216796574445,
+            "source": "Anti-Masonic Party",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7817980650051272,
+            "source": "Anti-Masonic Party",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9188507072541946,
+            "source": "Anti-Masonic Party",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8699995052851995,
+            "source": "Anti-Masonic Party",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9209617121552087,
+            "source": "Anti-Masonic Party",
+            "target": "West"
+        },
+        {
+            "weight": 0.7426443655304386,
+            "source": "Bank of the United States",
+            "target": "Canals"
+        },
+        {
+            "weight": 0.6173746174090927,
+            "source": "Bank of the United States",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.6568323877663543,
+            "source": "Bank of the United States",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.6154883629607565,
+            "source": "Bank of the United States",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.8098546262342874,
+            "source": "Bank of the United States",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.7425038767953627,
+            "source": "Bank of the United States",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.8486986503949044,
+            "source": "Bank of the United States",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.8089497578366374,
+            "source": "Bank of the United States",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.6748787629477221,
+            "source": "Bank of the United States",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.6764705882352942,
+            "source": "Bank of the United States",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.804347019922625,
+            "source": "Bank of the United States",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.7182781960208596,
+            "source": "Bank of the United States",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.6100073454054187,
+            "source": "Bank of the United States",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.8058667690995405,
+            "source": "Bank of the United States",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6226434023925232,
+            "source": "Bank of the United States",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.7147281439974549,
+            "source": "Bank of the United States",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6886066190101169,
+            "source": "Bank of the United States",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8191585048915058,
+            "source": "Bank of the United States",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.6088813758903127,
+            "source": "Bank of the United States",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.6150672149953454,
+            "source": "Bank of the United States",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.6751831989349919,
+            "source": "Blockades",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.6534244690383966,
+            "source": "Blockades",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6810416008910226,
+            "source": "Blockades",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.6941312425025846,
+            "source": "Blockades",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.6973699509793614,
+            "source": "Blockades",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.6941312425025843,
+            "source": "Blockades",
+            "target": "Latin American Wars of Independence"
+        },
+        {
+            "weight": 0.8238877251219106,
+            "source": "Blockades",
+            "target": "Louisiana Purchase"
+        },
+        {
+            "weight": 0.759616162456835,
+            "source": "Blockades",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.7120744924850403,
+            "source": "Blockades",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.676606880617593,
+            "source": "Blockades",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.7092810146517834,
+            "source": "Blockades",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.7373587469170034,
+            "source": "Blockades",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6400808574259403,
+            "source": "Blockades",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7311320754716981,
+            "source": "Blockades",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.819801427826664,
+            "source": "Blockades",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.6212740563040765,
+            "source": "Blockades",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.6270066855447991,
+            "source": "Blockades",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9032751493447265,
+            "source": "Canals",
+            "target": "Colonization Movements"
+        },
+        {
+            "weight": 0.8024007069429074,
+            "source": "Canals",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.7510186238160759,
+            "source": "Canals",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.9531333193676731,
+            "source": "Canals",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.8322048636073511,
+            "source": "Canals",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.9205636374114016,
+            "source": "Canals",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.741328214727781,
+            "source": "Canals",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.9523781511378108,
+            "source": "Canals",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6708357751904099,
+            "source": "Canals",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9732524605691941,
+            "source": "Canals",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.8578501158575269,
+            "source": "Canals",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.9349770132573799,
+            "source": "Canals",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9418815805310811,
+            "source": "Canals",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.9053949150162858,
+            "source": "Canals",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8007091851134448,
+            "source": "Canals",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8822786574957815,
+            "source": "Canals",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8723138798938386,
+            "source": "Canals",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6437287530943597,
+            "source": "Canals",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.9122606712380084,
+            "source": "Canals",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9611204010934395,
+            "source": "Canals",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.883773694348623,
+            "source": "Canals",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9325907784348186,
+            "source": "Canals",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7728327440713659,
+            "source": "Canals",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6464473635709767,
+            "source": "Canals",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.9414254598426368,
+            "source": "Canals",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6887279140282869,
+            "source": "Canals",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7672217354039284,
+            "source": "Canals",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9690350244744675,
+            "source": "Canals",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8799386241050685,
+            "source": "Canals",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9418815805310811,
+            "source": "Canals",
+            "target": "West"
+        },
+        {
+            "weight": 0.8097958361188536,
+            "source": "Colonization Movements",
+            "target": "Commerce"
+        },
+        {
+            "weight": 0.7975309671446262,
+            "source": "Colonization Movements",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.9159605620774403,
+            "source": "Colonization Movements",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.7401142218710156,
+            "source": "Colonization Movements",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.8674013783066479,
+            "source": "Colonization Movements",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.7316154378393829,
+            "source": "Colonization Movements",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.8640645759695637,
+            "source": "Colonization Movements",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6510249294409393,
+            "source": "Colonization Movements",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9339809401805053,
+            "source": "Colonization Movements",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.7482018995506147,
+            "source": "Colonization Movements",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.8478209662582038,
+            "source": "Colonization Movements",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9135652664161791,
+            "source": "Colonization Movements",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.9262724077535925,
+            "source": "Colonization Movements",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8192180885350945,
+            "source": "Colonization Movements",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.87752003689899,
+            "source": "Colonization Movements",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.7861191663434617,
+            "source": "Colonization Movements",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8230874298663684,
+            "source": "Colonization Movements",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8871543210276762,
+            "source": "Colonization Movements",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8699857034701367,
+            "source": "Colonization Movements",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9420406636505428,
+            "source": "Colonization Movements",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6887920694128568,
+            "source": "Colonization Movements",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6247648278447246,
+            "source": "Colonization Movements",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8797748234662999,
+            "source": "Colonization Movements",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6247648278447245,
+            "source": "Colonization Movements",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7856976287192815,
+            "source": "Colonization Movements",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8853630196115848,
+            "source": "Colonization Movements",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8991549877714246,
+            "source": "Colonization Movements",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9135652664161791,
+            "source": "Colonization Movements",
+            "target": "West"
+        },
+        {
+            "weight": 0.8067484662576686,
+            "source": "Commerce",
+            "target": "Emancipation"
+        },
+        {
+            "weight": 0.8115441642834508,
+            "source": "Commerce",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.64657916859038,
+            "source": "Commerce",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.8061532618815632,
+            "source": "Commerce",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.6396711120702802,
+            "source": "Commerce",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.7893482446353928,
+            "source": "Commerce",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.8437740108144317,
+            "source": "Commerce",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.694417425266033,
+            "source": "Commerce",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.8042602034722477,
+            "source": "Commerce",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.6455925682314559,
+            "source": "Commerce",
+            "target": "Louisiana Purchase"
+        },
+        {
+            "weight": 0.8030210404535134,
+            "source": "Commerce",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.8659636266909264,
+            "source": "Commerce",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.9256779010483149,
+            "source": "Commerce",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8958333678565966,
+            "source": "Commerce",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.7039793667979152,
+            "source": "Commerce",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.79631479082109,
+            "source": "Commerce",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8169301527378662,
+            "source": "Commerce",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8532750029316192,
+            "source": "Commerce",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8458844436471084,
+            "source": "Commerce",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6715081272472049,
+            "source": "Commerce",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.8307134082534479,
+            "source": "Commerce",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.694417425266033,
+            "source": "Commerce",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7293880473001955,
+            "source": "Commerce",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.8490094589178387,
+            "source": "Commerce",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.7958749567788781,
+            "source": "Commerce",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8467192809192936,
+            "source": "Commerce",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8030210404535134,
+            "source": "Commerce",
+            "target": "West"
+        },
+        {
+            "weight": 0.7843851055311185,
+            "source": "Emancipation",
+            "target": "Family Finances (Adams Family)"
+        },
+        {
+            "weight": 0.6545835874587613,
+            "source": "Emancipation",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.7536004501781636,
+            "source": "Emancipation",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.6691943941658313,
+            "source": "Emancipation",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.6798331734603583,
+            "source": "Emancipation",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.8091551606450736,
+            "source": "Emancipation",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.686374557418074,
+            "source": "Emancipation",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.8141227138238384,
+            "source": "Emancipation",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.868593902846161,
+            "source": "Emancipation",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8349634175946866,
+            "source": "Emancipation",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8930368016718206,
+            "source": "Emancipation",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.6931303697068514,
+            "source": "Emancipation",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6918800641560289,
+            "source": "Emancipation",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.7349502834093389,
+            "source": "Emancipation",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.7501318707091161,
+            "source": "Emancipation",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8475661224615157,
+            "source": "Emancipation",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7581267997652825,
+            "source": "Emancipation",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.698006292983498,
+            "source": "Emancipation",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.7811097563757429,
+            "source": "Emancipation",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.734443785157867,
+            "source": "Emancipation",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7690725346341185,
+            "source": "Emancipation",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8141227138238384,
+            "source": "Emancipation",
+            "target": "West"
+        },
+        {
+            "weight": 0.7986506904287024,
+            "source": "Family Finances (Adams Family)",
+            "target": "Family Relations (Adams Family)"
+        },
+        {
+            "weight": 0.9300784906069077,
+            "source": "Family Finances (Adams Family)",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.7166799713104487,
+            "source": "Family Finances (Adams Family)",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.8822706901927793,
+            "source": "Family Finances (Adams Family)",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.6348221481134809,
+            "source": "Family Finances (Adams Family)",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9345418362806588,
+            "source": "Family Finances (Adams Family)",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.7524151549540332,
+            "source": "Family Finances (Adams Family)",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.8660776417162067,
+            "source": "Family Finances (Adams Family)",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9603233114687201,
+            "source": "Family Finances (Adams Family)",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.943071565277225,
+            "source": "Family Finances (Adams Family)",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8073531686516061,
+            "source": "Family Finances (Adams Family)",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8780726763095604,
+            "source": "Family Finances (Adams Family)",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8801213852241279,
+            "source": "Family Finances (Adams Family)",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6694788355128355,
+            "source": "Family Finances (Adams Family)",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.8854526257044727,
+            "source": "Family Finances (Adams Family)",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8997311396483142,
+            "source": "Family Finances (Adams Family)",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8590710152519876,
+            "source": "Family Finances (Adams Family)",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9501555055597471,
+            "source": "Family Finances (Adams Family)",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6572273484221309,
+            "source": "Family Finances (Adams Family)",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6597184752010506,
+            "source": "Family Finances (Adams Family)",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.9032582919679516,
+            "source": "Family Finances (Adams Family)",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.736965708328536,
+            "source": "Family Finances (Adams Family)",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7265688544586575,
+            "source": "Family Finances (Adams Family)",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.921814137799323,
+            "source": "Family Finances (Adams Family)",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8762551273305241,
+            "source": "Family Finances (Adams Family)",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9603233114687201,
+            "source": "Family Finances (Adams Family)",
+            "target": "West"
+        },
+        {
+            "weight": 0.8878319529198873,
+            "source": "Family Relations (Adams Family)",
+            "target": "Family Residences (Adams Family)"
+        },
+        {
+            "weight": 0.7254902710375732,
+            "source": "Family Relations (Adams Family)",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.8185920908831807,
+            "source": "Family Relations (Adams Family)",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.6070758361543594,
+            "source": "Family Relations (Adams Family)",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.7396887383327637,
+            "source": "Family Relations (Adams Family)",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.8229386359870114,
+            "source": "Family Relations (Adams Family)",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.794638537072903,
+            "source": "Family Relations (Adams Family)",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.6318030961616445,
+            "source": "Family Relations (Adams Family)",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.7144766822605512,
+            "source": "Family Relations (Adams Family)",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.9007588323519043,
+            "source": "Family Relations (Adams Family)",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.7144088162501938,
+            "source": "Family Relations (Adams Family)",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8045150402783585,
+            "source": "Family Relations (Adams Family)",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.7136443570138635,
+            "source": "Family Relations (Adams Family)",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.7993912158676478,
+            "source": "Family Relations (Adams Family)",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7342577537254316,
+            "source": "Family Relations (Adams Family)",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7631118749488389,
+            "source": "Family Relations (Adams Family)",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.6883803161096016,
+            "source": "Family Relations (Adams Family)",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8229386359870114,
+            "source": "Family Relations (Adams Family)",
+            "target": "West"
+        },
+        {
+            "weight": 0.6794365464254604,
+            "source": "Family Residences (Adams Family)",
+            "target": "Federalist Party"
+        },
+        {
+            "weight": 0.8663227193618676,
+            "source": "Family Residences (Adams Family)",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.9230760500028592,
+            "source": "Family Residences (Adams Family)",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.7497841181141566,
+            "source": "Family Residences (Adams Family)",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.870457038898821,
+            "source": "Family Residences (Adams Family)",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9033287038795722,
+            "source": "Family Residences (Adams Family)",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.9025623115745969,
+            "source": "Family Residences (Adams Family)",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.7951465679458907,
+            "source": "Family Residences (Adams Family)",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8394407388118003,
+            "source": "Family Residences (Adams Family)",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.9201582056469697,
+            "source": "Family Residences (Adams Family)",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6071408930669647,
+            "source": "Family Residences (Adams Family)",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.8434374619002596,
+            "source": "Family Residences (Adams Family)",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9034330364688141,
+            "source": "Family Residences (Adams Family)",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.843812029313002,
+            "source": "Family Residences (Adams Family)",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9001047958782086,
+            "source": "Family Residences (Adams Family)",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6796006820739379,
+            "source": "Family Residences (Adams Family)",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6149648918286459,
+            "source": "Family Residences (Adams Family)",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8742013623748375,
+            "source": "Family Residences (Adams Family)",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6823745049714012,
+            "source": "Family Residences (Adams Family)",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7372048097544687,
+            "source": "Family Residences (Adams Family)",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8798713889483061,
+            "source": "Family Residences (Adams Family)",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8522695346895939,
+            "source": "Family Residences (Adams Family)",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9033287038795722,
+            "source": "Family Residences (Adams Family)",
+            "target": "West"
+        },
+        {
+            "weight": 0.7386121159615792,
+            "source": "Federalist Party",
+            "target": "Foreign Relations"
+        },
+        {
+            "weight": 0.769056202316855,
+            "source": "Federalist Party",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.6679852626763296,
+            "source": "Federalist Party",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.731598605384626,
+            "source": "Federalist Party",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.7258951611478817,
+            "source": "Federalist Party",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.7169160669143281,
+            "source": "Federalist Party",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.659846598808559,
+            "source": "Federalist Party",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.758769298919121,
+            "source": "Federalist Party",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.6552314187105354,
+            "source": "Federalist Party",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6740829378133212,
+            "source": "Federalist Party",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.7398254786845857,
+            "source": "Federalist Party",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.7043038835285655,
+            "source": "Federalist Party",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.7542942396303934,
+            "source": "Federalist Party",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.6264864055908816,
+            "source": "Federalist Party",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.7540620850630287,
+            "source": "Federalist Party",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6387914340035932,
+            "source": "Federalist Party",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.7382802207551052,
+            "source": "Federalist Party",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7024112253152903,
+            "source": "Federalist Party",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7258951611478817,
+            "source": "Federalist Party",
+            "target": "West"
+        },
+        {
+            "weight": 0.6379729511517478,
+            "source": "Foreign Relations",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9492136266751136,
+            "source": "Foreign Relations",
+            "target": "Health and Illness"
+        },
+        {
+            "weight": 0.9456744642272055,
+            "source": "Foreign Relations",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.9740388687828272,
+            "source": "Foreign Relations",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.8551726130012166,
+            "source": "Foreign Relations",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.8235954165760969,
+            "source": "Foreign Relations",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.7999626788420423,
+            "source": "Foreign Relations",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8654102765155495,
+            "source": "Foreign Relations",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.780091049139526,
+            "source": "Foreign Relations",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.9142615821580669,
+            "source": "Foreign Relations",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9729779365779057,
+            "source": "Foreign Relations",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.9102926646788532,
+            "source": "Foreign Relations",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8608808625896174,
+            "source": "Foreign Relations",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.8808059709545737,
+            "source": "Foreign Relations",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6023404230746531,
+            "source": "Foreign Relations",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.9475417890761597,
+            "source": "Foreign Relations",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6710072313051636,
+            "source": "Foreign Relations",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7857757105272277,
+            "source": "Foreign Relations",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9601231851150421,
+            "source": "Foreign Relations",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.6904968876414216,
+            "source": "Foreign Relations",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.8700622925176373,
+            "source": "Foreign Relations",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8551726130012166,
+            "source": "Foreign Relations",
+            "target": "West"
+        },
+        {
+            "weight": 0.6751748009597814,
+            "source": "Health and Illness",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.8660017108936402,
+            "source": "Health and Illness",
+            "target": "Impressment"
+        },
+        {
+            "weight": 0.9436583023918561,
+            "source": "Health and Illness",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.9299684387221964,
+            "source": "Health and Illness",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.9238426510385827,
+            "source": "Health and Illness",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.8592259420944747,
+            "source": "Health and Illness",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.9307548475758964,
+            "source": "Health and Illness",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8623953693850436,
+            "source": "Health and Illness",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.6217121168498709,
+            "source": "Health and Illness",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.8916135454650121,
+            "source": "Health and Illness",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9721403871297448,
+            "source": "Health and Illness",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.9260697737303695,
+            "source": "Health and Illness",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9450859388910046,
+            "source": "Health and Illness",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.8078343050993928,
+            "source": "Health and Illness",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6490254580543544,
+            "source": "Health and Illness",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.9498217009160204,
+            "source": "Health and Illness",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6354644422518991,
+            "source": "Health and Illness",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.6273157473733239,
+            "source": "Health and Illness",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.8489056695567192,
+            "source": "Health and Illness",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9620969521006114,
+            "source": "Health and Illness",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.9129492960294835,
+            "source": "Health and Illness",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9299684387221964,
+            "source": "Health and Illness",
+            "target": "West"
+        },
+        {
+            "weight": 0.9643873475318927,
+            "source": "Impressment",
+            "target": "Internal Improvements"
+        },
+        {
+            "weight": 0.6948956970698978,
+            "source": "Impressment",
+            "target": "Louisiana Purchase"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "Impressment",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.6535524498743245,
+            "source": "Impressment",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.71870374830343,
+            "source": "Impressment",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.7686910386845297,
+            "source": "Impressment",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.655762568881817,
+            "source": "Impressment",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8090398349558905,
+            "source": "Impressment",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.928911624615963,
+            "source": "Impressment",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8501507070320254,
+            "source": "Impressment",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.7295516621589194,
+            "source": "Impressment",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.9589341394980084,
+            "source": "Impressment",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.860831484180176,
+            "source": "Impressment",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "Impressment",
+            "target": "Temperance Movement"
+        },
+        {
+            "weight": 0.7756474758750388,
+            "source": "Impressment",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9000932730243009,
+            "source": "Impressment",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7397349472667841,
+            "source": "Impressment",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.7526924743896313,
+            "source": "Impressment",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "Impressment",
+            "target": "West"
+        },
+        {
+            "weight": 0.622145241409675,
+            "source": "Internal Improvements",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.6632382030029403,
+            "source": "Internal Improvements",
+            "target": "Louisiana Purchase"
+        },
+        {
+            "weight": 0.8254053010533827,
+            "source": "Internal Improvements",
+            "target": "Missouri Compromise"
+        },
+        {
+            "weight": 0.8057573758955977,
+            "source": "Internal Improvements",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.823054909923624,
+            "source": "Internal Improvements",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8629327712370104,
+            "source": "Internal Improvements",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8004741614032523,
+            "source": "Internal Improvements",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8841739842449077,
+            "source": "Internal Improvements",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.9754503800937898,
+            "source": "Internal Improvements",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.9232531431271959,
+            "source": "Internal Improvements",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8539559886273899,
+            "source": "Internal Improvements",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.9085620873110046,
+            "source": "Internal Improvements",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.9237744270315511,
+            "source": "Internal Improvements",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6174887919391101,
+            "source": "Internal Improvements",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.8244322615316645,
+            "source": "Internal Improvements",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9489365280801231,
+            "source": "Internal Improvements",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7022177442200966,
+            "source": "Internal Improvements",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.8520036314173873,
+            "source": "Internal Improvements",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8254053010533827,
+            "source": "Internal Improvements",
+            "target": "West"
+        },
+        {
+            "weight": 0.9409146705666939,
+            "source": "Louisiana Purchase",
+            "target": "Latin American Wars of Independence"
+        },
+        {
+            "weight": 0.7621675682064871,
+            "source": "Louisiana Purchase",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.6735269862572225,
+            "source": "Louisiana Purchase",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.7208732715343915,
+            "source": "Louisiana Purchase",
+            "target": "Recreation"
+        },
+        {
+            "weight": 0.6172341814226124,
+            "source": "Louisiana Purchase",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.6935776643651471,
+            "source": "Louisiana Purchase",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.7932424508014655,
+            "source": "Louisiana Purchase",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6593599639505648,
+            "source": "Louisiana Purchase",
+            "target": "Temperance Movement"
+        },
+        {
+            "weight": 0.8238877251219106,
+            "source": "Louisiana Purchase",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.8715985347239672,
+            "source": "Louisiana Purchase",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.652294296908295,
+            "source": "Missouri Compromise",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.955372759858365,
+            "source": "Missouri Compromise",
+            "target": "Native Americans"
+        },
+        {
+            "weight": 0.7719378103090674,
+            "source": "Missouri Compromise",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.8591757223606646,
+            "source": "Missouri Compromise",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8739897637807966,
+            "source": "Missouri Compromise",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.669855190709762,
+            "source": "Missouri Compromise",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.8661685839794792,
+            "source": "Missouri Compromise",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8793452954800219,
+            "source": "Missouri Compromise",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8106803133903361,
+            "source": "Missouri Compromise",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9737984552160456,
+            "source": "Missouri Compromise",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "Missouri Compromise",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8951310330485315,
+            "source": "Missouri Compromise",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "Missouri Compromise",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.6883229253979608,
+            "source": "Missouri Compromise",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9123696712087173,
+            "source": "Missouri Compromise",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8452748983616153,
+            "source": "Missouri Compromise",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 1.0,
+            "source": "Missouri Compromise",
+            "target": "West"
+        },
+        {
+            "weight": 0.6556055534618377,
+            "source": "Native Americans",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.874836744363666,
+            "source": "Native Americans",
+            "target": "Oregon Country"
+        },
+        {
+            "weight": 0.9151425952917003,
+            "source": "Native Americans",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.8690693424309268,
+            "source": "Native Americans",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.616837702041152,
+            "source": "Native Americans",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.8499054468672569,
+            "source": "Native Americans",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8588247170561217,
+            "source": "Native Americans",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.8630646755036651,
+            "source": "Native Americans",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9658924175518286,
+            "source": "Native Americans",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.658929541335473,
+            "source": "Native Americans",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8866438337982512,
+            "source": "Native Americans",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7449630047138482,
+            "source": "Native Americans",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.6200601959435086,
+            "source": "Native Americans",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.7887232602322287,
+            "source": "Native Americans",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8801423340078135,
+            "source": "Native Americans",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.901171550453493,
+            "source": "Native Americans",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9553727598583649,
+            "source": "Native Americans",
+            "target": "West"
+        },
+        {
+            "weight": 0.6109771561727311,
+            "source": "Oregon Country",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9432250063364869,
+            "source": "Oregon Country",
+            "target": "Privateering"
+        },
+        {
+            "weight": 0.694954179072709,
+            "source": "Oregon Country",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8094701572534166,
+            "source": "Oregon Country",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8343887650470093,
+            "source": "Oregon Country",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.9104018531363941,
+            "source": "Oregon Country",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8417033671209068,
+            "source": "Oregon Country",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7237260936492562,
+            "source": "Oregon Country",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.8514582597083212,
+            "source": "Oregon Country",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.71870374830343,
+            "source": "Oregon Country",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.8285622154186817,
+            "source": "Oregon Country",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.9265855567861314,
+            "source": "Oregon Country",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.7926625520419126,
+            "source": "Oregon Country",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8894554137470597,
+            "source": "Oregon Country",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7719378103090674,
+            "source": "Oregon Country",
+            "target": "West"
+        },
+        {
+            "weight": 0.6778996315088339,
+            "source": "Privateering",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.7542666005334767,
+            "source": "Privateering",
+            "target": "Railroads"
+        },
+        {
+            "weight": 0.8370643577778284,
+            "source": "Privateering",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8943041419856349,
+            "source": "Privateering",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.9146903775896862,
+            "source": "Privateering",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9004723968050719,
+            "source": "Privateering",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7581113977429795,
+            "source": "Privateering",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.9166573923718078,
+            "source": "Privateering",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6772184098640328,
+            "source": "Privateering",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7450194974133254,
+            "source": "Privateering",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.890313196654979,
+            "source": "Privateering",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8658051822348103,
+            "source": "Privateering",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8972228693867121,
+            "source": "Privateering",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8591757223606646,
+            "source": "Privateering",
+            "target": "West"
+        },
+        {
+            "weight": 0.6445537140691282,
+            "source": "Railroads",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.7861766014154099,
+            "source": "Railroads",
+            "target": "Science and Technology"
+        },
+        {
+            "weight": 0.8304376640330029,
+            "source": "Railroads",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.788851348453754,
+            "source": "Railroads",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8753055839733924,
+            "source": "Railroads",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7923529654761805,
+            "source": "Railroads",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6557625688818169,
+            "source": "Railroads",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.6203250376116586,
+            "source": "Railroads",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8309834715751151,
+            "source": "Railroads",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7855336165273561,
+            "source": "Railroads",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8739897637807965,
+            "source": "Railroads",
+            "target": "West"
+        },
+        {
+            "weight": 0.8918039790477518,
+            "source": "Science and Technology",
+            "target": "Slave Trade"
+        },
+        {
+            "weight": 0.9033900150570998,
+            "source": "Science and Technology",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.8564239312190637,
+            "source": "Science and Technology",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.7247382850907578,
+            "source": "Science and Technology",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.8924006769685737,
+            "source": "Science and Technology",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.8090398349558905,
+            "source": "Science and Technology",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.7033643574963653,
+            "source": "Science and Technology",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8917789397223129,
+            "source": "Science and Technology",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8556098673609066,
+            "source": "Science and Technology",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8661685839794792,
+            "source": "Science and Technology",
+            "target": "West"
+        },
+        {
+            "weight": 0.6440196948504125,
+            "source": "Slave Trade",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.9290014626382264,
+            "source": "Slave Trade",
+            "target": "Slavery and Enslaved Persons"
+        },
+        {
+            "weight": 0.9016861858484306,
+            "source": "Slave Trade",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.8635143818249478,
+            "source": "Slave Trade",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6029868408251355,
+            "source": "Slave Trade",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.9399844861016553,
+            "source": "Slave Trade",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6326163666243017,
+            "source": "Slave Trade",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.8296190782894816,
+            "source": "Slave Trade",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.9682003996251111,
+            "source": "Slave Trade",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.6528239832832327,
+            "source": "Slave Trade",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.8687831193616303,
+            "source": "Slave Trade",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8793452954800219,
+            "source": "Slave Trade",
+            "target": "West"
+        },
+        {
+            "weight": 0.6098756074935833,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.8716061941157439,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Spoils System"
+        },
+        {
+            "weight": 0.8136346918831016,
+            "source": "Slavery and Enslaved Persons",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.9039630041267428,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6968007377256157,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.6724604155305159,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.8602536051846792,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8790980947279554,
+            "source": "Slavery and Enslaved Persons",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.6250811290990292,
+            "source": "Slavery and Enslaved Persons",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.9154912896381939,
+            "source": "Slavery and Enslaved Persons",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8106803133903361,
+            "source": "Slavery and Enslaved Persons",
+            "target": "West"
+        },
+        {
+            "weight": 0.6707548604587696,
+            "source": "Spoils System",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.6523039499316156,
+            "source": "Spoils System",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.6476000495995259,
+            "source": "Spoils System",
+            "target": "States Rights"
+        },
+        {
+            "weight": 0.6745457828691597,
+            "source": "Spoils System",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.9019964247533367,
+            "source": "Spoils System",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.6745457828691597,
+            "source": "Spoils System",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.776808322901546,
+            "source": "Spoils System",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.910809424648429,
+            "source": "Spoils System",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8822738350982792,
+            "source": "Spoils System",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9737984552160456,
+            "source": "Spoils System",
+            "target": "West"
+        },
+        {
+            "weight": 0.6236013422502381,
+            "source": "States Rights",
+            "target": "Latin American Wars of Independence"
+        },
+        {
+            "weight": 0.6175677143463192,
+            "source": "States Rights",
+            "target": "Recreation"
+        },
+        {
+            "weight": 0.7906840650920111,
+            "source": "States Rights",
+            "target": "Supreme Court"
+        },
+        {
+            "weight": 0.7503171918094865,
+            "source": "States Rights",
+            "target": "Temperance Movement"
+        },
+        {
+            "weight": 0.8256331744709676,
+            "source": "States Rights",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.8182101804638405,
+            "source": "States Rights",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7858024540154895,
+            "source": "States Rights",
+            "target": "Utopian Communities"
+        },
+        {
+            "weight": 0.7393919850892441,
+            "source": "States Rights",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7471888282531223,
+            "source": "Supreme Court",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.6109126661923828,
+            "source": "Supreme Court",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.6942189388549805,
+            "source": "Supreme Court",
+            "target": "Telegraph"
+        },
+        {
+            "weight": 0.8026713293139102,
+            "source": "Supreme Court",
+            "target": "Treaty of Ghent"
+        },
+        {
+            "weight": 0.93321396294861,
+            "source": "Supreme Court",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.879800373253365,
+            "source": "Supreme Court",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.8951310330485315,
+            "source": "Supreme Court",
+            "target": "West"
+        },
+        {
+            "weight": 0.6321803928029686,
+            "source": "Telegraph",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.7526924743896313,
+            "source": "Telegraph",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "Telegraph",
+            "target": "West"
+        },
+        {
+            "weight": 0.6723486297888771,
+            "source": "Treaty of Ghent",
+            "target": "Latin American Wars of Independence"
+        },
+        {
+            "weight": 0.8570057919875875,
+            "source": "Treaty of Ghent",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.8020580499224451,
+            "source": "Treaty of Ghent",
+            "target": "US Constitution"
+        },
+        {
+            "weight": 0.8333545397444491,
+            "source": "Treaty of Ghent",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.6883229253979608,
+            "source": "Treaty of Ghent",
+            "target": "West"
+        },
+        {
+            "weight": 0.6435496522236477,
+            "source": "US Constitution",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.6321803928029686,
+            "source": "US Constitution",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.8486665565474867,
+            "source": "US Constitution",
+            "target": "War of 1812"
+        },
+        {
+            "weight": 0.9123696712087173,
+            "source": "US Constitution",
+            "target": "West"
+        },
+        {
+            "weight": 0.7445892164766981,
+            "source": "Utopian Communities",
+            "target": "Recreation"
+        },
+        {
+            "weight": 0.7042147167923564,
+            "source": "Utopian Communities",
+            "target": "Temperance Movement"
+        },
+        {
+            "weight": 0.6142355177200237,
+            "source": "War of 1812",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.6270066855447991,
+            "source": "War of 1812",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.8452748983616153,
+            "source": "War of 1812",
+            "target": "West"
+        },
+        {
+            "weight": 0.652294296908295,
+            "source": "West",
+            "target": "Hartford Convention"
+        },
+        {
+            "weight": 0.669855190709762,
+            "source": "West",
+            "target": "Religion"
+        },
+        {
+            "weight": 0.7007648882267352,
+            "source": "West",
+            "target": "Suffrage"
+        },
+        {
+            "weight": 0.7838409280284669,
+            "source": "Latin American Wars of Independence",
+            "target": "Recreation"
+        },
+        {
+            "weight": 0.7007648882267354,
+            "source": "Latin American Wars of Independence",
+            "target": "Temperance Movement"
+        },
+        {
+            "weight": 0.6941312425025843,
+            "source": "Latin American Wars of Independence",
+            "target": "Territorial Expansion"
+        },
+        {
+            "weight": 0.7992899321702163,
+            "source": "Temperance Movement",
+            "target": "Recreation"
+        },
+        {
+            "weight": 0.7007648882267353,
+            "source": "Temperance Movement",
+            "target": "Textile Industry"
+        },
+        {
+            "weight": 0.6758754461367544,
+            "source": "Recreation",
+            "target": "Textile Industry"
+        },
+        {
+            "weight": 0.6198303988351637,
+            "source": "Presidential 1812",
+            "target": "Presidential 1832"
+        },
+        {
+            "weight": 0.8180933328274742,
+            "source": "Unitarianism",
+            "target": "Steam Power"
+        }
+    ]
+}
