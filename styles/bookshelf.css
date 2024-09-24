@@ -224,7 +224,7 @@
     width: 300%; /* Extend the bookshelf wider than the book container */
     height: 20px;
     background-color: rgba(139, 69, 19, 0.7); /* Add a subtle brown background color */
-    background-image: url('wood.jpg'); /* Same wood texture as the shelf */
+    background-image: url('../images/bookimages/wood.jpg'); /* Same wood texture as the shelf */
     background-size: cover; /* Ensure the texture covers the holder */
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
     border-radius: 3px;
