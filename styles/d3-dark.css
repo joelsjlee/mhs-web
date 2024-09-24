@@ -35,7 +35,7 @@ Whitesmoke: f5f5f5
 div.network > svg {
     background-color: #f5f5f5;
     border-radius: 10px;
-    outline: thick solid #242124;
+    outline: thick solid #94b3ae;
 }
 
 g.network-labels > text.label {
@@ -52,47 +52,6 @@ g.network-labels > text.label {
     pointer-events: none;
 }
 
-/* Bar and Line Graphs */
-rect.bar {
-    fill: #91f3b6;
-}
-path.domain {
-    display: none;
-}
-path.line {
-    stroke: #696969;
-    stroke-width: 6;
-    fill: none;
-}
-
-circle.line {
-    fill: #110b11;
-    stroke: #696969;
-}
-circle.subNodes {
-    fill: #91f3b6;
-    stroke: #110b11;
-    
-}
-
-text.line {
-    fill: #fdeed8;
-    text-anchor: middle;
-    pointer-events: none;
-}
-.xAxis .tick:nth-child(2) text {
-    text-anchor: start;
-}
-.tick text {
-    font-size: 16px;
-}
-.tick line {
-    shape-rendering: CrispEdges;
-    stroke: #dddddd;
-}
-.tick line.origin{
-    stroke: #aaaaaa;
-}
 
 /* Graph Titles */
 .subjText {
@@ -130,17 +89,3 @@ text.yearText {
     opacity: 0.25;
 }
 
-/* Dropdown Menu of Graphs  */
-.dropbtn {
-    background-color: #242124;
-    color: #fdeed8;
-}
-
-/* Lollipop Charts (sentiments) */
-div.lollipop-chart > div.tooltip {
-    background-color: #242124;
-    padding: 10px;
-    border-radius: 20px;
-    position: fixed;
-    pointer-events: none;
-}

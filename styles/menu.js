@@ -54,7 +54,7 @@ projectDiv.append(cmsolA);
 
 // taney
 const rbtA = document.createElement('a');
-rbtA.setAttribute('href', '/projects/taney/index.html');
+rbtA.setAttribute('href', '/projects/rbt/index.html');
 const rbtText = document.createTextNode('Roger Brooke Taney Papers');
 rbtA.append(rbtText);
 projectDiv.append(rbtA);
