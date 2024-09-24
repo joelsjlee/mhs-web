@@ -3,54 +3,60 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="../../styles/main-dark.css?v3"></link>
+        <link rel="stylesheet" href="../../styles/oldstyles.css"></link>
+        <link rel="stylesheet" href="../../styles/bookshelf.css" />
+        <script type="module" src="../../styles/bookshelf.js?v4"></script>
 
     </head>
     <body>
         <header id="menu">
-            <script src="../../styles/menu.js?v1"></script>
+            <script src="../../styles/menu.js"></script>
         </header>
+
         <div class="main-body">
             <div class="container">
-                
-                <h1 class="title" id="jqa-header">John Quincy Adams's Diary Digital Project</h1>
-                
-                <div class="row justify-content-center">
-                    <div class="column">
-                        <p>Paragraph(s) with pertinent info about JQA.</p>
+                <h1 id="JQA-header"class="title">John Quincy Adams's Diary Digital Project</h1>
+
+
+                <div class="bookshelf">
+                    <!-- JQA -->
+                    <div class="book">
+                        <div onclick="window.location.href='coref/index.html';" class="side spine">
+                            <span style="font-size: large;" class="spine-title">Network Graph</span>
+                            <span class="spine-author">JQA</span>
+                        </div>
+                        <div class="side top"></div>
+                        <div onclick="window.location.href='coref/index.html';" class="side cover" style="background-image: url('../../images/bookimages/network.png');"></div>
                     </div>
+        
+                    <!-- CMSOL -->
+                    <div class="book">
+                        <div onclick="window.location.href='geo/index.html';" class="side spine">
+                            <span style="font-size: large;" class="spine-title">Geo-References</span>
+                            <span  class="spine-author">JQA</span>
+                        </div>
+                        <div class="side top"></div>
+                        <div onclick="window.location.href='geo/index.html';" style="background-image: url('../../images/bookimages/geo.png');" class="side cover"></div>
+                    </div>
+
+                    <!-- RBT -->
+                    <div class="book">
+                        <div onclick="window.location.href='tests/index.html';" class="side spine">
+                            <span style="font-size: large;" class="spine-title">Tests</span>
+                            <span class="spine-author">JQA</span>
+                        </div>
+                        <div class="side top"></div>
+                        <div onclick="window.location.href='tests/index.html';" style="background-image: url('../../images/bookimages/tests.png');" class="side cover"></div>
+                    </div>                    
+                </div>
+        
+                <!-- Bookshelf visual below the books -->
+                <div class="visual-bookshelf"></div>
+        
+
+
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="column">
-                
-                        <div class="card-container">
-
-                            <div class="card">
-                                <a href="geo/index.html">
-                                    <h2>Geo-References</h2>
-                                     <!-- <img class="img-bottom" src="../../jqa/images/geo.png"> -->
-                                </a>
-                            </div>
-
-                            <div class="card">
-                                <a href="coref/index.html">
-                                    <h2>Network Analysis</h2>
-                                    <!-- <img class="img-bottom" src="../../jqa/images/geo.png"> -->
-                                </a>
-                            </div>
-
-                            <div class="card">
-                                <a href="tests/index.html">
-                                    <h2>tests</h2>
-                                    <!-- <img class="img-bottom" src="../../jqa/images/geo.png"> -->
-                                </a>
-                            </div>
-
-
-                    </div>
-                </div>
             </div>
-        </div>
     </body>
 </html>

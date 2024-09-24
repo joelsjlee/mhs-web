@@ -1,14 +1,11 @@
-// Template from Cara Marta Messina
-// https://github.com/caramessina/caramessina.github.io
-
 // Get <header> by id "menu".
 const header = document.getElementById('menu');
 
-// Create <link> element.
+// Create <link> element for CSS.
 const link = document.createElement('link');
 link.setAttribute('rel', 'stylesheet');
-link.setAttribute('href', '/styles/menu-dark.css');
-// link.setAttribute('href', '/styles/menu.css');
+link.setAttribute('href', '/styles/menu.css?v20');
+header.appendChild(link);
 
 // Create <ul> element.
 const ul = document.createElement('ul');
@@ -21,10 +18,9 @@ homeA.setAttribute('href', '/index.html');
 homeA.setAttribute('class', 'logo');
 
 const homeText = document.createTextNode('Home');
-homeA.appendChild(homeText)
+homeA.appendChild(homeText);
 l1.appendChild(homeA);
 ul.append(l1);
-
 
 // Create first dropdown menu.
 const project = document.createElement('li');
@@ -56,7 +52,6 @@ const cmsolText = document.createTextNode('Catharine Maria Sedgwick Online Lette
 cmsolA.append(cmsolText);
 projectDiv.append(cmsolA);
 
-
 // taney
 const rbtA = document.createElement('a');
 rbtA.setAttribute('href', '/projects/taney/index.html');
@@ -71,4 +66,3 @@ ul.append(project);
 // Append <link> & <ul> to <header>.
 header.append(link);
 header.appendChild(ul);
-

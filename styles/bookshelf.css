@@ -131,17 +131,18 @@
   
   .bookshelf {
     display: flex;
-    justify-content: space-between;
-    padding: 0; /* Remove padding to eliminate the space between books and bookshelf */
-    margin-bottom: 0; /* Remove margin below the books */
-    align-items: flex-end; /* Ensure the books are aligned with the bookshelf */
-}
-  
+    justify-content: flex-start; /* Aligns books to the left */
+    align-items: flex-end; 
+    flex-wrap: nowrap; 
+    padding: 0;
+    margin-bottom: -15px;
+    margin-left: 37%; /* Shift the starting position of the books (this seems to be about center?) */
+  }
   .book {
     width: 50px;
     height: 280px;
     position: relative;
-    margin-left: 1px;
+    margin-left: 30px;
     transform-style: preserve-3d;
     transform: translateZ(0) rotateY(0);
     transition: transform 1s;
@@ -182,7 +183,7 @@
     position: absolute;
     color: goldenrod;
     bottom: 0px;
-    left: 15%; /* no idea why 20% centers it */
+    left: 15%; /* no idea why 15% centers it */
   }
   
   .top {
@@ -214,46 +215,44 @@
   }
 
   .book:not(:hover) {
-    z-index: 10; /* Reset z-index when no longer hovered */
-    transition: transform 0.3s ease, z-index 0s ease 0.3s; /* Delay z-index reset to avoid clipping */
+    z-index: 10; 
+    transition: transform 0.3s ease, z-index 0s ease 0.3s; 
 }
 
 
 
-  .visual-bookshelf {
-    width: 300%; /* Extend the bookshelf wider than the book container */
-    height: 20px;
-    background-color: rgba(139, 69, 19, 0.7); /* Add a subtle brown background color */
-    background-image: url('../images/bookimages/wood.jpg'); /* Same wood texture as the shelf */
-    background-size: cover; /* Ensure the texture covers the holder */
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-    border-radius: 3px;
-    margin-top: 0px; /* Slightly overlap the bottom of the books */
-    position: relative;
-    left: -5%; /* Center the extended bookshelf */
+.visual-bookshelf {
+  width: 80%; 
+  height: 20px;
+  background-color: rgba(139, 69, 19, 0.7); /* Brown color for the bookshelf */
+  background-image: url('../images/bookimages/wood.jpg'); /* Add wood texture */
+  background-size: cover;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin: 10px auto; /* Centers the bookshelf horizontally */
+  position: relative; 
 }
 
 .visual-bookshelf::before,
 .visual-bookshelf::after {
-    content: "";
-    width: 30px; /* Width of the shelf holders */
-    height: 40px; /* Height of the shelf holders */
-    background-image: url('wood.jpg'); /* Same wood texture as the shelf */
-    background-size: cover; /* Ensure the texture covers the holder */
-    
-    background-color: rgba(139, 69, 19, 0.7); /* Add a subtle brown background color */
-    position: absolute;
-    top: 100%; /* Position holders below the shelf */
-    border-radius: 0 0 5px 5px; /* Rounded corners at the bottom */
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  content: "";
+  width: 30px; /* Width of the shelf holders */
+  height: 40px; /* Height of the shelf holders */
+  background-image: url('../images/bookimages/wood.jpg'); /* Same wood texture as the shelf */
+  background-size: cover;
+  background-color: rgba(139, 69, 19, 0.7); 
+  position: absolute;
+  top: 100%; 
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
 }
 
 /* Position the first holder to the left */
 .visual-bookshelf::before {
-    left: 10%; /* Adjust this percentage to properly space the holder */
+  left: 10%; 
 }
 
 /* Position the second holder to the right */
 .visual-bookshelf::after {
-    right: 10%; /* Adjust this percentage to properly space the holder */
+  right: 10%; 
 }

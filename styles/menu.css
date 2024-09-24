@@ -13,7 +13,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:   #274060;
+  background-color:   #688F88;
 }
 
 ul.topnav li.logo {
@@ -36,7 +36,7 @@ ul.topnav li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul.topnav li a:hover:not(.active) {background-color:  #666699;}
+ul.topnav li a:hover:not(.active) {background-color:  #f3989d;}
 
 ul.topnav li a.active {background-color:  #666699;}
 
@@ -58,9 +58,10 @@ li a .dropbtn {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #9494b8;
+  background-color: #688f8885;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
 }
 
 .dropdown-content a {
