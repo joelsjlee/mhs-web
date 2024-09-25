@@ -22,6 +22,7 @@ homeA.appendChild(homeText);
 l1.appendChild(homeA);
 ul.append(l1);
 
+
 // Create first dropdown menu.
 const project = document.createElement('li');
 project.setAttribute('class', 'dropdown');
@@ -62,6 +63,42 @@ projectDiv.append(rbtA);
 // Append <a> to project <div>
 project.append(projectDiv); // Append <div> to project
 ul.append(project);
+
+// Create second dropdown menu.
+const tools = document.createElement('li');
+tools.setAttribute('class', 'dropdown');
+
+const toolsA = document.createElement('a');
+toolsA.setAttribute('href', '/tools/index.html');
+toolsA.setAttribute('class', 'dropbtn');
+
+const toolsAText = document.createTextNode('Tools');
+toolsA.append(toolsAText);
+tools.append(toolsA);
+
+const toolsDiv = document.createElement('div');
+toolsDiv.setAttribute('class', 'dropdown-content');
+
+// Create <li>'s in first dropdown menu.
+// network
+const networkA = document.createElement('a');
+networkA.setAttribute('href', '/tools/networks/index.html');
+const networkText = document.createTextNode('Network Graphs');
+networkA.append(networkText);
+toolsDiv.append(networkA);
+
+// geo
+const geosA = document.createElement('a');
+geosA.setAttribute('href', '/tools/geos/index.html');
+const geosText = document.createTextNode('Geo-References');
+geosA.append(geosText);
+toolsDiv.append(geosA);
+
+
+// Append <a> to project <div>
+tools.append(toolsDiv); // Append <div> to project
+ul.append(tools);
+
 
 // Append <link> & <ul> to <header>.
 header.append(link);
