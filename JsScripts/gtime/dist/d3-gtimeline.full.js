@@ -3186,7 +3186,7 @@ function Rc(t) {
 }
 const St = 1, Pc = 2;
 function Vr(t, n) {
-  let e = ["#FFF", "#EEE"], r = Nt(e), i = 5, o, u = "#AAA", s = 40, c = 100, a;
+  let e = ["#FFF", "#EEE"], r = Nt(e), i = 5, o, u = "#AAA", s = 40, c = 3e3, a;
   function f(l) {
     let h = n.domain(), g = zr((d) => d), T = Nt(e), E = Nt(e.reverse()), U = Rc(s), R = l.selectAll(".row").data(h, n).order(), A = R.enter().append("g").attr("class", "row"), C = R.exit(), m = R.select("text");
     R = R.merge(A).attr("transform", (d) => "translate(0," + n(d) + ")"), C.remove(), A.append("rect").attr("y", 0.5).attr("width", c).attr("height", n.bandwidth()).attr("stroke", u).attr("stroke-width", 0.75).attr("fill", T), A.append("path").attr("stroke", E), m = m.merge(

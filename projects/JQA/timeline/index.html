@@ -36,7 +36,14 @@
 	// Function to create the timeline chart
 	function drawChart(data) {
 		// Creating the timeline chart
+		let colorArray = (d3.schemeSet3.slice(0, 100))
+
+	// removes a super ugly color 
+	colorArray.splice(1,1);
+
+
 		const chart = d3.timeline().duration(500);
+		chart.colors(colorArray);
 
 		// Select the div with id 'chart' and apply the data to it
 		d3.selectAll('#chart').datum(data).call(chart);
@@ -67,6 +74,7 @@
 		
 		// After the data is transformed, draw the chart
 		drawChart(transformedData);
+
 	}).catch(function(error) {
 		console.error("Error loading the CSV file:", error);
 	});

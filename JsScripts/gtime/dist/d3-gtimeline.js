@@ -21,7 +21,7 @@ function ut(r) {
 }
 const H = 1, ct = 2;
 function W(r, s) {
-  let h = ["#FFF", "#EEE"], g = w.scaleOrdinal(h), b = 5, x, O = "#AAA", D = 40, k = 100, i;
+  let h = ["#FFF", "#EEE"], g = w.scaleOrdinal(h), b = 5, x, O = "#AAA", D = 40, k = 3e3, i;
   function o(u) {
     let S = s.domain(), Y = R((n) => n), j = w.scaleOrdinal(h), T = w.scaleOrdinal(h.reverse()), p = ut(D), M = u.selectAll(".row").data(S, s).order(), a = M.enter().append("g").attr("class", "row"), f = M.exit(), d = M.select("text");
     M = M.merge(a).attr("transform", (n) => "translate(0," + s(n) + ")"), f.remove(), a.append("rect").attr("y", 0.5).attr("width", k).attr("height", s.bandwidth()).attr("stroke", O).attr("stroke-width", 0.75).attr("fill", j), a.append("path").attr("stroke", T), d = d.merge(
