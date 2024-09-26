@@ -1,0 +1,524 @@
+Role,Name,Start,End
+American History,American Revolution,1779-01-01,1782-12-30
+American History,American Revolution,1785-01-01,1786-12-30
+American History,American Revolution,1788-01-01,1788-12-30
+American History,American Revolution,1795-01-01,1797-12-30
+American History,American Revolution,1799-01-01,1801-12-30
+American History,American Revolution,1805-01-01,1805-12-30
+American History,American Revolution,1808-01-01,1811-12-30
+American History,American Revolution,1813-01-01,1822-12-30
+American History,American Revolution,1824-01-01,1826-12-30
+American History,American Revolution,1828-01-01,1847-12-30
+Diplomacy,European Alliances,1779-01-01,1779-12-30
+Diplomacy,European Alliances,1810-01-01,1810-12-30
+Diplomacy,European Alliances,1812-01-01,1813-12-30
+Diplomacy,European Alliances,1817-01-01,1817-12-30
+Diplomacy,European Alliances,1830-01-01,1831-12-30
+Health and Medicine,Health and Illness,1779-01-01,1779-12-30
+Health and Medicine,Health and Illness,1782-01-01,1783-12-30
+Health and Medicine,Health and Illness,1785-01-01,1789-12-30
+Health and Medicine,Health and Illness,1791-01-01,1792-12-30
+Health and Medicine,Health and Illness,1794-01-01,1847-12-30
+International Relations,International,1779-01-01,1783-12-30
+International Relations,International,1785-01-01,1785-12-30
+International Relations,International,1794-01-01,1794-12-30
+International Relations,International,1796-01-01,1801-12-30
+International Relations,International,1809-01-01,1809-12-30
+International Relations,International,1814-01-01,1815-12-30
+International Relations,International,1817-01-01,1817-12-30
+International Relations,International,1840-01-01,1840-12-30
+International Relations,International,1843-01-01,1843-12-30
+Military and Naval History,Privateering,1779-01-01,1779-12-30
+Military and Naval History,Privateering,1810-01-01,1813-12-30
+Military and Naval History,Privateering,1817-01-01,1825-12-30
+Military and Naval History,Privateering,1827-01-01,1830-12-30
+Military and Naval History,Privateering,1832-01-01,1832-12-30
+Military and Naval History,Privateering,1839-01-01,1839-12-30
+Military and Naval History,Privateering,1841-01-01,1841-12-30
+Leisure and Society,Recreation,1779-01-01,1847-12-30
+Religion and Society,Religion,1779-01-01,1783-12-30
+Religion and Society,Religion,1785-01-01,1788-12-30
+Religion and Society,Religion,1797-01-01,1797-12-30
+Religion and Society,Religion,1799-01-01,1799-12-30
+Religion and Society,Religion,1801-01-01,1801-12-30
+Religion and Society,Religion,1803-01-01,1822-12-30
+Religion and Society,Religion,1826-01-01,1848-12-30
+Travel and Exploration,Travel and Touring,1779-01-01,1783-12-30
+Travel and Exploration,Travel and Touring,1785-01-01,1785-12-30
+Travel and Exploration,Travel and Touring,1794-01-01,1794-12-30
+Travel and Exploration,Travel and Touring,1796-01-01,1801-12-30
+Travel and Exploration,Travel and Touring,1809-01-01,1809-12-30
+Travel and Exploration,Travel and Touring,1814-01-01,1815-12-30
+Travel and Exploration,Travel and Touring,1817-01-01,1817-12-30
+Travel and Exploration,Travel and Touring,1840-01-01,1840-12-30
+Travel and Exploration,Travel and Touring,1843-01-01,1843-12-30
+Trade and Commerce,Commerce,1783-01-01,1783-12-30
+Trade and Commerce,Commerce,1797-01-01,1798-12-30
+Trade and Commerce,Commerce,1809-01-01,1824-12-30
+Trade and Commerce,Commerce,1826-01-01,1828-12-30
+Trade and Commerce,Commerce,1831-01-01,1836-12-30
+Trade and Commerce,Commerce,1838-01-01,1838-12-30
+Race and Ethnicity,African Americans,1785-01-01,1785-12-30
+Race and Ethnicity,African Americans,1787-01-01,1787-12-30
+Race and Ethnicity,African Americans,1794-01-01,1794-12-30
+Race and Ethnicity,African Americans,1806-01-01,1807-12-30
+Race and Ethnicity,African Americans,1809-01-01,1822-12-30
+Race and Ethnicity,African Americans,1824-01-01,1829-12-30
+Race and Ethnicity,African Americans,1831-01-01,1847-12-30
+Military and Naval History,Barbary Wars,1785-01-01,1785-12-30
+Military and Naval History,Barbary Wars,1794-01-01,1794-12-30
+Military and Naval History,Barbary Wars,1796-01-01,1796-12-30
+Military and Naval History,Barbary Wars,1815-01-01,1816-12-30
+Military and Naval History,Barbary Wars,1831-01-01,1831-12-30
+American Politics,Continental Congress,1785-01-01,1785-12-30
+American Politics,Continental Congress,1831-01-01,1832-12-30
+American Politics,Continental Congress,1838-01-01,1838-12-30
+Adams Family,Family Relations (Adams Family),1785-01-01,1787-12-30
+Adams Family,Family Relations (Adams Family),1805-01-01,1805-12-30
+Adams Family,Family Relations (Adams Family),1807-01-01,1807-12-30
+Adams Family,Family Relations (Adams Family),1813-01-01,1813-12-30
+Adams Family,Family Relations (Adams Family),1817-01-01,1821-12-30
+Adams Family,Family Relations (Adams Family),1823-01-01,1823-12-30
+Adams Family,Family Relations (Adams Family),1826-01-01,1836-12-30
+Adams Family,Family Relations (Adams Family),1838-01-01,1838-12-30
+Adams Family,Family Relations (Adams Family),1840-01-01,1840-12-30
+Adams Family,Family Relations (Adams Family),1843-01-01,1845-12-30
+Adams Family,Family Relations (Adams Family),1847-01-01,1847-12-30
+Adams Family,Family Residences (Adams Family),1785-01-01,1785-12-30
+Adams Family,Family Residences (Adams Family),1797-01-01,1798-12-30
+Adams Family,Family Residences (Adams Family),1800-01-01,1803-12-30
+Adams Family,Family Residences (Adams Family),1805-01-01,1812-12-30
+Adams Family,Family Residences (Adams Family),1815-01-01,1821-12-30
+Adams Family,Family Residences (Adams Family),1823-01-01,1827-12-30
+Adams Family,Family Residences (Adams Family),1829-01-01,1838-12-30
+Adams Family,Family Residences (Adams Family),1840-01-01,1840-12-30
+Adams Family,Family Residences (Adams Family),1842-01-01,1842-12-30
+Adams Family,Family Residences (Adams Family),1844-01-01,1845-12-30
+Adams Family,Family Residences (Adams Family),1847-01-01,1847-12-30
+Political Factions,Loyalists,1785-01-01,1785-12-30
+Political Factions,Loyalists,1787-01-01,1788-12-30
+Political Factions,Loyalists,1840-01-01,1840-12-30
+Slavery,Slavery and Enslaved Persons,1785-01-01,1785-12-30
+Slavery,Slavery and Enslaved Persons,1795-01-01,1795-12-30
+Slavery,Slavery and Enslaved Persons,1817-01-01,1828-12-30
+Slavery,Slavery and Enslaved Persons,1830-01-01,1847-12-30
+Social Customs,Dueling,1786-01-01,1786-12-30
+Social Customs,Dueling,1796-01-01,1796-12-30
+Social Customs,Dueling,1804-01-01,1806-12-30
+Social Customs,Dueling,1808-01-01,1809-12-30
+Social Customs,Dueling,1811-01-01,1816-12-30
+Social Customs,Dueling,1818-01-01,1825-12-30
+Social Customs,Dueling,1827-01-01,1831-12-30
+Social Customs,Dueling,1835-01-01,1846-12-30
+Indigenous Peoples,Native Americans,1786-01-01,1786-12-30
+Indigenous Peoples,Native Americans,1793-01-01,1795-12-30
+Indigenous Peoples,Native Americans,1803-01-01,1808-12-30
+Indigenous Peoples,Native Americans,1810-01-01,1810-12-30
+Indigenous Peoples,Native Americans,1812-01-01,1847-12-30
+Rebellions,Shays's Rebellion,1786-01-01,1788-12-30
+Rebellions,Shays's Rebellion,1837-01-01,1837-12-30
+Rebellions,Shays's Rebellion,1839-01-01,1839-12-30
+American Politics,US Constitution,1787-01-01,1788-12-30
+American Politics,US Constitution,1803-01-01,1808-12-30
+American Politics,US Constitution,1810-01-01,1811-12-30
+American Politics,US Constitution,1813-01-01,1828-12-30
+American Politics,US Constitution,1830-01-01,1839-12-30
+American Politics,US Constitution,1841-01-01,1846-12-30
+Political Factions,Anti-Federalists,1788-01-01,1788-12-30
+Trade and Commerce,Slave Trade,1789-01-01,1789-12-30
+Trade and Commerce,Slave Trade,1802-01-01,1802-12-30
+Trade and Commerce,Slave Trade,1804-01-01,1807-12-30
+Trade and Commerce,Slave Trade,1812-01-01,1812-12-30
+Trade and Commerce,Slave Trade,1814-01-01,1829-12-30
+Trade and Commerce,Slave Trade,1831-01-01,1832-12-30
+Trade and Commerce,Slave Trade,1835-01-01,1835-12-30
+Trade and Commerce,Slave Trade,1837-01-01,1843-12-30
+Trade and Commerce,Slave Trade,1845-01-01,1846-12-30
+Finance,Bank of the United States,1791-01-01,1791-12-30
+Finance,Bank of the United States,1802-01-01,1802-12-30
+Finance,Bank of the United States,1809-01-01,1809-12-30
+Finance,Bank of the United States,1813-01-01,1813-12-30
+Finance,Bank of the United States,1816-01-01,1826-12-30
+Finance,Bank of the United States,1829-01-01,1842-12-30
+European History,French Revolution,1793-01-01,1797-12-30
+European History,French Revolution,1801-01-01,1801-12-30
+European History,French Revolution,1804-01-01,1804-12-30
+European History,French Revolution,1809-01-01,1815-12-30
+European History,French Revolution,1817-01-01,1817-12-30
+European History,French Revolution,1834-01-01,1836-12-30
+European History,French Revolution,1839-01-01,1841-12-30
+European History,French Revolution,1846-01-01,1846-12-30
+Rebellions,Haitian Revolution,1793-01-01,1793-12-30
+Treaties,Jay Treaty,1794-01-01,1796-12-30
+Treaties,Jay Treaty,1803-01-01,1803-12-30
+Treaties,Jay Treaty,1805-01-01,1805-12-30
+Treaties,Jay Treaty,1807-01-01,1807-12-30
+Treaties,Jay Treaty,1810-01-01,1810-12-30
+Treaties,Jay Treaty,1814-01-01,1817-12-30
+Treaties,Jay Treaty,1833-01-01,1833-12-30
+Treaties,Jay Treaty,1841-01-01,1841-12-30
+Treaties,Jay Treaty,1845-01-01,1845-12-30
+Political Factions,Federalist Party,1795-01-01,1795-12-30
+Political Factions,Federalist Party,1802-01-01,1809-12-30
+Political Factions,Federalist Party,1811-01-01,1812-12-30
+Political Factions,Federalist Party,1828-01-01,1831-12-30
+Political Factions,Federalist Party,1833-01-01,1835-12-30
+Political Factions,Federalist Party,1837-01-01,1838-12-30
+Political Factions,Federalist Party,1840-01-01,1841-12-30
+Political Factions,Federalist Party,1845-01-01,1845-12-30
+Treaties,Pinckney's Treaty,1795-01-01,1795-12-30
+Treaties,Pinckney's Treaty,1844-01-01,1844-12-30
+Social Movements,Women's Rights,1795-01-01,1795-12-30
+Social Movements,Women's Rights,1831-01-01,1831-12-30
+Adams Family,Courtship and Marriage of JQA and LCA,1796-01-01,1797-12-30
+Adams Family,Courtship and Marriage of JQA and LCA,1844-01-01,1845-12-30
+Social Life and Customs,Court Life and Society,1797-01-01,1801-12-30
+Social Life and Customs,Court Life and Society,1809-01-01,1817-12-30
+Diplomacy,Diplomacy,1797-01-01,1801-12-30
+Diplomacy,Diplomacy,1808-01-01,1817-12-30
+Diplomacy,Diplomacy,1830-01-01,1838-12-30
+Diplomacy,Diplomacy,1843-01-01,1845-12-30
+Diplomacy,Diplomacy,1847-01-01,1847-12-30
+American Elections,Elections,1797-01-01,1797-12-30
+American Elections,Elections,1801-01-01,1801-12-30
+American Elections,Elections,1807-01-01,1809-12-30
+American Elections,Elections,1812-01-01,1813-12-30
+American Elections,Elections,1816-01-01,1816-12-30
+American Elections,Elections,1818-01-01,1841-12-30
+American Elections,Elections,1843-01-01,1847-12-30
+European History,European,1797-01-01,1801-12-30
+European History,European,1809-01-01,1817-12-30
+Industrialization,Industrialization,1797-01-01,1797-12-30
+Industrialization,Industrialization,1810-01-01,1810-12-30
+Industrialization,Industrialization,1819-01-01,1819-12-30
+Industrialization,Industrialization,1821-01-01,1821-12-30
+Industrialization,Industrialization,1824-01-01,1824-12-30
+Industrialization,Industrialization,1826-01-01,1827-12-30
+American Elections,Presidential 1796,1797-01-01,1797-12-30
+Science and Technology,Steam Power,1797-01-01,1797-12-30
+Science and Technology,Steam Power,1812-01-01,1812-12-30
+Science and Technology,Steam Power,1814-01-01,1814-12-30
+Science and Technology,Steam Power,1817-01-01,1821-12-30
+Science and Technology,Steam Power,1823-01-01,1823-12-30
+Science and Technology,Steam Power,1826-01-01,1827-12-30
+Science and Technology,Steam Power,1829-01-01,1840-12-30
+Science and Technology,Steam Power,1843-01-01,1845-12-30
+Science and Technology,Steam Power,1847-01-01,1847-12-30
+Territorial Expansion,Territorial Expansion,1797-01-01,1797-12-30
+Territorial Expansion,Territorial Expansion,1818-01-01,1821-12-30
+Territorial Expansion,Territorial Expansion,1826-01-01,1827-12-30
+Territorial Expansion,Territorial Expansion,1835-01-01,1838-12-30
+Territorial Expansion,Territorial Expansion,1842-01-01,1846-12-30
+International Relations,Foreign Relations,1798-01-01,1798-12-30
+International Relations,Foreign Relations,1808-01-01,1808-12-30
+International Relations,Foreign Relations,1810-01-01,1814-12-30
+International Relations,Foreign Relations,1816-01-01,1839-12-30
+International Relations,Foreign Relations,1843-01-01,1845-12-30
+Military and Naval History,Quasi-War,1798-01-01,1798-12-30
+Military and Naval History,Quasi-War,1830-01-01,1830-12-30
+Military and Naval History,Quasi-War,1837-01-01,1837-12-30
+Diplomacy,XYZ Affair,1798-01-01,1798-12-30
+Treaties,Prussian-American Treaty of Amity and Commerce,1799-01-01,1799-12-30
+Treaties,Prussian-American Treaty of Amity and Commerce,1832-01-01,1832-12-30
+Treaties,Convention of 1800,1800-01-01,1800-12-30
+Industrialization,Textile Industry,1800-01-01,1800-12-30
+Industrialization,Textile Industry,1810-01-01,1810-12-30
+Industrialization,Textile Industry,1818-01-01,1818-12-30
+Industrialization,Textile Industry,1824-01-01,1824-12-30
+Industrialization,Textile Industry,1827-01-01,1827-12-30
+Adams Family,Family Finances (Adams Family),1801-01-01,1805-12-30
+Adams Family,Family Finances (Adams Family),1807-01-01,1807-12-30
+Adams Family,Family Finances (Adams Family),1809-01-01,1810-12-30
+Adams Family,Family Finances (Adams Family),1812-01-01,1812-12-30
+Adams Family,Family Finances (Adams Family),1816-01-01,1847-12-30
+American Elections,Presidential 1800,1801-01-01,1801-12-30
+Political Factions,Democratic-Republican Party,1803-01-01,1806-12-30
+Political Factions,Democratic-Republican Party,1808-01-01,1808-12-30
+Political Factions,Democratic-Republican Party,1818-01-01,1818-12-30
+Political Factions,Democratic-Republican Party,1822-01-01,1824-12-30
+Political Factions,Democratic-Republican Party,1830-01-01,1830-12-30
+Political Factions,Democratic-Republican Party,1832-01-01,1833-12-30
+Political Factions,Democratic-Republican Party,1835-01-01,1835-12-30
+Territorial Expansion,Louisiana Purchase,1803-01-01,1804-12-30
+Territorial Expansion,Louisiana Purchase,1806-01-01,1806-12-30
+Territorial Expansion,Louisiana Purchase,1811-01-01,1811-12-30
+Territorial Expansion,Louisiana Purchase,1814-01-01,1815-12-30
+Territorial Expansion,Louisiana Purchase,1817-01-01,1824-12-30
+Territorial Expansion,Louisiana Purchase,1827-01-01,1830-12-30
+Territorial Expansion,Louisiana Purchase,1835-01-01,1838-12-30
+Territorial Expansion,Louisiana Purchase,1844-01-01,1846-12-30
+Science and Technology,Science and Technology,1803-01-01,1803-12-30
+Science and Technology,Science and Technology,1817-01-01,1821-12-30
+Science and Technology,Science and Technology,1823-01-01,1823-12-30
+Science and Technology,Science and Technology,1825-01-01,1825-12-30
+Science and Technology,Science and Technology,1827-01-01,1828-12-30
+Science and Technology,Science and Technology,1830-01-01,1838-12-30
+Science and Technology,Science and Technology,1843-01-01,1845-12-30
+Science and Technology,Science and Technology,1847-01-01,1847-12-30
+Judiciary,Supreme Court,1803-01-01,1804-12-30
+Judiciary,Supreme Court,1806-01-01,1809-12-30
+Judiciary,Supreme Court,1811-01-01,1811-12-30
+Judiciary,Supreme Court,1818-01-01,1821-12-30
+Judiciary,Supreme Court,1823-01-01,1823-12-30
+Judiciary,Supreme Court,1826-01-01,1826-12-30
+Judiciary,Supreme Court,1828-01-01,1838-12-30
+Judiciary,Supreme Court,1840-01-01,1846-12-30
+Military and Naval History,Impressment,1804-01-01,1804-12-30
+Military and Naval History,Impressment,1807-01-01,1809-12-30
+Military and Naval History,Impressment,1812-01-01,1821-12-30
+Military and Naval History,Impressment,1823-01-01,1823-12-30
+Military and Naval History,Impressment,1827-01-01,1827-12-30
+Military and Naval History,Impressment,1829-01-01,1829-12-30
+Military and Naval History,Impressment,1842-01-01,1842-12-30
+American Politics,Articles of Confederation,1805-01-01,1805-12-30
+American Politics,Articles of Confederation,1831-01-01,1831-12-30
+American Politics,Articles of Confederation,1836-01-01,1836-12-30
+American Politics,Articles of Confederation,1839-01-01,1839-12-30
+Infrastructure,Internal Improvements,1805-01-01,1805-12-30
+Infrastructure,Internal Improvements,1807-01-01,1807-12-30
+Infrastructure,Internal Improvements,1818-01-01,1847-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1806-01-01,1809-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1811-01-01,1811-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1816-01-01,1816-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1830-01-01,1831-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1833-01-01,1833-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1835-01-01,1835-12-30
+Education,Boylston Professor of Rhetoric and Oratory,1844-01-01,1845-12-30
+European History,Napoleonic Wars,1806-01-01,1806-12-30
+European History,Napoleonic Wars,1812-01-01,1815-12-30
+European History,Napoleonic Wars,1831-01-01,1831-12-30
+European History,Napoleonic Wars,1833-01-01,1833-12-30
+European History,Napoleonic Wars,1837-01-01,1837-12-30
+European History,Napoleonic Wars,1843-01-01,1843-12-30
+Social Movements,Reform Movements,1806-01-01,1806-12-30
+Social Movements,Reform Movements,1813-01-01,1813-12-30
+Social Movements,Reform Movements,1824-01-01,1824-12-30
+Social Movements,Reform Movements,1835-01-01,1835-12-30
+Social Movements,Reform Movements,1837-01-01,1838-12-30
+Social Movements,Reform Movements,1841-01-01,1841-12-30
+Social Movements,Reform Movements,1844-01-01,1846-12-30
+Diplomatic Conflicts,Chesapeake Affair,1807-01-01,1808-12-30
+Diplomatic Conflicts,Chesapeake Affair,1812-01-01,1812-12-30
+Diplomatic Conflicts,Chesapeake Affair,1839-01-01,1839-12-30
+Economics,Continental System,1807-01-01,1807-12-30
+Economics,Continental System,1810-01-01,1812-12-30
+Economics,Continental System,1815-01-01,1815-12-30
+Trade and Commerce,Embargo,1807-01-01,1812-12-30
+Trade and Commerce,Embargo,1833-01-01,1833-12-30
+Trade and Commerce,Embargo,1843-01-01,1843-12-30
+American Elections,Presidential 1808,1807-01-01,1809-12-30
+Political Systems,Caucus System,1808-01-01,1808-12-30
+Political Systems,Caucus System,1820-01-01,1824-12-30
+Political Systems,Caucus System,1840-01-01,1840-12-30
+Political Factions,Essex Junto,1808-01-01,1808-12-30
+Political Factions,Essex Junto,1830-01-01,1830-12-30
+Political Factions,Essex Junto,1833-01-01,1833-12-30
+Diplomatic Conflicts,Orders in Council,1808-01-01,1809-12-30
+Diplomatic Conflicts,Orders in Council,1811-01-01,1813-12-30
+Diplomatic Conflicts,Orders in Council,1815-01-01,1816-12-30
+Media,Press,1808-01-01,1808-12-30
+Media,Press,1817-01-01,1823-12-30
+Media,Press,1830-01-01,1839-12-30
+Media,Press,1843-01-01,1845-12-30
+Media,Press,1847-01-01,1847-12-30
+Military Strategy,Blockades,1809-01-01,1810-12-30
+Military Strategy,Blockades,1813-01-01,1814-12-30
+Military Strategy,Blockades,1818-01-01,1818-12-30
+Military Strategy,Blockades,1822-01-01,1824-12-30
+Military Strategy,Blockades,1827-01-01,1828-12-30
+Latin American History,Latin American Wars of Independence,1810-01-01,1812-12-30
+Latin American History,Latin American Wars of Independence,1816-01-01,1823-12-30
+Latin American History,Latin American Wars of Independence,1825-01-01,1825-12-30
+Latin American History,Latin American Wars of Independence,1830-01-01,1830-12-30
+American Military History,War of 1812,1811-01-01,1829-12-30
+American Military History,War of 1812,1831-01-01,1847-12-30
+Infrastructure,Canals,1812-01-01,1812-12-30
+Infrastructure,Canals,1818-01-01,1820-12-30
+Infrastructure,Canals,1824-01-01,1835-12-30
+Infrastructure,Canals,1838-01-01,1838-12-30
+Infrastructure,Canals,1843-01-01,1845-12-30
+American Elections,Presidential 1812,1812-01-01,1813-12-30
+American Elections,Presidential 1812,1820-01-01,1820-12-30
+American Elections,Presidential 1812,1828-01-01,1828-12-30
+Treaties,Anglo-American Definitive Peace Treaty,1814-01-01,1817-12-30
+Treaties,Anglo-American Definitive Peace Treaty,1831-01-01,1831-12-30
+Treaties,Anglo-American Definitive Peace Treaty,1836-01-01,1838-12-30
+Treaties,Anglo-American Definitive Peace Treaty,1840-01-01,1842-12-30
+Treaties,Anglo-American Definitive Peace Treaty,1845-01-01,1845-12-30
+Political Factions,Hartford Convention,1814-01-01,1815-12-30
+Political Factions,Hartford Convention,1828-01-01,1830-12-30
+Political Factions,Hartford Convention,1833-01-01,1836-12-30
+Political Factions,Hartford Convention,1840-01-01,1841-12-30
+Political Factions,Hartford Convention,1845-01-01,1846-12-30
+Political Conflicts,Sectionalism,1814-01-01,1814-12-30
+Political Conflicts,Sectionalism,1816-01-01,1825-12-30
+Political Conflicts,Sectionalism,1828-01-01,1829-12-30
+Political Conflicts,Sectionalism,1838-01-01,1838-12-30
+Political Conflicts,Sectionalism,1841-01-01,1842-12-30
+Treaties,Treaty of Ghent,1814-01-01,1826-12-30
+Treaties,Treaty of Ghent,1828-01-01,1828-12-30
+Treaties,Treaty of Ghent,1830-01-01,1831-12-30
+Treaties,Treaty of Ghent,1833-01-01,1835-12-30
+Treaties,Treaty of Ghent,1837-01-01,1839-12-30
+Treaties,Treaty of Ghent,1842-01-01,1843-12-30
+Treaties,Treaty of Ghent,1845-01-01,1846-12-30
+American Elections,Presidential 1816,1816-01-01,1816-12-30
+American Elections,Presidential 1816,1822-01-01,1822-12-30
+American Elections,Presidential 1816,1824-01-01,1824-12-30
+Religion and Society,Unitarianism,1816-01-01,1817-12-30
+Religion and Society,Unitarianism,1821-01-01,1838-12-30
+Religion and Society,Unitarianism,1843-01-01,1845-12-30
+Religion and Society,Unitarianism,1847-01-01,1847-12-30
+Treaties,Adams-Onis Treaty,1817-01-01,1825-12-30
+Treaties,Adams-Onis Treaty,1838-01-01,1838-12-30
+Treaties,Adams-Onis Treaty,1844-01-01,1846-12-30
+Social Movements,Colonization Movements,1817-01-01,1829-12-30
+Social Movements,Colonization Movements,1831-01-01,1833-12-30
+Social Movements,Colonization Movements,1835-01-01,1839-12-30
+Social Movements,Colonization Movements,1841-01-01,1845-12-30
+Migration,Immigration,1817-01-01,1820-12-30
+Latin American History,Mexican War of Independence,1817-01-01,1822-12-30
+Latin American History,Mexican War of Independence,1843-01-01,1843-12-30
+Territorial Expansion,Oregon Country,1817-01-01,1819-12-30
+Territorial Expansion,Oregon Country,1821-01-01,1824-12-30
+Territorial Expansion,Oregon Country,1826-01-01,1826-12-30
+Territorial Expansion,Oregon Country,1828-01-01,1828-12-30
+Territorial Expansion,Oregon Country,1839-01-01,1839-12-30
+Territorial Expansion,Oregon Country,1842-01-01,1846-12-30
+American Military History,Seminole Wars,1817-01-01,1821-12-30
+American Military History,Seminole Wars,1824-01-01,1825-12-30
+American Military History,Seminole Wars,1830-01-01,1832-12-30
+American Military History,Seminole Wars,1839-01-01,1842-12-30
+American Military History,Seminole Wars,1844-01-01,1846-12-30
+Social Movements,Utopian Communities,1817-01-01,1817-12-30
+Social Movements,Utopian Communities,1819-01-01,1819-12-30
+Social Movements,Utopian Communities,1824-01-01,1825-12-30
+Social Movements,Utopian Communities,1844-01-01,1844-12-30
+Territorial Expansion,West,1817-01-01,1821-12-30
+Territorial Expansion,West,1827-01-01,1827-12-30
+Social Movements,Asylum Movement,1818-01-01,1818-12-30
+Social Movements,Asylum Movement,1832-01-01,1833-12-30
+Social Movements,Asylum Movement,1840-01-01,1840-12-30
+Treaties,Convention of 1818,1818-01-01,1818-12-30
+Territorial Expansion,Florida Annexation,1818-01-01,1822-12-30
+Territorial Expansion,Florida Annexation,1830-01-01,1831-12-30
+Territorial Expansion,Florida Annexation,1838-01-01,1838-12-30
+Territorial Expansion,Florida Annexation,1844-01-01,1844-12-30
+Economic Crises,Panic of 1819,1818-01-01,1821-12-30
+American Elections,Presidential 1820,1818-01-01,1821-12-30
+American Elections,Presidential 1820,1845-01-01,1845-12-30
+Infrastructure,Roads,1818-01-01,1821-12-30
+Infrastructure,Roads,1824-01-01,1824-12-30
+Infrastructure,Roads,1826-01-01,1826-12-30
+Infrastructure,Roads,1830-01-01,1831-12-30
+Infrastructure,Roads,1834-01-01,1834-12-30
+Infrastructure,Roads,1836-01-01,1836-12-30
+Political Conflicts,States Rights,1818-01-01,1822-12-30
+Political Conflicts,States Rights,1824-01-01,1825-12-30
+Political Conflicts,States Rights,1827-01-01,1827-12-30
+Political Conflicts,States Rights,1829-01-01,1829-12-30
+Political Conflicts,States Rights,1835-01-01,1835-12-30
+Political Conflicts,States Rights,1838-01-01,1838-12-30
+Political Conflicts,States Rights,1840-01-01,1843-12-30
+Social Movements,Anti-Slavery Movements,1819-01-01,1823-12-30
+Social Movements,Anti-Slavery Movements,1831-01-01,1833-12-30
+Social Movements,Anti-Slavery Movements,1835-01-01,1841-12-30
+Social Movements,Anti-Slavery Movements,1843-01-01,1846-12-30
+Social Movements,Emancipation,1819-01-01,1820-12-30
+Social Movements,Emancipation,1822-01-01,1822-12-30
+Social Movements,Emancipation,1826-01-01,1827-12-30
+Social Movements,Emancipation,1831-01-01,1835-12-30
+Social Movements,Emancipation,1837-01-01,1839-12-30
+Social Movements,Emancipation,1843-01-01,1843-12-30
+Social Movements,Emancipation,1847-01-01,1847-12-30
+Political Conflicts,Missouri Compromise,1819-01-01,1822-12-30
+Political Conflicts,Missouri Compromise,1824-01-01,1824-12-30
+Political Conflicts,Missouri Compromise,1827-01-01,1827-12-30
+Political Conflicts,Missouri Compromise,1832-01-01,1832-12-30
+Political Conflicts,Missouri Compromise,1835-01-01,1835-12-30
+Political Conflicts,Missouri Compromise,1837-01-01,1837-12-30
+American Elections,Presidential 1824,1819-01-01,1826-12-30
+American Elections,Presidential 1824,1828-01-01,1828-12-30
+American Elections,Presidential 1824,1831-01-01,1831-12-30
+American Elections,Presidential 1824,1845-01-01,1845-12-30
+Rebellions,Slave Rebellions,1819-01-01,1819-12-30
+Regional Histories,South,1819-01-01,1820-12-30
+Regional Histories,South,1831-01-01,1833-12-30
+Regional Histories,South,1835-01-01,1838-12-30
+Social Movements,Suffrage,1819-01-01,1819-12-30
+Social Movements,Suffrage,1827-01-01,1827-12-30
+American Law,Fugitive Slave Laws,1820-01-01,1820-12-30
+American Law,Fugitive Slave Laws,1822-01-01,1822-12-30
+American Law,Fugitive Slave Laws,1838-01-01,1839-12-30
+American Law,Fugitive Slave Laws,1841-01-01,1844-12-30
+Political Conflicts,Nullification,1820-01-01,1820-12-30
+Political Conflicts,Nullification,1830-01-01,1841-12-30
+Social Movements,Pro-Slavery Movements,1820-01-01,1821-12-30
+Territorial Expansion,Texas Annexation,1820-01-01,1820-12-30
+Territorial Expansion,Texas Annexation,1838-01-01,1838-12-30
+Territorial Expansion,Texas Annexation,1841-01-01,1846-12-30
+Religious Movements,Second Great Awakening,1821-01-01,1821-12-30
+Political Eras,Era of Good Feelings,1823-01-01,1824-12-30
+Political Eras,Era of Good Feelings,1831-01-01,1831-12-30
+Diplomacy,Monroe Doctrine,1823-01-01,1824-12-30
+Political Conflicts,Corrupt Bargain,1824-01-01,1825-12-30
+Political Conflicts,Corrupt Bargain,1827-01-01,1828-12-30
+Political Conflicts,Corrupt Bargain,1830-01-01,1830-12-30
+Political Conflicts,Corrupt Bargain,1844-01-01,1844-12-30
+Infrastructure,Railroads,1826-01-01,1838-12-30
+Infrastructure,Railroads,1843-01-01,1847-12-30
+Science and Technology,Telegraph,1826-01-01,1826-12-30
+Science and Technology,Telegraph,1841-01-01,1841-12-30
+Political Factions,Anti-Masonic Party,1827-01-01,1839-12-30
+Political Factions,Anti-Masonic Party,1841-01-01,1841-12-30
+American Elections,Presidential 1828,1827-01-01,1829-12-30
+American Elections,Presidential 1828,1831-01-01,1831-12-30
+American Elections,Presidential 1828,1835-01-01,1835-12-30
+Social Movements,Temperance Movement,1827-01-01,1827-12-30
+Social Movements,Temperance Movement,1831-01-01,1847-12-30
+American Elections,Presidential 1832,1828-01-01,1834-12-30
+Political Systems,Spoils System,1829-01-01,1833-12-30
+Political Systems,Spoils System,1840-01-01,1841-12-30
+Political Systems,Spoils System,1846-01-01,1846-12-30
+Political Factions,Democratic Party,1830-01-01,1830-12-30
+Political Factions,Democratic Party,1834-01-01,1846-12-30
+Political Factions,National Republican Party,1830-01-01,1834-12-30
+Economics,Tariff of 1828,1830-01-01,1833-12-30
+Economics,American System,1831-01-01,1831-12-30
+Economics,American System,1833-01-01,1833-12-30
+Economics,American System,1835-01-01,1835-12-30
+Social Movements,Anti-Slavery Petitions,1831-01-01,1847-12-30
+Political Systems,National Nominating Conventions,1831-01-01,1832-12-30
+Political Systems,National Nominating Conventions,1839-01-01,1840-12-30
+Political Systems,National Nominating Conventions,1843-01-01,1843-12-30
+Territorial Expansion,Northwest Ordinance,1831-01-01,1831-12-30
+Territorial Expansion,Northwest Ordinance,1835-01-01,1835-12-30
+Territorial Expansion,Northwest Ordinance,1837-01-01,1838-12-30
+Territorial Expansion,Northwest Ordinance,1843-01-01,1844-12-30
+Economics,Tariff of 1816,1831-01-01,1831-12-30
+American Law,Alien and Sedition Acts,1833-01-01,1834-12-30
+American Law,Alien and Sedition Acts,1836-01-01,1836-12-30
+American Elections,Presidential 1836,1833-01-01,1837-12-30
+American Elections,Presidential 1836,1839-01-01,1840-12-30
+Indigenous Peoples,Indian Removal,1834-01-01,1834-12-30
+Indigenous Peoples,Indian Removal,1838-01-01,1838-12-30
+Indigenous Peoples,Indian Removal,1843-01-01,1843-12-30
+Political Factions,Whig Party,1834-01-01,1847-12-30
+Education,Smithsonian Institution,1835-01-01,1847-12-30
+American Politics,Federalist Papers,1836-01-01,1837-12-30
+American Law,Gag Rule,1836-01-01,1845-12-30
+Military Conflicts,Texas Revolution and Independence,1836-01-01,1838-12-30
+Military Conflicts,Texas Revolution and Independence,1843-01-01,1843-12-30
+Economic Crises,Panic of 1837,1837-01-01,1837-12-30
+American Elections,Presidential 1840,1837-01-01,1841-12-30
+Legal Conflicts,Amistad,1839-01-01,1845-12-30
+Legal Conflicts,Amistad,1847-01-01,1847-12-30
+Philosophical Movements,Transcendentalism,1840-01-01,1840-12-30
+Philosophical Movements,Transcendentalism,1846-01-01,1846-12-30
+Treaties,Webster-Ashburton Treaty,1842-01-01,1847-12-30
+American Elections,Presidential 1844,1843-01-01,1846-12-30
+Religion and Society,Church of Jesus Christ of Latter-day Saints,1844-01-01,1844-12-30
+Political Factions,American Party,1846-01-01,1846-12-30
+American Military History,Mexican War,1846-01-01,1848-12-30
+Political Conflicts,Wilmot Proviso,1846-01-01,1846-12-30
+American Elections,Presidential 1848,1847-01-01,1847-12-30

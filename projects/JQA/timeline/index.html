@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JQA Timeline</title>
+  <meta charset="utf-8">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/5.9.0/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="../../../gtime/dist/d3-gtimeline.full.umd.cjs" type="text/javascript"></script>
+  <link rel="stylesheet" href="../../../styles/oldstyles.css"></link>
+  <style type="text/css">
+    div.tooltip {
+      position: absolute;
+      text-align: center;
+      padding: 5px;
+      font: 12px sans-serif;
+      background: white;
+      border: 1px solid #AAA;
+      border-radius: 2px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+	<header id="menu">
+		<script src="../../../styles/menu.js?v1"></script>
+	</header>
+	
+	<div class="main-body">
+
+  <h1 class = "title">Timeline Chart</h1>
+  <div id="chart"></div>
+
+  <script>
+	// Function to create the timeline chart
+	function drawChart(data) {
+		// Creating the timeline chart
+		const chart = d3.timeline().duration(500);
+
+		// Select the div with id 'chart' and apply the data to it
+		d3.selectAll('#chart').datum(data).call(chart);
+	}
+
+	// Function to transform the CSV data into the format needed for the timeline
+	function transformData(data) {
+		return data.map(d => [
+			d.role,
+			d.name,
+			new Date(d.start),
+			new Date(d.end)
+		]);
+	}
+
+	// Load the CSV file asynchronously
+	d3.csv("timeline.csv", function(row) {
+		return {
+			role: row.Role,
+			name: row.Name,
+			start: new Date(row.Start),
+			end: new Date(row.End)
+		};
+	}).then(function(data) {
+		// Transform the data into the format needed by the timeline
+		const transformedData = transformData(data);
+
+		// After the data is transformed, draw the chart
+		drawChart(transformedData);
+	}).catch(function(error) {
+		console.error("Error loading the CSV file:", error);
+	});
+</script>
+
+</div>
+
+</body>
+
+</html>

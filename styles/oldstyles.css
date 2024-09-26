@@ -21,7 +21,7 @@ body {
 }
 
 .main-body {
-    max-width: 1080px;
+    max-width: 1600px;
     margin: 50px auto;
     background-color: #fdeed8; 
     color: #353135;
@@ -30,6 +30,7 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2); 
     transform: rotate(0.0deg); /* No idea why but this causes the texture to apply, otherwise it won't */
     z-index: 0;
+    border-radius: 20px;
     
 }
 
@@ -44,6 +45,7 @@ body {
     background: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png') repeat; /*texture  */
     filter: contrast(120%) brightness(90%);
     transform: rotate(0.0deg); 
+    border-radius: 20px;
 }
 
 
@@ -59,6 +61,7 @@ body {
     box-shadow: -10px 20px 30px rgba(0, 0, 0, 0.5); 
     transform: rotate(0.0deg); 
     z-index: -3;
+    border-radius: 20px;
 }
 
 
