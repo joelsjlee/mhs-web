@@ -144,7 +144,7 @@ Category_list = {
 }
 
 
-def createTimelineData(type, filepath,output):
+def createTimelineData(type, filepath,output,sorted=False):
     """
 
     Args:
@@ -202,7 +202,7 @@ def createTimelineData(type, filepath,output):
 
 
     for subject in sub_dict:
-        print(subject)
+
         for year_range in sub_dict[subject]:
             new_line = []
 
@@ -220,13 +220,38 @@ def createTimelineData(type, filepath,output):
 
             csv_lines.append(new_line)
 
-    with open(output, 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerows(csv_lines)
+
+    if sorted == True:
+        csv_lines.pop(0)
+        categories = list(Category_list.values())
+        newlines = [["Role","Name","Start","End"]]
+
+        for cat in categories:
+            incat = []
+
+
+            for line in range(len(csv_lines)):
+                if Category_list[csv_lines[line][1]] == cat:
+                    incat.append(csv_lines[line])
+
+            newlines += incat
+        print(newlines)
+
+        with open(output, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerows(newlines)
+
+    else:
+        with open(output, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerows(csv_lines)
 
 
 createTimelineData("Cats","1779_1848.csv","groupedtimeline.csv")
 createTimelineData("Full","1779_1848.csv","timeline.csv")
+createTimelineData("Full","1779_1848.csv","sortedtimeline.csv",True)
+
+
 
 
 
