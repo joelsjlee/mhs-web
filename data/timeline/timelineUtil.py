@@ -215,8 +215,8 @@ def createTimelineData(type, filepath,output):
                 return
 
             new_line.append(subject)
-            new_line.append(str(min(year_range))+"-01-01")
-            new_line.append(str(max(year_range))+"-12-30")
+            new_line.append(str(min(year_range))+"-01-02")
+            new_line.append(str(max(year_range))+"-12-31")
 
             csv_lines.append(new_line)
 

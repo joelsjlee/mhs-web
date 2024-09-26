@@ -64,11 +64,30 @@
 		// Transform the data into the format needed by the timeline
 		const transformedData = transformData(data);
 
+		
 		// After the data is transformed, draw the chart
 		drawChart(transformedData);
 	}).catch(function(error) {
 		console.error("Error loading the CSV file:", error);
 	});
+/*
+	var Ystart = 1794;
+
+
+	StartDateStr = String(Ystart) + "01" + "01";
+	console.log(StartDateStr);
+
+	var Yend = 1798
+
+	EndDateStr = String(Yend) + "12" + "30";
+	console.log(EndDateStr);
+
+	var subjecttitle = "American Revolution"
+
+	SearchSubject = subjecttitle.replace(" ","%20")
+
+	console.log("https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22"+SearchSubject+"%22%20%2Bdate_when%3A%5B"+StartDateStr+"%20TO%20"+EndDateStr+"%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning")
+*/ 
 </script>
 
 </div>

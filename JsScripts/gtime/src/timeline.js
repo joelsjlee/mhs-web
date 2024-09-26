@@ -3,7 +3,23 @@ import { timelineAxisLeft, timelineAxisRight } from "./timelineaxis";
 import tooltip from "./tooltip";
 import { durationFormat, f, pipe } from "./utils";
 
-
+const google_colors = [
+  "#4285f4",
+  "#db4437",
+  "#f4b400",
+  "#0f9d58",
+  "#ab47bc",
+  "#5e97f5",
+  "#e06055",
+  "#f5bf26",
+  "#33ab71",
+  "#b762c6",
+  "#00acc1",
+  "#ff855f",
+  "#9e9d24",
+  "#26b8ca",
+  "#ff7043",
+];
 
 function getFontSize(element) {
   const style = window.getComputedStyle(element, null).getPropertyValue("font-size");
@@ -22,12 +38,20 @@ function textColor(value) {
   return isBright(d3.color(value)) ? "black" : "white";
 }
 
+function formatDate(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based, so add 1
+  const day = String(date.getDate()).padStart(2, '0');
+  
+  return `${year}${month}${day}`;
+}
+
 function translate(x, y) {
   return "translate(" + x + "," + y + ")";
 }
 
 export default function () {
-  let colors = d3.schemeSet3.slice(0, 30),
+  let colors = google_colors,
     padding = 5,
     milestone_width = 2,
     reversed = false,
@@ -146,6 +170,7 @@ export default function () {
 
       tasks.exit().remove();
 
+      
       const tasks_enter = tasks.enter().append("g").classed("task", true);
 
       tasks_enter
@@ -154,7 +179,29 @@ export default function () {
         .attr("height", yScale.bandwidth() - 2 * padding)
         .on("mouseover", tip.show)
         .on("mouseout", tip.hide)
+        .on("click", function(event, d) {
+          // Takes you to primary source co-op realted data 
+
+          // Extracts subject and formats space 
+          var subjecttitle = String(d[1]);
+	        var SearchSubject = subjecttitle.replace(" ","%20");
+          
+          
+          // Extracts start date and formats it 
+          var Ystart = d[2];
+          var StartDateStr = formatDate(Ystart);
+
+          // Extracts end date and formats it 
+          var Yend = d[3];
+          var EndDateStr = formatDate(Yend);
+
+          var url = ("https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22"+SearchSubject+"%22%20%2Bdate_when%3A%5B"+StartDateStr+"%20TO%20"+EndDateStr+"%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning")
+
+          window.open(url, "_blank")
+
+      })
         .style("fill", pipe(names, cScale));
+        
 
       tasks_enter
         .append("text")
