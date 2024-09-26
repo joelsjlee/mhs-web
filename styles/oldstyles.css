@@ -18,6 +18,7 @@ body {
     color: #353135;
     justify-content: center;
     align-items: center;
+    background-image: url('../images/boston.jpg');
 }
 
 .main-body {
