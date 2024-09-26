@@ -94,6 +94,13 @@ const geosText = document.createTextNode('Geo-References');
 geosA.append(geosText);
 toolsDiv.append(geosA);
 
+// timeline
+const TimelinesA = document.createElement('a');
+TimelinesA.setAttribute('href', '/tools/timelines/index.html');
+const TimelinesText = document.createTextNode('Timelines');
+TimelinesA.append(TimelinesText);
+toolsDiv.append(TimelinesA);
+
 
 // Append <a> to project <div>
 tools.append(toolsDiv); // Append <div> to project

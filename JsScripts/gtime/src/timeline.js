@@ -126,13 +126,15 @@ export default function () {
         xScale = d3.scaleTime().domain(dates),
         yAxis = (reversed ? timelineAxisRight : timelineAxisLeft)(yScale).width(width),
         svg = d3.select(this).selectAll("svg").data([1]).join("svg");
+       
 
       svg
         .attr("class", "timeline")
         .attr("width", width)
-        .attr("height", height + 20); // margin.bottom
+        .attr("height", height + 40); // margin.bottom
+       
 
-      const g = svg.append("g");
+      const g = svg.append("g").attr("transform", "translate(" + 0 + "," + 20 + ")");;
 
       const yGroup = g.append("g").attr("class", "y axis").call(yAxis);
 
@@ -143,8 +145,23 @@ export default function () {
       const xGroup = g
         .append("g")
         .attr("class", "x axis")
-        .attr("transform", translate(0, height))
+        .attr("transform", translate(0, 0))
         .call(xAxis);
+
+        xGroup.selectAll(".tick text")
+        .attr("dy", "-1.5em");  // Move text up by 1em
+
+        xGroup.selectAll(".tick line")
+        .attr("y2", "-5");
+
+        const xAxisBottom = d3.axisBottom(xScale);  // Standard bottom axis
+const xGroupBottom = svg
+  .append("g")
+  .attr("class", "x axis bottom-axis")
+  .attr("transform", translate(0, height+20))  // Position at the bottom of the chart
+  .call(xAxisBottom);
+
+  xGroupBottom.selectAll(".tick line").attr("y2", "5");
 
       yGroup.on("offset", () => {
         range = yAxis.range();
