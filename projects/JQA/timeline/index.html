@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/5.9.0/d3.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-  <script src="../../../gtime/dist/d3-gtimeline.full.umd.cjs" type="text/javascript"></script>
+  <script src="../../../JsScripts/gtime/dist/d3-gtimeline.full.umd.cjs" type="text/javascript"></script>
   <link rel="stylesheet" href="../../../styles/oldstyles.css"></link>
   <style type="text/css">
     div.tooltip {
@@ -53,7 +53,7 @@
 	}
 
 	// Load the CSV file asynchronously
-	d3.csv("timeline.csv", function(row) {
+	d3.csv("../../../data/timeline/timeline.csv", function(row) {
 		return {
 			role: row.Role,
 			name: row.Name,

@@ -144,71 +144,89 @@ Category_list = {
 }
 
 
+def createTimelineData(type, filepath,output):
+    """
+
+    Args:
+        type: (str) Cat or Full to represent the type of timeline
+        filepath: (str) csv file of data
+        output: (str) csv filename to output
+
+    Returns:
+
+    """
+
+    sub_dict = {}
 
 
-sub_dict = {}
+    df = pd.read_csv(filepath, sep =",")
 
-filepath = "1779_1848.csv"
+    # Iterates through each subject..
+    for subject in df.subjects.unique():
+        year_ranges = []
 
-df = pd.read_csv(filepath, sep =",")
-
-# Iterates through each subject..
-for subject in df.subjects.unique():
-    year_ranges = []
-
-    # All of the years a particular subject is mentioned
-    filtered_years = df['year'][df['subjects'] == subject].tolist()
-
-    # If there is only oen year, it is set as the start and end date
-    if len(filtered_years) == 1:
-        year_ranges.append([filtered_years[0],filtered_years[0]])
-
-    # If there is more than one..
-    else:
-        current_range = [filtered_years[0]]
-
-        for i in range(1, len(filtered_years)):
-            # If the current year is consecutive to the previous year, extend the range
-            if filtered_years[i] == filtered_years[i - 1] + 1:
-                current_range.append(filtered_years[i])
-            else:
-                # If there is only oen year, it is set as the start and end date
-                if len(current_range) == 1:
-                    current_range.append(current_range[0])
-                # Otherwise, close the current range and start a new one
-                year_ranges.append(current_range)
-                current_range = [filtered_years[i]]
+        # All of the years a particular subject is mentioned
+        filtered_years = df['year'][df['subjects'] == subject].tolist()
 
         # If there is only oen year, it is set as the start and end date
-        if len(current_range) == 1:
-            current_range.append(current_range[0])
+        if len(filtered_years) == 1:
+            year_ranges.append([filtered_years[0],filtered_years[0]])
 
-        # Add the last range to the list
-        if current_range:
-            year_ranges.append(current_range)
+        # If there is more than one..
+        else:
+            current_range = [filtered_years[0]]
 
-    sub_dict[subject] = year_ranges
+            for i in range(1, len(filtered_years)):
+                # If the current year is consecutive to the previous year, extend the range
+                if filtered_years[i] == filtered_years[i - 1] + 1:
+                    current_range.append(filtered_years[i])
+                else:
+                    # If there is only oen year, it is set as the start and end date
+                    if len(current_range) == 1:
+                        current_range.append(current_range[0])
+                    # Otherwise, close the current range and start a new one
+                    year_ranges.append(current_range)
+                    current_range = [filtered_years[i]]
 
-csv_lines = [["Role","Name","Start","End"]]
+            # If there is only oen year, it is set as the start and end date
+            if len(current_range) == 1:
+                current_range.append(current_range[0])
+
+            # Add the last range to the list
+            if current_range:
+                year_ranges.append(current_range)
+
+        sub_dict[subject] = year_ranges
+
+    csv_lines = [["Role","Name","Start","End"]]
 
 
-for subject in sub_dict:
-    print(subject)
-    for year_range in sub_dict[subject]:
-        new_line = []
-        new_line.append(Category_list[subject])
-        new_line.append(subject)
-        new_line.append(str(min(year_range))+"-01-01")
-        new_line.append(str(max(year_range))+"-12-30")
+    for subject in sub_dict:
+        print(subject)
+        for year_range in sub_dict[subject]:
+            new_line = []
 
-        csv_lines.append(new_line)
+            if type == "Cats":
+                new_line.append(Category_list[subject])
+            elif type == "Full":
+                new_line.append(subject)
+            else:
+                print("ERROR: TYPE MUST BE EITHER 'Cats' or 'Full'")
+                return
+
+            new_line.append(subject)
+            new_line.append(str(min(year_range))+"-01-01")
+            new_line.append(str(max(year_range))+"-12-30")
+
+            csv_lines.append(new_line)
+
+    with open(output, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(csv_lines)
 
 
-
-with open('timeline.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerows(csv_lines)
-
+createTimelineData("Cats","1779_1848.csv","groupedtimeline.csv")
+createTimelineData("Full","1779_1848.csv","timeline.csv")
 
 
 
