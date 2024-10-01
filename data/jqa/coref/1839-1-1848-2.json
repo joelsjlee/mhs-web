@@ -2,8 +2,8 @@
     "metrics": {
         "weight_min": "14",
         "num_entries": "3680",
-        "avg_entry_len": "2315.491304347826",
-        "pers_ref_avg": "12.824184782608695",
+        "avg_entry_len": "2313.277445652174",
+        "pers_ref_avg": "12.82391304347826",
         "num_nodes": 184,
         "num_edges": 630
     },
@@ -2460,7 +2460,7 @@
             "target": "adams-ann"
         },
         {
-            "weight": 32,
+            "weight": 33,
             "source": "adams-elizabeth",
             "target": "adams-isaac"
         },
@@ -2845,7 +2845,7 @@
             "target": "lunt-william"
         },
         {
-            "weight": 30,
+            "weight": 31,
             "source": "adams-georgeanna",
             "target": "adams-louisa-catherine"
         },
@@ -2900,7 +2900,7 @@
             "target": "hellen-mary"
         },
         {
-            "weight": 14,
+            "weight": 15,
             "source": "adams-isaac",
             "target": "lunt-william"
         },
@@ -2960,7 +2960,7 @@
             "target": "adams-louisa3"
         },
         {
-            "weight": 90,
+            "weight": 91,
             "source": "adams-louisa-catherine",
             "target": "adams-mary4"
         },
@@ -3035,7 +3035,7 @@
             "target": "smith-louisa"
         },
         {
-            "weight": 24,
+            "weight": 25,
             "source": "adams-louisa-catherine",
             "target": "thomas-john7"
         },
@@ -4105,7 +4105,7 @@
             "target": "hopkins-george"
         },
         {
-            "weight": 21,
+            "weight": 22,
             "source": "ingersoll-charles",
             "target": "houston-george"
         },
@@ -4125,7 +4125,7 @@
             "target": "johnson-cave"
         },
         {
-            "weight": 24,
+            "weight": 25,
             "source": "ingersoll-charles",
             "target": "jones-john9"
         },
@@ -4785,12 +4785,12 @@
             "target": "davis-john11"
         },
         {
-            "weight": 20,
+            "weight": 21,
             "source": "dromgoole-george",
             "target": "davis-john8"
         },
         {
-            "weight": 19,
+            "weight": 20,
             "source": "dromgoole-george",
             "target": "duncan-alexander"
         },
@@ -4800,7 +4800,7 @@
             "target": "eastman-ira"
         },
         {
-            "weight": 14,
+            "weight": 15,
             "source": "dromgoole-george",
             "target": "hamlin-hannibal"
         },
@@ -4815,7 +4815,7 @@
             "target": "johnson-cave"
         },
         {
-            "weight": 37,
+            "weight": 38,
             "source": "dromgoole-george",
             "target": "jones-john9"
         },

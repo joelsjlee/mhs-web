@@ -2,7 +2,7 @@
     "metrics": {
         "weight_min": "16",
         "num_entries": "7442",
-        "avg_entry_len": "1168.824778285407",
+        "avg_entry_len": "1166.9892502015587",
         "pers_ref_avg": "6.459957000806235",
         "num_nodes": 212,
         "num_edges": 750
@@ -2871,7 +2871,7 @@
             "target": "adams-louisa-catherine"
         },
         {
-            "weight": 31,
+            "weight": 32,
             "source": "adams-ann",
             "target": "adams-mary4"
         },
@@ -2956,7 +2956,7 @@
             "target": "adams-louisa-catherine"
         },
         {
-            "weight": 48,
+            "weight": 49,
             "source": "adams-elizabeth",
             "target": "adams-mary4"
         },
@@ -4516,7 +4516,7 @@
             "target": "biddle-nicholas"
         },
         {
-            "weight": 29,
+            "weight": 30,
             "source": "jackson-andrew",
             "target": "binney-horace"
         },
@@ -4941,7 +4941,7 @@
             "target": "bell-john"
         },
         {
-            "weight": 17,
+            "weight": 18,
             "source": "polk-james",
             "target": "binney-horace"
         },

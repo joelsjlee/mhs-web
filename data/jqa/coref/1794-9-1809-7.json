@@ -2,10 +2,10 @@
     "metrics": {
         "weight_min": "4",
         "num_entries": "8688",
-        "avg_entry_len": "409.9295580110497",
+        "avg_entry_len": "409.74182780847144",
         "pers_ref_avg": "3.485842541436464",
         "num_nodes": 268,
-        "num_edges": 697
+        "num_edges": 699
     },
     "directed": false,
     "multigraph": false,
@@ -13,8 +13,8 @@
     "nodes": [
         {
             "degree": 8,
-            "betweenness": 0.008348969215437672,
-            "eigenvector": 0.07077955537783548,
+            "betweenness": 0.008202911424587154,
+            "eigenvector": 0.07097343737719232,
             "degree_cent": 0.032,
             "modularity": 0,
             "id": "adams-john",
@@ -26,8 +26,8 @@
         },
         {
             "degree": 6,
-            "betweenness": 0.0017830039438925295,
-            "eigenvector": 0.05978107451887573,
+            "betweenness": 0.0017049288061336267,
+            "eigenvector": 0.06059009841022968,
             "degree_cent": 0.024,
             "modularity": 0,
             "id": "adams-abigail",
@@ -38,10 +38,10 @@
             "date_of_death": "1818"
         },
         {
-            "degree": 98,
-            "betweenness": 0.6168071459686135,
-            "eigenvector": 0.45118249407794186,
-            "degree_cent": 0.392,
+            "degree": 99,
+            "betweenness": 0.6181464211825693,
+            "eigenvector": 0.4574319142634032,
+            "degree_cent": 0.396,
             "modularity": 0,
             "id": "adams-louisa-catherine",
             "given_name": "Louisa",
@@ -52,8 +52,8 @@
         },
         {
             "degree": 16,
-            "betweenness": 0.08219732070303101,
-            "eigenvector": 0.11844648610635936,
+            "betweenness": 0.08208253191181644,
+            "eigenvector": 0.11858281872507334,
             "degree_cent": 0.064,
             "modularity": 2,
             "id": "adams-thomas",
@@ -65,8 +65,8 @@
         },
         {
             "degree": 9,
-            "betweenness": 0.002554544715347884,
-            "eigenvector": 0.0716057344484093,
+            "betweenness": 0.0012436727039136675,
+            "eigenvector": 0.0751075149416187,
             "degree_cent": 0.036000000000000004,
             "modularity": 0,
             "id": "gardner-john",
@@ -79,7 +79,7 @@
         {
             "degree": 5,
             "betweenness": 0.008053547523427042,
-            "eigenvector": 0.04710598018725979,
+            "eigenvector": 0.047454861252178376,
             "degree_cent": 0.02,
             "modularity": 4,
             "id": "pope-alexander",
@@ -91,8 +91,8 @@
         },
         {
             "degree": 26,
-            "betweenness": 0.06595620975635054,
-            "eigenvector": 0.11057506092770966,
+            "betweenness": 0.06429524960656714,
+            "eigenvector": 0.11500284492881171,
             "degree_cent": 0.10400000000000001,
             "modularity": 0,
             "id": "welsh-thomas",
@@ -105,7 +105,7 @@
         {
             "degree": 4,
             "betweenness": 2.784471218206158e-05,
-            "eigenvector": 0.047574760599754524,
+            "eigenvector": 0.04845955917351795,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "adams-john2",
@@ -118,7 +118,7 @@
         {
             "degree": 4,
             "betweenness": 2.391789379741187e-05,
-            "eigenvector": 0.048548611626268785,
+            "eigenvector": 0.04923005236375141,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "adams-george",
@@ -130,8 +130,8 @@
         },
         {
             "degree": 15,
-            "betweenness": 0.009243618808141237,
-            "eigenvector": 0.09695267145890372,
+            "betweenness": 0.009064759397679622,
+            "eigenvector": 0.09780754637063606,
             "degree_cent": 0.06,
             "modularity": 0,
             "id": "frye-carolina",
@@ -144,7 +144,7 @@
         {
             "degree": 4,
             "betweenness": 5.8902275769745655e-05,
-            "eigenvector": 0.045498068972310686,
+            "eigenvector": 0.04611267313607291,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "birdsavagebird",
@@ -156,8 +156,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.0004783936549258705,
-            "eigenvector": 0.011140003802743808,
+            "betweenness": 0.0004730389025831663,
+            "eigenvector": 0.011163432021529742,
             "degree_cent": 0.016,
             "modularity": 4,
             "id": "derabutin-marie",
@@ -169,8 +169,8 @@
         },
         {
             "degree": 38,
-            "betweenness": 0.13906124773480277,
-            "eigenvector": 0.22388429652229838,
+            "betweenness": 0.13909410805380013,
+            "eigenvector": 0.21862104682939898,
             "degree_cent": 0.152,
             "modularity": 1,
             "id": "jefferson-thomas",
@@ -182,8 +182,8 @@
         },
         {
             "degree": 9,
-            "betweenness": 0.01599371227043657,
-            "eigenvector": 0.048173254341247626,
+            "betweenness": 0.016002903436254243,
+            "eigenvector": 0.04853839752159692,
             "degree_cent": 0.036000000000000004,
             "modularity": 4,
             "id": "whitney-peter",
@@ -195,8 +195,8 @@
         },
         {
             "degree": 14,
-            "betweenness": 0.014988506138983386,
-            "eigenvector": 0.08181081039586297,
+            "betweenness": 0.013646008851914504,
+            "eigenvector": 0.08578912948315102,
             "degree_cent": 0.056,
             "modularity": 0,
             "id": "shaw-william",
@@ -209,7 +209,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "alcibiades",
@@ -222,7 +222,7 @@
         {
             "degree": 5,
             "betweenness": 3.996940141518455e-05,
-            "eigenvector": 0.06338593356944236,
+            "eigenvector": 0.06372965483694878,
             "degree_cent": 0.02,
             "modularity": 2,
             "id": "alvensleben-philipp",
@@ -235,7 +235,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "ambrosi-wenzel",
@@ -246,10 +246,10 @@
             "date_of_death": "1818"
         },
         {
-            "degree": 15,
-            "betweenness": 0.007827087777480642,
-            "eigenvector": 0.12387230593040205,
-            "degree_cent": 0.06,
+            "degree": 16,
+            "betweenness": 0.00813311218591469,
+            "eigenvector": 0.12710594979730927,
+            "degree_cent": 0.064,
             "modularity": 2,
             "id": "arbuthnot-robert",
             "given_name": "Robert",
@@ -260,8 +260,8 @@
         },
         {
             "degree": 11,
-            "betweenness": 0.02208925398563954,
-            "eigenvector": 0.07372653674496202,
+            "betweenness": 0.022088929455194528,
+            "eigenvector": 0.07407379298765138,
             "degree_cent": 0.044,
             "modularity": 2,
             "id": "augustusferdinand",
@@ -273,8 +273,8 @@
         },
         {
             "degree": 8,
-            "betweenness": 0.033351003049553775,
-            "eigenvector": 0.05264984350005805,
+            "betweenness": 0.03335570874100646,
+            "eigenvector": 0.05294436415469247,
             "degree_cent": 0.032,
             "modularity": 4,
             "id": "black-moses",
@@ -286,8 +286,8 @@
         },
         {
             "degree": 7,
-            "betweenness": 0.0014282756221227657,
-            "eigenvector": 0.0643475845474004,
+            "betweenness": 0.0002497178543953882,
+            "eigenvector": 0.06762503365607914,
             "degree_cent": 0.028,
             "modularity": 0,
             "id": "boylston-ward",
@@ -299,8 +299,8 @@
         },
         {
             "degree": 34,
-            "betweenness": 0.040187049802427446,
-            "eigenvector": 0.20433411447983446,
+            "betweenness": 0.04014274461769849,
+            "eigenvector": 0.20508487284919708,
             "degree_cent": 0.136,
             "modularity": 2,
             "id": "brown-charles",
@@ -312,8 +312,8 @@
         },
         {
             "degree": 12,
-            "betweenness": 0.0008925610137134072,
-            "eigenvector": 0.11713365014727062,
+            "betweenness": 0.0008925917881521583,
+            "eigenvector": 0.11771367037878865,
             "degree_cent": 0.048,
             "modularity": 2,
             "id": "brown-fanny",
@@ -325,8 +325,8 @@
         },
         {
             "degree": 12,
-            "betweenness": 0.0008925610137134072,
-            "eigenvector": 0.11713365014727062,
+            "betweenness": 0.0008925917881521583,
+            "eigenvector": 0.11771367037878865,
             "degree_cent": 0.048,
             "modularity": 2,
             "id": "brown-isabella",
@@ -338,8 +338,8 @@
         },
         {
             "degree": 12,
-            "betweenness": 0.0008925610137134072,
-            "eigenvector": 0.11713365014727062,
+            "betweenness": 0.0008925917881521583,
+            "eigenvector": 0.11771367037878865,
             "degree_cent": 0.048,
             "modularity": 2,
             "id": "brown-margaret",
@@ -351,8 +351,8 @@
         },
         {
             "degree": 19,
-            "betweenness": 0.008292500103112287,
-            "eigenvector": 0.1436519618124137,
+            "betweenness": 0.008298534690783767,
+            "eigenvector": 0.14425926085534493,
             "degree_cent": 0.076,
             "modularity": 2,
             "id": "brown-mary",
@@ -364,8 +364,8 @@
         },
         {
             "degree": 10,
-            "betweenness": 0.0007815579370793858,
-            "eigenvector": 0.10686799634078684,
+            "betweenness": 0.0007815887115181369,
+            "eigenvector": 0.10743379115768749,
             "degree_cent": 0.04,
             "modularity": 2,
             "id": "brown-william5",
@@ -378,7 +378,7 @@
         {
             "degree": 7,
             "betweenness": 1.5299292407726142e-05,
-            "eigenvector": 0.07600018362347373,
+            "eigenvector": 0.07637673797086879,
             "degree_cent": 0.028,
             "modularity": 2,
             "id": "bruhl-maria",
@@ -391,7 +391,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03432469260631267,
+            "eigenvector": 0.034657608253169075,
             "degree_cent": 0.008,
             "modularity": 4,
             "id": "butler-joseph",
@@ -404,7 +404,7 @@
         {
             "degree": 3,
             "betweenness": 3.1363549435838593e-05,
-            "eigenvector": 0.04045395706140641,
+            "eigenvector": 0.04077630635836292,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "caillard-antoine",
@@ -417,7 +417,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03432469260631267,
+            "eigenvector": 0.034657608253169075,
             "degree_cent": 0.008,
             "modularity": 4,
             "id": "cranch-richard",
@@ -430,7 +430,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.0450590034778781,
+            "eigenvector": 0.04537998959049463,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "danadia-joao",
@@ -441,9 +441,22 @@
             "date_of_death": "1809"
         },
         {
+            "degree": 7,
+            "betweenness": 0.0009495766965170653,
+            "eigenvector": 0.06282571513435467,
+            "degree_cent": 0.028,
+            "modularity": 0,
+            "id": "davis-john",
+            "given_name": "John",
+            "middle_name": "W.",
+            "family_name": "Davis",
+            "date_of_birth": "1761",
+            "date_of_death": "1847"
+        },
+        {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "dryden-john",
@@ -455,8 +468,8 @@
         },
         {
             "degree": 7,
-            "betweenness": 0.011901654653446711,
-            "eigenvector": 0.05612111177864442,
+            "betweenness": 0.011890945148761304,
+            "eigenvector": 0.057115190265585036,
             "degree_cent": 0.028,
             "modularity": 0,
             "id": "emerson-william",
@@ -469,7 +482,7 @@
         {
             "degree": 9,
             "betweenness": 0.0006131516995182182,
-            "eigenvector": 0.09070742032875179,
+            "eigenvector": 0.09109396444388607,
             "degree_cent": 0.036000000000000004,
             "modularity": 2,
             "id": "engstrom-lars",
@@ -482,7 +495,7 @@
         {
             "degree": 4,
             "betweenness": 0.00010548862115127177,
-            "eigenvector": 0.04538432764990262,
+            "eigenvector": 0.045729818921746275,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "errington-elizabeth",
@@ -495,7 +508,7 @@
         {
             "degree": 3,
             "betweenness": 1.606425702811245e-05,
-            "eigenvector": 0.036436957074034215,
+            "eigenvector": 0.03678398556523321,
             "degree_cent": 0.012,
             "modularity": 0,
             "id": "errington-george",
@@ -508,7 +521,7 @@
         {
             "degree": 4,
             "betweenness": 2.3866896156052782e-05,
-            "eigenvector": 0.04794756046114954,
+            "eigenvector": 0.048283968488149996,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "frederica-louise2",
@@ -520,8 +533,8 @@
         },
         {
             "degree": 2,
-            "betweenness": 0.0014238045336557035,
-            "eigenvector": 0.032030437809990035,
+            "betweenness": 0.0014238945294933962,
+            "eigenvector": 0.03234909144035518,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "frederick-ii",
@@ -533,8 +546,8 @@
         },
         {
             "degree": 15,
-            "betweenness": 0.026364569053016998,
-            "eigenvector": 0.08760285627233143,
+            "betweenness": 0.02635797072182618,
+            "eigenvector": 0.08797669968993005,
             "degree_cent": 0.06,
             "modularity": 2,
             "id": "frederick-william-iii",
@@ -547,7 +560,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03351796521962183,
+            "eigenvector": 0.03385244435705226,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "frederickaugustus-i",
@@ -560,7 +573,7 @@
         {
             "degree": 13,
             "betweenness": 0.0016088241076192865,
-            "eigenvector": 0.12357761276762826,
+            "eigenvector": 0.12414961897018945,
             "degree_cent": 0.052000000000000005,
             "modularity": 2,
             "id": "garlike-benjamin",
@@ -573,7 +586,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.033302508168325716,
+            "eigenvector": 0.03363687645264013,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "gillies-john",
@@ -586,7 +599,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "golovkin-gabriel",
@@ -598,8 +611,8 @@
         },
         {
             "degree": 24,
-            "betweenness": 0.07469747761602505,
-            "eigenvector": 0.1084603951087976,
+            "betweenness": 0.07434541070709239,
+            "eigenvector": 0.11012936111036328,
             "degree_cent": 0.096,
             "modularity": 0,
             "id": "hall-joseph",
@@ -612,7 +625,7 @@
         {
             "degree": 4,
             "betweenness": 0.0,
-            "eigenvector": 0.05543773257830184,
+            "eigenvector": 0.05577121745086326,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "haugwitz-christian",
@@ -625,7 +638,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "haugwitz-johanna",
@@ -637,8 +650,8 @@
         },
         {
             "degree": 9,
-            "betweenness": 0.0012404228524710455,
-            "eigenvector": 0.07682262928795439,
+            "betweenness": 0.0012428942766292165,
+            "eigenvector": 0.0771125920642393,
             "degree_cent": 0.036000000000000004,
             "modularity": 0,
             "id": "hellen-ann",
@@ -651,7 +664,7 @@
         {
             "degree": 5,
             "betweenness": 0.0006170737785195615,
-            "eigenvector": 0.07141677206375409,
+            "eigenvector": 0.07094134683604851,
             "degree_cent": 0.02,
             "modularity": 0,
             "id": "hellen-walter",
@@ -663,8 +676,8 @@
         },
         {
             "degree": 13,
-            "betweenness": 0.015422142161586974,
-            "eigenvector": 0.10425168823238884,
+            "betweenness": 0.015428514267176936,
+            "eigenvector": 0.10394672998741011,
             "degree_cent": 0.052000000000000005,
             "modularity": 0,
             "id": "johnson-catherine",
@@ -676,8 +689,8 @@
         },
         {
             "degree": 19,
-            "betweenness": 0.08651831807524693,
-            "eigenvector": 0.08417996742278737,
+            "betweenness": 0.08649679970044524,
+            "eigenvector": 0.08446179360214083,
             "degree_cent": 0.076,
             "modularity": 0,
             "id": "johnson-joshua",
@@ -690,7 +703,7 @@
         {
             "degree": 4,
             "betweenness": 0.0,
-            "eigenvector": 0.05840036627488722,
+            "eigenvector": 0.05870704062502763,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "king-rufus",
@@ -701,11 +714,11 @@
             "date_of_death": "1827"
         },
         {
-            "degree": 1,
+            "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
-            "degree_cent": 0.004,
-            "modularity": 0,
+            "eigenvector": 0.040038842218108064,
+            "degree_cent": 0.008,
+            "modularity": 2,
             "id": "kotzbue-august",
             "given_name": "August von",
             "middle_name": "",
@@ -716,7 +729,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.033302508168325716,
+            "eigenvector": 0.03363687645264013,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "lessing-gotthold",
@@ -729,7 +742,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.053573818057292895,
+            "eigenvector": 0.054085990135501895,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "livingston-edward2",
@@ -741,8 +754,8 @@
         },
         {
             "degree": 12,
-            "betweenness": 0.00990018246503318,
-            "eigenvector": 0.08502783344076646,
+            "betweenness": 0.009890276485247686,
+            "eigenvector": 0.08542664760620763,
             "degree_cent": 0.048,
             "modularity": 2,
             "id": "louiseauguste",
@@ -754,8 +767,8 @@
         },
         {
             "degree": 30,
-            "betweenness": 0.1559620298117983,
-            "eigenvector": 0.18285119746225317,
+            "betweenness": 0.1560763269970085,
+            "eigenvector": 0.17856678046443836,
             "degree_cent": 0.12,
             "modularity": 1,
             "id": "madison-james",
@@ -768,7 +781,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "mozart-wolfgang",
@@ -781,7 +794,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.053573818057292895,
+            "eigenvector": 0.054085990135501895,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "murray-john",
@@ -793,8 +806,8 @@
         },
         {
             "degree": 7,
-            "betweenness": 0.011915411628627338,
-            "eigenvector": 0.05614285367393556,
+            "betweenness": 0.011924862229998561,
+            "eigenvector": 0.05645476392252395,
             "degree_cent": 0.028,
             "modularity": 2,
             "id": "murray-william2",
@@ -807,7 +820,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03608119803086876,
+            "eigenvector": 0.03640659392345598,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "neale-ferdinand",
@@ -820,7 +833,7 @@
         {
             "degree": 6,
             "betweenness": 0.00021666718166401112,
-            "eigenvector": 0.06890178727787062,
+            "eigenvector": 0.06926866184487426,
             "degree_cent": 0.024,
             "modularity": 2,
             "id": "neale-pauline",
@@ -833,7 +846,7 @@
         {
             "degree": 4,
             "betweenness": 0.008,
-            "eigenvector": 0.04351717256384018,
+            "eigenvector": 0.044191472966689876,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "otis-harrison",
@@ -846,7 +859,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "panin-nikita",
@@ -858,8 +871,8 @@
         },
         {
             "degree": 14,
-            "betweenness": 0.09360490472744352,
-            "eigenvector": 0.12577425671424924,
+            "betweenness": 0.09383503414568849,
+            "eigenvector": 0.12316002856092023,
             "degree_cent": 0.056,
             "modularity": 1,
             "id": "pickering-timothy",
@@ -871,8 +884,8 @@
         },
         {
             "degree": 9,
-            "betweenness": 0.03903022735198498,
-            "eigenvector": 0.06455860021206418,
+            "betweenness": 0.03899332905853105,
+            "eigenvector": 0.064956671612732,
             "degree_cent": 0.036000000000000004,
             "modularity": 0,
             "id": "pinckney-thomas",
@@ -885,7 +898,7 @@
         {
             "degree": 8,
             "betweenness": 0.0009402213700247936,
-            "eigenvector": 0.075643266242146,
+            "eigenvector": 0.07598406699194848,
             "degree_cent": 0.032,
             "modularity": 2,
             "id": "pitcairn-joseph",
@@ -898,7 +911,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.036212952367261984,
+            "eigenvector": 0.03653742185190956,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "pitcairn-stephanie",
@@ -911,7 +924,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03767767835077226,
+            "eigenvector": 0.038032756134140776,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "plautus-titus",
@@ -923,8 +936,8 @@
         },
         {
             "degree": 3,
-            "betweenness": 0.0014993818319119538,
-            "eigenvector": 0.03509043266787698,
+            "betweenness": 0.0015079239368396005,
+            "eigenvector": 0.0354222863755823,
             "degree_cent": 0.012,
             "modularity": 4,
             "id": "plutarch",
@@ -936,8 +949,8 @@
         },
         {
             "degree": 11,
-            "betweenness": 0.023435733527469006,
-            "eigenvector": 0.0852113532865918,
+            "betweenness": 0.023445372081685872,
+            "eigenvector": 0.08506686534777376,
             "degree_cent": 0.044,
             "modularity": 0,
             "id": "pope-eliza",
@@ -950,7 +963,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.05493344436818183,
+            "eigenvector": 0.05526087740184775,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "proby-elizabeth",
@@ -963,7 +976,7 @@
         {
             "degree": 8,
             "betweenness": 0.0006051488003295232,
-            "eigenvector": 0.08833492031595831,
+            "eigenvector": 0.08869442006964315,
             "degree_cent": 0.032,
             "modularity": 2,
             "id": "proby-john",
@@ -976,7 +989,7 @@
         {
             "degree": 5,
             "betweenness": 4.565471539249002e-05,
-            "eigenvector": 0.055325075943303346,
+            "eigenvector": 0.05641960176174798,
             "degree_cent": 0.02,
             "modularity": 0,
             "id": "quincy-josiah2",
@@ -988,8 +1001,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.003056217945374575,
-            "eigenvector": 0.050714826557814695,
+            "betweenness": 0.0030565424758195875,
+            "eigenvector": 0.051040738596050676,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "radziwill-anton",
@@ -1002,7 +1015,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "riqueti-honore",
@@ -1015,7 +1028,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "schulenburgkehnert-frederick",
@@ -1028,7 +1041,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "shakespeare-william",
@@ -1040,8 +1053,8 @@
         },
         {
             "degree": 7,
-            "betweenness": 0.006372232069183938,
-            "eigenvector": 0.07593755471258266,
+            "betweenness": 0.006146688156360282,
+            "eigenvector": 0.07626070073168169,
             "degree_cent": 0.028,
             "modularity": 0,
             "id": "smith-catherine-johnson",
@@ -1054,7 +1067,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "smith-louisa",
@@ -1066,8 +1079,8 @@
         },
         {
             "degree": 9,
-            "betweenness": 0.008975872320450632,
-            "eigenvector": 0.06833853168400597,
+            "betweenness": 0.00897504851239791,
+            "eigenvector": 0.06968460800442652,
             "degree_cent": 0.036000000000000004,
             "modularity": 0,
             "id": "smith-william3",
@@ -1080,7 +1093,7 @@
         {
             "degree": 8,
             "betweenness": 0.0,
-            "eigenvector": 0.09494904756221335,
+            "eigenvector": 0.09551343091252731,
             "degree_cent": 0.032,
             "modularity": 2,
             "id": "talbot-charles",
@@ -1092,8 +1105,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.0008045515489142622,
-            "eigenvector": 0.06420676803226984,
+            "betweenness": 0.0008058366894765111,
+            "eigenvector": 0.06353051977702873,
             "degree_cent": 0.016,
             "modularity": 1,
             "id": "thornton-william",
@@ -1106,7 +1119,7 @@
         {
             "degree": 3,
             "betweenness": 5.914567360350493e-05,
-            "eigenvector": 0.04118659848708571,
+            "eigenvector": 0.04157694438125189,
             "degree_cent": 0.012,
             "modularity": 0,
             "id": "tillotson-john",
@@ -1119,7 +1132,7 @@
         {
             "degree": 6,
             "betweenness": 9.944540065021993e-06,
-            "eigenvector": 0.07031871180653701,
+            "eigenvector": 0.07069106140256579,
             "degree_cent": 0.024,
             "modularity": 2,
             "id": "vonbruhl-fanny",
@@ -1132,7 +1145,7 @@
         {
             "degree": 7,
             "betweenness": 2.356091030789826e-05,
-            "eigenvector": 0.07601914366897794,
+            "eigenvector": 0.07656622735281529,
             "degree_cent": 0.028,
             "modularity": 2,
             "id": "vonbruhl-karl",
@@ -1144,8 +1157,8 @@
         },
         {
             "degree": 10,
-            "betweenness": 0.001128062570331004,
-            "eigenvector": 0.09187823575039833,
+            "betweenness": 0.0011280933447697552,
+            "eigenvector": 0.0924409849350909,
             "degree_cent": 0.04,
             "modularity": 2,
             "id": "vonbruhl-sophia",
@@ -1158,7 +1171,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "vonbulow-dietrich",
@@ -1171,7 +1184,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "vonderreck-elise",
@@ -1184,7 +1197,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.03724845378967033,
+            "eigenvector": 0.03757228601040929,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "vonengstrom-rozalia",
@@ -1196,8 +1209,8 @@
         },
         {
             "degree": 3,
-            "betweenness": 0.0014238045336557035,
-            "eigenvector": 0.03805211746940644,
+            "betweenness": 0.0014238945294933962,
+            "eigenvector": 0.03837512927215549,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "vonfinckenstein-karl",
@@ -1210,7 +1223,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.04287971961965124,
+            "eigenvector": 0.04321021623779482,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "vonvoss-sophie",
@@ -1222,8 +1235,8 @@
         },
         {
             "degree": 6,
-            "betweenness": 0.017599403662196023,
-            "eigenvector": 0.05757119798273695,
+            "betweenness": 0.017636391951487643,
+            "eigenvector": 0.057903286314930885,
             "degree_cent": 0.024,
             "modularity": 2,
             "id": "washington-george",
@@ -1235,8 +1248,8 @@
         },
         {
             "degree": 16,
-            "betweenness": 0.034505213733790445,
-            "eigenvector": 0.08356616235627984,
+            "betweenness": 0.03278013650590508,
+            "eigenvector": 0.08761977983985371,
             "degree_cent": 0.064,
             "modularity": 0,
             "id": "waterhouse-benjamin",
@@ -1248,8 +1261,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.002177667290134669,
-            "eigenvector": 0.051151367241776394,
+            "betweenness": 0.002180832965804549,
+            "eigenvector": 0.05086372444815057,
             "degree_cent": 0.016,
             "modularity": 1,
             "id": "wells-william2",
@@ -1261,8 +1274,8 @@
         },
         {
             "degree": 8,
-            "betweenness": 0.012846375464065389,
-            "eigenvector": 0.06488006812678933,
+            "betweenness": 0.012484735307556654,
+            "eigenvector": 0.06625526003928038,
             "degree_cent": 0.032,
             "modularity": 0,
             "id": "whitcomb-tilly",
@@ -1275,7 +1288,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.03101335718937045,
+            "eigenvector": 0.031332841673100804,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "wieland-christoph",
@@ -1288,7 +1301,7 @@
         {
             "degree": 4,
             "betweenness": 0.0008929009192848678,
-            "eigenvector": 0.052313616725339726,
+            "eigenvector": 0.052442766069908046,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "wilhelminaofhesse",
@@ -1300,8 +1313,8 @@
         },
         {
             "degree": 15,
-            "betweenness": 0.029390861530917453,
-            "eigenvector": 0.13493617122118143,
+            "betweenness": 0.02943267269818072,
+            "eigenvector": 0.13185095393257673,
             "degree_cent": 0.06,
             "modularity": 1,
             "id": "wright-robert",
@@ -1314,7 +1327,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0005514214395908821,
+            "eigenvector": 0.0005508126327186129,
             "degree_cent": 0.004,
             "modularity": 4,
             "id": "beale-benjamin",
@@ -1327,7 +1340,7 @@
         {
             "degree": 5,
             "betweenness": 0.008289027170954885,
-            "eigenvector": 0.008022056056934923,
+            "eigenvector": 0.008041231301471146,
             "degree_cent": 0.02,
             "modularity": 4,
             "id": "adams-peter",
@@ -1340,7 +1353,7 @@
         {
             "degree": 3,
             "betweenness": 0.008,
-            "eigenvector": 0.00419026576160011,
+            "eigenvector": 0.004197068814473614,
             "degree_cent": 0.012,
             "modularity": 4,
             "id": "greenleaf-daniel",
@@ -1352,8 +1365,8 @@
         },
         {
             "degree": 25,
-            "betweenness": 0.17875316278003953,
-            "eigenvector": 0.026170565354218744,
+            "betweenness": 0.17874371217866822,
+            "eigenvector": 0.02588610044748235,
             "degree_cent": 0.1,
             "modularity": 3,
             "id": "bielefeld-charles",
@@ -1366,7 +1379,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.004697468455189306,
+            "eigenvector": 0.004773425603925247,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "ames-fisher",
@@ -1379,7 +1392,7 @@
         {
             "degree": 7,
             "betweenness": 0.0006234105623663856,
-            "eigenvector": 0.06889667744473921,
+            "eigenvector": 0.06671692751966962,
             "degree_cent": 0.028,
             "modularity": 1,
             "id": "baldwin-abraham",
@@ -1391,8 +1404,8 @@
         },
         {
             "degree": 21,
-            "betweenness": 0.029147395073487407,
-            "eigenvector": 0.13106557570273458,
+            "betweenness": 0.029146791154050257,
+            "eigenvector": 0.12656897235373474,
             "degree_cent": 0.084,
             "modularity": 1,
             "id": "anderson-joseph",
@@ -1405,7 +1418,7 @@
         {
             "degree": 11,
             "betweenness": 0.00016896247256381077,
-            "eigenvector": 0.10496137263517355,
+            "eigenvector": 0.10145030347714165,
             "degree_cent": 0.044,
             "modularity": 1,
             "id": "bayard-james",
@@ -1417,8 +1430,8 @@
         },
         {
             "degree": 25,
-            "betweenness": 0.01599427589998921,
-            "eigenvector": 0.16025489453695543,
+            "betweenness": 0.016018338734451538,
+            "eigenvector": 0.15482169338557836,
             "degree_cent": 0.1,
             "modularity": 1,
             "id": "bradley-stephen",
@@ -1430,8 +1443,8 @@
         },
         {
             "degree": 10,
-            "betweenness": 0.0008310116278135571,
-            "eigenvector": 0.08133205784456497,
+            "betweenness": 0.000833306521674716,
+            "eigenvector": 0.07848666025024685,
             "degree_cent": 0.04,
             "modularity": 1,
             "id": "burr-aaron",
@@ -1443,8 +1456,8 @@
         },
         {
             "degree": 13,
-            "betweenness": 0.02075982086337466,
-            "eigenvector": 0.06948268262556465,
+            "betweenness": 0.020716002269027617,
+            "eigenvector": 0.06703714244749932,
             "degree_cent": 0.052000000000000005,
             "modularity": 1,
             "id": "chase-samuel",
@@ -1457,7 +1470,7 @@
         {
             "degree": 10,
             "betweenness": 0.00011805915900989488,
-            "eigenvector": 0.09601121178535985,
+            "eigenvector": 0.09273559170973843,
             "degree_cent": 0.04,
             "modularity": 1,
             "id": "clinton-george",
@@ -1470,7 +1483,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.009008595780405844,
+            "eigenvector": 0.008669409243004904,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "franklin-jesse",
@@ -1482,8 +1495,8 @@
         },
         {
             "degree": 23,
-            "betweenness": 0.03967900801415458,
-            "eigenvector": 0.13002742837110265,
+            "betweenness": 0.03961463014956393,
+            "eigenvector": 0.12563822610493108,
             "degree_cent": 0.092,
             "modularity": 1,
             "id": "giles-william",
@@ -1496,7 +1509,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.009008595780405844,
+            "eigenvector": 0.008669409243004904,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "gregg-andrew",
@@ -1509,7 +1522,7 @@
         {
             "degree": 5,
             "betweenness": 0.000535543231125561,
-            "eigenvector": 0.04531864181443656,
+            "eigenvector": 0.04374091021847296,
             "degree_cent": 0.02,
             "modularity": 1,
             "id": "hillhouse-james",
@@ -1522,7 +1535,7 @@
         {
             "degree": 6,
             "betweenness": 0.00011171066030503782,
-            "eigenvector": 0.051278257401759876,
+            "eigenvector": 0.04948363807231021,
             "degree_cent": 0.024,
             "modularity": 1,
             "id": "jackson-james2",
@@ -1535,7 +1548,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.009008595780405844,
+            "eigenvector": 0.008669409243004904,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "maclay-samuel",
@@ -1548,7 +1561,7 @@
         {
             "degree": 11,
             "betweenness": 0.00025667151254261115,
-            "eigenvector": 0.10044218789058357,
+            "eigenvector": 0.09701247540916602,
             "degree_cent": 0.044,
             "modularity": 1,
             "id": "mitchill-samuel",
@@ -1560,8 +1573,8 @@
         },
         {
             "degree": 10,
-            "betweenness": 0.0011506266031261977,
-            "eigenvector": 0.07710493218744394,
+            "betweenness": 0.001154196438021334,
+            "eigenvector": 0.0743935210550056,
             "degree_cent": 0.04,
             "modularity": 1,
             "id": "smith-john6",
@@ -1574,7 +1587,7 @@
         {
             "degree": 25,
             "betweenness": 0.00787179651589124,
-            "eigenvector": 0.1651358117724254,
+            "eigenvector": 0.1596493846490656,
             "degree_cent": 0.1,
             "modularity": 1,
             "id": "smith-samuel2",
@@ -1587,7 +1600,7 @@
         {
             "degree": 4,
             "betweenness": 0.0,
-            "eigenvector": 0.046762491821820754,
+            "eigenvector": 0.04518410978442378,
             "degree_cent": 0.016,
             "modularity": 1,
             "id": "sumter-thomas3",
@@ -1600,7 +1613,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.020023483999146784,
+            "eigenvector": 0.01927401081460998,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "tiffin-edward",
@@ -1613,7 +1626,7 @@
         {
             "degree": 15,
             "betweenness": 0.0026190629290162716,
-            "eigenvector": 0.12112601854273737,
+            "eigenvector": 0.11716406980341836,
             "degree_cent": 0.06,
             "modularity": 1,
             "id": "tracy-uriah",
@@ -1626,7 +1639,7 @@
         {
             "degree": 5,
             "betweenness": 0.008048192771084338,
-            "eigenvector": 0.0022750931770333465,
+            "eigenvector": 0.0022404974119726306,
             "degree_cent": 0.02,
             "modularity": 3,
             "id": "noel-francois",
@@ -1639,7 +1652,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.00015638259557047905,
+            "eigenvector": 0.0001534738047358458,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "anduaga-unknown",
@@ -1648,7 +1661,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.0021299454160383633,
+            "eigenvector": 0.002098010905938349,
             "degree_cent": 0.012,
             "modularity": 3,
             "id": "araujo-antonio",
@@ -1661,7 +1674,7 @@
         {
             "degree": 5,
             "betweenness": 0.008021419009370817,
-            "eigenvector": 0.0022863778998716937,
+            "eigenvector": 0.002251533185760701,
             "degree_cent": 0.02,
             "modularity": 3,
             "id": "lowenhielm-fredrik",
@@ -1674,7 +1687,7 @@
         {
             "degree": 6,
             "betweenness": 0.00019812583668005356,
-            "eigenvector": 0.0025300333582835336,
+            "eigenvector": 0.0024908694932117823,
             "degree_cent": 0.024,
             "modularity": 3,
             "id": "vonschubart-hermann",
@@ -1687,7 +1700,7 @@
         {
             "degree": 3,
             "betweenness": 1.8741633199464523e-05,
-            "eigenvector": 0.02840514363878683,
+            "eigenvector": 0.028604485195294783,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "augustusfrederick",
@@ -1700,7 +1713,7 @@
         {
             "degree": 3,
             "betweenness": 0.008,
-            "eigenvector": 0.022667566220574937,
+            "eigenvector": 0.022860389084693015,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "cohen-ephraim",
@@ -1713,7 +1726,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.003619045527497713,
+            "eigenvector": 0.0036265631163879073,
             "degree_cent": 0.004,
             "modularity": 4,
             "id": "aristotle",
@@ -1726,7 +1739,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.015388623032323882,
+            "eigenvector": 0.014974813934139426,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "armstrong-john",
@@ -1739,7 +1752,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.006021679659416401,
+            "eigenvector": 0.00602603783180031,
             "degree_cent": 0.004,
             "modularity": 2,
             "id": "arnim-friedrich",
@@ -1752,7 +1765,7 @@
         {
             "degree": 2,
             "betweenness": 0.008,
-            "eigenvector": 0.0018074203834873863,
+            "eigenvector": 0.0017815157965162674,
             "degree_cent": 0.008,
             "modularity": 3,
             "id": "cicero-marcus",
@@ -1765,7 +1778,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.00012423627336388514,
+            "eigenvector": 0.00012203258076755866,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "atticus-titus",
@@ -1778,7 +1791,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.008553894344376244,
+            "eigenvector": 0.008569830320166918,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "frederica-dorothea",
@@ -1791,7 +1804,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.005067840841498309,
+            "eigenvector": 0.005073752250355176,
             "degree_cent": 0.004,
             "modularity": 2,
             "id": "louiseofbrandenburg",
@@ -1804,7 +1817,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.005067840841498309,
+            "eigenvector": 0.005073752250355176,
             "degree_cent": 0.004,
             "modularity": 2,
             "id": "vongrappendorf-louise",
@@ -1817,7 +1830,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.008937247845117555,
+            "eigenvector": 0.00860567073238509,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "bacon-ezekiel",
@@ -1830,7 +1843,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.008253741807620483,
+            "eigenvector": 0.008551354725498748,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "buchanan-andrew",
@@ -1843,7 +1856,7 @@
         {
             "degree": 3,
             "betweenness": 9.372856505386625e-05,
-            "eigenvector": 0.009499953201808303,
+            "eigenvector": 0.009831550619946004,
             "degree_cent": 0.012,
             "modularity": 0,
             "id": "bailey-charlotte",
@@ -1856,7 +1869,7 @@
         {
             "degree": 6,
             "betweenness": 0.009587332748736625,
-            "eigenvector": 0.01937607115502406,
+            "eigenvector": 0.01996833663105745,
             "degree_cent": 0.024,
             "modularity": 0,
             "id": "smith-john",
@@ -1869,7 +1882,7 @@
         {
             "degree": 4,
             "betweenness": 0.03177831325301205,
-            "eigenvector": 0.008475479993906661,
+            "eigenvector": 0.008495818360428231,
             "degree_cent": 0.016,
             "modularity": 5,
             "id": "deas-william",
@@ -1882,7 +1895,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0005825902718765742,
+            "eigenvector": 0.0005819579739330063,
             "degree_cent": 0.004,
             "modularity": 5,
             "id": "bayard-samuel",
@@ -1895,7 +1908,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "beeldemaker-jan",
@@ -1907,8 +1920,8 @@
         },
         {
             "degree": 3,
-            "betweenness": 0.0009911280152244014,
-            "eigenvector": 0.0058586904776604986,
+            "betweenness": 0.0009934346777720276,
+            "eigenvector": 0.005837517726434026,
             "degree_cent": 0.012,
             "modularity": 3,
             "id": "bourne-sylvanus",
@@ -1921,7 +1934,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.001972787145034438,
+            "eigenvector": 0.0019437810867589961,
             "degree_cent": 0.008,
             "modularity": 3,
             "id": "brito-jose",
@@ -1934,7 +1947,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "caesar-julius",
@@ -1947,7 +1960,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.001999528695083449,
+            "eigenvector": 0.001970581575622779,
             "degree_cent": 0.008,
             "modularity": 3,
             "id": "dumas-charles",
@@ -1960,7 +1973,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.0024136466413435436,
+            "eigenvector": 0.002381610813462148,
             "degree_cent": 0.012,
             "modularity": 3,
             "id": "dumas-marie",
@@ -1973,7 +1986,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "lafayette",
@@ -1986,7 +1999,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.001955263377366213,
+            "eigenvector": 0.0019266302122988512,
             "degree_cent": 0.008,
             "modularity": 3,
             "id": "leyden-frederick",
@@ -1999,7 +2012,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "parker-john5",
@@ -2012,7 +2025,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "pillet-rene",
@@ -2025,7 +2038,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.001972787145034438,
+            "eigenvector": 0.0019437810867589961,
             "degree_cent": 0.008,
             "modularity": 3,
             "id": "schubart-jacobe",
@@ -2038,7 +2051,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "tasso-torquato",
@@ -2051,7 +2064,7 @@
         {
             "degree": 5,
             "betweenness": 0.00010227576974564927,
-            "eigenvector": 0.0029190608817149005,
+            "eigenvector": 0.0028821617019455874,
             "degree_cent": 0.02,
             "modularity": 3,
             "id": "veermansenserf-abraham",
@@ -2063,8 +2076,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.001693092549364698,
-            "eigenvector": 0.0060245973747722675,
+            "betweenness": 0.001698706558947524,
+            "eigenvector": 0.006000655966402966,
             "degree_cent": 0.016,
             "modularity": 3,
             "id": "veermansenserf-anna",
@@ -2077,7 +2090,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "voltaire-francois",
@@ -2090,7 +2103,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "wiliam-v",
@@ -2103,7 +2116,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0017988807817957342,
+            "eigenvector": 0.0017731564075630054,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "wolcott-oliver",
@@ -2116,7 +2129,7 @@
         {
             "degree": 2,
             "betweenness": 0.008,
-            "eigenvector": 0.007490749195116759,
+            "eigenvector": 0.007579625408766206,
             "degree_cent": 0.008,
             "modularity": 6,
             "id": "bird-robert",
@@ -2129,7 +2142,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0005149006304684862,
+            "eigenvector": 0.0005192395520941094,
             "degree_cent": 0.004,
             "modularity": 6,
             "id": "jackson-henry2",
@@ -2141,8 +2154,8 @@
         },
         {
             "degree": 8,
-            "betweenness": 0.0060621968930360684,
-            "eigenvector": 0.05140701493872278,
+            "betweenness": 0.006049943959734234,
+            "eigenvector": 0.05100373453326774,
             "degree_cent": 0.032,
             "modularity": 0,
             "id": "boyd-harriet",
@@ -2155,7 +2168,7 @@
         {
             "degree": 3,
             "betweenness": 0.0003290495314591701,
-            "eigenvector": 0.03149039612183096,
+            "eigenvector": 0.030699756300985124,
             "degree_cent": 0.012,
             "modularity": 1,
             "id": "boyd-george",
@@ -2168,7 +2181,7 @@
         {
             "degree": 4,
             "betweenness": 2.998661311914324e-05,
-            "eigenvector": 0.021841398738856238,
+            "eigenvector": 0.0218064930700665,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "johnson-thomas-baker",
@@ -2179,22 +2192,9 @@
             "date_of_death": "1843"
         },
         {
-            "degree": 6,
-            "betweenness": 4.355198572066042e-05,
-            "eigenvector": 0.0300661007403055,
-            "degree_cent": 0.024,
-            "modularity": 0,
-            "id": "davis-john",
-            "given_name": "John",
-            "middle_name": "W.",
-            "family_name": "Davis",
-            "date_of_birth": "1761",
-            "date_of_death": "1847"
-        },
-        {
             "degree": 10,
             "betweenness": 0.0015038770082402037,
-            "eigenvector": 0.08516632770675928,
+            "eigenvector": 0.0825062659276465,
             "degree_cent": 0.04,
             "modularity": 1,
             "id": "dayton-jonathan",
@@ -2207,7 +2207,7 @@
         {
             "degree": 6,
             "betweenness": 0.0002913124358907491,
-            "eigenvector": 0.05330036190733687,
+            "eigenvector": 0.05148326520202164,
             "degree_cent": 0.024,
             "modularity": 1,
             "id": "erskine-david",
@@ -2220,7 +2220,7 @@
         {
             "degree": 6,
             "betweenness": 8.474176425983656e-05,
-            "eigenvector": 0.061810534526987114,
+            "eigenvector": 0.05992173881690329,
             "degree_cent": 0.024,
             "modularity": 1,
             "id": "gallatin-albert",
@@ -2233,7 +2233,7 @@
         {
             "degree": 5,
             "betweenness": 0.0,
-            "eigenvector": 0.03585666045811448,
+            "eigenvector": 0.034525822710047824,
             "degree_cent": 0.02,
             "modularity": 1,
             "id": "pickering-john2",
@@ -2246,7 +2246,7 @@
         {
             "degree": 3,
             "betweenness": 2.7437890088492496e-05,
-            "eigenvector": 0.025251820315667185,
+            "eigenvector": 0.024305896453596442,
             "degree_cent": 0.012,
             "modularity": 1,
             "id": "pope-john",
@@ -2258,8 +2258,8 @@
         },
         {
             "degree": 10,
-            "betweenness": 0.00830141353370915,
-            "eigenvector": 0.08057909112622393,
+            "betweenness": 0.008319007719978037,
+            "eigenvector": 0.07807467350454358,
             "degree_cent": 0.04,
             "modularity": 1,
             "id": "randolph-john",
@@ -2272,7 +2272,7 @@
         {
             "degree": 9,
             "betweenness": 0.0007476020041317614,
-            "eigenvector": 0.08204266718238196,
+            "eigenvector": 0.07947284955590514,
             "degree_cent": 0.036000000000000004,
             "modularity": 1,
             "id": "white-samuel2",
@@ -2285,7 +2285,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.015388623032323882,
+            "eigenvector": 0.014974813934139426,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "breckinridge-john",
@@ -2298,7 +2298,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.014045646288507648,
+            "eigenvector": 0.014047147917393822,
             "degree_cent": 0.004,
             "modularity": 2,
             "id": "hunter-elizabeth",
@@ -2311,7 +2311,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.023920087178811382,
+            "eigenvector": 0.02392803572874694,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "kinnaird-charles",
@@ -2324,7 +2324,7 @@
         {
             "degree": 7,
             "betweenness": 2.5702811244979923e-05,
-            "eigenvector": 0.061736453259823194,
+            "eigenvector": 0.06180629873836307,
             "degree_cent": 0.028,
             "modularity": 2,
             "id": "stgeorge-melesina",
@@ -2337,7 +2337,7 @@
         {
             "degree": 2,
             "betweenness": 1.9634091923248553e-05,
-            "eigenvector": 0.015896120549720134,
+            "eigenvector": 0.01590692564315343,
             "degree_cent": 0.008,
             "modularity": 2,
             "id": "vonheinitz-friedrich",
@@ -2350,7 +2350,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.003857663831320182,
+            "eigenvector": 0.003912392664207261,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "buckminster-joseph",
@@ -2363,7 +2363,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.004775777782340344,
+            "eigenvector": 0.0045917392554613206,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "early-peter",
@@ -2376,7 +2376,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.019251541631311323,
+            "eigenvector": 0.018545230797861523,
             "degree_cent": 0.012,
             "modularity": 1,
             "id": "nicholson-joseph",
@@ -2388,8 +2388,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.008025712830982665,
-            "eigenvector": 0.020789080236422557,
+            "betweenness": 0.00773876963908139,
+            "eigenvector": 0.020567355429041957,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "otis-samuel",
@@ -2402,7 +2402,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.004775777782340344,
+            "eigenvector": 0.0045917392554613206,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "stone-david",
@@ -2415,7 +2415,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.00443762543464985,
+            "eigenvector": 0.004449552704031876,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "church-john",
@@ -2428,7 +2428,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0015581427046310213,
+            "eigenvector": 0.0015657702929459622,
             "degree_cent": 0.004,
             "modularity": 2,
             "id": "cohen-pessel",
@@ -2441,7 +2441,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.008937247845117555,
+            "eigenvector": 0.00860567073238509,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "cook-orchard",
@@ -2454,7 +2454,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.005786343612707816,
+            "eigenvector": 0.00578572596590529,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "copley-john",
@@ -2467,7 +2467,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.003237975812069119,
+            "eigenvector": 0.003250530969285922,
             "degree_cent": 0.004,
             "modularity": 4,
             "id": "cowper-william",
@@ -2479,8 +2479,8 @@
         },
         {
             "degree": 3,
-            "betweenness": 0.0024116402877502473,
-            "eigenvector": 0.008519196761091393,
+            "betweenness": 0.002410404575671162,
+            "eigenvector": 0.00861113298441246,
             "degree_cent": 0.012,
             "modularity": 0,
             "id": "frazier-nathan",
@@ -2493,7 +2493,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.0015433481964431193,
+            "eigenvector": 0.001550747127740362,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "crafts-thomas",
@@ -2505,8 +2505,8 @@
         },
         {
             "degree": 4,
-            "betweenness": 0.006043513661379619,
-            "eigenvector": 0.01393338081686867,
+            "betweenness": 0.006044749373458705,
+            "eigenvector": 0.014025926382657867,
             "degree_cent": 0.016,
             "modularity": 0,
             "id": "gardner-james",
@@ -2519,7 +2519,7 @@
         {
             "degree": 4,
             "betweenness": 0.003983935742971888,
-            "eigenvector": 0.002090492916231402,
+            "eigenvector": 0.0020255990636379355,
             "degree_cent": 0.016,
             "modularity": 1,
             "id": "fletcher-robert",
@@ -2532,7 +2532,7 @@
         {
             "degree": 5,
             "betweenness": 0.01566265060240964,
-            "eigenvector": 0.013955862146331748,
+            "eigenvector": 0.013574595217828653,
             "degree_cent": 0.02,
             "modularity": 1,
             "id": "cranch-william",
@@ -2545,7 +2545,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.001927052397520332,
+            "eigenvector": 0.0018678477475859605,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "livingston-henry",
@@ -2558,7 +2558,7 @@
         {
             "degree": 7,
             "betweenness": 0.031630522088353416,
-            "eigenvector": 0.014080348085845566,
+            "eigenvector": 0.01369486113954413,
             "degree_cent": 0.028,
             "modularity": 1,
             "id": "marshall-john",
@@ -2571,7 +2571,7 @@
         {
             "degree": 4,
             "betweenness": 0.003983935742971888,
-            "eigenvector": 0.002090492916231402,
+            "eigenvector": 0.0020255990636379355,
             "degree_cent": 0.016,
             "modularity": 1,
             "id": "peck-john",
@@ -2584,7 +2584,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.013241699375319715,
+            "eigenvector": 0.013329778867260922,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "cutting-john",
@@ -2597,7 +2597,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.021505475207888286,
+            "eigenvector": 0.0208367947042924,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "cutts-richard",
@@ -2609,8 +2609,8 @@
         },
         {
             "degree": 5,
-            "betweenness": 4.488375303888879e-05,
-            "eigenvector": 0.02549487687281053,
+            "betweenness": 1.2851405622489962e-05,
+            "eigenvector": 0.02859858517401255,
             "degree_cent": 0.02,
             "modularity": 0,
             "id": "webber-samuel",
@@ -2623,7 +2623,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.01842203950291481,
+            "eigenvector": 0.01788245784212561,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "mason-john",
@@ -2636,7 +2636,7 @@
         {
             "degree": 3,
             "betweenness": 0.015935742971887552,
-            "eigenvector": 0.0005885627276558391,
+            "eigenvector": 0.0005878809877664692,
             "degree_cent": 0.012,
             "modularity": 5,
             "id": "edwards-enoch",
@@ -2649,7 +2649,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.007600730570567642,
+            "eigenvector": 0.007877849053071841,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "degrand-peter",
@@ -2662,7 +2662,7 @@
         {
             "degree": 3,
             "betweenness": 0.008,
-            "eigenvector": 0.011922697353969247,
+            "eigenvector": 0.011933360129259662,
             "degree_cent": 0.012,
             "modularity": 2,
             "id": "demaisonneuve-joseph",
@@ -2675,7 +2675,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0008195499011020743,
+            "eigenvector": 0.0008173775510344331,
             "degree_cent": 0.004,
             "modularity": 2,
             "id": "rosenkrantz-niels",
@@ -2688,7 +2688,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0013318737410724971,
+            "eigenvector": 0.0013678975963955758,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "dewindt-caroline",
@@ -2701,7 +2701,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0001571582710039252,
+            "eigenvector": 0.00015422981917935266,
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "dumonceau-jean",
@@ -2714,7 +2714,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.015388623032323882,
+            "eigenvector": 0.014974813934139426,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "duval-gabriel",
@@ -2727,7 +2727,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 4.344315511825738e-05,
+            "eigenvector": 4.3231552183515004e-05,
             "degree_cent": 0.008,
             "modularity": 5,
             "id": "grenville-william",
@@ -2740,7 +2740,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 4.344315511825738e-05,
+            "eigenvector": 4.3231552183515004e-05,
             "degree_cent": 0.008,
             "modularity": 5,
             "id": "hammond-george",
@@ -2753,7 +2753,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.015388623032323882,
+            "eigenvector": 0.014974813934139426,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "eppes-john",
@@ -2766,7 +2766,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.019052145372503094,
+            "eigenvector": 0.018501198618793877,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "erskine-frances",
@@ -2779,7 +2779,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.005744180867892165,
+            "eigenvector": 0.006002047844799973,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "everett-alexander",
@@ -2792,7 +2792,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.005744180867892165,
+            "eigenvector": 0.006002047844799973,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "farrar-john",
@@ -2805,7 +2805,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.0002873761714511659,
+            "eigenvector": 0.00027748917109681316,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "martin-luther",
@@ -2818,7 +2818,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.013241699375319715,
+            "eigenvector": 0.013329778867260922,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "foster-bossenger2",
@@ -2831,7 +2831,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.007600730570567642,
+            "eigenvector": 0.007877849053071841,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "foster-james",
@@ -2844,7 +2844,7 @@
         {
             "degree": 4,
             "betweenness": 0.0003060240963855422,
-            "eigenvector": 0.01479637576011139,
+            "eigenvector": 0.014836567804073504,
             "degree_cent": 0.016,
             "modularity": 2,
             "id": "frederick-william-ii",
@@ -2857,7 +2857,7 @@
         {
             "degree": 6,
             "betweenness": 0.0015258108844985697,
-            "eigenvector": 0.0460821578738178,
+            "eigenvector": 0.04563161728329164,
             "degree_cent": 0.024,
             "modularity": 0,
             "id": "hellen-adelaide",
@@ -2870,7 +2870,7 @@
         {
             "degree": 3,
             "betweenness": 0.0,
-            "eigenvector": 0.03220533420720287,
+            "eigenvector": 0.031310334932757596,
             "degree_cent": 0.012,
             "modularity": 1,
             "id": "harrison-richard",
@@ -2883,7 +2883,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.004459739186297969,
+            "eigenvector": 0.004538463436816355,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "gardner-h",
@@ -2896,7 +2896,7 @@
         {
             "degree": 2,
             "betweenness": 0.008,
-            "eigenvector": 0.0058849937119139885,
+            "eigenvector": 0.005854506926720058,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "juvenal",
@@ -2909,7 +2909,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.00040451813639194145,
+            "eigenvector": 0.00040104064256137506,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "gifford-william",
@@ -2922,7 +2922,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.008937247845117555,
+            "eigenvector": 0.00860567073238509,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "varnum-joseph",
@@ -2935,7 +2935,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0002880312587374282,
+            "eigenvector": 0.00028749322611195424,
             "degree_cent": 0.004,
             "modularity": 4,
             "id": "greenleaf-elizabeth",
@@ -2948,7 +2948,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.013241699375319715,
+            "eigenvector": 0.013329778867260922,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "hall-fitch",
@@ -2961,7 +2961,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.008005649825585246,
+            "eigenvector": 0.008098864960860316,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "pinkney-ann",
@@ -2974,7 +2974,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.008005649825585246,
+            "eigenvector": 0.008098864960860316,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "pinkney-william",
@@ -2987,7 +2987,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.013241699375319715,
+            "eigenvector": 0.013329778867260922,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "rogers-william2",
@@ -3000,7 +3000,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.013241699375319715,
+            "eigenvector": 0.013329778867260922,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "russell-joseph2",
@@ -3013,7 +3013,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.012568227362770733,
+            "eigenvector": 0.012231123971907312,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "jackson-john2",
@@ -3026,7 +3026,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.00443762543464985,
+            "eigenvector": 0.004449552704031876,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "jay-john",
@@ -3039,7 +3039,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.023714063092351016,
+            "eigenvector": 0.023000047007293568,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "logan-george",
@@ -3052,7 +3052,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.015388623032323882,
+            "eigenvector": 0.014974813934139426,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "sheldon-daniel",
@@ -3065,7 +3065,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.02795685039509462,
+            "eigenvector": 0.027205937906046737,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "turreau-louis",
@@ -3078,7 +3078,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.005786343612707816,
+            "eigenvector": 0.00578572596590529,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "vaughan-william",
@@ -3091,7 +3091,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0029912907390615123,
+            "eigenvector": 0.003027072135533798,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "lowell-john",
@@ -3104,7 +3104,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.012568227362770733,
+            "eigenvector": 0.012231123971907312,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "madison-dolley",
@@ -3117,7 +3117,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.012568227362770733,
+            "eigenvector": 0.012231123971907312,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "randolph-edmund",
@@ -3130,7 +3130,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.023918612153120827,
+            "eigenvector": 0.02316640900758168,
             "degree_cent": 0.008,
             "modularity": 1,
             "id": "smith-robert",
@@ -3143,7 +3143,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.012568227362770733,
+            "eigenvector": 0.012231123971907312,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "wagner-jacob",
@@ -3156,7 +3156,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0009678043932476153,
+            "eigenvector": 0.0009380427123841606,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "stelle-pontius",
@@ -3169,7 +3169,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0009678043932476153,
+            "eigenvector": 0.0009380427123841606,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "washington-bushrod",
@@ -3182,7 +3182,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0056235317154956985,
+            "eigenvector": 0.005876639859466043,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "parsons-theophilus",
@@ -3195,7 +3195,7 @@
         {
             "degree": 2,
             "betweenness": 0.0,
-            "eigenvector": 0.011367712583387863,
+            "eigenvector": 0.011878687704266014,
             "degree_cent": 0.008,
             "modularity": 0,
             "id": "ware-henry",
@@ -3208,7 +3208,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.0033113354169422154,
+            "eigenvector": 0.0033247665800682667,
             "degree_cent": 0.004,
             "modularity": 4,
             "id": "sterne-lawrence",
@@ -3221,7 +3221,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.007600730570567642,
+            "eigenvector": 0.007877849053071841,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "sullivan-james2",
@@ -3234,7 +3234,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.009274798689778572,
+            "eigenvector": 0.00903126909634623,
             "degree_cent": 0.004,
             "modularity": 1,
             "id": "taylor-john2",
@@ -3247,7 +3247,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.007600730570567642,
+            "eigenvector": 0.007877849053071841,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "warren-john3",
@@ -3260,7 +3260,7 @@
         {
             "degree": 1,
             "betweenness": 0.0,
-            "eigenvector": 0.007600730570567642,
+            "eigenvector": 0.007877849053071841,
             "degree_cent": 0.004,
             "modularity": 0,
             "id": "welsh-abigail",
@@ -3448,6 +3448,11 @@
             "target": "danadia-joao"
         },
         {
+            "weight": 4,
+            "source": "adams-louisa-catherine",
+            "target": "davis-john"
+        },
+        {
             "weight": 5,
             "source": "adams-louisa-catherine",
             "target": "dryden-john"
@@ -3563,7 +3568,7 @@
             "target": "king-rufus"
         },
         {
-            "weight": 5,
+            "weight": 7,
             "source": "adams-louisa-catherine",
             "target": "kotzbue-august"
         },
@@ -3658,7 +3663,7 @@
             "target": "pope-alexander"
         },
         {
-            "weight": 11,
+            "weight": 12,
             "source": "adams-louisa-catherine",
             "target": "pope-eliza"
         },
@@ -3703,7 +3708,7 @@
             "target": "shaw-william"
         },
         {
-            "weight": 16,
+            "weight": 17,
             "source": "adams-louisa-catherine",
             "target": "smith-catherine-johnson"
         },
@@ -4458,6 +4463,11 @@
             "target": "garlike-benjamin"
         },
         {
+            "weight": 4,
+            "source": "arbuthnot-robert",
+            "target": "kotzbue-august"
+        },
+        {
             "weight": 8,
             "source": "arbuthnot-robert",
             "target": "livingston-edward2"
@@ -4948,6 +4958,16 @@
             "target": "wilhelminaofhesse"
         },
         {
+            "weight": 5,
+            "source": "davis-john",
+            "target": "waterhouse-benjamin"
+        },
+        {
+            "weight": 5,
+            "source": "davis-john",
+            "target": "webber-samuel"
+        },
+        {
             "weight": 4,
             "source": "emerson-william",
             "target": "buckminster-joseph"
@@ -5163,7 +5183,7 @@
             "target": "boyd-harriet"
         },
         {
-            "weight": 5,
+            "weight": 6,
             "source": "hellen-ann",
             "target": "hellen-walter"
         },
@@ -5676,11 +5696,6 @@
             "weight": 4,
             "source": "washington-george",
             "target": "frederick-william-ii"
-        },
-        {
-            "weight": 5,
-            "source": "waterhouse-benjamin",
-            "target": "davis-john"
         },
         {
             "weight": 5,
@@ -6561,11 +6576,6 @@
             "weight": 4,
             "source": "boyd-harriet",
             "target": "johnson-thomas-baker"
-        },
-        {
-            "weight": 5,
-            "source": "davis-john",
-            "target": "webber-samuel"
         },
         {
             "weight": 4,

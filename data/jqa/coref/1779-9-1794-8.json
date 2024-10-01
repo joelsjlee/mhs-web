@@ -2,10 +2,10 @@
     "metrics": {
         "weight_min": "2",
         "num_entries": "5303",
-        "avg_entry_len": "358.79596454836883",
-        "pers_ref_avg": "2.5987177069583254",
-        "num_nodes": 271,
-        "num_edges": 712
+        "avg_entry_len": "347.549877427871",
+        "pers_ref_avg": "2.5990948519705825",
+        "num_nodes": 278,
+        "num_edges": 723
     },
     "directed": false,
     "multigraph": false,
