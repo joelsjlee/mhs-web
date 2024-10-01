@@ -232,6 +232,9 @@ const xGroupBottom = svg
         .attr("dy", "0.32em")
         .text(names);
 
+
+        
+
       tasks = tasks.merge(tasks_enter);
 
       tasks

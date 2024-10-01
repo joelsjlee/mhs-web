@@ -1,4 +1,5 @@
 Role,Name,Start,End
+------American History------,
 American Revolution,American Revolution,1779-01-02,1782-12-31
 American Revolution,American Revolution,1785-01-02,1786-12-31
 American Revolution,American Revolution,1788-01-02,1788-12-31
@@ -9,6 +10,7 @@ American Revolution,American Revolution,1808-01-02,1811-12-31
 American Revolution,American Revolution,1813-01-02,1822-12-31
 American Revolution,American Revolution,1824-01-02,1826-12-31
 American Revolution,American Revolution,1828-01-02,1847-12-31
+------Diplomacy------,
 European Alliances,European Alliances,1779-01-02,1779-12-31
 European Alliances,European Alliances,1810-01-02,1810-12-31
 European Alliances,European Alliances,1812-01-02,1813-12-31
@@ -21,11 +23,13 @@ Diplomacy,Diplomacy,1843-01-02,1845-12-31
 Diplomacy,Diplomacy,1847-01-02,1847-12-31
 XYZ Affair,XYZ Affair,1798-01-02,1798-12-31
 Monroe Doctrine,Monroe Doctrine,1823-01-02,1824-12-31
+------Health and Medicine------,
 Health and Illness,Health and Illness,1779-01-02,1779-12-31
 Health and Illness,Health and Illness,1782-01-02,1783-12-31
 Health and Illness,Health and Illness,1785-01-02,1789-12-31
 Health and Illness,Health and Illness,1791-01-02,1792-12-31
 Health and Illness,Health and Illness,1794-01-02,1847-12-31
+------International Relations------,
 International,International,1779-01-02,1783-12-31
 International,International,1785-01-02,1785-12-31
 International,International,1794-01-02,1794-12-31
@@ -40,6 +44,7 @@ Foreign Relations,Foreign Relations,1808-01-02,1808-12-31
 Foreign Relations,Foreign Relations,1810-01-02,1814-12-31
 Foreign Relations,Foreign Relations,1816-01-02,1839-12-31
 Foreign Relations,Foreign Relations,1843-01-02,1845-12-31
+------Military and Naval History------,
 Privateering,Privateering,1779-01-02,1779-12-31
 Privateering,Privateering,1810-01-02,1813-12-31
 Privateering,Privateering,1817-01-02,1825-12-31
@@ -62,7 +67,9 @@ Impressment,Impressment,1823-01-02,1823-12-31
 Impressment,Impressment,1827-01-02,1827-12-31
 Impressment,Impressment,1829-01-02,1829-12-31
 Impressment,Impressment,1842-01-02,1842-12-31
+------Leisure and Society------,
 Recreation,Recreation,1779-01-02,1847-12-31
+------Religion and Society------,
 Religion,Religion,1779-01-02,1783-12-31
 Religion,Religion,1785-01-02,1788-12-31
 Religion,Religion,1797-01-02,1797-12-31
@@ -75,6 +82,7 @@ Unitarianism,Unitarianism,1821-01-02,1838-12-31
 Unitarianism,Unitarianism,1843-01-02,1845-12-31
 Unitarianism,Unitarianism,1847-01-02,1847-12-31
 Church of Jesus Christ of Latter-day Saints,Church of Jesus Christ of Latter-day Saints,1844-01-02,1844-12-31
+------Travel and Exploration------,
 Travel and Touring,Travel and Touring,1779-01-02,1783-12-31
 Travel and Touring,Travel and Touring,1785-01-02,1785-12-31
 Travel and Touring,Travel and Touring,1794-01-02,1794-12-31
@@ -84,6 +92,7 @@ Travel and Touring,Travel and Touring,1814-01-02,1815-12-31
 Travel and Touring,Travel and Touring,1817-01-02,1817-12-31
 Travel and Touring,Travel and Touring,1840-01-02,1840-12-31
 Travel and Touring,Travel and Touring,1843-01-02,1843-12-31
+------Trade and Commerce------,
 Commerce,Commerce,1783-01-02,1783-12-31
 Commerce,Commerce,1797-01-02,1798-12-31
 Commerce,Commerce,1809-01-02,1824-12-31
@@ -102,6 +111,7 @@ Slave Trade,Slave Trade,1845-01-02,1846-12-31
 Embargo,Embargo,1807-01-02,1812-12-31
 Embargo,Embargo,1833-01-02,1833-12-31
 Embargo,Embargo,1843-01-02,1843-12-31
+------Race and Ethnicity------,
 African Americans,African Americans,1785-01-02,1785-12-31
 African Americans,African Americans,1787-01-02,1787-12-31
 African Americans,African Americans,1794-01-02,1794-12-31
@@ -109,6 +119,7 @@ African Americans,African Americans,1806-01-02,1807-12-31
 African Americans,African Americans,1809-01-02,1822-12-31
 African Americans,African Americans,1824-01-02,1829-12-31
 African Americans,African Americans,1831-01-02,1847-12-31
+------Military and Naval History------,
 Privateering,Privateering,1779-01-02,1779-12-31
 Privateering,Privateering,1810-01-02,1813-12-31
 Privateering,Privateering,1817-01-02,1825-12-31
@@ -131,6 +142,7 @@ Impressment,Impressment,1823-01-02,1823-12-31
 Impressment,Impressment,1827-01-02,1827-12-31
 Impressment,Impressment,1829-01-02,1829-12-31
 Impressment,Impressment,1842-01-02,1842-12-31
+------American Politics------,
 Continental Congress,Continental Congress,1785-01-02,1785-12-31
 Continental Congress,Continental Congress,1831-01-02,1832-12-31
 Continental Congress,Continental Congress,1838-01-02,1838-12-31
@@ -145,6 +157,7 @@ Articles of Confederation,Articles of Confederation,1831-01-02,1831-12-31
 Articles of Confederation,Articles of Confederation,1836-01-02,1836-12-31
 Articles of Confederation,Articles of Confederation,1839-01-02,1839-12-31
 Federalist Papers,Federalist Papers,1836-01-02,1837-12-31
+------Adams Family------,
 Family Relations (Adams Family),Family Relations (Adams Family),1785-01-02,1787-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1805-01-02,1805-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1807-01-02,1807-12-31
@@ -174,6 +187,7 @@ Family Finances (Adams Family),Family Finances (Adams Family),1807-01-02,1807-12
 Family Finances (Adams Family),Family Finances (Adams Family),1809-01-02,1810-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1812-01-02,1812-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1816-01-02,1847-12-31
+------Adams Family------,
 Family Relations (Adams Family),Family Relations (Adams Family),1785-01-02,1787-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1805-01-02,1805-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1807-01-02,1807-12-31
@@ -203,6 +217,7 @@ Family Finances (Adams Family),Family Finances (Adams Family),1807-01-02,1807-12
 Family Finances (Adams Family),Family Finances (Adams Family),1809-01-02,1810-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1812-01-02,1812-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1816-01-02,1847-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -237,10 +252,12 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Slavery------,
 Slavery and Enslaved Persons,Slavery and Enslaved Persons,1785-01-02,1785-12-31
 Slavery and Enslaved Persons,Slavery and Enslaved Persons,1795-01-02,1795-12-31
 Slavery and Enslaved Persons,Slavery and Enslaved Persons,1817-01-02,1828-12-31
 Slavery and Enslaved Persons,Slavery and Enslaved Persons,1830-01-02,1847-12-31
+------Social Customs------,
 Dueling,Dueling,1786-01-02,1786-12-31
 Dueling,Dueling,1796-01-02,1796-12-31
 Dueling,Dueling,1804-01-02,1806-12-31
@@ -249,6 +266,7 @@ Dueling,Dueling,1811-01-02,1816-12-31
 Dueling,Dueling,1818-01-02,1825-12-31
 Dueling,Dueling,1827-01-02,1831-12-31
 Dueling,Dueling,1835-01-02,1846-12-31
+------Indigenous Peoples------,
 Native Americans,Native Americans,1786-01-02,1786-12-31
 Native Americans,Native Americans,1793-01-02,1795-12-31
 Native Americans,Native Americans,1803-01-02,1808-12-31
@@ -257,11 +275,13 @@ Native Americans,Native Americans,1812-01-02,1847-12-31
 Indian Removal,Indian Removal,1834-01-02,1834-12-31
 Indian Removal,Indian Removal,1838-01-02,1838-12-31
 Indian Removal,Indian Removal,1843-01-02,1843-12-31
+------Rebellions------,
 Shays's Rebellion,Shays's Rebellion,1786-01-02,1788-12-31
 Shays's Rebellion,Shays's Rebellion,1837-01-02,1837-12-31
 Shays's Rebellion,Shays's Rebellion,1839-01-02,1839-12-31
 Haitian Revolution,Haitian Revolution,1793-01-02,1793-12-31
 Slave Rebellions,Slave Rebellions,1819-01-02,1819-12-31
+------American Politics------,
 Continental Congress,Continental Congress,1785-01-02,1785-12-31
 Continental Congress,Continental Congress,1831-01-02,1832-12-31
 Continental Congress,Continental Congress,1838-01-02,1838-12-31
@@ -276,6 +296,7 @@ Articles of Confederation,Articles of Confederation,1831-01-02,1831-12-31
 Articles of Confederation,Articles of Confederation,1836-01-02,1836-12-31
 Articles of Confederation,Articles of Confederation,1839-01-02,1839-12-31
 Federalist Papers,Federalist Papers,1836-01-02,1837-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -310,6 +331,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Trade and Commerce------,
 Commerce,Commerce,1783-01-02,1783-12-31
 Commerce,Commerce,1797-01-02,1798-12-31
 Commerce,Commerce,1809-01-02,1824-12-31
@@ -328,12 +350,14 @@ Slave Trade,Slave Trade,1845-01-02,1846-12-31
 Embargo,Embargo,1807-01-02,1812-12-31
 Embargo,Embargo,1833-01-02,1833-12-31
 Embargo,Embargo,1843-01-02,1843-12-31
+------Finance------,
 Bank of the United States,Bank of the United States,1791-01-02,1791-12-31
 Bank of the United States,Bank of the United States,1802-01-02,1802-12-31
 Bank of the United States,Bank of the United States,1809-01-02,1809-12-31
 Bank of the United States,Bank of the United States,1813-01-02,1813-12-31
 Bank of the United States,Bank of the United States,1816-01-02,1826-12-31
 Bank of the United States,Bank of the United States,1829-01-02,1842-12-31
+------European History------,
 French Revolution,French Revolution,1793-01-02,1797-12-31
 French Revolution,French Revolution,1801-01-02,1801-12-31
 French Revolution,French Revolution,1804-01-02,1804-12-31
@@ -350,11 +374,13 @@ Napoleonic Wars,Napoleonic Wars,1831-01-02,1831-12-31
 Napoleonic Wars,Napoleonic Wars,1833-01-02,1833-12-31
 Napoleonic Wars,Napoleonic Wars,1837-01-02,1837-12-31
 Napoleonic Wars,Napoleonic Wars,1843-01-02,1843-12-31
+------Rebellions------,
 Shays's Rebellion,Shays's Rebellion,1786-01-02,1788-12-31
 Shays's Rebellion,Shays's Rebellion,1837-01-02,1837-12-31
 Shays's Rebellion,Shays's Rebellion,1839-01-02,1839-12-31
 Haitian Revolution,Haitian Revolution,1793-01-02,1793-12-31
 Slave Rebellions,Slave Rebellions,1819-01-02,1819-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -386,6 +412,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -420,6 +447,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -451,6 +479,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -488,6 +517,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Adams Family------,
 Family Relations (Adams Family),Family Relations (Adams Family),1785-01-02,1787-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1805-01-02,1805-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1807-01-02,1807-12-31
@@ -517,8 +547,10 @@ Family Finances (Adams Family),Family Finances (Adams Family),1807-01-02,1807-12
 Family Finances (Adams Family),Family Finances (Adams Family),1809-01-02,1810-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1812-01-02,1812-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1816-01-02,1847-12-31
+------Social Life and Customs------,
 Court Life and Society,Court Life and Society,1797-01-02,1801-12-31
 Court Life and Society,Court Life and Society,1809-01-02,1817-12-31
+------Diplomacy------,
 European Alliances,European Alliances,1779-01-02,1779-12-31
 European Alliances,European Alliances,1810-01-02,1810-12-31
 European Alliances,European Alliances,1812-01-02,1813-12-31
@@ -531,6 +563,7 @@ Diplomacy,Diplomacy,1843-01-02,1845-12-31
 Diplomacy,Diplomacy,1847-01-02,1847-12-31
 XYZ Affair,XYZ Affair,1798-01-02,1798-12-31
 Monroe Doctrine,Monroe Doctrine,1823-01-02,1824-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -562,6 +595,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------European History------,
 French Revolution,French Revolution,1793-01-02,1797-12-31
 French Revolution,French Revolution,1801-01-02,1801-12-31
 French Revolution,French Revolution,1804-01-02,1804-12-31
@@ -578,6 +612,7 @@ Napoleonic Wars,Napoleonic Wars,1831-01-02,1831-12-31
 Napoleonic Wars,Napoleonic Wars,1833-01-02,1833-12-31
 Napoleonic Wars,Napoleonic Wars,1837-01-02,1837-12-31
 Napoleonic Wars,Napoleonic Wars,1843-01-02,1843-12-31
+------Industrialization------,
 Industrialization,Industrialization,1797-01-02,1797-12-31
 Industrialization,Industrialization,1810-01-02,1810-12-31
 Industrialization,Industrialization,1819-01-02,1819-12-31
@@ -589,6 +624,7 @@ Textile Industry,Textile Industry,1810-01-02,1810-12-31
 Textile Industry,Textile Industry,1818-01-02,1818-12-31
 Textile Industry,Textile Industry,1824-01-02,1824-12-31
 Textile Industry,Textile Industry,1827-01-02,1827-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -620,6 +656,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Science and Technology------,
 Steam Power,Steam Power,1797-01-02,1797-12-31
 Steam Power,Steam Power,1812-01-02,1812-12-31
 Steam Power,Steam Power,1814-01-02,1814-12-31
@@ -639,6 +676,7 @@ Science and Technology,Science and Technology,1843-01-02,1845-12-31
 Science and Technology,Science and Technology,1847-01-02,1847-12-31
 Telegraph,Telegraph,1826-01-02,1826-12-31
 Telegraph,Telegraph,1841-01-02,1841-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -671,6 +709,7 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------International Relations------,
 International,International,1779-01-02,1783-12-31
 International,International,1785-01-02,1785-12-31
 International,International,1794-01-02,1794-12-31
@@ -685,6 +724,7 @@ Foreign Relations,Foreign Relations,1808-01-02,1808-12-31
 Foreign Relations,Foreign Relations,1810-01-02,1814-12-31
 Foreign Relations,Foreign Relations,1816-01-02,1839-12-31
 Foreign Relations,Foreign Relations,1843-01-02,1845-12-31
+------Military and Naval History------,
 Privateering,Privateering,1779-01-02,1779-12-31
 Privateering,Privateering,1810-01-02,1813-12-31
 Privateering,Privateering,1817-01-02,1825-12-31
@@ -707,6 +747,7 @@ Impressment,Impressment,1823-01-02,1823-12-31
 Impressment,Impressment,1827-01-02,1827-12-31
 Impressment,Impressment,1829-01-02,1829-12-31
 Impressment,Impressment,1842-01-02,1842-12-31
+------Diplomacy------,
 European Alliances,European Alliances,1779-01-02,1779-12-31
 European Alliances,European Alliances,1810-01-02,1810-12-31
 European Alliances,European Alliances,1812-01-02,1813-12-31
@@ -719,6 +760,7 @@ Diplomacy,Diplomacy,1843-01-02,1845-12-31
 Diplomacy,Diplomacy,1847-01-02,1847-12-31
 XYZ Affair,XYZ Affair,1798-01-02,1798-12-31
 Monroe Doctrine,Monroe Doctrine,1823-01-02,1824-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -750,6 +792,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -781,6 +824,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Industrialization------,
 Industrialization,Industrialization,1797-01-02,1797-12-31
 Industrialization,Industrialization,1810-01-02,1810-12-31
 Industrialization,Industrialization,1819-01-02,1819-12-31
@@ -792,6 +836,7 @@ Textile Industry,Textile Industry,1810-01-02,1810-12-31
 Textile Industry,Textile Industry,1818-01-02,1818-12-31
 Textile Industry,Textile Industry,1824-01-02,1824-12-31
 Textile Industry,Textile Industry,1827-01-02,1827-12-31
+------Adams Family------,
 Family Relations (Adams Family),Family Relations (Adams Family),1785-01-02,1787-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1805-01-02,1805-12-31
 Family Relations (Adams Family),Family Relations (Adams Family),1807-01-02,1807-12-31
@@ -821,6 +866,7 @@ Family Finances (Adams Family),Family Finances (Adams Family),1807-01-02,1807-12
 Family Finances (Adams Family),Family Finances (Adams Family),1809-01-02,1810-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1812-01-02,1812-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1816-01-02,1847-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -852,6 +898,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -886,6 +933,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -918,6 +966,7 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------Science and Technology------,
 Steam Power,Steam Power,1797-01-02,1797-12-31
 Steam Power,Steam Power,1812-01-02,1812-12-31
 Steam Power,Steam Power,1814-01-02,1814-12-31
@@ -937,6 +986,7 @@ Science and Technology,Science and Technology,1843-01-02,1845-12-31
 Science and Technology,Science and Technology,1847-01-02,1847-12-31
 Telegraph,Telegraph,1826-01-02,1826-12-31
 Telegraph,Telegraph,1841-01-02,1841-12-31
+------Judiciary------,
 Supreme Court,Supreme Court,1803-01-02,1804-12-31
 Supreme Court,Supreme Court,1806-01-02,1809-12-31
 Supreme Court,Supreme Court,1811-01-02,1811-12-31
@@ -945,6 +995,7 @@ Supreme Court,Supreme Court,1823-01-02,1823-12-31
 Supreme Court,Supreme Court,1826-01-02,1826-12-31
 Supreme Court,Supreme Court,1828-01-02,1838-12-31
 Supreme Court,Supreme Court,1840-01-02,1846-12-31
+------Military and Naval History------,
 Privateering,Privateering,1779-01-02,1779-12-31
 Privateering,Privateering,1810-01-02,1813-12-31
 Privateering,Privateering,1817-01-02,1825-12-31
@@ -967,6 +1018,7 @@ Impressment,Impressment,1823-01-02,1823-12-31
 Impressment,Impressment,1827-01-02,1827-12-31
 Impressment,Impressment,1829-01-02,1829-12-31
 Impressment,Impressment,1842-01-02,1842-12-31
+------American Politics------,
 Continental Congress,Continental Congress,1785-01-02,1785-12-31
 Continental Congress,Continental Congress,1831-01-02,1832-12-31
 Continental Congress,Continental Congress,1838-01-02,1838-12-31
@@ -981,6 +1033,7 @@ Articles of Confederation,Articles of Confederation,1831-01-02,1831-12-31
 Articles of Confederation,Articles of Confederation,1836-01-02,1836-12-31
 Articles of Confederation,Articles of Confederation,1839-01-02,1839-12-31
 Federalist Papers,Federalist Papers,1836-01-02,1837-12-31
+------Infrastructure------,
 Internal Improvements,Internal Improvements,1805-01-02,1805-12-31
 Internal Improvements,Internal Improvements,1807-01-02,1807-12-31
 Internal Improvements,Internal Improvements,1818-01-02,1847-12-31
@@ -997,6 +1050,7 @@ Roads,Roads,1834-01-02,1834-12-31
 Roads,Roads,1836-01-02,1836-12-31
 Railroads,Railroads,1826-01-02,1838-12-31
 Railroads,Railroads,1843-01-02,1847-12-31
+------Education------,
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1806-01-02,1809-12-31
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1811-01-02,1811-12-31
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1816-01-02,1816-12-31
@@ -1005,6 +1059,7 @@ Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Or
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1835-01-02,1835-12-31
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1844-01-02,1845-12-31
 Smithsonian Institution,Smithsonian Institution,1835-01-02,1847-12-31
+------European History------,
 French Revolution,French Revolution,1793-01-02,1797-12-31
 French Revolution,French Revolution,1801-01-02,1801-12-31
 French Revolution,French Revolution,1804-01-02,1804-12-31
@@ -1021,6 +1076,7 @@ Napoleonic Wars,Napoleonic Wars,1831-01-02,1831-12-31
 Napoleonic Wars,Napoleonic Wars,1833-01-02,1833-12-31
 Napoleonic Wars,Napoleonic Wars,1837-01-02,1837-12-31
 Napoleonic Wars,Napoleonic Wars,1843-01-02,1843-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1058,12 +1114,14 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Diplomatic Conflicts------,
 Chesapeake Affair,Chesapeake Affair,1807-01-02,1808-12-31
 Chesapeake Affair,Chesapeake Affair,1812-01-02,1812-12-31
 Chesapeake Affair,Chesapeake Affair,1839-01-02,1839-12-31
 Orders in Council,Orders in Council,1808-01-02,1809-12-31
 Orders in Council,Orders in Council,1811-01-02,1813-12-31
 Orders in Council,Orders in Council,1815-01-02,1816-12-31
+------Economics------,
 Continental System,Continental System,1807-01-02,1807-12-31
 Continental System,Continental System,1810-01-02,1812-12-31
 Continental System,Continental System,1815-01-02,1815-12-31
@@ -1072,6 +1130,7 @@ American System,American System,1831-01-02,1831-12-31
 American System,American System,1833-01-02,1833-12-31
 American System,American System,1835-01-02,1835-12-31
 Tariff of 1816,Tariff of 1816,1831-01-02,1831-12-31
+------Trade and Commerce------,
 Commerce,Commerce,1783-01-02,1783-12-31
 Commerce,Commerce,1797-01-02,1798-12-31
 Commerce,Commerce,1809-01-02,1824-12-31
@@ -1090,6 +1149,7 @@ Slave Trade,Slave Trade,1845-01-02,1846-12-31
 Embargo,Embargo,1807-01-02,1812-12-31
 Embargo,Embargo,1833-01-02,1833-12-31
 Embargo,Embargo,1843-01-02,1843-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -1121,6 +1181,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Political Systems------,
 Caucus System,Caucus System,1808-01-02,1808-12-31
 Caucus System,Caucus System,1820-01-02,1824-12-31
 Caucus System,Caucus System,1840-01-02,1840-12-31
@@ -1130,6 +1191,7 @@ Spoils System,Spoils System,1846-01-02,1846-12-31
 National Nominating Conventions,National Nominating Conventions,1831-01-02,1832-12-31
 National Nominating Conventions,National Nominating Conventions,1839-01-02,1840-12-31
 National Nominating Conventions,National Nominating Conventions,1843-01-02,1843-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -1164,28 +1226,33 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Diplomatic Conflicts------,
 Chesapeake Affair,Chesapeake Affair,1807-01-02,1808-12-31
 Chesapeake Affair,Chesapeake Affair,1812-01-02,1812-12-31
 Chesapeake Affair,Chesapeake Affair,1839-01-02,1839-12-31
 Orders in Council,Orders in Council,1808-01-02,1809-12-31
 Orders in Council,Orders in Council,1811-01-02,1813-12-31
 Orders in Council,Orders in Council,1815-01-02,1816-12-31
+------Media------,
 Press,Press,1808-01-02,1808-12-31
 Press,Press,1817-01-02,1823-12-31
 Press,Press,1830-01-02,1839-12-31
 Press,Press,1843-01-02,1845-12-31
 Press,Press,1847-01-02,1847-12-31
+------Military Strategy------,
 Blockades,Blockades,1809-01-02,1810-12-31
 Blockades,Blockades,1813-01-02,1814-12-31
 Blockades,Blockades,1818-01-02,1818-12-31
 Blockades,Blockades,1822-01-02,1824-12-31
 Blockades,Blockades,1827-01-02,1828-12-31
+------Latin American History------,
 Latin American Wars of Independence,Latin American Wars of Independence,1810-01-02,1812-12-31
 Latin American Wars of Independence,Latin American Wars of Independence,1816-01-02,1823-12-31
 Latin American Wars of Independence,Latin American Wars of Independence,1825-01-02,1825-12-31
 Latin American Wars of Independence,Latin American Wars of Independence,1830-01-02,1830-12-31
 Mexican War of Independence,Mexican War of Independence,1817-01-02,1822-12-31
 Mexican War of Independence,Mexican War of Independence,1843-01-02,1843-12-31
+------American Military History------,
 War of 1812,War of 1812,1811-01-02,1829-12-31
 War of 1812,War of 1812,1831-01-02,1847-12-31
 Seminole Wars,Seminole Wars,1817-01-02,1821-12-31
@@ -1194,6 +1261,7 @@ Seminole Wars,Seminole Wars,1830-01-02,1832-12-31
 Seminole Wars,Seminole Wars,1839-01-02,1842-12-31
 Seminole Wars,Seminole Wars,1844-01-02,1846-12-31
 Mexican War,Mexican War,1846-01-02,1848-12-31
+------Infrastructure------,
 Internal Improvements,Internal Improvements,1805-01-02,1805-12-31
 Internal Improvements,Internal Improvements,1807-01-02,1807-12-31
 Internal Improvements,Internal Improvements,1818-01-02,1847-12-31
@@ -1210,6 +1278,7 @@ Roads,Roads,1834-01-02,1834-12-31
 Roads,Roads,1836-01-02,1836-12-31
 Railroads,Railroads,1826-01-02,1838-12-31
 Railroads,Railroads,1843-01-02,1847-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -1241,6 +1310,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -1272,6 +1342,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -1306,6 +1377,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Political Conflicts------,
 Sectionalism,Sectionalism,1814-01-02,1814-12-31
 Sectionalism,Sectionalism,1816-01-02,1825-12-31
 Sectionalism,Sectionalism,1828-01-02,1829-12-31
@@ -1331,6 +1403,7 @@ Corrupt Bargain,Corrupt Bargain,1827-01-02,1828-12-31
 Corrupt Bargain,Corrupt Bargain,1830-01-02,1830-12-31
 Corrupt Bargain,Corrupt Bargain,1844-01-02,1844-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -1362,6 +1435,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -1393,6 +1467,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Religion and Society------,
 Religion,Religion,1779-01-02,1783-12-31
 Religion,Religion,1785-01-02,1788-12-31
 Religion,Religion,1797-01-02,1797-12-31
@@ -1405,6 +1480,7 @@ Unitarianism,Unitarianism,1821-01-02,1838-12-31
 Unitarianism,Unitarianism,1843-01-02,1845-12-31
 Unitarianism,Unitarianism,1847-01-02,1847-12-31
 Church of Jesus Christ of Latter-day Saints,Church of Jesus Christ of Latter-day Saints,1844-01-02,1844-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -1436,6 +1512,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1473,13 +1550,16 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Migration------,
 Immigration,Immigration,1817-01-02,1820-12-31
+------Latin American History------,
 Latin American Wars of Independence,Latin American Wars of Independence,1810-01-02,1812-12-31
 Latin American Wars of Independence,Latin American Wars of Independence,1816-01-02,1823-12-31
 Latin American Wars of Independence,Latin American Wars of Independence,1825-01-02,1825-12-31
 Latin American Wars of Independence,Latin American Wars of Independence,1830-01-02,1830-12-31
 Mexican War of Independence,Mexican War of Independence,1817-01-02,1822-12-31
 Mexican War of Independence,Mexican War of Independence,1843-01-02,1843-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -1512,6 +1592,7 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------American Military History------,
 War of 1812,War of 1812,1811-01-02,1829-12-31
 War of 1812,War of 1812,1831-01-02,1847-12-31
 Seminole Wars,Seminole Wars,1817-01-02,1821-12-31
@@ -1520,6 +1601,7 @@ Seminole Wars,Seminole Wars,1830-01-02,1832-12-31
 Seminole Wars,Seminole Wars,1839-01-02,1842-12-31
 Seminole Wars,Seminole Wars,1844-01-02,1846-12-31
 Mexican War,Mexican War,1846-01-02,1848-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1557,6 +1639,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -1589,6 +1672,7 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1626,6 +1710,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -1657,6 +1742,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -1689,8 +1775,10 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------Economic Crises------,
 Panic of 1819,Panic of 1819,1818-01-02,1821-12-31
 Panic of 1837,Panic of 1837,1837-01-02,1837-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -1722,6 +1810,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Infrastructure------,
 Internal Improvements,Internal Improvements,1805-01-02,1805-12-31
 Internal Improvements,Internal Improvements,1807-01-02,1807-12-31
 Internal Improvements,Internal Improvements,1818-01-02,1847-12-31
@@ -1738,6 +1827,7 @@ Roads,Roads,1834-01-02,1834-12-31
 Roads,Roads,1836-01-02,1836-12-31
 Railroads,Railroads,1826-01-02,1838-12-31
 Railroads,Railroads,1843-01-02,1847-12-31
+------Political Conflicts------,
 Sectionalism,Sectionalism,1814-01-02,1814-12-31
 Sectionalism,Sectionalism,1816-01-02,1825-12-31
 Sectionalism,Sectionalism,1828-01-02,1829-12-31
@@ -1763,6 +1853,7 @@ Corrupt Bargain,Corrupt Bargain,1827-01-02,1828-12-31
 Corrupt Bargain,Corrupt Bargain,1830-01-02,1830-12-31
 Corrupt Bargain,Corrupt Bargain,1844-01-02,1844-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1800,6 +1891,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1837,6 +1929,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Political Conflicts------,
 Sectionalism,Sectionalism,1814-01-02,1814-12-31
 Sectionalism,Sectionalism,1816-01-02,1825-12-31
 Sectionalism,Sectionalism,1828-01-02,1829-12-31
@@ -1862,6 +1955,7 @@ Corrupt Bargain,Corrupt Bargain,1827-01-02,1828-12-31
 Corrupt Bargain,Corrupt Bargain,1830-01-02,1830-12-31
 Corrupt Bargain,Corrupt Bargain,1844-01-02,1844-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -1893,14 +1987,17 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Rebellions------,
 Shays's Rebellion,Shays's Rebellion,1786-01-02,1788-12-31
 Shays's Rebellion,Shays's Rebellion,1837-01-02,1837-12-31
 Shays's Rebellion,Shays's Rebellion,1839-01-02,1839-12-31
 Haitian Revolution,Haitian Revolution,1793-01-02,1793-12-31
 Slave Rebellions,Slave Rebellions,1819-01-02,1819-12-31
+------Regional Histories------,
 South,South,1819-01-02,1820-12-31
 South,South,1831-01-02,1833-12-31
 South,South,1835-01-02,1838-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -1938,6 +2035,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------American Law------,
 Fugitive Slave Laws,Fugitive Slave Laws,1820-01-02,1820-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1822-01-02,1822-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1838-01-02,1839-12-31
@@ -1945,6 +2043,7 @@ Fugitive Slave Laws,Fugitive Slave Laws,1841-01-02,1844-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1833-01-02,1834-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1836-01-02,1836-12-31
 Gag Rule,Gag Rule,1836-01-02,1845-12-31
+------Political Conflicts------,
 Sectionalism,Sectionalism,1814-01-02,1814-12-31
 Sectionalism,Sectionalism,1816-01-02,1825-12-31
 Sectionalism,Sectionalism,1828-01-02,1829-12-31
@@ -1970,6 +2069,7 @@ Corrupt Bargain,Corrupt Bargain,1827-01-02,1828-12-31
 Corrupt Bargain,Corrupt Bargain,1830-01-02,1830-12-31
 Corrupt Bargain,Corrupt Bargain,1844-01-02,1844-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -2007,6 +2107,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -2039,9 +2140,12 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------Religious Movements------,
 Second Great Awakening,Second Great Awakening,1821-01-02,1821-12-31
+------Political Eras------,
 Era of Good Feelings,Era of Good Feelings,1823-01-02,1824-12-31
 Era of Good Feelings,Era of Good Feelings,1831-01-02,1831-12-31
+------Diplomacy------,
 European Alliances,European Alliances,1779-01-02,1779-12-31
 European Alliances,European Alliances,1810-01-02,1810-12-31
 European Alliances,European Alliances,1812-01-02,1813-12-31
@@ -2054,6 +2158,7 @@ Diplomacy,Diplomacy,1843-01-02,1845-12-31
 Diplomacy,Diplomacy,1847-01-02,1847-12-31
 XYZ Affair,XYZ Affair,1798-01-02,1798-12-31
 Monroe Doctrine,Monroe Doctrine,1823-01-02,1824-12-31
+------Political Conflicts------,
 Sectionalism,Sectionalism,1814-01-02,1814-12-31
 Sectionalism,Sectionalism,1816-01-02,1825-12-31
 Sectionalism,Sectionalism,1828-01-02,1829-12-31
@@ -2079,6 +2184,7 @@ Corrupt Bargain,Corrupt Bargain,1827-01-02,1828-12-31
 Corrupt Bargain,Corrupt Bargain,1830-01-02,1830-12-31
 Corrupt Bargain,Corrupt Bargain,1844-01-02,1844-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
+------Infrastructure------,
 Internal Improvements,Internal Improvements,1805-01-02,1805-12-31
 Internal Improvements,Internal Improvements,1807-01-02,1807-12-31
 Internal Improvements,Internal Improvements,1818-01-02,1847-12-31
@@ -2095,6 +2201,7 @@ Roads,Roads,1834-01-02,1834-12-31
 Roads,Roads,1836-01-02,1836-12-31
 Railroads,Railroads,1826-01-02,1838-12-31
 Railroads,Railroads,1843-01-02,1847-12-31
+------Science and Technology------,
 Steam Power,Steam Power,1797-01-02,1797-12-31
 Steam Power,Steam Power,1812-01-02,1812-12-31
 Steam Power,Steam Power,1814-01-02,1814-12-31
@@ -2114,6 +2221,7 @@ Science and Technology,Science and Technology,1843-01-02,1845-12-31
 Science and Technology,Science and Technology,1847-01-02,1847-12-31
 Telegraph,Telegraph,1826-01-02,1826-12-31
 Telegraph,Telegraph,1841-01-02,1841-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -2148,6 +2256,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -2179,6 +2288,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -2216,6 +2326,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -2247,6 +2358,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Political Systems------,
 Caucus System,Caucus System,1808-01-02,1808-12-31
 Caucus System,Caucus System,1820-01-02,1824-12-31
 Caucus System,Caucus System,1840-01-02,1840-12-31
@@ -2256,6 +2368,7 @@ Spoils System,Spoils System,1846-01-02,1846-12-31
 National Nominating Conventions,National Nominating Conventions,1831-01-02,1832-12-31
 National Nominating Conventions,National Nominating Conventions,1839-01-02,1840-12-31
 National Nominating Conventions,National Nominating Conventions,1843-01-02,1843-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -2290,6 +2403,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -2324,6 +2438,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Economics------,
 Continental System,Continental System,1807-01-02,1807-12-31
 Continental System,Continental System,1810-01-02,1812-12-31
 Continental System,Continental System,1815-01-02,1815-12-31
@@ -2332,6 +2447,7 @@ American System,American System,1831-01-02,1831-12-31
 American System,American System,1833-01-02,1833-12-31
 American System,American System,1835-01-02,1835-12-31
 Tariff of 1816,Tariff of 1816,1831-01-02,1831-12-31
+------Economics------,
 Continental System,Continental System,1807-01-02,1807-12-31
 Continental System,Continental System,1810-01-02,1812-12-31
 Continental System,Continental System,1815-01-02,1815-12-31
@@ -2340,6 +2456,7 @@ American System,American System,1831-01-02,1831-12-31
 American System,American System,1833-01-02,1833-12-31
 American System,American System,1835-01-02,1835-12-31
 Tariff of 1816,Tariff of 1816,1831-01-02,1831-12-31
+------Social Movements------,
 Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Reform Movements,Reform Movements,1806-01-02,1806-12-31
@@ -2377,6 +2494,7 @@ Pro-Slavery Movements,Pro-Slavery Movements,1820-01-02,1821-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
 Anti-Slavery Petitions,Anti-Slavery Petitions,1831-01-02,1847-12-31
+------Political Systems------,
 Caucus System,Caucus System,1808-01-02,1808-12-31
 Caucus System,Caucus System,1820-01-02,1824-12-31
 Caucus System,Caucus System,1840-01-02,1840-12-31
@@ -2386,6 +2504,7 @@ Spoils System,Spoils System,1846-01-02,1846-12-31
 National Nominating Conventions,National Nominating Conventions,1831-01-02,1832-12-31
 National Nominating Conventions,National Nominating Conventions,1839-01-02,1840-12-31
 National Nominating Conventions,National Nominating Conventions,1843-01-02,1843-12-31
+------Territorial Expansion------,
 Territorial Expansion,Territorial Expansion,1797-01-02,1797-12-31
 Territorial Expansion,Territorial Expansion,1818-01-02,1821-12-31
 Territorial Expansion,Territorial Expansion,1826-01-02,1827-12-31
@@ -2418,6 +2537,7 @@ Northwest Ordinance,Northwest Ordinance,1831-01-02,1831-12-31
 Northwest Ordinance,Northwest Ordinance,1835-01-02,1835-12-31
 Northwest Ordinance,Northwest Ordinance,1837-01-02,1838-12-31
 Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
+------Economics------,
 Continental System,Continental System,1807-01-02,1807-12-31
 Continental System,Continental System,1810-01-02,1812-12-31
 Continental System,Continental System,1815-01-02,1815-12-31
@@ -2426,6 +2546,7 @@ American System,American System,1831-01-02,1831-12-31
 American System,American System,1833-01-02,1833-12-31
 American System,American System,1835-01-02,1835-12-31
 Tariff of 1816,Tariff of 1816,1831-01-02,1831-12-31
+------American Law------,
 Fugitive Slave Laws,Fugitive Slave Laws,1820-01-02,1820-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1822-01-02,1822-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1838-01-02,1839-12-31
@@ -2433,6 +2554,7 @@ Fugitive Slave Laws,Fugitive Slave Laws,1841-01-02,1844-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1833-01-02,1834-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1836-01-02,1836-12-31
 Gag Rule,Gag Rule,1836-01-02,1845-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -2464,6 +2586,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Indigenous Peoples------,
 Native Americans,Native Americans,1786-01-02,1786-12-31
 Native Americans,Native Americans,1793-01-02,1795-12-31
 Native Americans,Native Americans,1803-01-02,1808-12-31
@@ -2472,6 +2595,7 @@ Native Americans,Native Americans,1812-01-02,1847-12-31
 Indian Removal,Indian Removal,1834-01-02,1834-12-31
 Indian Removal,Indian Removal,1838-01-02,1838-12-31
 Indian Removal,Indian Removal,1843-01-02,1843-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -2506,6 +2630,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------Education------,
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1806-01-02,1809-12-31
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1811-01-02,1811-12-31
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1816-01-02,1816-12-31
@@ -2514,6 +2639,7 @@ Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Or
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1835-01-02,1835-12-31
 Boylston Professor of Rhetoric and Oratory,Boylston Professor of Rhetoric and Oratory,1844-01-02,1845-12-31
 Smithsonian Institution,Smithsonian Institution,1835-01-02,1847-12-31
+------American Politics------,
 Continental Congress,Continental Congress,1785-01-02,1785-12-31
 Continental Congress,Continental Congress,1831-01-02,1832-12-31
 Continental Congress,Continental Congress,1838-01-02,1838-12-31
@@ -2528,6 +2654,7 @@ Articles of Confederation,Articles of Confederation,1831-01-02,1831-12-31
 Articles of Confederation,Articles of Confederation,1836-01-02,1836-12-31
 Articles of Confederation,Articles of Confederation,1839-01-02,1839-12-31
 Federalist Papers,Federalist Papers,1836-01-02,1837-12-31
+------American Law------,
 Fugitive Slave Laws,Fugitive Slave Laws,1820-01-02,1820-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1822-01-02,1822-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1838-01-02,1839-12-31
@@ -2535,10 +2662,13 @@ Fugitive Slave Laws,Fugitive Slave Laws,1841-01-02,1844-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1833-01-02,1834-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1836-01-02,1836-12-31
 Gag Rule,Gag Rule,1836-01-02,1845-12-31
+------Military Conflicts------,
 Texas Revolution and Independence,Texas Revolution and Independence,1836-01-02,1838-12-31
 Texas Revolution and Independence,Texas Revolution and Independence,1843-01-02,1843-12-31
+------Economic Crises------,
 Panic of 1819,Panic of 1819,1818-01-02,1821-12-31
 Panic of 1837,Panic of 1837,1837-01-02,1837-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -2570,10 +2700,13 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Legal Conflicts------,
 Amistad,Amistad,1839-01-02,1845-12-31
 Amistad,Amistad,1847-01-02,1847-12-31
+------Philosophical Movements------,
 Transcendentalism,Transcendentalism,1840-01-02,1840-12-31
 Transcendentalism,Transcendentalism,1846-01-02,1846-12-31
+------Treaties------,
 Jay Treaty,Jay Treaty,1794-01-02,1796-12-31
 Jay Treaty,Jay Treaty,1803-01-02,1803-12-31
 Jay Treaty,Jay Treaty,1805-01-02,1805-12-31
@@ -2605,6 +2738,7 @@ Adams-Onis Treaty,Adams-Onis Treaty,1838-01-02,1838-12-31
 Adams-Onis Treaty,Adams-Onis Treaty,1844-01-02,1846-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31
@@ -2636,6 +2770,7 @@ Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
 Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
 Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+------Religion and Society------,
 Religion,Religion,1779-01-02,1783-12-31
 Religion,Religion,1785-01-02,1788-12-31
 Religion,Religion,1797-01-02,1797-12-31
@@ -2648,6 +2783,7 @@ Unitarianism,Unitarianism,1821-01-02,1838-12-31
 Unitarianism,Unitarianism,1843-01-02,1845-12-31
 Unitarianism,Unitarianism,1847-01-02,1847-12-31
 Church of Jesus Christ of Latter-day Saints,Church of Jesus Christ of Latter-day Saints,1844-01-02,1844-12-31
+------Political Factions------,
 Loyalists,Loyalists,1785-01-02,1785-12-31
 Loyalists,Loyalists,1787-01-02,1788-12-31
 Loyalists,Loyalists,1840-01-02,1840-12-31
@@ -2682,6 +2818,7 @@ Democratic Party,Democratic Party,1834-01-02,1846-12-31
 National Republican Party,National Republican Party,1830-01-02,1834-12-31
 Whig Party,Whig Party,1834-01-02,1847-12-31
 American Party,American Party,1846-01-02,1846-12-31
+------American Military History------,
 War of 1812,War of 1812,1811-01-02,1829-12-31
 War of 1812,War of 1812,1831-01-02,1847-12-31
 Seminole Wars,Seminole Wars,1817-01-02,1821-12-31
@@ -2690,6 +2827,7 @@ Seminole Wars,Seminole Wars,1830-01-02,1832-12-31
 Seminole Wars,Seminole Wars,1839-01-02,1842-12-31
 Seminole Wars,Seminole Wars,1844-01-02,1846-12-31
 Mexican War,Mexican War,1846-01-02,1848-12-31
+------Political Conflicts------,
 Sectionalism,Sectionalism,1814-01-02,1814-12-31
 Sectionalism,Sectionalism,1816-01-02,1825-12-31
 Sectionalism,Sectionalism,1828-01-02,1829-12-31
@@ -2715,6 +2853,7 @@ Corrupt Bargain,Corrupt Bargain,1827-01-02,1828-12-31
 Corrupt Bargain,Corrupt Bargain,1830-01-02,1830-12-31
 Corrupt Bargain,Corrupt Bargain,1844-01-02,1844-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
+------American Elections------,
 Elections,Elections,1797-01-02,1797-12-31
 Elections,Elections,1801-01-02,1801-12-31
 Elections,Elections,1807-01-02,1809-12-31

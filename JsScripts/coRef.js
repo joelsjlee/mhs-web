@@ -368,16 +368,18 @@ let nodeColor = d3.scaleOrdinal()
                 .style('color', "#fff")
                 
                 // Changed to tie it to mouse movement because this stops it from getting wonky when zoom/page view is changed. 
-                .style("left", (event.x) + "px")
-                .style("top", (event.y) + "px");
+                .style("right", 0 + "px")
+                .style("top", 300 + "px");
             
         toolHeader
             .html(d.name)
-            .attr('pointer-events', 'none');
+            .attr('pointer-events', 'none')
+            .style('color', "#fff");
 
         toolBody
             .selectAll('p')
             .data(nodeInfo)
+            .style('color', "#fff")
             .join('p')
                 .html(d => `${d[0]}: ${d[1]}`)
                 .attr('pointer-events', 'none');
@@ -387,8 +389,9 @@ let nodeColor = d3.scaleOrdinal()
 
     node.on('mousemove', function(event) {
         tooltip
-            .style("left", (event.x) + "px")
-            .style("top", (event.y) + "px")
+                // Changed to tie it to mouse movement because this stops it from getting wonky when zoom/page view is changed. 
+                .style("right", 0 + "px")
+                .style("top", 300 + "px");
     });
 
     node.on('mouseout', function () { // hides tooltip when not highlighting node

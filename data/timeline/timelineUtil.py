@@ -227,15 +227,16 @@ def createTimelineData(type, filepath,output,sorted=False):
         newlines = [["Role","Name","Start","End"]]
 
         for cat in categories:
-            incat = []
+            incat = [["------"+cat+"------",""]]
 
 
             for line in range(len(csv_lines)):
+                print(csv_lines[line])
                 if Category_list[csv_lines[line][1]] == cat:
                     incat.append(csv_lines[line])
 
             newlines += incat
-        print(newlines)
+
 
         with open(output, 'w', newline='') as file:
             writer = csv.writer(file)
