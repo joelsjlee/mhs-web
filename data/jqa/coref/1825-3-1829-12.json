@@ -1,4 +1,12 @@
 {
+    "metrics": {
+        "weight_min": "11",
+        "num_entries": "4672",
+        "avg_entry_len": "959.5107020547945",
+        "pers_ref_avg": "6.22367294520548",
+        "num_nodes": 167,
+        "num_edges": 508
+    },
     "directed": false,
     "multigraph": false,
     "graph": {},
