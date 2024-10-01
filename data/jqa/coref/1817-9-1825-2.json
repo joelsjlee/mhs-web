@@ -863,7 +863,11 @@
             "degree_cent": 0.013574660633484163,
             "modularity": 4,
             "id": "alagon-unknown",
-            "name": "alagon-unknown"
+            "given_name": "alagon-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 2,

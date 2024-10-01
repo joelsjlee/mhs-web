@@ -1656,7 +1656,11 @@
             "degree_cent": 0.004,
             "modularity": 3,
             "id": "anduaga-unknown",
-            "name": "anduaga-unknown"
+            "given_name": "anduaga-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 3,

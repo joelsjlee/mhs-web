@@ -3,6 +3,7 @@
         "weight_min": "1",
         "num_entries": "492",
         "avg_entry_len": "2022.4776422764228",
+        "pers_ref_avg": "2.888211382113821",
         "num_nodes": 328,
         "num_edges": 1542
     },

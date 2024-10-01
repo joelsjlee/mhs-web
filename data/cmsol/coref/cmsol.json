@@ -3,6 +3,7 @@
         "weight_min": "3",
         "num_entries": "181",
         "avg_entry_len": "3722.6187845303866",
+        "pers_ref_avg": "11.11049723756906",
         "num_nodes": 122,
         "num_edges": 878
     },
@@ -342,7 +343,11 @@
             "degree_cent": 0.15,
             "modularity": 0,
             "id": "sedgwick-theodorei",
-            "name": "sedgwick-theodorei"
+            "given_name": "sedgwick-theodorei",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 16,
@@ -442,7 +447,11 @@
             "degree_cent": 0.05,
             "modularity": 2,
             "id": "brown-unknown",
-            "name": "brown-unknown"
+            "given_name": "brown-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 22,
@@ -464,7 +473,11 @@
             "degree_cent": 0.05,
             "modularity": 2,
             "id": "brush-unknown",
-            "name": "brush-unknown"
+            "given_name": "brush-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 13,
@@ -746,7 +759,11 @@
             "degree_cent": 0.025,
             "modularity": 2,
             "id": "destaël-anne",
-            "name": "destaël-anne"
+            "given_name": "destaël-anne",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 20,
@@ -898,7 +915,11 @@
             "degree_cent": 0.008333333333333333,
             "modularity": 0,
             "id": "james-unknown",
-            "name": "james-unknown"
+            "given_name": "james-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 1,
@@ -946,7 +967,11 @@
             "degree_cent": 0.016666666666666666,
             "modularity": 0,
             "id": "keep-unknown",
-            "name": "keep-unknown"
+            "given_name": "keep-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 6,
@@ -1410,7 +1435,11 @@
             "degree_cent": 0.03333333333333333,
             "modularity": 2,
             "id": "williams-unknown",
-            "name": "williams-unknown"
+            "given_name": "williams-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 4,
@@ -1419,7 +1448,11 @@
             "degree_cent": 0.03333333333333333,
             "modularity": 0,
             "id": "sedgwick-theodoreii",
-            "name": "sedgwick-theodoreii"
+            "given_name": "sedgwick-theodoreii",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 2,
@@ -1441,7 +1474,11 @@
             "degree_cent": 0.008333333333333333,
             "modularity": 2,
             "id": "thompson-unknown",
-            "name": "thompson-unknown"
+            "given_name": "thompson-unknown",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 4,
@@ -1463,7 +1500,11 @@
             "degree_cent": 0.016666666666666666,
             "modularity": 2,
             "id": "wilkins-c",
-            "name": "wilkins-c"
+            "given_name": "wilkins-c",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 2,
@@ -1524,7 +1565,11 @@
             "degree_cent": 0.008333333333333333,
             "modularity": 0,
             "id": "unknown-sarah",
-            "name": "unknown-sarah"
+            "given_name": "unknown-sarah",
+            "middle_name": "",
+            "family_name": "",
+            "date_of_birth": "",
+            "date_of_death": ""
         },
         {
             "degree": 1,
