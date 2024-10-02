@@ -82,18 +82,19 @@
     left: 0%;
     right: 0%;
     height: 100%;
+    max-width: 95%;
     background: #fff;
     border-radius: 50px;
     position: absolute;
+
 }
 
 .slider .range-slider input[type="range"] {
     position: absolute;
     top: -8px;
-    left: -5px;
-    width: 100%; 
+    left: 0; 
+    width: 100%;
     appearance: none;
-    -webkit-appearance: none;
     pointer-events: none;
     background: none;
     outline: none;
@@ -106,4 +107,6 @@
     height: 17px;
     background: #fff;
     border-radius: 50px;
+    position: relative; /* Adjust relative to the input */
 }
+

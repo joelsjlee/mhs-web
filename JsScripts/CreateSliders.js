@@ -25,13 +25,13 @@ function SliderHTML(title,step, containerId) {
                 <div class="${shortTitle}-min-value ${shortTitle}-numberVal">
                     <input type="number" min="0" max="100" value="25" id="${shortTitle}-minnum" disabled>
                 </div>
-                &nbsp; - 
+               
                 <div class="${shortTitle}-range-slider range-slider">
                     <div class="${shortTitle}-progress progress"></div>
                     <input type="range" class="${shortTitle}-range-min" min="0" max="100" value="25" step="${step}" id="${shortTitle}-minrange">
                     <input type="range" class="${shortTitle}-range-max" min="0" max="100" value="75" step="${step}" id="${shortTitle}-maxrange">
                 </div>
-                - &nbsp;
+              
                 <div class="${shortTitle}-max-value ${shortTitle}-numberVal">
                     <input type="number" min="0" max="100" value="100" id="${shortTitle}-maxnum" disabled>
                 </div>

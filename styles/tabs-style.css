@@ -18,24 +18,27 @@ html {
 
 .menu__tabs {
     list-style: none;
-    display: flex; /* Flex container */
-    justify-content: space-between; /* Distribute tabs evenly */
+    display: flex;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
-    width: 100%; /* Ensures it uses the full available width */
-    overflow: hidden; /* Prevents any overflow */
+    width: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .menu__tabs li {
-    flex: 1 1 0; /* Flex-grow and flex-shrink properties to ensure shrinking */
-    min-width: 0; /* Prevents tabs from taking up more space than available */
+    flex: 1 1 0;
+    min-width: 0;
+    position: relative;
+    z-index: 10;
 }
 
 .menu__tabs a {
-    display: flex; /* Flexbox for the anchor */
-    align-items: center; /* Vertically center icon and text */
-    justify-content: center; /* Horizontally center icon and text */
-    white-space: nowrap; /* Prevents text wrapping */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
     padding: 1em;
     background: #94b3ae;
     color: #FFF;
@@ -43,15 +46,18 @@ html {
     border-radius: 10px 10px 0 0;
     transition: all 0.3s ease;
     box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.2);
-    font-size: calc(8px + 0.4vw); /* Font size scales with the viewport */
-    overflow: hidden; /* Ensures content is contained within the tab */
+    font-size: calc(8px + 0.4vw);
+    height: 100%;
+    z-index: 10;
+    overflow: hidden; 
 }
 
 .menu__tabs a i {
-    margin-right: 6px; /* Space between icon and text */
-    color: #fff;
-    font-size: calc(8px + 0.4vw); /* Scale icon size with the viewport */
-    flex-shrink: 0; /* Prevent the icon from shrinking too much */
+    margin-right: calc(4px + 0.3vw);
+    font-size: calc(8px + 0.4vw);
+    flex-shrink: 0; 
+    max-width: 100%; 
+    overflow: hidden; 
 }
 
 .menu__tabs a:hover {
@@ -68,15 +74,20 @@ html {
     color: #94b3ae;
 }
 
+.menu__tabs a span {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
 
 /* Media query to hide the text and show only the icon when the screen gets smaller */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .menu__tabs a span { 
-        display: none; /* Hide the text (assuming text is inside a <span>) */
+        display: none; 
     }
     .menu__tabs a i {
-        margin-right: 0; /* Remove spacing between the icon and text */
-        font-size: 1.5em; /* Increase icon size for better visibility */
+        margin-right: 0; 
+        font-size: 1.3em; 
     }
 }
 
