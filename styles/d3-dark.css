@@ -35,7 +35,9 @@ Whitesmoke: f5f5f5
 div.network > svg {
     background-color: #f5f5f5;
     border-radius: 10px;
-    outline: thick solid #94b3ae;
+    border: thick solid #94b3ae;
+    width: 90%;
+    margin: 0 auto;
 }
 
 g.network-labels > text.label {

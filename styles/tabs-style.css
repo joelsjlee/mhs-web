@@ -17,46 +17,67 @@ html {
 
 
 .menu__tabs {
-	list-style: none;
-	overflow: hidden;
+    list-style: none;
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Distribute tabs evenly */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensures it uses the full available width */
+    overflow: hidden; /* Prevents any overflow */
 }
+
 .menu__tabs li {
-	float: left;
-	margin-right: 4px;
-	font-size: 1.0em;
+    flex: 1 1 0; /* Flex-grow and flex-shrink properties to ensure shrinking */
+    min-width: 0; /* Prevents tabs from taking up more space than available */
 }
+
 .menu__tabs a {
-	padding: 1em;
-	background: #94b3ae;;
-	display: inline-block;
-	color: #FFF;
-	text-decoration: none;
-	-webkit-border-radius: 10px 10px 0 0;
-	-moz-border-radius: 10px 10px 0 0;
-	border-radius: 10px 10px 0 0;
-	-webkit-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	-webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-	-moz-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-	box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-}
-.menu__tabs a:hover {
-	background: #b0b7b6;;
-}
-.menu__tabs a.active {
-	color: #b0b7b6;;
-	background: #FFF;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+    display: flex; /* Flexbox for the anchor */
+    align-items: center; /* Vertically center icon and text */
+    justify-content: center; /* Horizontally center icon and text */
+    white-space: nowrap; /* Prevents text wrapping */
+    padding: 1em;
+    background: #94b3ae;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.2);
+    font-size: calc(8px + 0.4vw); /* Font size scales with the viewport */
+    overflow: hidden; /* Ensures content is contained within the tab */
 }
 
-
-.menu__tabs a.active i {color: #94b3ae;;}
 .menu__tabs a i {
-	margin-right: 3px;
-	color: #fff;
+    margin-right: 6px; /* Space between icon and text */
+    color: #fff;
+    font-size: calc(8px + 0.4vw); /* Scale icon size with the viewport */
+    flex-shrink: 0; /* Prevent the icon from shrinking too much */
+}
+
+.menu__tabs a:hover {
+    background: #b0b7b6;
+}
+
+.menu__tabs a.active {
+    color: #b0b7b6;
+    background: #FFF;
+    box-shadow: none;
+}
+
+.menu__tabs a.active i {
+    color: #94b3ae;
+}
+
+
+/* Media query to hide the text and show only the icon when the screen gets smaller */
+@media (max-width: 900px) {
+    .menu__tabs a span { 
+        display: none; /* Hide the text (assuming text is inside a <span>) */
+    }
+    .menu__tabs a i {
+        margin-right: 0; /* Remove spacing between the icon and text */
+        font-size: 1.5em; /* Increase icon size for better visibility */
+    }
 }
 
 /*--------------------------

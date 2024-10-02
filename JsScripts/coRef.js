@@ -54,15 +54,21 @@ d3.json(filepath).then(data => {
 
     d3.selectAll("svg > *").remove();
 
+    data.nodes.forEach(function(d) {
+        d.name = `${d.given_name} ${d.middle_name ? d.middle_name + ' ' : ''}${d.family_name}`;
+    });
+
     // Build constants. (window size and length of transitions)
-    let margin = {top: 30, right: 30, bottom: 30, left: 30},
-        width = 850, height = 600, duration = 300;
+    let margin = {top: 40, right: 30, bottom: 40, left: 30},
+        width = 850, height = 500, duration = 300;
 
     // Build container.
     const svg = d3.select('.network')
     .append('svg')
         .attr("height", height + margin.top + margin.bottom) // Contained.
-        .attr("width", width + margin.right + margin.left)
+        .attr("width", "100%")
+        .attr("margins", "0px auto")
+        .attr("display", "block")
         
     .call(d3.zoom()
         .scaleExtent([0.15, 6])
@@ -369,7 +375,7 @@ let nodeColor = d3.scaleOrdinal()
                 
                 // Changed to tie it to mouse movement because this stops it from getting wonky when zoom/page view is changed. 
                 .style("right", 0 + "px")
-                .style("top", 300 + "px");
+                .style("top", 600 + "px");
             
         toolHeader
             .html(d.name)
@@ -391,7 +397,7 @@ let nodeColor = d3.scaleOrdinal()
         tooltip
                 // Changed to tie it to mouse movement because this stops it from getting wonky when zoom/page view is changed. 
                 .style("right", 0 + "px")
-                .style("top", 300 + "px");
+                .style("top", 600 + "px");
     });
 
     node.on('mouseout', function () { // hides tooltip when not highlighting node
