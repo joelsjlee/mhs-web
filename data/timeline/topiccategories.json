@@ -1,0 +1,940 @@
+{
+    "African Americans": [
+        "African American"
+    ],
+    "Underground Railroad": [
+        "African American",
+        "Slavery and Enslaved People"
+    ],
+    "Arts, Visual and Performing": [
+        "Art",
+        "Culture"
+    ],
+    "Romanticism": [
+        "Culture",
+        "Philosophy"
+    ],
+    "Translation": [
+        "Culture",
+        "Literature"
+    ],
+    "Utopian Communities": [
+        "Culture",
+        "Philosophy",
+        "Reform"
+    ],
+    "Gardens": [
+        "Culture",
+        "Work"
+    ],
+    "Smithsonian Institution": [
+        "Culture",
+        "Science"
+    ],
+    "Transcendentalism": [
+        "Culture",
+        "Philosophy",
+        "Reform"
+    ],
+    "Shopping and Material Exchange": [
+        "Culture",
+        "Economics"
+    ],
+    "Court Life and Society, European": [
+        "Culture",
+        "International Relations",
+        "Society"
+    ],
+    "Manners": [
+        "Culture",
+        "Society"
+    ],
+    "Leisure Activities": [
+        "Culture"
+    ],
+    "Currency": [
+        "Economics"
+    ],
+    "Privateering": [
+        "Economics",
+        "International Relations"
+    ],
+    "Panic of 1837": [
+        "Economics"
+    ],
+    "Merchants": [
+        "Economics"
+    ],
+    "Slave Trade": [
+        "Economics",
+        "Slavery and Enslaved People"
+    ],
+    "Bank Failures": [
+        "Economics"
+    ],
+    "Removal of Deposits": [
+        "Economics"
+    ],
+    "Internal Improvements": [
+        "Economics",
+        "Travel and Transportation"
+    ],
+    "Specie Circular": [
+        "Economics"
+    ],
+    "Bank Veto": [
+        "Economics"
+    ],
+    "Blockades": [
+        "Economics",
+        "International Relations"
+    ],
+    "Tariff of 1833": [
+        "Economics"
+    ],
+    "Continental System": [
+        "Economics",
+        "Wars and Revolutions"
+    ],
+    "Independent Treasury": [
+        "Economics"
+    ],
+    "Tariff of 1832": [
+        "Economics"
+    ],
+    "American System": [
+        "Economics",
+        "Government"
+    ],
+    "Tariff of 1828": [
+        "Economics"
+    ],
+    "Economic Theory": [
+        "Economics"
+    ],
+    "Embargo": [
+        "Economics",
+        "International Relations",
+        "Law"
+    ],
+    "Corporations": [
+        "Economics"
+    ],
+    "Family Finances (Sedgwick Family)": [
+        "Economics",
+        "Family"
+    ],
+    "Family Finances (Taney Family)": [
+        "Economics",
+        "Family"
+    ],
+    "Family Finances (Adams Family)": [
+        "Economics",
+        "Family"
+    ],
+    "Economics": [
+        "Economics"
+    ],
+    "Panic of 1819": [
+        "Economics"
+    ],
+    "Industrialization": [
+        "Economics",
+        "Industry"
+    ],
+    "Commerce": [
+        "Economics"
+    ],
+    "Bank of the United States": [
+        "Economics",
+        "Government"
+    ],
+    "Financial Panics": [
+        "Economics"
+    ],
+    "Tariff of 1816": [
+        "Economics"
+    ],
+    "Tariffs": [
+        "Economics"
+    ],
+    "Banks, Pet": [
+        "Economics"
+    ],
+    "Contracts": [
+        "Economics"
+    ],
+    "Transfer Drafts": [
+        "Economics"
+    ],
+    "Women's Education": [
+        "Education",
+        "Gender"
+    ],
+    "Boylston Professor of Rhetoric and Oratory": [
+        "Education",
+        "Work"
+    ],
+    "Teaching": [
+        "Education"
+    ],
+    "Home Economics": [
+        "Education",
+        "Science",
+        "Society"
+    ],
+    "Education": [
+        "Education"
+    ],
+    "Elections, Presidential 1848": [
+        "Elections"
+    ],
+    "Elections, Presidential 1836": [
+        "Elections"
+    ],
+    "Elections, Presidential 1812": [
+        "Elections"
+    ],
+    "Elections, Presidential 1808": [
+        "Elections"
+    ],
+    "Elections, Congressional": [
+        "Elections"
+    ],
+    "Elections, Presidential 1824": [
+        "Elections"
+    ],
+    "Elections, Presidential 1832": [
+        "Elections"
+    ],
+    "Elections, Presidential 1816": [
+        "Elections"
+    ],
+    "Elections, Presidential 1796": [
+        "Elections"
+    ],
+    "Elections, Presidential 1820": [
+        "Elections"
+    ],
+    "Elections, Presidential 1844": [
+        "Elections"
+    ],
+    "Elections, Presidential 1800": [
+        "Elections"
+    ],
+    "Elections, Presidential 1840": [
+        "Elections"
+    ],
+    "Elections, Presidential": [
+        "Elections"
+    ],
+    "Elections": [
+        "Elections"
+    ],
+    "Elections, State and Local": [
+        "Elections"
+    ],
+    "Elections, Presidential 1828": [
+        "Elections"
+    ],
+    "Family Relations (Adams Family)": [
+        "Family",
+        "Personal Relationships"
+    ],
+    "Family Relations (Taney Family)": [
+        "Family",
+        "Personal Relationships"
+    ],
+    "Family Residences (Sedgwick Family)": [
+        "Family"
+    ],
+    "Family Residences (Adams Family)": [
+        "Family"
+    ],
+    "Family Residences (Taney Family)": [
+        "Family"
+    ],
+    "Family Relations (Sedgwick Family)": [
+        "Family",
+        "Personal Relationships"
+    ],
+    "Dietaries": [
+        "Food and Drink"
+    ],
+    "Menus": [
+        "Food and Drink"
+    ],
+    "Cooking": [
+        "Food and Drink"
+    ],
+    "New England Kitchen": [
+        "Food and Drink"
+    ],
+    "Food and Drink": [
+        "Food and Drink"
+    ],
+    "Bread": [
+        "Food and Drink"
+    ],
+    "Women's Rights": [
+        "Gender",
+        "Reform"
+    ],
+    "Gender Roles": [
+        "Gender"
+    ],
+    "Domestic Life and Duties": [
+        "Gender",
+        "Society",
+        "Work"
+    ],
+    "Territories": [
+        "Government"
+    ],
+    "House of Representatives": [
+        "Government"
+    ],
+    "US Constitution": [
+        "Government",
+        "Law"
+    ],
+    "Senate": [
+        "Government"
+    ],
+    "Treasury Department": [
+        "Government"
+    ],
+    "Taxing Power": [
+        "Government"
+    ],
+    "Public Service": [
+        "Government",
+        "Society"
+    ],
+    "Spoils System": [
+        "Government",
+        "Politics",
+        "Work"
+    ],
+    "Orders in Council": [
+        "Government",
+        "Law"
+    ],
+    "Federalism": [
+        "Government"
+    ],
+    "Articles of Confederation": [
+        "Government",
+        "Law"
+    ],
+    "Separation of Powers": [
+        "Government"
+    ],
+    "Bank War": [
+        "Government"
+    ],
+    "Patronage": [
+        "Government"
+    ],
+    "President": [
+        "Government"
+    ],
+    "Comity": [
+        "Government"
+    ],
+    "War Department": [
+        "Government"
+    ],
+    "Maryland Judiciary": [
+        "Government"
+    ],
+    "Maryland Legislature": [
+        "Government"
+    ],
+    "Attorney General": [
+        "Government",
+        "Law"
+    ],
+    "Veto Power": [
+        "Government"
+    ],
+    "Cabinet": [
+        "Government"
+    ],
+    "Continental Congress": [
+        "Government"
+    ],
+    "Postal Service": [
+        "Government"
+    ],
+    "States Rights": [
+        "Government",
+        "Philosophy",
+        "Politics"
+    ],
+    "Era of Good Feelings": [
+        "Government",
+        "Politics"
+    ],
+    "Congress": [
+        "Government"
+    ],
+    "Recreation": [
+        "Health",
+        "Society"
+    ],
+    "Health and Illness": [
+        "Health"
+    ],
+    "Childbirth": [
+        "Health",
+        "Stages of Life"
+    ],
+    "Pregnancy": [
+        "Health",
+        "Stages of Life"
+    ],
+    "West, The": [
+        "Identity",
+        "Politics",
+        "Territorial Expansionism"
+    ],
+    "Disinterestedness": [
+        "Identity"
+    ],
+    "Caribbean": [
+        "Identity",
+        "Travel and Transportation"
+    ],
+    "Sectionalism": [
+        "Identity",
+        "Philosophy",
+        "Politics"
+    ],
+    "National Identity": [
+        "Identity"
+    ],
+    "Singlehood": [
+        "Identity"
+    ],
+    "South, The": [
+        "Identity",
+        "Politics"
+    ],
+    "Self-reflection": [
+        "Identity"
+    ],
+    "Character": [
+        "Identity"
+    ],
+    "Catholicism": [
+        "Identity",
+        "Religion"
+    ],
+    "Race and Ethnicity": [
+        "Identity"
+    ],
+    "Judaism": [
+        "Identity",
+        "Religion"
+    ],
+    "Regional Identity": [
+        "Identity"
+    ],
+    "Widowhood": [
+        "Identity",
+        "Stages of Life"
+    ],
+    "Personal Habits": [
+        "Identity"
+    ],
+    "Seminole Wars": [
+        "Indigenous Peoples",
+        "Wars and Revolutions"
+    ],
+    "Indian Removal": [
+        "Indigenous Peoples",
+        "Law"
+    ],
+    "Native Americans": [
+        "Indigenous Peoples"
+    ],
+    "Agriculture": [
+        "Industry",
+        "Science"
+    ],
+    "Steam Power": [
+        "Industry",
+        "Science",
+        "Travel and Transportation"
+    ],
+    "Textile Industry": [
+        "Industry",
+        "Science"
+    ],
+    "Impressment": [
+        "International Relations"
+    ],
+    "Treaty of Ghent": [
+        "International Relations"
+    ],
+    "Monroe Doctrine": [
+        "International Relations"
+    ],
+    "Diplomacy": [
+        "International Relations"
+    ],
+    "XYZ Affair": [
+        "International Relations"
+    ],
+    "European Alliances": [
+        "International Relations"
+    ],
+    "Prussian-American Treaty of Amity and Commerce": [
+        "International Relations"
+    ],
+    "Foreign Relations": [
+        "International Relations"
+    ],
+    "Adams-Onis Treaty": [
+        "International Relations",
+        "Territorial Expansionism"
+    ],
+    "Jay Treaty": [
+        "International Relations"
+    ],
+    "Convention of 1818": [
+        "International Relations",
+        "Territorial Expansionism"
+    ],
+    "Treaties": [
+        "International Relations"
+    ],
+    "Anglo-American Definitive Peace Treaty": [
+        "International Relations",
+        "Wars and Revolutions"
+    ],
+    "Pinckney's Treaty": [
+        "International Relations"
+    ],
+    "Webster-Ashburton Treaty": [
+        "International Relations"
+    ],
+    "Convention of 1800": [
+        "International Relations"
+    ],
+    "Chesapeake Affair": [
+        "International Relations"
+    ],
+    "Amistad": [
+        "International Relations",
+        "Law",
+        "Slavery and Enslaved People"
+    ],
+    "Dred Scott v. Sandford": [
+        "Law",
+        "Politics",
+        "Slavery and Enslaved Persons"
+    ],
+    "Judicial Philosophy": [
+        "Law"
+    ],
+    "Northwest Ordinance": [
+        "Law",
+        "Territorial Expansionism"
+    ],
+    "Alien and Sedition Acts": [
+        "Law"
+    ],
+    "Circuit Court": [
+        "Law"
+    ],
+    "Rule of Law": [
+        "Law"
+    ],
+    "Legal Issues": [
+        "Law"
+    ],
+    "Supreme Court": [
+        "Law"
+    ],
+    "Nullification": [
+        "Law",
+        "Philosophy",
+        "Politics"
+    ],
+    "Emancipation": [
+        "Law",
+        "Slavery and Enslaved People"
+    ],
+    "Private Practice": [
+        "Law"
+    ],
+    "Constitutional Interpretation": [
+        "Law"
+    ],
+    "Fugitive Slave Laws": [
+        "Law",
+        "Slavery and Enslaved People"
+    ],
+    "Habeas Corpus": [
+        "Law"
+    ],
+    "Literature and History": [
+        "Literature"
+    ],
+    "Bible": [
+        "Literature",
+        "Religion"
+    ],
+    "Speeches": [
+        "Literature",
+        "Publications and Press"
+    ],
+    "Public Lands": [
+        "Migration",
+        "Politics"
+    ],
+    "Immigration": [
+        "Migration"
+    ],
+    "Exiles": [
+        "Migration",
+        "Politics"
+    ],
+    "Colonization Movements": [
+        "Migration",
+        "Reform"
+    ],
+    "Natural World": [
+        "Nature"
+    ],
+    "Disasters": [
+        "Nature",
+        "Society"
+    ],
+    "Gifts": [
+        "Personal Relationships",
+        "Society"
+    ],
+    "Motherhood": [
+        "Personal Relationships",
+        "Stages of Life"
+    ],
+    "Courtship": [
+        "Personal Relationships",
+        "Stages of Life"
+    ],
+    "Marriage": [
+        "Personal Relationships",
+        "Stages of Life"
+    ],
+    "Fatherhood": [
+        "Personal Relationships",
+        "Stages of Life"
+    ],
+    "Courtship and Marriage of JQA and LCA": [
+        "Personal Relationships",
+        "Stages of Life"
+    ],
+    "Social Life and Networks": [
+        "Personal Relationships"
+    ],
+    "Friendship": [
+        "Personal Relationships"
+    ],
+    "Morality and Ethics": [
+        "Philosophy",
+        "Society"
+    ],
+    "Union": [
+        "Political Groups"
+    ],
+    "Democratic-Republican Party": [
+        "Political Groups"
+    ],
+    "Democratic Party": [
+        "Political Groups"
+    ],
+    "Essex Junto": [
+        "Political Groups"
+    ],
+    "Jacksonian Democracy": [
+        "Political Groups"
+    ],
+    "Federalist Party": [
+        "Political Groups"
+    ],
+    "Whig Party": [
+        "Political Groups"
+    ],
+    "Hartford Convention": [
+        "Political Groups"
+    ],
+    "Loyalists": [
+        "Political Groups",
+        "Wars and Revolutions"
+    ],
+    "Anti-Masonic Party": [
+        "Political Groups"
+    ],
+    "National Republican Party": [
+        "Political Groups"
+    ],
+    "Anti-Federalists": [
+        "Political Groups"
+    ],
+    "American Party": [
+        "Political Groups"
+    ],
+    "Shays's Rebellion": [
+        "Political Upheavals"
+    ],
+    "Gag Rule": [
+        "Politics",
+        "Slavery and Enslaved People"
+    ],
+    "Federalist Papers": [
+        "Politics",
+        "Publications and Press"
+    ],
+    "Caucus System": [
+        "Politics"
+    ],
+    "Politics": [
+        "Politics"
+    ],
+    "Political Violence": [
+        "Politics"
+    ],
+    "Delegation": [
+        "Politics"
+    ],
+    "Supreme Court Nominations": [
+        "Politics"
+    ],
+    "National Nominating Conventions": [
+        "Politics"
+    ],
+    "Corruption": [
+        "Politics"
+    ],
+    "Missouri Compromise": [
+        "Politics",
+        "Slavery and Enslaved Persons",
+        "Territorial Expansionism"
+    ],
+    "Censure": [
+        "Politics"
+    ],
+    "Veterans": [
+        "Politics",
+        "Wars and Revolutions"
+    ],
+    "Corrupt Bargain": [
+        "Politics"
+    ],
+    "Political Philosophy": [
+        "Politics"
+    ],
+    "Secession": [
+        "Politics"
+    ],
+    "Political Partisanship": [
+        "Politics"
+    ],
+    "Authorship": [
+        "Publications and Press"
+    ],
+    "Press": [
+        "Publications and Press"
+    ],
+    "Publication": [
+        "Publications and Press"
+    ],
+    "Anti-Slavery Petitions": [
+        "Reform",
+        "Slavery and Enslaved People"
+    ],
+    "Prison Reform": [
+        "Reform"
+    ],
+    "Progressive Women": [
+        "Reform"
+    ],
+    "Asylum Movement": [
+        "Reform"
+    ],
+    "Suffrage": [
+        "Reform"
+    ],
+    "Reform Movements": [
+        "Reform"
+    ],
+    "Temperance Movement": [
+        "Reform"
+    ],
+    "Anti-Slavery Movements": [
+        "Reform",
+        "Slavery and Enslaved People"
+    ],
+    "Religion": [
+        "Religion"
+    ],
+    "Second Great Awakening": [
+        "Religion"
+    ],
+    "Unitarianism": [
+        "Religion"
+    ],
+    "Church of Jesus Christ of Latter-day Saints": [
+        "Religion"
+    ],
+    "Science and Technology": [
+        "Science"
+    ],
+    "Patents": [
+        "Science"
+    ],
+    "Telegraph": [
+        "Science"
+    ],
+    "Laboratory": [
+        "Science"
+    ],
+    "Aladdin Oven": [
+        "Science"
+    ],
+    "Wool Combustion": [
+        "Science"
+    ],
+    "Wilmot Proviso": [
+        "Slavery and Enslaved People",
+        "Territorial Expansionism"
+    ],
+    "Slavery and Enslaved Persons": [
+        "Slavery and Enslaved People"
+    ],
+    "Pro-Slavery Movements": [
+        "Slavery and Enslaved People"
+    ],
+    "Texas Annexation": [
+        "Slavery and Enslaved People",
+        "Territorial Expansionism"
+    ],
+    "Crime": [
+        "Society"
+    ],
+    "Holidays and Celebrations": [
+        "Society"
+    ],
+    "Clothing": [
+        "Society"
+    ],
+    "Nutrition": [
+        "Society"
+    ],
+    "Urban Life": [
+        "Society"
+    ],
+    "Privacy": [
+        "Society"
+    ],
+    "Dueling": [
+        "Society"
+    ],
+    "Village Life": [
+        "Society"
+    ],
+    "Charity": [
+        "Society",
+        "Work"
+    ],
+    "Public Health": [
+        "Society"
+    ],
+    "Class": [
+        "Society"
+    ],
+    "Housewares and Furnishings": [
+        "Society"
+    ],
+    "Death": [
+        "Stages of Life"
+    ],
+    "Aging": [
+        "Stages of Life"
+    ],
+    "Childhood": [
+        "Stages of Life"
+    ],
+    "Oregon Country": [
+        "Territorial Expansionism"
+    ],
+    "Territorial Expansion": [
+        "Territorial Expansionism"
+    ],
+    "Florida Annexation": [
+        "Territorial Expansionism"
+    ],
+    "Louisiana Purchase": [
+        "Territorial Expansionism"
+    ],
+    "Roads": [
+        "Travel and Transportation"
+    ],
+    "Transportation": [
+        "Travel and Transportation"
+    ],
+    "Travel and Touring, US": [
+        "Travel and Transportation"
+    ],
+    "Railroads": [
+        "Travel and Transportation"
+    ],
+    "Travel and Touring, International": [
+        "Travel and Transportation"
+    ],
+    "Canals": [
+        "Travel and Transportation"
+    ],
+    "French Revolution": [
+        "Wars and Revolutions"
+    ],
+    "Haitian Revolution": [
+        "Wars and Revolutions"
+    ],
+    "Latin American Wars of Independence": [
+        "Wars and Revolutions"
+    ],
+    "Napoleonic Wars": [
+        "Wars and Revolutions"
+    ],
+    "Texas Revolution and Independence": [
+        "Wars and Revolutions"
+    ],
+    "Quasi-War": [
+        "Wars and Revolutions"
+    ],
+    "Civil War": [
+        "Wars and Revolutions"
+    ],
+    "Mexican War": [
+        "Wars and Revolutions"
+    ],
+    "War of 1812": [
+        "Wars and Revolutions"
+    ],
+    "Barbary Wars": [
+        "Wars and Revolutions"
+    ],
+    "Mexican War of Independence": [
+        "Wars and Revolutions"
+    ],
+    "Work": [
+        "Work"
+    ],
+    "Employees": [
+        "Work"
+    ]
+}
