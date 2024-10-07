@@ -183,10 +183,24 @@
                 <h2 style="color: #7a7369;" class = "subtitle">Filters</h2>
                 </div>
 
-                <div style="background-color: #fff; margin: 0px; padding: 10px; display: flex; align-items: center;">
-                    <input type="checkbox" id="filterCheckbox" name="filterCheckbox" style="transform: scale(1.5); margin-right: 10px;">
-                    <label for="filterCheckbox" style="color: #7a7369; font-size: 16px;">Show Neighbor Nodes Outside of Filter Paramters on Hover</label>
-                </div>
+                <div id="contains" style="background-color: #fff; margin: 0px; padding: 10px; display: flex; align-items: center;">
+  
+                    <div id="first">
+                      <input type="checkbox" id="filterCheckbox" name="filterCheckbox" style="transform: scale(1.5); margin-right: 10px;">
+                      <label for="filterCheckbox" style="color: #7a7369; font-size: 16px;">Show Neighbor Nodes Outside of Filter Parameters on Hover</label>
+                    </div>
+                  
+                    <!-- The spacer div will push the second div to 25% of the width -->
+                    <div style="flex-grow: 1;"></div>
+                    
+                    <div style="color: #7a7369;" id="second">
+                      <label for="site-search">Search for person by name:</label>
+                      <input type="search" id="site-search" name="q" />
+                      <button onclick="Searched()">Search</button>
+                    </div>
+                    
+                  </div>
+
 
                 <div  class="Filter-Container" id="Filter-Container">
 
@@ -309,6 +323,7 @@
                          // Check if the tab has a corresponding data script
                          if (graphMapping[active_tab]) {
                             loadGraph(graphMapping[active_tab], ContainerMapping[active_tab]); // Load the corresponding graph into the correct container
+                           
                         }
 
                        // Only shows filters if not on the info tab
@@ -349,6 +364,7 @@
                         graph("../../../data/jqa/coref/"+graphScript);
                         await sleep(50);
 
+                        Searched()
                         document.getElementById("comms").loadOptions();
 
                     }

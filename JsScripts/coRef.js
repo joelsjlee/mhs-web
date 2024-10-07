@@ -62,6 +62,13 @@ d3.json(filepath).then(data => {
     let margin = {top: 40, right: 30, bottom: 40, left: 30},
         width = 850, height = 500, duration = 300;
 
+            const zoom = d3.zoom()
+            .scaleExtent([0.15, 6])
+            .on("zoom", function(event) {
+                svg.attr("transform", event.transform);
+            });
+
+
     // Build container.
     const svg = d3.select('.network')
     .append('svg')
@@ -69,14 +76,19 @@ d3.json(filepath).then(data => {
         .attr("width", "100%")
         .attr("margins", "0px auto")
         .attr("display", "block")
-        
-    .call(d3.zoom()
-        .scaleExtent([0.15, 6])
-        .on("zoom", function (event) { // Add zooming.
-            svg.attr("transform", event.transform)
-        }))
+        .call(zoom)
     .append('g')
     .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+            // Set initial zoom level and translation.
+            const initialScale = 0.25;  // Set this to a value less than 1 to zoom out
+            const initialTranslateX = width / 4;  // Center horizontally
+            const initialTranslateY = height / 4; // Center vertically
+    
+            d3.select('svg')
+            .call(zoom.transform, d3.zoomIdentity
+                .translate(initialTranslateX, initialTranslateY)
+                .scale(initialScale));
 
     // Coordinates of SVG boundaries.
     const pos = svg.node().getBoundingClientRect();
@@ -225,6 +237,7 @@ let nodeColor = d3.scaleOrdinal()
             .join(
                 enter => enter.append('circle')
                     .attr('class', 'node')
+                    .attr('id',d => d.name.toLowerCase())
 
                     // Sets coordinates of center of node
                     .attr("cx", d => d.x)
@@ -453,6 +466,28 @@ let nodeColor = d3.scaleOrdinal()
 
     //console.log(window.Extent);
 });
+
+}
+
+function Searched(){
+
+    d3.selectAll(`[id*='${document.getElementById('site-search').value.toLowerCase()}']`).style('stroke','black').style("stroke-width", "2%");
+    
+    console.log(document.getElementById('site-search').value)
+
+    document.getElementById('site-search').addEventListener('input', (e) => {
+
+        if (document.getElementById('site-search').value === "") {
+            d3.selectAll('circle')   
+            .style('stroke', 'none') 
+           
+        }
+
+        
+
+    
+  })
+
 
 }
 

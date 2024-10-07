@@ -73,6 +73,9 @@
 	}
 
 	function Redraw(){
+		document.querySelectorAll('.tick').forEach(e => e.remove());
+
+
 		if (document.getElementById("sorttype").value == "Time") {
 	// Load the CSV file asynchronously
 	d3.csv("../../../data/timeline/timeline.csv", function(row) {

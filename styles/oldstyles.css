@@ -191,3 +191,17 @@ img {
   color: #353135;
 }
 
+#contains {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    float: left; /* add this */
+}

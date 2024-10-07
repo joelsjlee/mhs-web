@@ -19,15 +19,6 @@ Health and Illness,Health and Illness,1782-01-02,1783-12-31
 Health and Illness,Health and Illness,1785-01-02,1789-12-31
 Health and Illness,Health and Illness,1791-01-02,1792-12-31
 Health and Illness,Health and Illness,1794-01-02,1847-12-31
-International,International,1779-01-02,1783-12-31
-International,International,1785-01-02,1785-12-31
-International,International,1794-01-02,1794-12-31
-International,International,1796-01-02,1801-12-31
-International,International,1809-01-02,1809-12-31
-International,International,1814-01-02,1815-12-31
-International,International,1817-01-02,1817-12-31
-International,International,1840-01-02,1840-12-31
-International,International,1843-01-02,1843-12-31
 Privateering,Privateering,1779-01-02,1779-12-31
 Privateering,Privateering,1810-01-02,1813-12-31
 Privateering,Privateering,1817-01-02,1825-12-31
@@ -43,15 +34,15 @@ Religion,Religion,1799-01-02,1799-12-31
 Religion,Religion,1801-01-02,1801-12-31
 Religion,Religion,1803-01-02,1822-12-31
 Religion,Religion,1826-01-02,1848-12-31
-Travel and Touring,Travel and Touring,1779-01-02,1783-12-31
-Travel and Touring,Travel and Touring,1785-01-02,1785-12-31
-Travel and Touring,Travel and Touring,1794-01-02,1794-12-31
-Travel and Touring,Travel and Touring,1796-01-02,1801-12-31
-Travel and Touring,Travel and Touring,1809-01-02,1809-12-31
-Travel and Touring,Travel and Touring,1814-01-02,1815-12-31
-Travel and Touring,Travel and Touring,1817-01-02,1817-12-31
-Travel and Touring,Travel and Touring,1840-01-02,1840-12-31
-Travel and Touring,Travel and Touring,1843-01-02,1843-12-31
+"Travel and Touring, International","Travel and Touring, International",1779-01-02,1783-12-31
+"Travel and Touring, International","Travel and Touring, International",1785-01-02,1785-12-31
+"Travel and Touring, International","Travel and Touring, International",1794-01-02,1794-12-31
+"Travel and Touring, International","Travel and Touring, International",1796-01-02,1801-12-31
+"Travel and Touring, International","Travel and Touring, International",1809-01-02,1809-12-31
+"Travel and Touring, International","Travel and Touring, International",1814-01-02,1815-12-31
+"Travel and Touring, International","Travel and Touring, International",1817-01-02,1817-12-31
+"Travel and Touring, International","Travel and Touring, International",1840-01-02,1840-12-31
+"Travel and Touring, International","Travel and Touring, International",1843-01-02,1843-12-31
 Commerce,Commerce,1783-01-02,1783-12-31
 Commerce,Commerce,1797-01-02,1798-12-31
 Commerce,Commerce,1809-01-02,1824-12-31
@@ -172,29 +163,20 @@ Women's Rights,Women's Rights,1795-01-02,1795-12-31
 Women's Rights,Women's Rights,1831-01-02,1831-12-31
 Courtship and Marriage of JQA and LCA,Courtship and Marriage of JQA and LCA,1796-01-02,1797-12-31
 Courtship and Marriage of JQA and LCA,Courtship and Marriage of JQA and LCA,1844-01-02,1845-12-31
-Court Life and Society,Court Life and Society,1797-01-02,1801-12-31
-Court Life and Society,Court Life and Society,1809-01-02,1817-12-31
+"Court Life and Society, European","Court Life and Society, European",1797-01-02,1801-12-31
+"Court Life and Society, European","Court Life and Society, European",1809-01-02,1817-12-31
 Diplomacy,Diplomacy,1797-01-02,1801-12-31
 Diplomacy,Diplomacy,1808-01-02,1817-12-31
 Diplomacy,Diplomacy,1830-01-02,1838-12-31
 Diplomacy,Diplomacy,1843-01-02,1845-12-31
 Diplomacy,Diplomacy,1847-01-02,1847-12-31
-Elections,Elections,1797-01-02,1797-12-31
-Elections,Elections,1801-01-02,1801-12-31
-Elections,Elections,1807-01-02,1809-12-31
-Elections,Elections,1812-01-02,1813-12-31
-Elections,Elections,1816-01-02,1816-12-31
-Elections,Elections,1818-01-02,1841-12-31
-Elections,Elections,1843-01-02,1847-12-31
-European,European,1797-01-02,1801-12-31
-European,European,1809-01-02,1817-12-31
+"Elections, Presidential 1796","Elections, Presidential 1796",1797-01-02,1797-12-31
 Industrialization,Industrialization,1797-01-02,1797-12-31
 Industrialization,Industrialization,1810-01-02,1810-12-31
 Industrialization,Industrialization,1819-01-02,1819-12-31
 Industrialization,Industrialization,1821-01-02,1821-12-31
 Industrialization,Industrialization,1824-01-02,1824-12-31
 Industrialization,Industrialization,1826-01-02,1827-12-31
-Presidential 1796,Presidential 1796,1797-01-02,1797-12-31
 Steam Power,Steam Power,1797-01-02,1797-12-31
 Steam Power,Steam Power,1812-01-02,1812-12-31
 Steam Power,Steam Power,1814-01-02,1814-12-31
@@ -226,12 +208,12 @@ Textile Industry,Textile Industry,1810-01-02,1810-12-31
 Textile Industry,Textile Industry,1818-01-02,1818-12-31
 Textile Industry,Textile Industry,1824-01-02,1824-12-31
 Textile Industry,Textile Industry,1827-01-02,1827-12-31
+"Elections, Presidential 1800","Elections, Presidential 1800",1801-01-02,1801-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1801-01-02,1805-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1807-01-02,1807-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1809-01-02,1810-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1812-01-02,1812-12-31
 Family Finances (Adams Family),Family Finances (Adams Family),1816-01-02,1847-12-31
-Presidential 1800,Presidential 1800,1801-01-02,1801-12-31
 Democratic-Republican Party,Democratic-Republican Party,1803-01-02,1806-12-31
 Democratic-Republican Party,Democratic-Republican Party,1808-01-02,1808-12-31
 Democratic-Republican Party,Democratic-Republican Party,1818-01-02,1818-12-31
@@ -303,10 +285,10 @@ Chesapeake Affair,Chesapeake Affair,1839-01-02,1839-12-31
 Continental System,Continental System,1807-01-02,1807-12-31
 Continental System,Continental System,1810-01-02,1812-12-31
 Continental System,Continental System,1815-01-02,1815-12-31
+"Elections, Presidential 1808","Elections, Presidential 1808",1807-01-02,1809-12-31
 Embargo,Embargo,1807-01-02,1812-12-31
 Embargo,Embargo,1833-01-02,1833-12-31
 Embargo,Embargo,1843-01-02,1843-12-31
-Presidential 1808,Presidential 1808,1807-01-02,1809-12-31
 Caucus System,Caucus System,1808-01-02,1808-12-31
 Caucus System,Caucus System,1820-01-02,1824-12-31
 Caucus System,Caucus System,1840-01-02,1840-12-31
@@ -337,9 +319,9 @@ Canals,Canals,1818-01-02,1820-12-31
 Canals,Canals,1824-01-02,1835-12-31
 Canals,Canals,1838-01-02,1838-12-31
 Canals,Canals,1843-01-02,1845-12-31
-Presidential 1812,Presidential 1812,1812-01-02,1813-12-31
-Presidential 1812,Presidential 1812,1820-01-02,1820-12-31
-Presidential 1812,Presidential 1812,1828-01-02,1828-12-31
+"Elections, Presidential 1812","Elections, Presidential 1812",1812-01-02,1813-12-31
+"Elections, Presidential 1812","Elections, Presidential 1812",1820-01-02,1820-12-31
+"Elections, Presidential 1812","Elections, Presidential 1812",1828-01-02,1828-12-31
 Anglo-American Definitive Peace Treaty,Anglo-American Definitive Peace Treaty,1814-01-02,1817-12-31
 Anglo-American Definitive Peace Treaty,Anglo-American Definitive Peace Treaty,1831-01-02,1831-12-31
 Anglo-American Definitive Peace Treaty,Anglo-American Definitive Peace Treaty,1836-01-02,1838-12-31
@@ -362,9 +344,9 @@ Treaty of Ghent,Treaty of Ghent,1833-01-02,1835-12-31
 Treaty of Ghent,Treaty of Ghent,1837-01-02,1839-12-31
 Treaty of Ghent,Treaty of Ghent,1842-01-02,1843-12-31
 Treaty of Ghent,Treaty of Ghent,1845-01-02,1846-12-31
-Presidential 1816,Presidential 1816,1816-01-02,1816-12-31
-Presidential 1816,Presidential 1816,1822-01-02,1822-12-31
-Presidential 1816,Presidential 1816,1824-01-02,1824-12-31
+"Elections, Presidential 1816","Elections, Presidential 1816",1816-01-02,1816-12-31
+"Elections, Presidential 1816","Elections, Presidential 1816",1822-01-02,1822-12-31
+"Elections, Presidential 1816","Elections, Presidential 1816",1824-01-02,1824-12-31
 Unitarianism,Unitarianism,1816-01-02,1817-12-31
 Unitarianism,Unitarianism,1821-01-02,1838-12-31
 Unitarianism,Unitarianism,1843-01-02,1845-12-31
@@ -394,19 +376,19 @@ Utopian Communities,Utopian Communities,1817-01-02,1817-12-31
 Utopian Communities,Utopian Communities,1819-01-02,1819-12-31
 Utopian Communities,Utopian Communities,1824-01-02,1825-12-31
 Utopian Communities,Utopian Communities,1844-01-02,1844-12-31
-West,West,1817-01-02,1821-12-31
-West,West,1827-01-02,1827-12-31
+"West, The","West, The",1817-01-02,1821-12-31
+"West, The","West, The",1827-01-02,1827-12-31
 Asylum Movement,Asylum Movement,1818-01-02,1818-12-31
 Asylum Movement,Asylum Movement,1832-01-02,1833-12-31
 Asylum Movement,Asylum Movement,1840-01-02,1840-12-31
 Convention of 1818,Convention of 1818,1818-01-02,1818-12-31
+"Elections, Presidential 1820","Elections, Presidential 1820",1818-01-02,1821-12-31
+"Elections, Presidential 1820","Elections, Presidential 1820",1845-01-02,1845-12-31
 Florida Annexation,Florida Annexation,1818-01-02,1822-12-31
 Florida Annexation,Florida Annexation,1830-01-02,1831-12-31
 Florida Annexation,Florida Annexation,1838-01-02,1838-12-31
 Florida Annexation,Florida Annexation,1844-01-02,1844-12-31
 Panic of 1819,Panic of 1819,1818-01-02,1821-12-31
-Presidential 1820,Presidential 1820,1818-01-02,1821-12-31
-Presidential 1820,Presidential 1820,1845-01-02,1845-12-31
 Roads,Roads,1818-01-02,1821-12-31
 Roads,Roads,1824-01-02,1824-12-31
 Roads,Roads,1826-01-02,1826-12-31
@@ -424,6 +406,10 @@ Anti-Slavery Movements,Anti-Slavery Movements,1819-01-02,1823-12-31
 Anti-Slavery Movements,Anti-Slavery Movements,1831-01-02,1833-12-31
 Anti-Slavery Movements,Anti-Slavery Movements,1835-01-02,1841-12-31
 Anti-Slavery Movements,Anti-Slavery Movements,1843-01-02,1846-12-31
+"Elections, Presidential 1824","Elections, Presidential 1824",1819-01-02,1826-12-31
+"Elections, Presidential 1824","Elections, Presidential 1824",1828-01-02,1828-12-31
+"Elections, Presidential 1824","Elections, Presidential 1824",1831-01-02,1831-12-31
+"Elections, Presidential 1824","Elections, Presidential 1824",1845-01-02,1845-12-31
 Emancipation,Emancipation,1819-01-02,1820-12-31
 Emancipation,Emancipation,1822-01-02,1822-12-31
 Emancipation,Emancipation,1826-01-02,1827-12-31
@@ -437,14 +423,9 @@ Missouri Compromise,Missouri Compromise,1827-01-02,1827-12-31
 Missouri Compromise,Missouri Compromise,1832-01-02,1832-12-31
 Missouri Compromise,Missouri Compromise,1835-01-02,1835-12-31
 Missouri Compromise,Missouri Compromise,1837-01-02,1837-12-31
-Presidential 1824,Presidential 1824,1819-01-02,1826-12-31
-Presidential 1824,Presidential 1824,1828-01-02,1828-12-31
-Presidential 1824,Presidential 1824,1831-01-02,1831-12-31
-Presidential 1824,Presidential 1824,1845-01-02,1845-12-31
-Slave Rebellions,Slave Rebellions,1819-01-02,1819-12-31
-South,South,1819-01-02,1820-12-31
-South,South,1831-01-02,1833-12-31
-South,South,1835-01-02,1838-12-31
+"South, The","South, The",1819-01-02,1820-12-31
+"South, The","South, The",1831-01-02,1833-12-31
+"South, The","South, The",1835-01-02,1838-12-31
 Suffrage,Suffrage,1819-01-02,1819-12-31
 Suffrage,Suffrage,1827-01-02,1827-12-31
 Fugitive Slave Laws,Fugitive Slave Laws,1820-01-02,1820-12-31
@@ -471,12 +452,12 @@ Telegraph,Telegraph,1826-01-02,1826-12-31
 Telegraph,Telegraph,1841-01-02,1841-12-31
 Anti-Masonic Party,Anti-Masonic Party,1827-01-02,1839-12-31
 Anti-Masonic Party,Anti-Masonic Party,1841-01-02,1841-12-31
-Presidential 1828,Presidential 1828,1827-01-02,1829-12-31
-Presidential 1828,Presidential 1828,1831-01-02,1831-12-31
-Presidential 1828,Presidential 1828,1835-01-02,1835-12-31
+"Elections, Presidential 1828","Elections, Presidential 1828",1827-01-02,1829-12-31
+"Elections, Presidential 1828","Elections, Presidential 1828",1831-01-02,1831-12-31
+"Elections, Presidential 1828","Elections, Presidential 1828",1835-01-02,1835-12-31
 Temperance Movement,Temperance Movement,1827-01-02,1827-12-31
 Temperance Movement,Temperance Movement,1831-01-02,1847-12-31
-Presidential 1832,Presidential 1832,1828-01-02,1834-12-31
+"Elections, Presidential 1832","Elections, Presidential 1832",1828-01-02,1834-12-31
 Spoils System,Spoils System,1829-01-02,1833-12-31
 Spoils System,Spoils System,1840-01-02,1841-12-31
 Spoils System,Spoils System,1846-01-02,1846-12-31
@@ -498,8 +479,8 @@ Northwest Ordinance,Northwest Ordinance,1843-01-02,1844-12-31
 Tariff of 1816,Tariff of 1816,1831-01-02,1831-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1833-01-02,1834-12-31
 Alien and Sedition Acts,Alien and Sedition Acts,1836-01-02,1836-12-31
-Presidential 1836,Presidential 1836,1833-01-02,1837-12-31
-Presidential 1836,Presidential 1836,1839-01-02,1840-12-31
+"Elections, Presidential 1836","Elections, Presidential 1836",1833-01-02,1837-12-31
+"Elections, Presidential 1836","Elections, Presidential 1836",1839-01-02,1840-12-31
 Indian Removal,Indian Removal,1834-01-02,1834-12-31
 Indian Removal,Indian Removal,1838-01-02,1838-12-31
 Indian Removal,Indian Removal,1843-01-02,1843-12-31
@@ -509,16 +490,16 @@ Federalist Papers,Federalist Papers,1836-01-02,1837-12-31
 Gag Rule,Gag Rule,1836-01-02,1845-12-31
 Texas Revolution and Independence,Texas Revolution and Independence,1836-01-02,1838-12-31
 Texas Revolution and Independence,Texas Revolution and Independence,1843-01-02,1843-12-31
+"Elections, Presidential 1840","Elections, Presidential 1840",1837-01-02,1841-12-31
 Panic of 1837,Panic of 1837,1837-01-02,1837-12-31
-Presidential 1840,Presidential 1840,1837-01-02,1841-12-31
 Amistad,Amistad,1839-01-02,1845-12-31
 Amistad,Amistad,1847-01-02,1847-12-31
 Transcendentalism,Transcendentalism,1840-01-02,1840-12-31
 Transcendentalism,Transcendentalism,1846-01-02,1846-12-31
 Webster-Ashburton Treaty,Webster-Ashburton Treaty,1842-01-02,1847-12-31
-Presidential 1844,Presidential 1844,1843-01-02,1846-12-31
+"Elections, Presidential 1844","Elections, Presidential 1844",1843-01-02,1846-12-31
 Church of Jesus Christ of Latter-day Saints,Church of Jesus Christ of Latter-day Saints,1844-01-02,1844-12-31
 American Party,American Party,1846-01-02,1846-12-31
 Mexican War,Mexican War,1846-01-02,1848-12-31
 Wilmot Proviso,Wilmot Proviso,1846-01-02,1846-12-31
-Presidential 1848,Presidential 1848,1847-01-02,1847-12-31
+"Elections, Presidential 1848","Elections, Presidential 1848",1847-01-02,1847-12-31
