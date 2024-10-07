@@ -469,25 +469,44 @@ let nodeColor = d3.scaleOrdinal()
 
 }
 
-function Searched(){
+function Searched() {
 
-    d3.selectAll(`[id*='${document.getElementById('site-search').value.toLowerCase()}']`).style('stroke','black').style("stroke-width", "2%");
+    // Reset all circle strokes to none
+    d3.selectAll('circle')   
+        .style('stroke', 'none');
+
+    // Get the search value and split it into individual words (lowercase)
+    const searchValue = document.getElementById('site-search').value.toLowerCase().trim();
     
-    console.log(document.getElementById('site-search').value)
+    // If the searchValue is empty, don't highlight anything
+    if (searchValue === "") {
+        return;  // Stop the function if there is no input
+    }
 
-    document.getElementById('site-search').addEventListener('input', (e) => {
+    const searchTerms = searchValue.split(" ").filter(term => term.trim() !== ""); // Split by space and remove empty terms
 
-        if (document.getElementById('site-search').value === "") {
-            d3.selectAll('circle')   
-            .style('stroke', 'none') 
-           
+    // Check if each id contains all search terms
+    d3.selectAll('circle').each(function(d) {
+        const elementId = d3.select(this).attr('id'); // Get the ID of the current element
+        if (elementId) {
+            // Check if all search terms are found in the element's ID
+            const allTermsFound = searchTerms.every(term => elementId.includes(term));
+            
+            if (allTermsFound) {
+                d3.select(this)
+                    .style('stroke', 'black')
+                    .style('stroke-width', '2%');
+            }
         }
+    });
 
-        
+    console.log(searchValue);
 
-    
-  })
-
-
+    // Add input event listener to handle clearing the input
+    document.getElementById('site-search').addEventListener('input', (e) => {
+        if (document.getElementById('site-search').value.trim() === "") {
+            d3.selectAll('circle')   
+                .style('stroke', 'none');  // Remove all strokes if the input is empty
+        }
+    });
 }
-
