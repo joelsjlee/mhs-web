@@ -43,6 +43,11 @@ window.Extent = [];
 
 function graph(filepath){
 
+    if (window.simulation) {
+        window.simulation.stop(); // Stop the existing simulation if it is running
+    }
+
+
      FilterParams = {} // Filter params dict
      adjlist = [] // Adjacency list for highlighting connected nodes.
 
@@ -175,6 +180,7 @@ let nodeColor = d3.scaleOrdinal()
             .distance( height / data.nodes.length)
             // .distance(100)
         )
+       
         .on("tick", (d) => { // tick function.
 
             label
@@ -189,6 +195,20 @@ let nodeColor = d3.scaleOrdinal()
             node
                 .attr("cx", d => d.x)
                 .attr("cy", d => d.y);
+
+        // Check if the nodes have essentially stopped moving
+        const minVelocityThreshold = 0.01; // Define a very small velocity threshold
+        let isStable = true;  // Flag to track if all nodes are stable
+
+        window.simulation.nodes().forEach((d) => {
+            if (Math.abs(d.vx) > minVelocityThreshold || Math.abs(d.vy) > minVelocityThreshold) {
+                isStable = false; // If any node is still moving, the graph is not stable
+            }
+        });
+
+        if (isStable) {
+            window.simulation.stop(); // Stop the simulation when all nodes have minimal velocity
+        }
         }
         
     );
@@ -272,8 +292,6 @@ let nodeColor = d3.scaleOrdinal()
             )
         
         // Reheat simulation. (Gravity) 
-        window.simulation.alphaDecay(0.01).restart();
-
      //};
 
     // Move mouse over/out.
@@ -403,7 +421,6 @@ let nodeColor = d3.scaleOrdinal()
                 .html(d => `${d[0]}: ${d[1]}`)
                 .attr('pointer-events', 'none');
 
-        window.simulation.alphaTarget(0.01).restart();
     });
 
     node.on('mousemove', function(event) {
