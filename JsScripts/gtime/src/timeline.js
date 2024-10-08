@@ -138,6 +138,20 @@ export default function () {
 
       const yGroup = g.append("g").attr("class", "y axis").call(yAxis);
 
+      yGroup.selectAll("text")
+      .style("cursor", "pointer")  // Show pointer to indicate it's clickable
+      .on("click", function(event, d) {
+          // Remove all dashes from the link text but keep displayed text as is
+          const cleanedText = d.replace(/--/g, "");  // Remove dashes for the link
+          const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
+  
+          const url = `https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
+  
+          // Open the URL in a new tab
+          window.open(url, "_blank");
+      });
+  
+  
       let range = yAxis.range();
       xScale.range([range[0] + padding, range[1] - padding]).clamp(true);
 
@@ -193,6 +207,7 @@ const xGroupBottom = svg
       tasks_enter
         .append("rect")
         .attr("y", padding)
+        .style("cursor", "pointer")
         .attr("height", yScale.bandwidth() - 2 * padding)
         .on("mouseover", tip.show)
         .on("mouseout", tip.hide)

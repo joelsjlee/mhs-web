@@ -104,7 +104,7 @@ def createTimelineData(type, filepath, output, sorted=False):
                 if Category_list[csv_lines[line][1]] == cat:
                     incat.append(csv_lines[line])
 
-            # A len of one means this is a umbrella with no entries (other than the header column)
+            # A len of one means this is a umbrella with no entries (other than the header column) 
             if len(incat) > 1:
                 newlines += incat
 
