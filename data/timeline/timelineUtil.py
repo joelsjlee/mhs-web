@@ -2,15 +2,15 @@ import pandas as pd
 import csv
 import json
 
-
+# Gets a dict of topic : umbrella
 with open('topiccategories.json', 'r') as file:
     data = json.load(file)
 
+# Right now, just taking the first umbrella for a certain topic
 Category_list = {key: value[0] for key, value in data.items()}
 
-print(Category_list)
 
-def createTimelineData(type, filepath,output,sorted=False):
+def createTimelineData(type, filepath, output, sorted=False):
     """
 
     Args:
@@ -21,11 +21,10 @@ def createTimelineData(type, filepath,output,sorted=False):
     Returns:
 
     """
-
+    # Subject : Year Ranges
     sub_dict = {}
 
-
-    df = pd.read_csv(filepath, sep =",")
+    df = pd.read_csv(filepath, sep=",")
 
     # Iterates through each subject..
     for subject in df.subjects.unique():
@@ -36,7 +35,7 @@ def createTimelineData(type, filepath,output,sorted=False):
 
         # If there is only oen year, it is set as the start and end date
         if len(filtered_years) == 1:
-            year_ranges.append([filtered_years[0],filtered_years[0]])
+            year_ranges.append([filtered_years[0], filtered_years[0]])
 
         # If there is more than one..
         else:
@@ -64,14 +63,16 @@ def createTimelineData(type, filepath,output,sorted=False):
 
         sub_dict[subject] = year_ranges
 
-    csv_lines = [["Role","Name","Start","End"]]
-
+    # The headers for the timeline
+    csv_lines = [["Role", "Name", "Start", "End"]]
 
     for subject in sub_dict:
 
+        # Creates a new line in the csv for each time range entry
         for year_range in sub_dict[subject]:
             new_line = []
 
+            # If one umbrella should be on a line, this makes that happen, otherwise each topic is on its own line
             if type == "Cats":
                 new_line.append(Category_list[subject])
             elif type == "Full":
@@ -81,52 +82,44 @@ def createTimelineData(type, filepath,output,sorted=False):
                 return
 
             new_line.append(subject)
-            new_line.append(str(min(year_range))+"-01-02")
-            new_line.append(str(max(year_range))+"-12-31")
+            # Right now just does by full years. These dates are slightly off due to JS converting time weirdly
+            new_line.append(str(min(year_range)) + "-01-02")
+            new_line.append(str(max(year_range)) + "-12-31")
 
             csv_lines.append(new_line)
 
-
+    # This is for a chart tht is sorted by umbrella, but each topic is on its own line
     if sorted == True:
+        # Removes headers and gets list of categories
         csv_lines.pop(0)
         categories = list(set(list(Category_list.values())))
-        newlines = [["Role","Name","Start","End"]]
+        newlines = [["Role", "Name", "Start", "End"]]
 
+        # Adds a header row for each category, followed by the relevant topics
         for cat in categories:
-            incat = [["------"+cat+"------"]]
-
+            incat = [["------" + cat + "------"]]
 
             for line in range(len(csv_lines)):
-                print(csv_lines[line])
+
                 if Category_list[csv_lines[line][1]] == cat:
                     incat.append(csv_lines[line])
 
-            newlines += incat
-
+            # A len of one means this is a umbrella with no entries (other than the header column) 
+            if len(incat) > 1:
+                newlines += incat
 
         with open(output, 'w', newline='') as file:
+            print('Succesfuly wrote to: ' + output)
             writer = csv.writer(file)
             writer.writerows(newlines)
 
     else:
         with open(output, 'w', newline='') as file:
+            print('Succesfuly wrote to: ' + output)
             writer = csv.writer(file)
             writer.writerows(csv_lines)
 
 
-createTimelineData("Cats","1779_1848.csv","groupedtimeline.csv")
-createTimelineData("Full","1779_1848.csv","timeline.csv")
-createTimelineData("Full","1779_1848.csv","sortedtimeline.csv",True)
-
-
-
-
-
-
-
-
-
-
-
-
-
+createTimelineData("Cats", "1779_1848.csv", "groupedtimeline.csv")
+createTimelineData("Full", "1779_1848.csv", "timeline.csv")
+createTimelineData("Full", "1779_1848.csv", "sortedtimeline.csv", True)
