@@ -206,6 +206,7 @@ const xGroupBottom = svg
 
       tasks_enter
         .append("rect")
+        .style("opacity", 0.7)
         .attr("y", padding)
         .style("cursor", "pointer")
         .attr("height", yScale.bandwidth() - 2 * padding)

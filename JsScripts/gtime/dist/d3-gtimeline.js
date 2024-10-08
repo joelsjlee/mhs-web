@@ -346,7 +346,7 @@ function _t() {
       let E = S.selectAll("g.task").data(e);
       E.exit().remove();
       const q = E.enter().append("g").classed("task", !0);
-      q.append("rect").attr("y", s).style("cursor", "pointer").attr("height", m.bandwidth() - 2 * s).on("mouseover", y.show).on("mouseout", y.hide).on("click", function(v, z) {
+      q.append("rect").style("opacity", 0.7).attr("y", s).style("cursor", "pointer").attr("height", m.bandwidth() - 2 * s).on("mouseover", y.show).on("mouseout", y.hide).on("click", function(v, z) {
         var R = String(z[1]), W = R.replace(" ", "%20"), V = z[2], rt = J(V), st = z[3], it = J(st), ot = "https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22" + W + "%22%20%2Bdate_when%3A%5B" + rt + "%20TO%20" + it + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning";
         window.open(ot, "_blank");
       }).style("fill", L(i, n)), q.append("text").attr("text-anchor", "start").attr("fill", (v) => c(v) - o(v) ? L(i, n, bt)(v) : "black").attr("pointer-events", "none").attr("dx", s).attr("y", m.bandwidth() / 2).attr("dy", "0.32em").text(i), E = E.merge(q), E.attr("transform", (v) => N(O[0], m(M(v)))).selectAll("rect").attr("width", 0), E.transition().duration(j).attr("transform", (v) => N(u(o(v)), m(M(v)))).selectAll("rect").attr("width", (v) => u(c(v)) - u(o(v)) || h).on("start", T($)), b && S.append("path").attr("stroke", "red").attr("d", "M" + u(/* @__PURE__ */ new Date()) + ",0.5V" + d);

@@ -3789,7 +3789,7 @@ function rf() {
       let z = $.selectAll("g.task").data(y);
       z.exit().remove();
       const B = z.enter().append("g").classed("task", !0);
-      B.append("rect").attr("y", n).style("cursor", "pointer").attr("height", D.bandwidth() - 2 * n).on("mouseover", b.show).on("mouseout", b.hide).on("click", function(P, X) {
+      B.append("rect").style("opacity", 0.7).attr("y", n).style("cursor", "pointer").attr("height", D.bandwidth() - 2 * n).on("mouseover", b.show).on("mouseout", b.hide).on("click", function(P, X) {
         var rt = String(X[1]), nt = rt.replace(" ", "%20"), it = X[2], S = er(it), Y = X[3], L = er(Y), v = "https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22" + nt + "%22%20%2Bdate_when%3A%5B" + S + "%20TO%20" + L + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning";
         window.open(v, "_blank");
       }).style("fill", On(a, d)), B.append("text").attr("text-anchor", "start").attr("fill", (P) => l(P) - f(P) ? On(a, d, tf)(P) : "black").attr("pointer-events", "none").attr("dx", n).attr("y", D.bandwidth() / 2).attr("dy", "0.32em").text(a), z = z.merge(B), z.attr("transform", (P) => Pt(x[0], D(c(P)))).selectAll("rect").attr("width", 0), z.transition().duration(s).attr("transform", (P) => Pt(p(f(P)), D(c(P)))).selectAll("rect").attr("width", (P) => p(l(P)) - p(f(P)) || e).on("start", H(E)), i && $.append("path").attr("stroke", "red").attr("d", "M" + p(/* @__PURE__ */ new Date()) + ",0.5V" + F);
