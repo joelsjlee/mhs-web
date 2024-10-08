@@ -1,6 +1,5 @@
 **MHS-Web** 
 
-
 _Purpose_
 The purpose of the Primary Source Cooperative the Massachusetts Historical Society (the Cooperative, MHS) is to provide a platform, designed and governed by consensus, to assist the digital publication of documentary editions led by scholars who study the American long 19th century (1789–1914) and who would not otherwise have a portal for online publishing that is affordable and supportive. In that form it can serve the needs of people who are preparing the content of relevant archival materials for distribution, and it can enrich the work of scholars and other users who are seeking to understand more about this critical period in American history, when revolution and reform were causing fundamental changes in social and political culture. More broadly, however, the creation of this cooperative is meant to be reproducible, making available a model of publication that runs on human and organizational collaboration that can be adapted to varying circumstances. Working toward the goal of a federated network of cooperatives, we see our cohort as one in a landscape with a rich diversity of overlapping systems, each with its own topical parameters, administrative arrangements, tools and infrastructure, and financial models, and of all sizes. At this point, we envision that the Cooperative would, once implemented, demonstrate the functionality and value of a system that foregrounds robust communication and support among the editors and the host institution, achieved in part by maintaining a modest size.
 
@@ -22,7 +21,9 @@ Navigating to the Jsscripts/gtime directory in terminal and running the followin
 npm run build 
 ````
 
+
 _Editing The Timeline (Gannt) Chart Data_
+
 There is a required python script that morphs the data from the csv output into a way for it to be interpreted by the timeline data. It is timelineUtil.py. If you want to change the data (currently called 1779_1848.csv) follow these steps. 
 
 1. **Place the data in the folder** - If you name it something other than 1779_1848.csv you will need to go into the following two files and change the filename **in the function calls**. 
