@@ -47,19 +47,30 @@
 	Redraw()
 	
 	// Function to create the timeline chart
-	function drawChart(data) {
-		// Creating the timeline chart
-		let colorArray = (d3.schemeSet3.slice(0, 100))
+	function drawChart(data,colors) {
 
-	// removes a super ugly color 
-	colorArray.splice(1,1);
+		d3.text(colors).then(function(csvText) {
+        // Split the text by commas to get an array of color values wrapped in double quotes
+        let colorsArray = csvText.trim().split(",");
 
+        // Remove the double quotes around each color value, while keeping them as strings
+        colorsArray = colorsArray.map(color => color.trim().replace(/^"|"$/g, ''));
 
-		const chart = d3.timeline().duration(500);
-		chart.colors(colorArray);
+        console.log(colorsArray);  // Check the final array of color strings
+
+        // Assuming 'chart' is your chart object
+        // Apply the colors to your chart dynamically
+
+        const chart = d3.timeline().duration(500);
+	chart.colors(colorsArray);
 
 		// Select the div with id 'chart' and apply the data to it
 		d3.selectAll('#chart').datum(data).call(chart);
+
+	}).catch(function(error) {
+        console.error('Error loading or parsing the CSV file:', error);
+    });
+	
 	}
 
 	// Function to transform the CSV data into the format needed for the timeline
@@ -91,7 +102,7 @@
 
 		
 		// After the data is transformed, draw the chart
-		drawChart(transformedData);
+		drawChart(transformedData,"../../../data/timeline/timecolors.csv");
 
 	}).catch(function(error) {
 		console.error("Error loading the CSV file:", error);
@@ -114,7 +125,7 @@ else if (document.getElementById("sorttype").value == "Category") {
 
 		
 		// After the data is transformed, draw the chart
-		drawChart(transformedData);
+		drawChart(transformedData,"../../../data/timeline/sortedcolors.csv");
 
 	}).catch(function(error) {
 		console.error("Error loading the CSV file:", error);
