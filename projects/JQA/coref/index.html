@@ -363,9 +363,7 @@
                         $(div_string).appendTo(document.getElementById(containerID));
 
                         // Insert the graph 
-                        graph("../../../data/jqa/coref/"+graphScript);
-                        await sleep(50);
-
+                        await graph("../../../data/jqa/coref/"+graphScript);
                         Searched()
                         document.getElementById("comms").loadOptions();
 

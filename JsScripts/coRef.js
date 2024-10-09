@@ -1,10 +1,6 @@
 
 // Utilities.
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 function createArray(start, end) {
     let result = [];
     for (let i = start; i <= end; i++) {
@@ -42,6 +38,8 @@ function neigh(a, b) {
 window.Extent = [];
 
 function graph(filepath){
+
+    return new Promise((resolve) => {
 
     if (window.simulation) {
         window.simulation.stop(); // Stop the existing simulation if it is running
@@ -481,7 +479,9 @@ let nodeColor = d3.scaleOrdinal()
     });
 
 
-    //console.log(window.Extent);
+    resolve();
+
+    });
 });
 
 }
@@ -525,5 +525,7 @@ function Searched() {
             d3.selectAll('circle')   
                 .style('stroke', 'none');  // Remove all strokes if the input is empty
         }
-    });
+
+
+ });
 }
