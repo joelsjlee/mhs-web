@@ -139,8 +139,24 @@ export default function () {
       const yGroup = g.append("g").attr("class", "y axis").call(yAxis);
 
       yGroup.selectAll("text")
+      .attr("text-anchor", function(d) {
+        // Center justify the text if it starts with "--", otherwise right justify
+        return d.startsWith(" •") ? "middle" : "end";
+    })
+    .attr("x", function(d) {
+        // If the text starts with "--", set x to 167, otherwise set x to 332.5
+        return d.startsWith(" •") ? 167 : 332.5;
+    })
       .style("cursor", "pointer")  // Show pointer to indicate it's clickable
-      .on("click", function(event, d) {
+
+
+      .style("font-weight", function(d) {
+        // Make the text bold if it starts with "--"
+        return d.startsWith(" •") ? "bold" : "normal";
+    })     
+
+  .style("background", "none") 
+  .on("click", function(event, d) {
           // Remove all dashes from the link text but keep displayed text as is
           const cleanedText = d.replace(/--/g, "");  // Remove dashes for the link
           const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
@@ -149,10 +165,37 @@ export default function () {
   
           // Open the URL in a new tab
           window.open(url, "_blank");
+
       });
+    
+      yGroup.selectAll("g.row")
+    .each(function(d) {
+        // Find the <text> element within the group
+        const textElement = d3.select(this).select("text");
+        const textContent = textElement.text();  // Get the text content
+
+        // Check if the text starts with " •"
+        if (textContent.startsWith(" •")) {
+            // Add the icon only for rows where the text starts with " •"
+            d3.select(this)  // Select the current <g> group
+                .classed("timelineheader", true)
+                .classed(textContent.replace(/^ • /, "").replace("  ", "").replace(/\s+/g, "-").replace(/[^a-zA-Z0-9-]/g, ""), true)
+                .append("text")  // Append a new <text> element for the icon
+                .attr("x", 320.5)  // Set the position of the icon
+                .attr("y", 25)  // Align the icon vertically with the text
+                .text("+")  // Set the icon content
+                .style("text-anchor","end")
+                .style("cursor", "pointer")  // Make the icon clickable
+                .style("font-size", "20px")  // Set icon size
+                .attr("fill", "black")
+        } 
+        
+    });
   
+
   
       let range = yAxis.range();
+
       xScale.range([range[0] + padding, range[1] - padding]).clamp(true);
 
       const xAxis = d3.axisBottom(xScale);
@@ -205,6 +248,7 @@ const xGroupBottom = svg
       const tasks_enter = tasks.enter().append("g").classed("task", true);
 
       tasks_enter
+  
         .append("rect")
         .style("opacity", 0.7)
         .attr("y", padding)

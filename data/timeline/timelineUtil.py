@@ -97,7 +97,7 @@ def createTimelineData(type, filepath, output, sorted=False):
 
         # Adds a header row for each category, followed by the relevant topics
         for cat in categories:
-            incat = [["------" + cat + "------"]]
+            incat = [[" • " + cat + " • "]]
 
             for line in range(len(csv_lines)):
 

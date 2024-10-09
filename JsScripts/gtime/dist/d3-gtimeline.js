@@ -2,7 +2,7 @@ import * as x from "d3";
 export * from "d3";
 import I from "dayjs";
 const at = "div.tooltip {        position: absolute;        text-align: center;        padding: 5px;        /* font: 12px sans-serif; */        background: white;        border: 1px solid #AAA;        border-radius: 2px;        pointer-events: none;      }";
-function X(r) {
+function J(r) {
   x.select("head").selectAll("#tooltip").data([1]).enter().append("style").attr("id", "tooltip").text(at);
   const s = x.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
   return s.show = function(h) {
@@ -19,20 +19,20 @@ function ut(r) {
     return s.length > r ? s.slice(0, r - 1) + "…" : s;
   };
 }
-const H = 1, lt = 2;
-function Z(r, s) {
-  let h = ["#FFF", "#EEE"], p = x.scaleOrdinal(h), b = 5, w, B = "#AAA", j = 40, M = 3e3, i;
+const z = 1, lt = 2;
+function X(r, s) {
+  let h = ["#FFF", "#EEE"], g = x.scaleOrdinal(h), v = 5, $, B = "#AAA", j = 40, M = 3e3, i;
   function o(c) {
-    let A = s.domain(), D = X((n) => n), Y = x.scaleOrdinal(h), T = x.scaleOrdinal(h.reverse()), g = ut(j), k = c.selectAll(".row").data(A, s).order(), a = k.enter().append("g").attr("class", "row"), f = k.exit(), l = k.select("text");
+    let A = s.domain(), D = J((n) => n), Y = x.scaleOrdinal(h), T = x.scaleOrdinal(h.reverse()), y = ut(j), k = c.selectAll(".row").data(A, s).order(), a = k.enter().append("g").attr("class", "row"), f = k.exit(), l = k.select("text");
     k = k.merge(a).attr("transform", (n) => "translate(0," + s(n) + ")"), f.remove(), a.append("rect").attr("y", 0.5).attr("width", M).attr("height", s.bandwidth()).attr("stroke", B).attr("stroke-width", 0.75).attr("fill", Y), a.append("path").attr("stroke", T), l = l.merge(
       a.append("text").attr("y", s.bandwidth() / 2).attr("dy", "0.32em").on("mouseover", function(n, e) {
         x.select(this).text() != e && D.show(e);
       }).on("mouseout", D.hide)
-    ).text(g), i === void 0 && (i = ct(l) + 2 * b, i = r === H ? M - i : i), w = r === H ? [0, i] : [i, M], l.attr("text-anchor", r === H ? "start" : "end").attr("dx", r === H ? b : -b).attr("x", i);
-    const y = function(n, e) {
-      i = Math.max(10, Math.min(M - 10, i + n.dx)), x.select(this).attr("d", "M" + i + ",0.5V" + s.range()[1]), l.attr("x", i), w = r === H ? [0, i] : [i, M], c.dispatch("offset", { detail: { offset: i } });
+    ).text(y), i === void 0 && (i = ct(l) + 2 * v, i = r === z ? M - i : i), $ = r === z ? [0, i] : [i, M], l.attr("text-anchor", r === z ? "start" : "end").attr("dx", r === z ? v : -v).attr("x", i);
+    const w = function(n, e) {
+      i = Math.max(10, Math.min(M - 10, i + n.dx)), x.select(this).attr("d", "M" + i + ",0.5V" + s.range()[1]), l.attr("x", i), $ = r === z ? [0, i] : [i, M], c.dispatch("offset", { detail: { offset: i } });
     };
-    c.selectAll("g.y.axis > path").data([1]).join("path").attr("stroke", B).attr("stroke-width", 1.75).attr("d", "M" + (i + 0.5) + ",0.5V" + s.range()[1]).style("cursor", "ew-resize").call(x.drag().on("drag", y));
+    c.selectAll("g.y.axis > path").data([1]).join("path").attr("stroke", B).attr("stroke-width", 1.75).attr("d", "M" + (i + 0.5) + ",0.5V" + s.range()[1]).style("cursor", "ew-resize").call(x.drag().on("drag", w));
   }
   return o.draw_ticks = function(c, A) {
     c.selectAll(".row").select("path").attr("d", A.map((D) => "M" + D + ",1v" + (s.bandwidth() - 1)).join(""));
@@ -43,22 +43,22 @@ function Z(r, s) {
   }, o.colors = function(c) {
     return arguments.length ? (h = c, o) : h;
   }, o.padding = function(c) {
-    return arguments.length ? (b = c, o) : b;
+    return arguments.length ? (v = c, o) : v;
   }, o.range = function(c) {
-    return arguments.length ? (w = c, o) : w;
+    return arguments.length ? ($ = c, o) : $;
   }, o.trim = function(c) {
     return arguments.length ? (j = c, o) : j;
   }, o.offset = function(c) {
     return arguments.length ? (i = c, o) : i;
   }, o.colorscale = function(c) {
-    return arguments.length ? (p = c, o) : p;
+    return arguments.length ? (g = c, o) : g;
   }, o;
 }
 function dt(r) {
-  return Z(lt, r);
+  return X(lt, r);
 }
 function ht(r) {
-  return Z(H, r);
+  return X(z, r);
 }
 var K = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {};
 function Q(r) {
@@ -66,23 +66,23 @@ function Q(r) {
 }
 var U = { exports: {} };
 (function(r, s) {
-  (function(h, p) {
-    r.exports = p();
+  (function(h, g) {
+    r.exports = g();
   })(K, function() {
-    var h, p, b = 1e3, w = 6e4, B = 36e5, j = 864e5, M = /\[([^\]]+)]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a|A|m{1,2}|s{1,2}|Z{1,2}|SSS/g, i = 31536e6, o = 2628e6, c = /^(-|\+)?P(?:([-+]?[0-9,.]*)Y)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)W)?(?:([-+]?[0-9,.]*)D)?(?:T(?:([-+]?[0-9,.]*)H)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)S)?)?$/, A = { years: i, months: o, days: j, hours: B, minutes: w, seconds: b, milliseconds: 1, weeks: 6048e5 }, D = function(n) {
+    var h, g, v = 1e3, $ = 6e4, B = 36e5, j = 864e5, M = /\[([^\]]+)]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a|A|m{1,2}|s{1,2}|Z{1,2}|SSS/g, i = 31536e6, o = 2628e6, c = /^(-|\+)?P(?:([-+]?[0-9,.]*)Y)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)W)?(?:([-+]?[0-9,.]*)D)?(?:T(?:([-+]?[0-9,.]*)H)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)S)?)?$/, A = { years: i, months: o, days: j, hours: B, minutes: $, seconds: v, milliseconds: 1, weeks: 6048e5 }, D = function(n) {
       return n instanceof l;
     }, Y = function(n, e, t) {
       return new l(n, t, e.$l);
     }, T = function(n) {
-      return p.p(n) + "s";
-    }, g = function(n) {
+      return g.p(n) + "s";
+    }, y = function(n) {
       return n < 0;
     }, k = function(n) {
-      return g(n) ? Math.ceil(n) : Math.floor(n);
+      return y(n) ? Math.ceil(n) : Math.floor(n);
     }, a = function(n) {
       return Math.abs(n);
     }, f = function(n, e) {
-      return n ? g(n) ? { negative: !0, format: "" + a(n) + e } : { negative: !1, format: "" + n + e } : { negative: !1, format: "" };
+      return n ? y(n) ? { negative: !0, format: "" + a(n) + e } : { negative: !1, format: "" + n + e } : { negative: !1, format: "" };
     }, l = function() {
       function n(t, d, m) {
         var u = this;
@@ -92,9 +92,9 @@ var U = { exports: {} };
           u.$d[T(S)] = t[S];
         }), this.calMilliseconds(), this;
         if (typeof t == "string") {
-          var $ = t.match(c);
-          if ($) {
-            var _ = $.slice(2).map(function(S) {
+          var b = t.match(c);
+          if (b) {
+            var _ = b.slice(2).map(function(S) {
               return S != null ? Number(S) : 0;
             });
             return this.$d.years = _[0], this.$d.months = _[1], this.$d.weeks = _[2], this.$d.days = _[3], this.$d.hours = _[4], this.$d.minutes = _[5], this.$d.seconds = _[6], this.calMilliseconds(), this;
@@ -110,20 +110,20 @@ var U = { exports: {} };
         }, 0);
       }, e.parseFromMilliseconds = function() {
         var t = this.$ms;
-        this.$d.years = k(t / i), t %= i, this.$d.months = k(t / o), t %= o, this.$d.days = k(t / j), t %= j, this.$d.hours = k(t / B), t %= B, this.$d.minutes = k(t / w), t %= w, this.$d.seconds = k(t / b), t %= b, this.$d.milliseconds = t;
+        this.$d.years = k(t / i), t %= i, this.$d.months = k(t / o), t %= o, this.$d.days = k(t / j), t %= j, this.$d.hours = k(t / B), t %= B, this.$d.minutes = k(t / $), t %= $, this.$d.seconds = k(t / v), t %= v, this.$d.milliseconds = t;
       }, e.toISOString = function() {
         var t = f(this.$d.years, "Y"), d = f(this.$d.months, "M"), m = +this.$d.days || 0;
         this.$d.weeks && (m += 7 * this.$d.weeks);
-        var u = f(m, "D"), $ = f(this.$d.hours, "H"), _ = f(this.$d.minutes, "M"), S = this.$d.seconds || 0;
+        var u = f(m, "D"), b = f(this.$d.hours, "H"), _ = f(this.$d.minutes, "M"), S = this.$d.seconds || 0;
         this.$d.milliseconds && (S += this.$d.milliseconds / 1e3, S = Math.round(1e3 * S) / 1e3);
-        var F = f(S, "S"), O = t.negative || d.negative || u.negative || $.negative || _.negative || F.negative, P = $.format || _.format || F.format ? "T" : "", C = (O ? "-" : "") + "P" + t.format + d.format + u.format + P + $.format + _.format + F.format;
-        return C === "P" || C === "-P" ? "P0D" : C;
+        var O = f(S, "S"), C = t.negative || d.negative || u.negative || b.negative || _.negative || O.negative, P = b.format || _.format || O.format ? "T" : "", E = (C ? "-" : "") + "P" + t.format + d.format + u.format + P + b.format + _.format + O.format;
+        return E === "P" || E === "-P" ? "P0D" : E;
       }, e.toJSON = function() {
         return this.toISOString();
       }, e.format = function(t) {
-        var d = t || "YYYY-MM-DDTHH:mm:ss", m = { Y: this.$d.years, YY: p.s(this.$d.years, 2, "0"), YYYY: p.s(this.$d.years, 4, "0"), M: this.$d.months, MM: p.s(this.$d.months, 2, "0"), D: this.$d.days, DD: p.s(this.$d.days, 2, "0"), H: this.$d.hours, HH: p.s(this.$d.hours, 2, "0"), m: this.$d.minutes, mm: p.s(this.$d.minutes, 2, "0"), s: this.$d.seconds, ss: p.s(this.$d.seconds, 2, "0"), SSS: p.s(this.$d.milliseconds, 3, "0") };
-        return d.replace(M, function(u, $) {
-          return $ || String(m[u]);
+        var d = t || "YYYY-MM-DDTHH:mm:ss", m = { Y: this.$d.years, YY: g.s(this.$d.years, 2, "0"), YYYY: g.s(this.$d.years, 4, "0"), M: this.$d.months, MM: g.s(this.$d.months, 2, "0"), D: this.$d.days, DD: g.s(this.$d.days, 2, "0"), H: this.$d.hours, HH: g.s(this.$d.hours, 2, "0"), m: this.$d.minutes, mm: g.s(this.$d.minutes, 2, "0"), s: this.$d.seconds, ss: g.s(this.$d.seconds, 2, "0"), SSS: g.s(this.$d.milliseconds, 3, "0") };
+        return d.replace(M, function(u, b) {
+          return b || String(m[u]);
         });
       }, e.as = function(t) {
         return this.$ms / A[T(t)];
@@ -177,19 +177,19 @@ var U = { exports: {} };
       }, e.asYears = function() {
         return this.as("years");
       }, n;
-    }(), y = function(n, e, t) {
+    }(), w = function(n, e, t) {
       return n.add(e.years() * t, "y").add(e.months() * t, "M").add(e.days() * t, "d").add(e.hours() * t, "h").add(e.minutes() * t, "m").add(e.seconds() * t, "s").add(e.milliseconds() * t, "ms");
     };
     return function(n, e, t) {
-      h = t, p = t().$utils(), t.duration = function(u, $) {
+      h = t, g = t().$utils(), t.duration = function(u, b) {
         var _ = t.locale();
-        return Y(u, { $l: _ }, $);
+        return Y(u, { $l: _ }, b);
       }, t.isDuration = D;
       var d = e.prototype.add, m = e.prototype.subtract;
-      e.prototype.add = function(u, $) {
-        return D(u) ? y(this, u, 1) : d.bind(this)(u, $);
-      }, e.prototype.subtract = function(u, $) {
-        return D(u) ? y(this, u, -1) : m.bind(this)(u, $);
+      e.prototype.add = function(u, b) {
+        return D(u) ? w(this, u, 1) : d.bind(this)(u, b);
+      }, e.prototype.subtract = function(u, b) {
+        return D(u) ? w(this, u, -1) : m.bind(this)(u, b);
       };
     };
   });
@@ -198,41 +198,41 @@ var ft = U.exports;
 const mt = /* @__PURE__ */ Q(ft);
 var tt = { exports: {} };
 (function(r, s) {
-  (function(h, p) {
-    r.exports = p();
+  (function(h, g) {
+    r.exports = g();
   })(K, function() {
-    return function(h, p, b) {
+    return function(h, g, v) {
       h = h || {};
-      var w = p.prototype, B = { future: "in %s", past: "%s ago", s: "a few seconds", m: "a minute", mm: "%d minutes", h: "an hour", hh: "%d hours", d: "a day", dd: "%d days", M: "a month", MM: "%d months", y: "a year", yy: "%d years" };
+      var $ = g.prototype, B = { future: "in %s", past: "%s ago", s: "a few seconds", m: "a minute", mm: "%d minutes", h: "an hour", hh: "%d hours", d: "a day", dd: "%d days", M: "a month", MM: "%d months", y: "a year", yy: "%d years" };
       function j(i, o, c, A) {
-        return w.fromToBase(i, o, c, A);
+        return $.fromToBase(i, o, c, A);
       }
-      b.en.relativeTime = B, w.fromToBase = function(i, o, c, A, D) {
-        for (var Y, T, g, k = c.$locale().relativeTime || B, a = h.thresholds || [{ l: "s", r: 44, d: "second" }, { l: "m", r: 89 }, { l: "mm", r: 44, d: "minute" }, { l: "h", r: 89 }, { l: "hh", r: 21, d: "hour" }, { l: "d", r: 35 }, { l: "dd", r: 25, d: "day" }, { l: "M", r: 45 }, { l: "MM", r: 10, d: "month" }, { l: "y", r: 17 }, { l: "yy", d: "year" }], f = a.length, l = 0; l < f; l += 1) {
-          var y = a[l];
-          y.d && (Y = A ? b(i).diff(c, y.d, !0) : c.diff(i, y.d, !0));
+      v.en.relativeTime = B, $.fromToBase = function(i, o, c, A, D) {
+        for (var Y, T, y, k = c.$locale().relativeTime || B, a = h.thresholds || [{ l: "s", r: 44, d: "second" }, { l: "m", r: 89 }, { l: "mm", r: 44, d: "minute" }, { l: "h", r: 89 }, { l: "hh", r: 21, d: "hour" }, { l: "d", r: 35 }, { l: "dd", r: 25, d: "day" }, { l: "M", r: 45 }, { l: "MM", r: 10, d: "month" }, { l: "y", r: 17 }, { l: "yy", d: "year" }], f = a.length, l = 0; l < f; l += 1) {
+          var w = a[l];
+          w.d && (Y = A ? v(i).diff(c, w.d, !0) : c.diff(i, w.d, !0));
           var n = (h.rounding || Math.round)(Math.abs(Y));
-          if (g = Y > 0, n <= y.r || !y.r) {
-            n <= 1 && l > 0 && (y = a[l - 1]);
-            var e = k[y.l];
-            D && (n = D("" + n)), T = typeof e == "string" ? e.replace("%d", n) : e(n, o, y.l, g);
+          if (y = Y > 0, n <= w.r || !w.r) {
+            n <= 1 && l > 0 && (w = a[l - 1]);
+            var e = k[w.l];
+            D && (n = D("" + n)), T = typeof e == "string" ? e.replace("%d", n) : e(n, o, w.l, y);
             break;
           }
         }
         if (o) return T;
-        var t = g ? k.future : k.past;
+        var t = y ? k.future : k.past;
         return typeof t == "function" ? t(T) : t.replace("%s", T);
-      }, w.to = function(i, o) {
+      }, $.to = function(i, o) {
         return j(i, o, this, !0);
-      }, w.from = function(i, o) {
+      }, $.from = function(i, o) {
         return j(i, o, this);
       };
       var M = function(i) {
-        return i.$u ? b.utc() : b();
+        return i.$u ? v.utc() : v();
       };
-      w.toNow = function(i) {
+      $.toNow = function(i) {
         return this.to(M(this), i);
-      }, w.fromNow = function(i) {
+      }, $.fromNow = function(i) {
         return this.from(M(this), i);
       };
     };
@@ -242,13 +242,13 @@ var pt = tt.exports;
 const gt = /* @__PURE__ */ Q(pt);
 I.extend(mt);
 I.extend(gt);
-function yt(r, s) {
+function xt(r, s) {
   return I.duration(s - r).humanize();
 }
 function L() {
   const r = Array.prototype.slice.call(arguments, 0);
   return function(s) {
-    return r.reduce((h, p) => p(h), s);
+    return r.reduce((h, g) => g(h), s);
   };
 }
 function G(r) {
@@ -256,7 +256,7 @@ function G(r) {
     return r === void 0 ? s : s[r];
   };
 }
-const xt = [
+const yt = [
   "#4285f4",
   "#db4437",
   "#f4b400",
@@ -280,23 +280,23 @@ function wt(r) {
 function $t(r) {
   return r.r * 0.299 + r.g * 0.587 + r.b * 0.114;
 }
-function vt(r) {
+function bt(r) {
   return $t(r) > 165;
 }
-function bt(r) {
-  return vt(x.color(r)) ? "black" : "white";
+function vt(r) {
+  return bt(x.color(r)) ? "black" : "white";
 }
-function J(r) {
-  const s = r.getFullYear(), h = String(r.getMonth() + 1).padStart(2, "0"), p = String(r.getDate()).padStart(2, "0");
-  return `${s}${h}${p}`;
+function Z(r) {
+  const s = r.getFullYear(), h = String(r.getMonth() + 1).padStart(2, "0"), g = String(r.getDate()).padStart(2, "0");
+  return `${s}${h}${g}`;
 }
-function N(r, s) {
+function W(r, s) {
   return "translate(" + r + "," + s + ")";
 }
 function _t() {
-  let r = xt, s = 5, h = 2, p = !1, b = !1, w, B, j = 0, M = G(0), i = G(1), o = G(2), c = G(3);
+  let r = yt, s = 5, h = 2, g = !1, v = !1, $, B, j = 0, M = G(0), i = G(1), o = G(2), c = G(3);
   function A(a, f) {
-    const l = a.select("text"), y = a.select("rect"), n = y.attr("width") - 2 * s, e = i(f);
+    const l = a.select("text"), w = a.select("rect"), n = w.attr("width") - 2 * s, e = i(f);
     l.text(e);
     let t = l.node().getComputedTextLength();
     if (t > n) {
@@ -305,11 +305,11 @@ function _t() {
     }
   }
   function D(a, f, l) {
-    const y = a.select("text").node(), n = y.getBBox(), e = l.scale().domain().indexOf(M(f)), t = l.colorscale()(e), d = a.selectAll("rect.bckg").data([f]).join("rect").attr("class", "bckg").attr("fill", t).attr("x", n.x - s + h).attr("y", n.y - 2).attr("width", n.width + s - h).attr("height", n.height);
-    a.node().insertBefore(d.node(), y);
+    const w = a.select("text").node(), n = w.getBBox(), e = l.scale().domain().indexOf(M(f)), t = l.colorscale()(e), d = a.selectAll("rect.bckg").data([f]).join("rect").attr("class", "bckg").attr("fill", t).attr("x", n.x - s + h).attr("y", n.y - 2).attr("width", n.width + s - h).attr("height", n.height);
+    a.node().insertBefore(d.node(), w);
   }
   function Y(a, f) {
-    a.each(function(l, y) {
+    a.each(function(l, w) {
       const n = x.select(this.parentNode);
       c(l) - o(l) ? A(n, l) : D(n, l, f);
     });
@@ -317,67 +317,76 @@ function _t() {
   function T(a) {
     return function(f, l) {
       x.active(this).tween("text", function() {
-        return function(y) {
+        return function(w) {
           Y(x.select(this), a);
         };
       });
     };
   }
-  function g(a) {
-    const f = a.datum(), l = new Set(x.map(f, M)), y = new X(k), n = x.scaleOrdinal(r);
-    w = w || [x.min(f, o), x.max(f, c)], b && (w = x.extent(w.concat(/* @__PURE__ */ new Date()))), a.each(function(e) {
-      const t = B || this.getBoundingClientRect().width, d = l.size * (wt(this) + 4 * s), m = x.scaleBand().domain(l).range([0, d]), u = x.scaleTime().domain(w), $ = (p ? ht : dt)(m).width(t), _ = x.select(this).selectAll("svg").data([1]).join("svg");
+  function y(a) {
+    const f = a.datum(), l = new Set(x.map(f, M)), w = new J(k), n = x.scaleOrdinal(r);
+    $ = $ || [x.min(f, o), x.max(f, c)], v && ($ = x.extent($.concat(/* @__PURE__ */ new Date()))), a.each(function(e) {
+      const t = B || this.getBoundingClientRect().width, d = l.size * (wt(this) + 4 * s), m = x.scaleBand().domain(l).range([0, d]), u = x.scaleTime().domain($), b = (g ? ht : dt)(m).width(t), _ = x.select(this).selectAll("svg").data([1]).join("svg");
       _.attr("class", "timeline").attr("width", t).attr("height", d + 40);
-      const S = _.append("g").attr("transform", "translate(0,20)"), F = S.append("g").attr("class", "y axis").call($);
-      F.selectAll("text").style("cursor", "pointer").on("click", function(v, z) {
-        const V = `https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22${z.replace(/--/g, "").replace(" ", "%20")}%22`;
+      const S = _.append("g").attr("transform", "translate(0,20)"), O = S.append("g").attr("class", "y axis").call(b);
+      O.selectAll("text").attr("text-anchor", function(p) {
+        return p.startsWith(" •") ? "middle" : "end";
+      }).attr("x", function(p) {
+        return p.startsWith(" •") ? 167 : 332.5;
+      }).style("cursor", "pointer").style("font-weight", function(p) {
+        return p.startsWith(" •") ? "bold" : "normal";
+      }).style("background", "none").on("click", function(p, H) {
+        const V = `https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22${H.replace(/--/g, "").replace(" ", "%20")}%22`;
         window.open(V, "_blank");
+      }), O.selectAll("g.row").each(function(p) {
+        const N = x.select(this).select("text").text();
+        N.startsWith(" •") && x.select(this).classed("timelineheader", !0).classed(N.replace(/^ • /, "").replace("  ", "").replace(/\s+/g, "-").replace(/[^a-zA-Z0-9-]/g, ""), !0).append("text").attr("x", 320.5).attr("y", 25).text("+").style("text-anchor", "end").style("cursor", "pointer").style("font-size", "20px").attr("fill", "black");
       });
-      let O = $.range();
-      u.range([O[0] + s, O[1] - s]).clamp(!0);
-      const P = x.axisBottom(u), C = S.append("g").attr("class", "x axis").attr("transform", N(0, 0)).call(P);
-      C.selectAll(".tick text").attr("dy", "-1.5em"), C.selectAll(".tick line").attr("y2", "-5");
+      let C = b.range();
+      u.range([C[0] + s, C[1] - s]).clamp(!0);
+      const P = x.axisBottom(u), E = S.append("g").attr("class", "x axis").attr("transform", W(0, 0)).call(P);
+      E.selectAll(".tick text").attr("dy", "-1.5em"), E.selectAll(".tick line").attr("y2", "-5");
       const et = x.axisBottom(u);
-      _.append("g").attr("class", "x axis bottom-axis").attr("transform", N(0, d + 20)).call(et).selectAll(".tick line").attr("y2", "5"), F.on("offset", () => {
-        O = $.range(), u.range([O[0] + s, O[1] - s]).clamp(!0), P.ticks(Math.min((O[1] - O[0]) / 70, 10)), C.call(P), E.attr("transform", (v) => N(u(o(v)), m(M(v)))).selectAll("rect").attr("width", (v) => u(c(v)) - u(o(v)) || h).call((v) => Y(v, $)), F.call($.draw_ticks, u.ticks().map(u));
-      }), C.select(".domain").remove(), C.selectAll(".tick line").attr("stroke", "#AAA");
+      _.append("g").attr("class", "x axis bottom-axis").attr("transform", W(0, d + 20)).call(et).selectAll(".tick line").attr("y2", "5"), O.on("offset", () => {
+        C = b.range(), u.range([C[0] + s, C[1] - s]).clamp(!0), P.ticks(Math.min((C[1] - C[0]) / 70, 10)), E.call(P), F.attr("transform", (p) => W(u(o(p)), m(M(p)))).selectAll("rect").attr("width", (p) => u(c(p)) - u(o(p)) || h).call((p) => Y(p, b)), O.call(b.draw_ticks, u.ticks().map(u));
+      }), E.select(".domain").remove(), E.selectAll(".tick line").attr("stroke", "#AAA");
       const nt = u.ticks().map(u);
-      F.call($.draw_ticks, nt);
-      let E = S.selectAll("g.task").data(e);
-      E.exit().remove();
-      const q = E.enter().append("g").classed("task", !0);
-      q.append("rect").style("opacity", 0.7).attr("y", s).style("cursor", "pointer").attr("height", m.bandwidth() - 2 * s).on("mouseover", y.show).on("mouseout", y.hide).on("click", function(v, z) {
-        var R = String(z[1]), W = R.replace(" ", "%20"), V = z[2], rt = J(V), st = z[3], it = J(st), ot = "https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22" + W + "%22%20%2Bdate_when%3A%5B" + rt + "%20TO%20" + it + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning";
+      O.call(b.draw_ticks, nt);
+      let F = S.selectAll("g.task").data(e);
+      F.exit().remove();
+      const q = F.enter().append("g").classed("task", !0);
+      q.append("rect").style("opacity", 0.7).attr("y", s).style("cursor", "pointer").attr("height", m.bandwidth() - 2 * s).on("mouseover", w.show).on("mouseout", w.hide).on("click", function(p, H) {
+        var N = String(H[1]), R = N.replace(" ", "%20"), V = H[2], rt = Z(V), st = H[3], it = Z(st), ot = "https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22" + R + "%22%20%2Bdate_when%3A%5B" + rt + "%20TO%20" + it + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning";
         window.open(ot, "_blank");
-      }).style("fill", L(i, n)), q.append("text").attr("text-anchor", "start").attr("fill", (v) => c(v) - o(v) ? L(i, n, bt)(v) : "black").attr("pointer-events", "none").attr("dx", s).attr("y", m.bandwidth() / 2).attr("dy", "0.32em").text(i), E = E.merge(q), E.attr("transform", (v) => N(O[0], m(M(v)))).selectAll("rect").attr("width", 0), E.transition().duration(j).attr("transform", (v) => N(u(o(v)), m(M(v)))).selectAll("rect").attr("width", (v) => u(c(v)) - u(o(v)) || h).on("start", T($)), b && S.append("path").attr("stroke", "red").attr("d", "M" + u(/* @__PURE__ */ new Date()) + ",0.5V" + d);
+      }).style("fill", L(i, n)), q.append("text").attr("text-anchor", "start").attr("fill", (p) => c(p) - o(p) ? L(i, n, vt)(p) : "black").attr("pointer-events", "none").attr("dx", s).attr("y", m.bandwidth() / 2).attr("dy", "0.32em").text(i), F = F.merge(q), F.attr("transform", (p) => W(C[0], m(M(p)))).selectAll("rect").attr("width", 0), F.transition().duration(j).attr("transform", (p) => W(u(o(p)), m(M(p)))).selectAll("rect").attr("width", (p) => u(c(p)) - u(o(p)) || h).on("start", T(b)), v && S.append("path").attr("stroke", "red").attr("d", "M" + u(/* @__PURE__ */ new Date()) + ",0.5V" + d);
     });
   }
-  return g.dates = function(a) {
-    return arguments.length ? (w = a, g) : w;
-  }, g.width = function(a) {
-    return arguments.length ? (B = a, g) : B;
-  }, g.today = function(a) {
-    return arguments.length ? (b = a, g) : b;
-  }, g.colors = function(a) {
-    return arguments.length ? (r = a, g) : r;
-  }, g.padding = function(a) {
-    return arguments.length ? (s = a, g) : s;
-  }, g.milestone_width = function(a) {
-    return arguments.length ? (h = a, g) : h;
-  }, g.reversed = function(a) {
-    return arguments.length ? (p = a, g) : p;
-  }, g.duration = function(a) {
-    return arguments.length ? (j = a, g) : j;
-  }, g;
+  return y.dates = function(a) {
+    return arguments.length ? ($ = a, y) : $;
+  }, y.width = function(a) {
+    return arguments.length ? (B = a, y) : B;
+  }, y.today = function(a) {
+    return arguments.length ? (v = a, y) : v;
+  }, y.colors = function(a) {
+    return arguments.length ? (r = a, y) : r;
+  }, y.padding = function(a) {
+    return arguments.length ? (s = a, y) : s;
+  }, y.milestone_width = function(a) {
+    return arguments.length ? (h = a, y) : h;
+  }, y.reversed = function(a) {
+    return arguments.length ? (g = a, y) : g;
+  }, y.duration = function(a) {
+    return arguments.length ? (j = a, y) : j;
+  }, y;
   function k(a, f) {
-    const l = L(x.isoParse, x.timeFormat("%Y-%m-%d")), y = `<b>${i(f)}</b><hr style="margin: 2px 0 2px 0">${l(o(f))}`, n = c(f) - o(f) ? ` - ${l(c(f))}<br>${yt(o(f), c(f))}` : "";
-    return y + n;
+    const l = L(x.isoParse, x.timeFormat("%Y-%m-%d")), w = `<b>${i(f)}</b><hr style="margin: 2px 0 2px 0">${l(o(f))}`, n = c(f) - o(f) ? ` - ${l(c(f))}<br>${xt(o(f), c(f))}` : "";
+    return w + n;
   }
 }
 export {
-  yt as durationFormat,
+  xt as durationFormat,
   _t as timeline,
   dt as timelineAxisLeft,
   ht as timelineAxisRight,
-  X as tooltip
+  J as tooltip
 };

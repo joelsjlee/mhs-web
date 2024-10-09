@@ -80,7 +80,7 @@ def getcolors(datafile, output,sorted= False):
     for topic in topics:
 
         # skips header if present
-        if list(topic)[0] == "-":
+        if list(topic)[0] == " ":
             pass
 
         # Adds color to color list in order it will appear 
