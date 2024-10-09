@@ -41,7 +41,7 @@ projectDiv.setAttribute('class', 'dropdown-content');
 // Create <li>'s in first dropdown menu.
 // jqa
 const jqaA = document.createElement('a');
-jqaA.setAttribute('href', '/projects/jqa/index.html');
+jqaA.setAttribute('href', '/projects/JQA/index.html');
 const jqaText = document.createTextNode('John Quincy Adams Diary Digital Project');
 jqaA.append(jqaText);
 projectDiv.append(jqaA);
