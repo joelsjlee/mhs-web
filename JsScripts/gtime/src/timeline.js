@@ -2,6 +2,7 @@ import * as d3 from "d3";
 import { timelineAxisLeft, timelineAxisRight } from "./timelineaxis";
 import tooltip from "./tooltip";
 import { durationFormat, f, pipe } from "./utils";
+import { selectAll } from 'd3-selection';
 
 const google_colors = [
   "#4285f4",
@@ -50,6 +51,32 @@ function translate(x, y) {
   return "translate(" + x + "," + y + ")";
 }
 
+function hideHeaderTasks(headerClassName,apply) {
+  // Remove bullets from the header name
+  //const headerName = headerClassName.replace(/ • /g, "").trim();
+
+
+  selectAll(`g.task.${headerClassName}`).each(function(d) {
+
+      d3.select(this).style('display', apply);
+    
+
+    
+});
+  
+  
+
+
+}
+
+
+function hideTasksWithDashClass() {
+  const elementsToHide = document.querySelectorAll('g.task[class*=" --"]');
+  
+  elementsToHide.forEach(function(element) {
+    element.style.display = 'none';  // Hide the elements
+  });
+}
 
 function adjustTranslate(rowElement, adjustmentValue) {
   // Get the current transform attribute
@@ -73,6 +100,7 @@ function adjustTranslate(rowElement, adjustmentValue) {
 function shiftcolumns(headerRowElement,yGroupSelection,adjvalue){
               // Find the parent <g> element of the clicked + (which is the header row itself)
 const headerRow = d3.select(headerRowElement,);
+
 
 // Get the class name of the clicked header row (e.g., --African-American--)
 // const headerClass = headerRow.attr("class").split(" ")[1]; this is how to get only the name 
@@ -196,7 +224,29 @@ yGroupSelection.selectAll("g.row").each(function(rowData) {
 });
 
     // Log the list of row classes under the clicked header
-    console.log(`Rows under ${headerClass}:`, rows);
+
+    console.log(headerClass.split(" ")[1]);
+    if (toapply == "block"){
+      
+      hideHeaderTasks(headerClass.split(" ")[1],"none");
+      console.log("You pressed plus");
+    }
+
+    else {
+      console.log("You pressed minus");
+      hideHeaderTasks(headerClass.split(" ")[1],"block");
+
+    }
+
+
+
+    //const tasks = document.querySelectorAll(`.${headerClass.split(" ")[1]}.task`);
+    //headerClass.split(" ")[1]
+
+
+    //tasks.forEach(function(task) {
+    //  task.style.display = otherapply;  // Set display to none to hide the elements
+   // });
     
 
 
@@ -417,6 +467,7 @@ export default function () {
         shiftcolumns(this.parentNode,yGroup,adjustment);
         adjustPathHeight(adjustment);
         adjustXAxisTranslate(adjustment);
+        
 
 
           // Toggle the + to - and vice versa
@@ -506,7 +557,7 @@ const xGroupBottom = svg
         d3.select(this).classed(rowClass, true);  // Apply the dynamic row class
       })
         .append("rect")
-        .style("opacity", 0.7)
+        .style("opacity", 1.0)
         .attr("y", padding)
         .style("cursor", "pointer")
         .attr("height", yScale.bandwidth() - 2 * padding)
@@ -571,6 +622,9 @@ const xGroupBottom = svg
           .attr("stroke", "red")
           .attr("d", "M" + xScale(new Date()) + ",0.5V" + height);
     });
+  
+    hideTasksWithDashClass();
+   
   }
 
   //chart.axis     = function(_) { return arguments.length? (axis  = _, chart): axis ; };
@@ -598,6 +652,8 @@ const xGroupBottom = svg
   chart.duration = function (_) {
     return arguments.length ? ((duration = _), chart) : duration;
   };
+
+
 
   return chart;
 

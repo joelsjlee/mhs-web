@@ -66,22 +66,23 @@ for umb in umbrellas:
     i+= 1
 
 
-def getcolors(datafile, output,sorted= False):
+def getcolors(datafile, output):
 
     colors_list = []
 
     # if sorted by umbrella, there needs to be am empty whiet color for the header row
-    if sorted:
-        colors_list.append("#FFFFFF")
+
 
     # Unique rows in the order they appear
     topics = list(pd.read_csv(datafile)["Role"].drop_duplicates())
+
 
     for topic in topics:
 
         # skips header if present
         if list(topic)[0] == " ":
-            pass
+
+            colors_list.append(color_dict[topic.replace(" • ", "").strip()])
 
         # Adds color to color list in order it will appear 
         else:
@@ -92,7 +93,7 @@ def getcolors(datafile, output,sorted= False):
         wr.writerow(colors_list)
 
 
-getcolors("sortedtimeline.csv","sortedcolors.csv",True)
+getcolors("sortedtimeline.csv","sortedcolors.csv")
 
-getcolors("timeline.csv","timecolors.csv")
+
 

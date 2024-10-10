@@ -1,6 +1,58 @@
 import pandas as pd
 import csv
 import json
+from datetime import datetime
+
+
+# Function to parse date strings
+def parse_date(date_str):
+    return datetime.strptime(date_str, '%Y-%m-%d')
+
+
+# Function to get the union of date ranges
+def get_union_of_date_ranges(data):
+    date_ranges = []
+
+    for row in data:
+        if len(row) == 4:  # Only process rows with date ranges
+            start_date = parse_date(row[2])
+            end_date = parse_date(row[3])
+            date_ranges.append((start_date, end_date))
+
+    if not date_ranges:
+        return []
+
+    # Sort the date ranges by start date
+    date_ranges.sort()
+
+    # Merge overlapping or consecutive date ranges
+    merged_ranges = []
+    current_start, current_end = date_ranges[0]
+
+    for start, end in date_ranges[1:]:
+        if start <= current_end:  # Overlapping or consecutive ranges
+            current_end = max(current_end, end)
+        else:
+            merged_ranges.append((current_start, current_end))
+            current_start, current_end = start, end
+
+    merged_ranges.append((current_start, current_end))
+
+    return merged_ranges
+
+
+# Function to return the union of date ranges in the requested structure, following the exact format
+def format_union_of_date_ranges(data, header):
+    title = header.replace(" • ", "").strip()
+    union_ranges = get_union_of_date_ranges(data)
+
+    # Prepare the output list where each range gets its own entry, following the format
+    formatted_output = []
+    for start, end in union_ranges:
+        formatted_output.append([header, title, str(start.date()), str(end.date())])
+
+    return formatted_output
+
 
 # Gets a dict of topic : umbrella
 with open('topiccategories.json', 'r') as file:
@@ -10,11 +62,11 @@ with open('topiccategories.json', 'r') as file:
 Category_list = {key: value[0] for key, value in data.items()}
 
 
-def createTimelineData(type, filepath, output, sorted=False):
+def createTimelineData(filepath, output):
     """
 
     Args:
-        type: (str) Cat or Full to represent the type of timeline
+
         filepath: (str) csv file of data
         output: (str) csv filename to output
 
@@ -30,14 +82,14 @@ def createTimelineData(type, filepath, output, sorted=False):
     for subject in df.subjects.unique():
         year_ranges = []
 
-        # All of the years a particular subject is mentioned
+        # All the years a particular subject is mentioned
         filtered_years = df['year'][df['subjects'] == subject].tolist()
 
         # If there is only oen year, it is set as the start and end date
         if len(filtered_years) == 1:
             year_ranges.append([filtered_years[0], filtered_years[0]])
 
-        # If there is more than one..
+        # If there is more than one -
         else:
             current_range = [filtered_years[0]]
 
@@ -70,56 +122,52 @@ def createTimelineData(type, filepath, output, sorted=False):
 
         # Creates a new line in the csv for each time range entry
         for year_range in sub_dict[subject]:
-            new_line = []
-
-            # If one umbrella should be on a line, this makes that happen, otherwise each topic is on its own line
-            if type == "Cats":
-                new_line.append(Category_list[subject])
-            elif type == "Full":
-                new_line.append(subject)
-            else:
-                print("ERROR: TYPE MUST BE EITHER 'Cats' or 'Full'")
-                return
-
-            new_line.append(subject)
-            # Right now just does by full years. These dates are slightly off due to JS converting time weirdly
-            new_line.append(str(min(year_range)) + "-01-02")
-            new_line.append(str(max(year_range)) + "-12-31")
+            new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
 
             csv_lines.append(new_line)
 
-    # This is for a chart tht is sorted by umbrella, but each topic is on its own line
-    if sorted == True:
-        # Removes headers and gets list of categories
-        csv_lines.pop(0)
-        categories = list(set(list(Category_list.values())))
-        newlines = [["Role", "Name", "Start", "End"]]
+    # Removes headers and gets list of categories
+    csv_lines.pop(0)
+    categories = list(set(list(Category_list.values())))
+    newlines = [["Role", "Name", "Start", "End"]]
 
-        # Adds a header row for each category, followed by the relevant topics
-        for cat in categories:
-            incat = [[" • " + cat + " • "]]
+    # Adds a header row for each category, followed by the relevant topics
+    for cat in categories:
+        incat = [[" • " + cat + " • "]]
 
-            for line in range(len(csv_lines)):
+        for line in range(len(csv_lines)):
 
-                if Category_list[csv_lines[line][1]] == cat:
-                    incat.append(csv_lines[line])
+            if Category_list[csv_lines[line][1]] == cat:
+                incat.append(csv_lines[line])
 
-            # A len of one means this is a umbrella with no entries (other than the header column) 
-            if len(incat) > 1:
-                newlines += incat
+        # A len of one means this is an umbrella with no entries (other than the header column)
+        if len(incat) > 1:
 
-        with open(output, 'w', newline='') as file:
-            print('Succesfuly wrote to: ' + output)
-            writer = csv.writer(file)
-            writer.writerows(newlines)
+            all = incat[:]
+            cat = all.pop(0)
 
-    else:
-        with open(output, 'w', newline='') as file:
-            print('Succesfuly wrote to: ' + output)
-            writer = csv.writer(file)
-            writer.writerows(csv_lines)
+            catlines = []
+            for each in all:
+                new = [cat[0], each[1], each[2], each[3]]
+                catlines.append(new)
+
+            formatted_union = format_union_of_date_ranges(incat, incat[0][0])
+
+            # Print the result
+
+            incat[0] = formatted_union[0]
+            formatted_union.pop(0)
+            for entry in formatted_union:
+                incat.append(entry)
+
+            catlines.extend(incat)
+
+            newlines += catlines
+
+    with open(output, 'w', newline='') as f:
+        print('Successfully wrote to: ' + output)
+        writer = csv.writer(f)
+        writer.writerows(newlines)
 
 
-createTimelineData("Cats", "1779_1848.csv", "groupedtimeline.csv")
-createTimelineData("Full", "1779_1848.csv", "timeline.csv")
-createTimelineData("Full", "1779_1848.csv", "sortedtimeline.csv", True)
+createTimelineData("1779_1848.csv", "sortedtimeline.csv")
