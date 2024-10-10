@@ -50,6 +50,222 @@ function translate(x, y) {
   return "translate(" + x + "," + y + ")";
 }
 
+
+function adjustTranslate(rowElement, adjustmentValue) {
+  // Get the current transform attribute
+  let transform = rowElement.getAttribute('transform');
+
+  // Extract the translate(x, y) values using a regular expression
+  let translateValues = transform.match(/translate\(([\d.-]+),([\d.-]+)\)/);
+
+  if (translateValues) {
+    let x = parseFloat(translateValues[1]);  // Extract the x value
+    let y = parseFloat(translateValues[2]);  // Extract the y value
+
+    // Adjust the y value by reducing or increasing based on adjustmentValue
+    y += adjustmentValue;  // Adjust y as needed
+
+    // Set the new transform value with the updated y
+    rowElement.setAttribute('transform', `translate(${x},${y})`);
+  }
+}
+
+function shiftcolumns(headerRowElement,yGroupSelection,adjvalue){
+              // Find the parent <g> element of the clicked + (which is the header row itself)
+const headerRow = d3.select(headerRowElement,);
+
+// Get the class name of the clicked header row (e.g., --African-American--)
+// const headerClass = headerRow.attr("class").split(" ")[1]; this is how to get only the name 
+
+const headerClass = headerRow.attr("class")
+
+// Initialize an array to store the class names of rows after the header
+const rows = [];
+
+let foundFirstHeader = false;
+
+
+
+// Iterate through all g.row elements after the clicked header
+yGroupSelection.selectAll("g.row").each(function(rowData) {
+  
+
+  const currentRow = d3.select(this);
+  // This is all the classes 
+  const currentRowClass = currentRow.attr("class");
+  
+
+
+
+  // If we encounter the next header, stop collecting rows
+  if (currentRowClass == headerClass) {
+    foundFirstHeader = true;
+
+  }
+
+  else if (foundFirstHeader){
+    adjustTranslate(this, adjvalue);
+
+    adjustYForRectAndTextByClass(currentRowClass.split(" ")[1],adjvalue);
+
+
+
+  }
+
+});
+
+    // Log the list of row classes under the clicked header
+    
+}
+
+function adjustYForRectAndTextByClass(className, adjustmentY) {
+  // Adjust the y attribute for all <rect> elements inside g.task elements with the specific class name
+  const rectElements = document.querySelectorAll(`g.task.${className} rect`);
+  
+  rectElements.forEach(function(rectElement) {
+    // Get the current y attribute of the rect
+    let currentY = parseFloat(rectElement.getAttribute('y'));
+
+    // Adjust the y value
+    let newY = currentY + adjustmentY;
+
+    // Set the new y value
+    rectElement.setAttribute('y', newY);
+  });
+
+  // Adjust the y attribute for all <text> elements inside g.task elements with the specific class name
+  const textElements = document.querySelectorAll(`g.task.${className} text`);
+
+  textElements.forEach(function(textElement) {
+    // Get the current y attribute of the text
+    let currentY = parseFloat(textElement.getAttribute('y'));
+
+    // Adjust the y value
+    let newY = currentY + adjustmentY;
+
+    // Set the new y value
+    textElement.setAttribute('y', newY);
+  });
+}
+
+function getaffectedcolumns(headerRowElement,yGroupSelection,toapply){
+
+            // Find the parent <g> element of the clicked + (which is the header row itself)
+const headerRow = d3.select(headerRowElement,);
+
+// Get the class name of the clicked header row (e.g., --African-American--)
+// const headerClass = headerRow.attr("class").split(" ")[1]; this is how to get only the name 
+
+const headerClass = headerRow.attr("class")
+
+// Initialize an array to store the class names of rows after the header
+const rows = [];
+
+let foundFirstHeader = false;
+let foundNextHeader = false;
+
+
+// Iterate through all g.row elements after the clicked header
+yGroupSelection.selectAll("g.row").each(function(rowData) {
+  
+
+  const currentRow = d3.select(this);
+  // This is all the classes 
+  const currentRowClass = currentRow.attr("class");
+  
+
+
+
+  // If we encounter the next header, stop collecting rows
+  if (currentRowClass == headerClass) {
+    foundFirstHeader = true;
+
+  }
+
+  else if (foundFirstHeader && currentRowClass.split(" ")[2] == "timelineheader"){
+    foundNextHeader = true
+
+
+  }
+
+  else if (foundFirstHeader && !foundNextHeader){
+    rows.push(currentRowClass.split(" ")[1]);
+
+  }
+
+});
+
+    // Log the list of row classes under the clicked header
+    console.log(`Rows under ${headerClass}:`, rows);
+    
+
+
+    rows.forEach(function(rowClass) {
+      // Select all elements with the class and hide them
+      const elements = document.querySelectorAll(`.${rowClass}`);
+      
+      elements.forEach(function(element) {
+        element.style.display = toapply;  // Set display to none to hide the elements
+      });
+    });
+
+    return rows.length*38; 
+}
+
+function adjustPathHeight(adjustmentHeight) {
+  // Select the <path> element with stroke-width="1.75"
+  const pathElement = document.querySelector('path[stroke-width="1.75"]');
+
+  if (pathElement) {
+    // Get the current 'd' attribute of the path (e.g., "M333,0.5V6270")
+    let pathD = pathElement.getAttribute('d');
+    
+    // Extract the vertical endpoint from the path (e.g., "V6270") using a regex
+    let pathValues = pathD.match(/M([\d.-]+),([\d.-]+)V([\d.-]+)/);
+
+    if (pathValues) {
+      let startX = parseFloat(pathValues[1]);  // Starting x-coordinate (e.g., 333)
+      let startY = parseFloat(pathValues[2]);  // Starting y-coordinate (e.g., 0.5)
+      let endY = parseFloat(pathValues[3]);    // Current vertical endpoint (e.g., 6270)
+
+      // Adjust the vertical endpoint by reducing it
+      let newEndY = endY + adjustmentHeight;
+
+      // Update the 'd' attribute with the new vertical endpoint
+      pathElement.setAttribute('d', `M${startX},${startY}V${newEndY}`);
+    }
+  } else {
+    console.error('Path with stroke-width="1.75" not found.');
+  }
+}
+
+function adjustXAxisTranslate(adjustmentY) {
+  // Select the <g> element with class 'x axis bottom-axis'
+  const xAxisElement = document.querySelector('g.x.axis.bottom-axis');
+
+  if (xAxisElement) {
+    // Get the current 'transform' attribute
+    let transform = xAxisElement.getAttribute('transform');
+
+    // Extract the translate(x, y) values using a regex
+    let translateValues = transform.match(/translate\(([\d.-]+),([\d.-]+)\)/);
+
+    if (translateValues) {
+      let x = parseFloat(translateValues[1]);  // x value (e.g., 0)
+      let y = parseFloat(translateValues[2]);  // Current y value (e.g., 6290)
+
+      // Adjust the y value by the adjustmentY value
+      let newY = y + adjustmentY;
+
+      // Set the new transform value with the updated y
+      xAxisElement.setAttribute('transform', `translate(${x},${newY})`);
+    }
+  } else {
+    console.error('x axis bottom-axis not found.');
+  }
+}
+
+
 export default function () {
   let colors = google_colors,
     padding = 5,
@@ -109,13 +325,14 @@ export default function () {
       });
     }
   }
+  
 
   function chart(selection) {
     const data = selection.datum(),
       rows = new Set(d3.map(data, labels)),
       tip = new tooltip(tooltip_html),
       cScale = d3.scaleOrdinal(colors);
-    dates = dates || [d3.min(data, starts), d3.max(data, ends)];
+      dates = dates || [d3.min(data, starts), d3.max(data, ends)];
 
     if (today) dates = d3.extent(dates.concat(new Date()));
 
@@ -127,36 +344,30 @@ export default function () {
         yAxis = (reversed ? timelineAxisRight : timelineAxisLeft)(yScale).width(width),
         svg = d3.select(this).selectAll("svg").data([1]).join("svg");
        
-
       svg
         .attr("class", "timeline")
         .attr("width", width)
         .attr("height", height + 40); // margin.bottom
        
-
       const g = svg.append("g").attr("transform", "translate(" + 0 + "," + 20 + ")");;
-
       const yGroup = g.append("g").attr("class", "y axis").call(yAxis);
 
       yGroup.selectAll("text")
-      .attr("text-anchor", function(d) {
-        // Center justify the text if it starts with "--", otherwise right justify
-        return d.startsWith(" •") ? "middle" : "end";
-    })
-    .attr("x", function(d) {
-        // If the text starts with "--", set x to 167, otherwise set x to 332.5
-        return d.startsWith(" •") ? 167 : 332.5;
-    })
-      .style("cursor", "pointer")  // Show pointer to indicate it's clickable
-
-
-      .style("font-weight", function(d) {
-        // Make the text bold if it starts with "--"
-        return d.startsWith(" •") ? "bold" : "normal";
-    })     
-
-  .style("background", "none") 
-  .on("click", function(event, d) {
+        .attr("text-anchor", function(d) {
+          // Center justify the text if it starts with "--", otherwise right justify
+          return d.startsWith(" •") ? "middle" : "end";
+          })
+        .attr("x", function(d) {
+          // If the text starts with "--", set x to 167, otherwise set x to 332.5
+          return d.startsWith(" •") ? 167 : 332.5;
+          })
+        .style("cursor", "pointer")  // Show pointer to indicate it's clickable
+        .style("font-weight", function(d) {
+          // Make the text bold if it starts with "--"
+          return d.startsWith(" •") ? "bold" : "normal";
+          })     
+        .style("background", "none") 
+        .on("click", function(event, d) {
           // Remove all dashes from the link text but keep displayed text as is
           const cleanedText = d.replace(/ • /g, "");  // Remove dashes for the link
           const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
@@ -165,22 +376,21 @@ export default function () {
   
           // Open the URL in a new tab
           window.open(url, "_blank");
-
-      });
+          });
     
       yGroup.selectAll("g.row")
-    .each(function(d) {
-        // Find the <text> element within the group
-        const textElement = d3.select(this).select("text");
-        const textContent = textElement.text();  // Get the text content
+        .each(function(d) {
+          // Find the <text> element within the group
 
-        d3.select(this).classed((d3.select(this).select("text").text()).replace(/•/g,"").replace(/ /g,"-").replace(/[^a-zA-Z0-9-]/g, ""), true);
+          const textContent = d3.select(this).datum();
 
+          d3.select(this).classed((d3.select(this).datum()).replace(/•/g,"").replace(/ /g,"-").replace(/[^a-zA-Z0-9-]/g, ""), true);
 
-        // Check if the text starts with " •"
-        if (textContent.startsWith(" •")) {
-            // Add the icon only for rows where the text starts with " •"
-            d3.select(this)  // Select the current <g> group
+          //console.log((d3.select(this).select("text").text()).replace(/•/g,"").replace(/ /g,"-").replace(/[^a-zA-Z0-9-]/g, ""));
+          // Check if the text starts with " •"
+          if (textContent.startsWith(" •")) {
+              // Add the icon only for rows where the text starts with " •"
+              d3.select(this)  // Select the current <g> group
                 .classed("timelineheader", true)
                 .append("text")  // Append a new <text> element for the icon
                 .attr("x", 320.5)  // Set the position of the icon
@@ -188,270 +398,54 @@ export default function () {
                 .text("-")  // Set the icon content
                 .style("text-anchor","end")
                 .style("cursor", "pointer")  // Make the icon clickable
-                .style("font-size", "20px")  // Set icon size
+                .style("font-size", "30px")  // Set icon size
                 .attr("fill", "black")
-        } 
-        
-    });
-
-    function adjustTranslate(rowElement, adjustmentValue) {
-      // Get the current transform attribute
-      let transform = rowElement.getAttribute('transform');
-    
-      // Extract the translate(x, y) values using a regular expression
-      let translateValues = transform.match(/translate\(([\d.-]+),([\d.-]+)\)/);
-    
-      if (translateValues) {
-        let x = parseFloat(translateValues[1]);  // Extract the x value
-        let y = parseFloat(translateValues[2]);  // Extract the y value
-    
-        // Adjust the y value by reducing or increasing based on adjustmentValue
-        y += adjustmentValue;  // Adjust y as needed
-    
-        // Set the new transform value with the updated y
-        rowElement.setAttribute('transform', `translate(${x},${y})`);
-      }
-    }
-
-    function shiftcolumns(headerRowElement,yGroupSelection,adjvalue){
-                  // Find the parent <g> element of the clicked + (which is the header row itself)
-    const headerRow = d3.select(headerRowElement,);
-    
-    // Get the class name of the clicked header row (e.g., --African-American--)
-    // const headerClass = headerRow.attr("class").split(" ")[1]; this is how to get only the name 
-    
-    const headerClass = headerRow.attr("class")
-
-    // Initialize an array to store the class names of rows after the header
-    const rows = [];
-
-    let foundFirstHeader = false;
+                .style("-ms-user-select", "none")
+                .style("-webkit-user-select", "none")
+                .style("user-select", "none")
+          }  
+   });
 
 
+  yGroup.selectAll("g.row.timelineheader text")
+    .on("click", function(event, d) {
+      const text = d3.select(this).text();
 
-    // Iterate through all g.row elements after the clicked header
-    yGroupSelection.selectAll("g.row").each(function(rowData) {
-      
+      if (text === "+") {
+        let adjustment = getaffectedcolumns(this.parentNode,yGroup,"block");
 
-      const currentRow = d3.select(this);
-      // This is all the classes 
-      const currentRowClass = currentRow.attr("class");
-      
-
-
-
-      // If we encounter the next header, stop collecting rows
-      if (currentRowClass == headerClass) {
-        foundFirstHeader = true;
-
-      }
-
-      else if (foundFirstHeader){
-        adjustTranslate(this, adjvalue);
-
-        adjustYForRectAndTextByClass(currentRowClass.split(" ")[1],adjvalue);
-
-
-  
-      }
-
-  });
-
-        // Log the list of row classes under the clicked header
-        
-    }
-
-    function adjustYForRectAndTextByClass(className, adjustmentY) {
-      // Adjust the y attribute for all <rect> elements inside g.task elements with the specific class name
-      const rectElements = document.querySelectorAll(`g.task.${className} rect`);
-      
-      rectElements.forEach(function(rectElement) {
-        // Get the current y attribute of the rect
-        let currentY = parseFloat(rectElement.getAttribute('y'));
-    
-        // Adjust the y value
-        let newY = currentY + adjustmentY;
-    
-        // Set the new y value
-        rectElement.setAttribute('y', newY);
-      });
-    
-      // Adjust the y attribute for all <text> elements inside g.task elements with the specific class name
-      const textElements = document.querySelectorAll(`g.task.${className} text`);
-    
-      textElements.forEach(function(textElement) {
-        // Get the current y attribute of the text
-        let currentY = parseFloat(textElement.getAttribute('y'));
-    
-        // Adjust the y value
-        let newY = currentY + adjustmentY;
-    
-        // Set the new y value
-        textElement.setAttribute('y', newY);
-      });
-    }
-
-    function getaffectedcolumns(headerRowElement,yGroupSelection,toapply){
-
-                // Find the parent <g> element of the clicked + (which is the header row itself)
-    const headerRow = d3.select(headerRowElement,);
-    
-    // Get the class name of the clicked header row (e.g., --African-American--)
-    // const headerClass = headerRow.attr("class").split(" ")[1]; this is how to get only the name 
-    
-    const headerClass = headerRow.attr("class")
-
-    // Initialize an array to store the class names of rows after the header
-    const rows = [];
-
-    let foundFirstHeader = false;
-    let foundNextHeader = false;
-
-
-    // Iterate through all g.row elements after the clicked header
-    yGroupSelection.selectAll("g.row").each(function(rowData) {
-      
-
-      const currentRow = d3.select(this);
-      // This is all the classes 
-      const currentRowClass = currentRow.attr("class");
-      
-
-
-
-      // If we encounter the next header, stop collecting rows
-      if (currentRowClass == headerClass) {
-        foundFirstHeader = true;
-
-      }
-
-      else if (foundFirstHeader && currentRowClass.split(" ")[2] == "timelineheader"){
-        foundNextHeader = true
-
-  
-      }
-
-      else if (foundFirstHeader && !foundNextHeader){
-        rows.push(currentRowClass.split(" ")[1]);
-  
-      }
-
-  });
-
-        // Log the list of row classes under the clicked header
-        console.log(`Rows under ${headerClass}:`, rows);
-        
-  
-  
-        rows.forEach(function(rowClass) {
-          // Select all elements with the class and hide them
-          const elements = document.querySelectorAll(`.${rowClass}`);
-          
-          elements.forEach(function(element) {
-            element.style.display = toapply;  // Set display to none to hide the elements
-          });
-        });
-
-        return rows.length*38; 
-    }
-
-    yGroup.selectAll("g.row.timelineheader text")
-  .on("click", function(event, d) {
-
-    const text = d3.select(this).text();
-
-    if (text === "+") {
-
-      let adjustment = getaffectedcolumns(this.parentNode,yGroup,"block");
-
-      shiftcolumns(this.parentNode,yGroup,adjustment);
-      adjustPathHeight(adjustment);
-      adjustXAxisTranslate(adjustment);
+        shiftcolumns(this.parentNode,yGroup,adjustment);
+        adjustPathHeight(adjustment);
+        adjustXAxisTranslate(adjustment);
 
 
           // Toggle the + to - and vice versa
-    const currentText = d3.select(this).text();
-    if (currentText === "+") {
-      d3.select(this).text("-");
-    } else {
-      d3.select(this).text("+");
-    }
-
-
+        const currentText = d3.select(this).text();
+        if (currentText === "+") {
+          d3.select(this).text("-").style("font-size","30px");
+        } else {
+          d3.select(this).text("+");
+        }
       // Add any additional code for expanding here
-    } else if (text === "-") {
+        } else if (text === "-") {
 
-      let adjustment = getaffectedcolumns(this.parentNode,yGroup,"none");
+        let adjustment = getaffectedcolumns(this.parentNode,yGroup,"none");
 
-      shiftcolumns(this.parentNode,yGroup,-adjustment);
-      adjustPathHeight(-adjustment);
-      adjustXAxisTranslate(-adjustment);
+        shiftcolumns(this.parentNode,yGroup,-adjustment);
+        adjustPathHeight(-adjustment);
+        adjustXAxisTranslate(-adjustment);
 
           // Toggle the + to - and vice versa
-    const currentText = d3.select(this).text();
-    if (currentText === "-") {
-      d3.select(this).text("+");
-    } else {
-      d3.select(this).text("-");
-    }
-    }
+        const currentText = d3.select(this).text();
+        if (currentText === "-") {
+          d3.select(this).text("+").style("font-size","20px");
+        } else {
+          d3.select(this).text("-");
+        }
+      }
 
   });
-  
-  function adjustPathHeight(adjustmentHeight) {
-  // Select the <path> element with stroke-width="1.75"
-  const pathElement = document.querySelector('path[stroke-width="1.75"]');
-
-  if (pathElement) {
-    // Get the current 'd' attribute of the path (e.g., "M333,0.5V6270")
-    let pathD = pathElement.getAttribute('d');
     
-    // Extract the vertical endpoint from the path (e.g., "V6270") using a regex
-    let pathValues = pathD.match(/M([\d.-]+),([\d.-]+)V([\d.-]+)/);
-
-    if (pathValues) {
-      let startX = parseFloat(pathValues[1]);  // Starting x-coordinate (e.g., 333)
-      let startY = parseFloat(pathValues[2]);  // Starting y-coordinate (e.g., 0.5)
-      let endY = parseFloat(pathValues[3]);    // Current vertical endpoint (e.g., 6270)
-
-      // Adjust the vertical endpoint by reducing it
-      let newEndY = endY + adjustmentHeight;
-
-      // Update the 'd' attribute with the new vertical endpoint
-      pathElement.setAttribute('d', `M${startX},${startY}V${newEndY}`);
-    }
-  } else {
-    console.error('Path with stroke-width="1.75" not found.');
-  }
-}
-
-function adjustXAxisTranslate(adjustmentY) {
-  // Select the <g> element with class 'x axis bottom-axis'
-  const xAxisElement = document.querySelector('g.x.axis.bottom-axis');
-
-  if (xAxisElement) {
-    // Get the current 'transform' attribute
-    let transform = xAxisElement.getAttribute('transform');
-
-    // Extract the translate(x, y) values using a regex
-    let translateValues = transform.match(/translate\(([\d.-]+),([\d.-]+)\)/);
-
-    if (translateValues) {
-      let x = parseFloat(translateValues[1]);  // x value (e.g., 0)
-      let y = parseFloat(translateValues[2]);  // Current y value (e.g., 6290)
-
-      // Adjust the y value by the adjustmentY value
-      let newY = y + adjustmentY;
-
-      // Set the new transform value with the updated y
-      xAxisElement.setAttribute('transform', `translate(${x},${newY})`);
-    }
-  } else {
-    console.error('x axis bottom-axis not found.');
-  }
-}
-
-  
       let range = yAxis.range();
 
       xScale.range([range[0] + padding, range[1] - padding]).clamp(true);
