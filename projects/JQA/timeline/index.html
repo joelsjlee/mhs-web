@@ -33,22 +33,34 @@
 
   <h1 class = "title">Timeline Chart</h1>
   
-  <label for="sorttype">Sort By.. :</label>
 
-  <select name="sorttype" id="sorttype">
-	<option value="Time">Time</option>
-	<option value="Category">Category</option>
-  </select>
- 
  
   <div id="chart"></div>
 
   
   <script>
 
-	Redraw()
-	
+	// Load the CSV file asynchronously
+	d3.csv("../../../data/timeline/sortedtimeline.csv", function(row) {
+		return {
+			role: row.Role,
+			name: row.Name,
+			start: new Date(row.Start),
+			end: new Date(row.End)
+		};
+	}).then(function(data) {
+		// Transform the data into the format needed by the timeline
+		const transformedData = transformData(data);
+
+		
+		// After the data is transformed, draw the chart
+		drawChart(transformedData,"../../../data/timeline/sortedcolors.csv");
+
+	}).catch(function(error) {
+		console.error("Error loading the CSV file:", error);
+	});	
 	// Function to create the timeline chart
+	
 	function drawChart(data,colors) {
 
 		d3.text(colors).then(function(csvText) {
@@ -85,83 +97,8 @@
 		]);
 	}
 
-	function Redraw(){
-		document.querySelectorAll('.tick').forEach(e => e.remove());
-
-
-		if (document.getElementById("sorttype").value == "Time") {
-	// Load the CSV file asynchronously
-	d3.csv("../../../data/timeline/timeline.csv", function(row) {
-		return {
-			role: row.Role,
-			name: row.Name,
-			start: new Date(row.Start),
-			end: new Date(row.End)
-		};
-	}).then(function(data) {
-		// Transform the data into the format needed by the timeline
-		const transformedData = transformData(data);
-
-		
-		// After the data is transformed, draw the chart
-		drawChart(transformedData,"../../../data/timeline/timecolors.csv");
-
-	}).catch(function(error) {
-		console.error("Error loading the CSV file:", error);
-	});
-
-}
-
-else if (document.getElementById("sorttype").value == "Category") {
-	// Load the CSV file asynchronously
-	d3.csv("../../../data/timeline/sortedtimeline.csv", function(row) {
-		return {
-			role: row.Role,
-			name: row.Name,
-			start: new Date(row.Start),
-			end: new Date(row.End)
-		};
-	}).then(function(data) {
-		// Transform the data into the format needed by the timeline
-		const transformedData = transformData(data);
-
-		
-		// After the data is transformed, draw the chart
-		drawChart(transformedData,"../../../data/timeline/sortedcolors.csv");
-
-	}).catch(function(error) {
-		console.error("Error loading the CSV file:", error);
-	});
-
-}
-
-
-	}
-
-	document.getElementById("sorttype").addEventListener("change", function() {
-  Redraw();  // Call your function with the selected value
-});
 
 	
-
-/*
-	var Ystart = 1794;
-
-
-	StartDateStr = String(Ystart) + "01" + "01";
-	console.log(StartDateStr);
-
-	var Yend = 1798
-
-	EndDateStr = String(Yend) + "12" + "30";
-	console.log(EndDateStr);
-
-	var subjecttitle = "American Revolution"
-
-	SearchSubject = subjecttitle.replace(" ","%20")
-
-	console.log("https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22"+SearchSubject+"%22%20%2Bdate_when%3A%5B"+StartDateStr+"%20TO%20"+EndDateStr+"%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning")
-*/ 
 </script>
 
 </div>
