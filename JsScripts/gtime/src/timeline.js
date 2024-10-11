@@ -459,6 +459,9 @@ export default function () {
 
   yGroup.selectAll("g.row.timelineheader text")
     .on("click", function(event, d) {
+
+
+
       const text = d3.select(this).text();
 
       if (text === "+") {
@@ -493,6 +496,19 @@ export default function () {
         } else {
           d3.select(this).text("-");
         }
+      }
+
+      else {
+
+                       // Remove all dashes from the link text but keep displayed text as is
+                       const cleanedText = d.replace(/ • /g, "");  // Remove dashes for the link
+                       const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
+               
+                       const url = `https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
+               
+                       // Open the URL in a new tab
+                       window.open(url, "_blank");
+
       }
 
   });
