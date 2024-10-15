@@ -15,7 +15,7 @@ const right = 1,
   left = 2;
 
 function timelineAxis(orient, scale) {
-  let colors = ["#FFF", "#EEE"], // alternate rows colors
+  let colors = ["#FFF", "#FFF"], // alternate rows colors
     colorscale = d3.scaleOrdinal(colors),
     padding = 5,
     range,
@@ -74,16 +74,6 @@ function timelineAxis(orient, scale) {
       .attr("dx", orient === right ? padding : -padding)
       .attr("x", offset);
 
-    const dragged = function (event, d) {
-      offset = Math.max(10, Math.min(width - 10, offset + event.dx));
-
-      // rerender
-      d3.select(this).attr("d", "M" + offset + ",0.5V" + scale.range()[1]);
-      texts.attr("x", offset);
-      range = orient === right ? [0, offset] : [offset, width];
-
-      selection.dispatch("offset", { detail: { offset } });
-    };
 
     selection
       .selectAll("g.y.axis > path")
@@ -92,8 +82,6 @@ function timelineAxis(orient, scale) {
       .attr("stroke", line_color)
       .attr("stroke-width", 1.75)
       .attr("d", "M" + (offset + 0.5) + ",0.5V" + scale.range()[1])
-      .style("cursor", "ew-resize")
-      .call(d3.drag().on("drag", dragged));
   }
 
   axis.draw_ticks = function (selection, ticks) {
