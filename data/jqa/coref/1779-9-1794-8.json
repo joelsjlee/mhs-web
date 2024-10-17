@@ -1,11 +1,13 @@
 {
     "metrics": {
+        "start_month_year": "1779-11",
+        "end_month_year": "1794-8",
         "weight_min": "3",
         "num_entries": "5303",
         "avg_entry_len": "347.549877427871",
         "pers_ref_avg": "2.5990948519705825",
-        "num_nodes": 127,
-        "num_edges": 221
+        "num_nodes": 109,
+        "num_edges": 212
     },
     "directed": false,
     "multigraph": false,
