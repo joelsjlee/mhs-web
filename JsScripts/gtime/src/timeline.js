@@ -52,6 +52,7 @@ function translate(x, y) {
 }
 
 function hideTasksWithDashClass() {
+  //misha
   // This function hides the bars that hold the info regarding the header data. They are hidden by default, which is done via this function
 
   const elementsToHide = document.querySelectorAll('g.task[class*=" --"]');
@@ -63,6 +64,14 @@ function hideTasksWithDashClass() {
 
 
 function shiftcolumns(headerRowElement, yGroupSelection, adjvalue) {
+/*
+  Misha
+  Shifts the positions of rows and associated elements vertically by a given adjustment value.
+  
+  This function adjusts the vertical positioning of the rows, task rects, text elements, 
+  the vertical path, and the bottom axis based on the specified adjustment value (`adjvalue`). 
+ */
+ 
 
   // The classes of the clicked element
   const headerRow = d3.select(headerRowElement,);
@@ -133,23 +142,32 @@ function shiftcolumns(headerRowElement, yGroupSelection, adjvalue) {
   // Update the 'd' attribute with the new vertical endpoint
   pathElement.setAttribute('d', `M${startX},${startY}V${newEndY}`);
 
-  // Select the bottom axis
-  const xAxisElement = document.querySelector('g.x.axis.bottom-axis');
+  // Select the bottom axis using d3
+  const xAxisElement = d3.select('g.x.axis.bottom-axis');
 
+  // Get the current transform attribute
+  let transform = xAxisElement.attr('transform');
 
-  // transform it as needed 
-  let transform = xAxisElement.getAttribute('transform');
+  // Extract the current X and Y values from the transform attribute
+  let currentX = parseFloat(transform.split("(")[1].split(",")[0].trim());
+  let currentY = parseFloat(transform.split(",")[1].split(")")[0].trim());
 
-  // Extract the translate(x, y) values using a regex
-  let translateValues = transform.match(/translate\(([\d.-]+),([\d.-]+)\)/);
-  let x = parseFloat(translateValues[1]);
-  let y = parseFloat(translateValues[2]);
+  // Calculate the new Y value after the adjustment
+  let newY = currentY + adjvalue;
 
-  // Adjust the y value by the adjustmentY value
-  xAxisElement.setAttribute('transform', `translate(${x},${y + adjvalue})`);
+  // Set the new transform attribute using d3 to apply the new Y value
+  xAxisElement.attr('transform', `translate(${currentX}, ${newY})`);
 }
 
 function transitionUp(headerRowElement, rows) {
+  /*
+  Misha
+  Transitions the rows and tasks upward with an animation.
+  
+  This function reveals the rows associated with the provided header, hides the aggregate header tasks,
+  and animates the tasks upward based on their respective row positions. After the animation,
+  the tasks are hidden again, and their positions are reset.
+*/
 
   rows.forEach(function (rowClass) {
     // Select all row elements with the specific class
@@ -213,6 +231,14 @@ function transitionUp(headerRowElement, rows) {
 }
 
 function transitionDown(headerRowElement, rows) {
+  /*
+  Misha
+  Transitions the rows and tasks downward with an animation.
+  
+  This function animates the tasks downward, hides the elements post-animation,
+  and resets their positions back to the original state. The function returns a 
+  promise that allows asynchronous operations to wait for the animation to complete.
+*/
 
   // Make it so that the following items onlt happen after this is done 
   return new Promise((resolve) => {
@@ -271,6 +297,13 @@ function transitionDown(headerRowElement, rows) {
 }
 
 function getaffectedcolumns(headerRowElement, yGroupSelection) {
+  /*
+  Misha
+  Retrieves the column names that are affected by the expansion or collapse of a given header row.
+  
+  This function iterates through all the row elements following a header and collects 
+  the class names of the rows until the next header is encountered.
+*/
 
   // Find the parent <g> element of the clicked 
   const headerRow = d3.select(headerRowElement,);
@@ -310,6 +343,76 @@ function getaffectedcolumns(headerRowElement, yGroupSelection) {
   });
   return rows;
 }
+
+function collapseAll() {
+  const collapseButton = document.getElementById('collapseAllButton');
+  collapseButton.disabled = true; // Temporarily disable the button
+
+  let collapsePromises = [];
+
+  // Loop through each header and collapse only the expanded ones
+  d3.selectAll("g.row.timelineheader text").each(function() {
+    const text = d3.select(this).text();
+
+    if (text === "-") {
+      const headerElement = this.parentNode;
+      const rows = getaffectedcolumns(headerElement, d3.select(headerElement.parentNode));
+      const adjustment = rows.length * 38;
+
+      let collapsePromise = transitionDown(headerElement, rows, "none").then(() => {
+        shiftcolumns(headerElement, d3.select(headerElement.parentNode), -adjustment);
+        d3.select(this).text("+").style("font-size", "20px"); // Change to plus sign and adjust font
+      });
+
+      collapsePromises.push(collapsePromise);
+    }
+  });
+
+  // Re-enable the button after all transitions complete
+  Promise.all(collapsePromises).then(() => {
+    collapseButton.disabled = false;
+  });
+}
+window.collapseAll = collapseAll;
+
+function expandAll() {
+  const expandButton = document.getElementById('expandAllButton');
+  expandButton.disabled = true; // Disable while expanding
+
+  let expandPromises = [];
+
+  // Iterate through each header and expand those that are collapsed
+  d3.selectAll("g.row.timelineheader text").each(function() {
+    const text = d3.select(this).text();
+
+    if (text === "+") {
+      const headerElement = this.parentNode;
+      const rows = getaffectedcolumns(headerElement, d3.select(headerElement.parentNode));
+      const adjustment = rows.length * 38;
+
+      // Trigger expansion and then adjust columns
+      let expandPromise = new Promise((resolve) => {
+        transitionUp(headerElement, rows); // Expand rows first
+        shiftcolumns(headerElement, d3.select(headerElement.parentNode), adjustment); // Adjust columns
+        resolve(); // Notify promise is done
+      }).then(() => {
+        // Change the text to "-" once expanded
+        d3.select(this).text("-").style("font-size", "30px");
+      });
+
+      expandPromises.push(expandPromise);
+    }
+  });
+
+  // Re-enable the button after all expansions are done
+  Promise.all(expandPromises).then(() => {
+    expandButton.disabled = false;
+  });
+}
+window.expandAll = expandAll;
+
+
+
 
 export default function () {
   let colors = google_colors,
@@ -398,6 +501,12 @@ export default function () {
       const yGroup = g.append("g").attr("class", "y axis").call(yAxis);
 
       yGroup.selectAll("text")
+        .on("mouseover", function () {
+          d3.select(this).style("text-decoration", "underline");  // Underline on hover
+        })
+        .on("mouseout", function () {
+          d3.select(this).style("text-decoration", "none");  // Remove underline when not hovering
+        })
         .attr("text-anchor", function (d) {
           // Center justify the text is a header, otherwise right justify
           return d.startsWith(" •") ? "middle" : "end";
