@@ -2,7 +2,8 @@ import pandas as pd
 import csv
 import json
 from datetime import datetime
-
+from pathlib import Path
+master_folder = Path(__file__).parent.parent.parent.parent
 
 # Function to parse date strings
 def parse_date(date_str):
@@ -55,14 +56,14 @@ def format_union_of_date_ranges(data, header):
 
 
 # Gets a dict of topic : umbrella
-with open('topiccategories.json', 'r') as file:
+with open(master_folder / "data" / "timeline" / 'topiccategories.json', 'r') as file:
     data = json.load(file)
 
 # Right now, just taking the first umbrella for a certain topic
 Category_list = {key: value[0] for key, value in data.items()}
 
 
-def createTimelineData(filepath, output):
+def createTimelineData(filepath, output,collection):
     """
 
     Args:
@@ -76,7 +77,7 @@ def createTimelineData(filepath, output):
     # Subject : Year Ranges
     sub_dict = {}
 
-    df = pd.read_csv(filepath, sep=",")
+    df = pd.read_csv(master_folder/"data"/"timeline"/"Raw Data"/filepath, sep=",")
 
     # Iterates through each subject..
     for subject in df.subjects.unique():
@@ -164,10 +165,14 @@ def createTimelineData(filepath, output):
 
             newlines += catlines
 
-    with open(output, 'w', newline='') as f:
+    with open(master_folder/"data"/collection/"timeline"/output, 'w', newline='') as f:
         print('Successfully wrote to: ' + output)
         writer = csv.writer(f)
         writer.writerows(newlines)
 
 
-createTimelineData("1779_1848.csv", "sortedtimeline.csv")
+createTimelineData("1779_1848.csv", "sortedtimeline.csv","jqa")
+
+createTimelineData("rbt_subjects.csv", "sortedtimeline.csv","rbt")
+
+createTimelineData("cmsol_subjects.csv", "sortedtimeline.csv","cmsol")

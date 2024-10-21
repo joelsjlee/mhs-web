@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>PSC Lab Space JQA Timeline</title>
+	<title>PSC Lab Space RBT Timeline</title>
 	<link rel="icon" type="image/x-icon" href="../../../images/book.ico">
 
   <meta charset="utf-8">
@@ -42,7 +42,7 @@
   <script>
 
 	// Load the CSV file asynchronously
-	d3.csv("../../../data/jqa/timeline/sortedtimeline.csv", function(row) {
+	d3.csv("../../../data/rbt/timeline/sortedtimeline.csv", function(row) {
 		return {
 			role: row.Role,
 			name: row.Name,
@@ -55,7 +55,7 @@
 
 		
 		// After the data is transformed, draw the chart
-		drawChart(transformedData,"../../../data/jqa/timeline/sortedcolors.csv");
+		drawChart(transformedData,"../../../data/rbt/timeline/sortedcolors.csv");
 
 	}).catch(function(error) {
 		console.error("Error loading the CSV file:", error);
@@ -73,7 +73,7 @@
 
     
         // Apply the colors to your chart dynamically
-    	const chart = d3.timeline("jqa").duration(500);
+    	const chart = d3.timeline("rbt").duration(500);
 		chart.colors(colorsArray);
 
 		// Select the div with id 'chart' and apply the data to it

@@ -1,9 +1,14 @@
 import requests
 import json
 import pandas as pd
+from pathlib import Path
+
+master_folder = Path(__file__).parent.parent.parent.parent
 
 
 def create_umbrellas(datafile):
+    # Get the current directory of the script
+
     """
 
     Args:
@@ -47,8 +52,18 @@ def create_umbrellas(datafile):
 
     # Gets a set of all topics that do not fall under an umbrella
     no_umb1 = set(all_topics) - set(umb_topics)
-    no_umb2 = set(pd.read_csv(datafile)["subjects"]) - set(all_topics)
 
+    if len(datafile) == 1:
+        no_umb2 = set(pd.read_csv(master_folder / "data" / "timeline" / "Raw Data" / datafile[0])["subjects"]) - set(
+            all_topics)
+    elif len(datafile) > 1:
+        all_subjects = set()
+
+        for i in range(len(datafile)):
+            subjects = pd.read_csv(master_folder / "data" / "timeline" / "Raw Data" / datafile[i])["subjects"]
+            all_subjects.update(subjects)
+
+        no_umb2 = all_subjects - set(all_topics)
 
     umbrellas_dict["Uncategorized"] = list(no_umb1 | no_umb2)
 
@@ -71,17 +86,17 @@ def create_umbrellas(datafile):
                 topics_umbrellas[topic] = [umbrella]
 
     # This writes the JSON file that is Umbrella: all that fall under it
-    with open("umbrellas.json", "w") as outfile:
+    with open(master_folder / "data" / "timeline" / "umbrellas.json", "w") as outfile:
         print("Succesfully wrote to 'umbrellas.json'")
         json.dump(umbrellas_dict, outfile, indent=4)
 
     # This writes the JSON file that is topic: all umbrellas it falls under
-    with open("topiccategories.json", "w") as outfile:
+    with open(master_folder / "data" / "timeline" / "topiccategories.json", "w") as outfile:
         print("Succesfully wrote to 'topiccategories.json'")
         json.dump(topics_umbrellas, outfile, indent=4)
 
 
-create_umbrellas('1779_1848.csv')
+create_umbrellas(['1779_1848.csv', 'cmsol_subjects.csv', 'rbt_subjects.csv'])
 
 """
 Output is: 

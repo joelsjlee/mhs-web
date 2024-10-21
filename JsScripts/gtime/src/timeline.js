@@ -414,7 +414,7 @@ window.expandAll = expandAll;
 
 
 
-export default function () {
+export default function (collection) {
   let colors = google_colors,
     padding = 5,
     milestone_width = 2,
@@ -427,6 +427,8 @@ export default function () {
     names = f(1),
     starts = f(2),
     ends = f(3);
+
+  console.log(collection);
 
   function trim_text_to_rect(task, d) {
     const text = task.select("text"),
@@ -500,6 +502,15 @@ export default function () {
       const g = svg.append("g").attr("transform", "translate(" + 0 + "," + 20 + ")");;
       const yGroup = g.append("g").attr("class", "y axis").call(yAxis);
 
+        // Select the <path> element with stroke-width="1.75"
+  const pathElement = document.querySelector('path[stroke-width="1.75"]');
+  let pathD = pathElement.getAttribute('d');
+
+  // Extract the vertical endpoint from the path (e.g., "V6270") using a regex
+  let pathValues = pathD.match(/M([\d.-]+),([\d.-]+)V([\d.-]+)/);
+
+  let PathxValue = parseFloat(pathValues[1]);
+
       yGroup.selectAll("text")
         .on("mouseover", function () {
           d3.select(this).style("text-decoration", "underline");  // Underline on hover
@@ -513,7 +524,7 @@ export default function () {
         })
         .attr("x", function (d) {
           // If the text starts with "--", set x to 167, otherwise set x to 332.5
-          return d.startsWith(" •") ? 167 : 332.5;
+          return d.startsWith(" •") ? PathxValue / 2 : PathxValue - 0.5;
         })
         .style("cursor", "pointer")  // Show pointer to indicate it's clickable
         .style("font-weight", function (d) {
@@ -526,9 +537,11 @@ export default function () {
           const cleanedText = d.replace(/ • /g, "");
           const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
 
-          const url = `https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
+          const url = `https://www.primarysourcecoop.org/publications/${collection}/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
           window.open(url, "_blank");
         });
+
+        
 
       yGroup.selectAll("g.row")
         .each(function (d) {
@@ -544,7 +557,7 @@ export default function () {
             d3.select(this)  // Select the current <g> group
               .classed("timelineheader", true)
               .append("text")  // Append a new <text> element for the icon
-              .attr("x", 320.5)  // Set the position of the icon
+              .attr("x", PathxValue-10)  // Set the position of the icon
               .attr("y", 25)  // Align the icon vertically with the text
               .text("-")  // Set the icon content
               .style("text-anchor", "end")
@@ -602,7 +615,7 @@ export default function () {
             const cleanedText = d.replace(/ • /g, "");  // Remove dashes for the link
             const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
 
-            const url = `https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
+            const url = `https://www.primarysourcecoop.org/publications/${collection}/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
 
             // Open the URL in a new tab
             window.open(url, "_blank");
@@ -693,7 +706,7 @@ export default function () {
           var Yend = d[3];
           var EndDateStr = formatDate(Yend);
 
-          var url = ("https://www.primarysourcecoop.org/publications/jqa/search#q%3D%2Bsubject%3A%22" + SearchSubject + "%22%20%2Bdate_when%3A%5B" + StartDateStr + "%20TO%20" + EndDateStr + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning")
+          var url = ("https://www.primarysourcecoop.org/publications/" +collection +"/search#q%3D%2Bsubject%3A%22" + SearchSubject + "%22%20%2Bdate_when%3A%5B" + StartDateStr + "%20TO%20" + EndDateStr + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning")
 
           window.open(url, "_blank")
 
