@@ -4,6 +4,10 @@ import tooltip from "./tooltip";
 import { durationFormat, f, pipe } from "./utils";
 import { selectAll } from 'd3-selection';
 
+
+var collapsed_rows = 0
+var expanded_rows = 0
+
 const google_colors = [
   "#4285f4",
   "#db4437",
@@ -346,6 +350,7 @@ function getaffectedcolumns(headerRowElement, yGroupSelection) {
 
 function collapseAll() {
   const collapseButton = document.getElementById('collapseAllButton');
+  
   collapseButton.disabled = true; // Temporarily disable the button
 
   let collapsePromises = [];
@@ -576,6 +581,13 @@ export default function (collection) {
           const text = d3.select(this).text();
 
           if (text === "+") {
+
+            collapsed_rows -= 1
+            expanded_rows += 1
+
+            console.log("Collapsed: ",collapsed_rows);
+            console.log("Expanded: ",expanded_rows);
+
             let rows = getaffectedcolumns(this.parentNode, yGroup);
             let adjustment = rows.length * 38
 
@@ -591,6 +603,12 @@ export default function (collection) {
               d3.select(this).text("+");
             }
           } else if (text === "-") {
+
+            collapsed_rows += 1
+            expanded_rows -= 1
+
+            console.log("Collapsed: ",collapsed_rows);
+            console.log("Expanded: ",expanded_rows);
 
             let rows = getaffectedcolumns(this.parentNode, yGroup);
             let adjustment = rows.length * 38
@@ -623,6 +641,14 @@ export default function (collection) {
           }
 
         });
+
+// Select all text elements and filter those starting with " •"
+const NumHeaders = d3.selectAll("text")
+  .filter(function () {
+    return this.textContent.startsWith(" •");
+  }).size();
+
+expanded_rows = NumHeaders;
 
       let range = yAxis.range();
 

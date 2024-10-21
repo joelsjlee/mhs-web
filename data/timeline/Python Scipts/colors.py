@@ -77,7 +77,6 @@ def getcolors(datafile, output, collection):
 
         # skips header if present
         if list(topic)[0] == " ":
-
             colors_list.append(color_dict[topic.replace(" • ", "").strip()])
 
         # Adds color to color list in order it will appear 
