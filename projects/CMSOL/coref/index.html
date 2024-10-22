@@ -60,6 +60,14 @@
                         <br>
                         <h3 class = "subtitle">About</h3>
                         <p style=" padding-left: 20px;">Talk about the idea of co-ref</p>
+                        <br><br>
+
+                                <!--The graph will go inside of this div. This is replicated for all tabs that have possbilities for a graph-->
+                                <div id="G-1" class="Chart-Holder">
+                            
+                                </div>
+                                <br><br>
+                        </p>
                     </article>
 
 
@@ -84,7 +92,7 @@
                 <br>
                 
                 <!-- Hides the filters by default (because the first tab is the about tab and there is nothing to filter)-->
-                <div style="visibility: hidden;" id="FiltersandTitle">
+                <div  id="FiltersandTitle">
                 
                 <div class="Filter-Title">
                     <br>
@@ -113,12 +121,6 @@
 
                     
                     <!--There is a modular filter builder, this uses the CreateSliders.js file to build filters-->
-                    <script>
-                        CreateSlider('degree', 1, 'Filter-Container',1);
-                        
-
-                      
-                    </script>
 
                     <div class = "child">
 
@@ -162,7 +164,7 @@
                     </div>
                 
                     <script>
-
+                        CreateSlider('degree', 1, 'Filter-Container',1);
                         CreateSlider('betweenness', .01, 'Filter-Container',.05);
                         CreateSlider('eigenvector', .01, 'Filter-Container',.05);
                     </script>
@@ -178,15 +180,18 @@
             
                     // This maps a tab to its data file 
                     var graphMapping = {
-                        "item-2": "cmsol.json",  
+                        "item-1": "example.json",
+                        "item-2": "cmsol.json"  
         
                     };
 
                     // this maps a tab to its container. (maybe both of the above should be a list of dics?)
                     var ContainerMapping = {
-                        "item-2": "G-2",  
+                        "item-1": "G-1",
+                        "item-2": "G-2"  
                     };
                     
+                    loadGraph("example.json", "G-1");
                     // when a tab is clicked..
                     $menu_tabs.on("click", function(e) {
                         e.preventDefault();
@@ -221,20 +226,7 @@
                             loadGraph(graphMapping[active_tab], ContainerMapping[active_tab]); // Load the corresponding graph into the correct container
                         }
 
-                       // Only shows filters if not on the info tab
-                        if (active_tab != "item-1"){
-                            $("#FiltersandTitle").css("visibility","visible");
-                           
 
-                        }
-
-                        else {
-                            $("#FiltersandTitle").css("visibility","hidden");
-                            $('.menu__item.item-active').css({
-                                'left': '0%', 'right': '0%'});
-
-                               
-                        }
 
                     });
             

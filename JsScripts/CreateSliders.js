@@ -87,8 +87,13 @@ function initializeSlider(rangeSelector, progressSelector, inputValueSelector, g
             
             // If the gap is uheld, sets the progress bar and number values to the corrext percentage/value
             else {
-                progress.style.left = (minRange / min_slider.max) * 100 + '%';
+                progress.style.left = ( minRange / min_slider.max) * 100 + '%';
                 progress.style.right = 100 - (maxRange / max_slider.max) * 100 + '%';
+
+
+
+              
+                
                 
                 // Sets the number values 
                 inputValue[0].value = minRange;
@@ -166,16 +171,16 @@ function SetSliders(data){
 
                 // Is this a pertinant security risk? 
 
-        eval("document.getElementById('"+config.min+"').value = "+"minimum_"+config.id+";");
+        eval("document.getElementById('"+config.min+"').value = 0;");
         eval("document.getElementById('"+config.max+"').value =" +"maximum_"+config.id +";");
-        eval("document.getElementById('"+config.minRange+"').min =" +"minimum_"+config.id+";");
+        eval("document.getElementById('"+config.minRange+"').min = 0;");
 
         eval("document.getElementById('"+config.minRange+"').max ="+"maximum_"+config.id+";");
 
-        eval("document.getElementById('"+config.maxRange+"').min =" +"minimum_"+config.id+";");
+        eval("document.getElementById('"+config.maxRange+"').min = 0;");
         eval("document.getElementById('"+config.maxRange+"').max  =" +"maximum_"+config.id+";");
 
-        eval("document.getElementById('"+config.minRange+"').value =" +"minimum_"+config.id+";");
+        eval("document.getElementById('"+config.minRange+"').value = 0;");
         eval("document.getElementById('"+config.maxRange+"').value =" +"maximum_"+config.id+";");
 
 
