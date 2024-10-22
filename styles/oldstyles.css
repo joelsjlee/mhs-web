@@ -89,23 +89,23 @@ img {
 
 /* First letter in script style */
 .title::first-letter {
-    font-family: 'Great Vibes', cursive; /* Script-like font */
-    font-size: 3em; /* Bigger first letter */
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em; 
     font-weight: bold;
-    color: #F36D73; /* Accent color */
-    margin-right: -25px; /* Less space between first and second letter */
+    color: #F36D73; 
+    margin-right: -25px; 
     line-height: 1;
 }
 
 /* Specific style for the title with id="special-title" */
 #JQA-header::first-letter {
-    margin-right: -10px; /* Custom spacing */
+    margin-right: -10px;
 }
 
 
 
 .subtitle span {
-    letter-spacing: 0.02em; /* Small spacing for more elegance */
+    letter-spacing: 0.02em; 
 }
 
 /* General Title styling */
@@ -119,21 +119,20 @@ img {
 
 /* First letter in script style */
 .subtitle::first-letter {
-    font-family: 'Great Vibes', cursive; /* Script-like font */
-    font-size: 2.25em; /* Bigger first letter */
+    font-family: 'Great Vibes', cursive; 
+    font-size: 2.25em; 
     font-weight: bold;
-    color: #F36D73; /* Accent color */
-    margin-right: -2px; /* Less space between first and second letter */
+    color: #F36D73; 
+    margin-right: -2px;
     line-height: 1;
 }
 
 .subtitle span {
-    letter-spacing: 0.02em; /* Small spacing for more elegance */
+    letter-spacing: 0.02em; 
 }
 
 
 
-/* Button style with subtle retro touch */
 #proj-button {
     color: #fdeed8;
     background-color: #688F88;
@@ -143,7 +142,6 @@ img {
     font-family: 'Merriweather', serif;
 }
 
-/* Footer and Header style updated for a modern, vintage hybrid look */
 .header, .footer {
     background-color: #FAD6A5;
     padding: 20px;
@@ -176,7 +174,6 @@ img {
     visibility: visible;
 }
 
-/* Grid container for a clean, organized layout */
 .ped-grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -192,4 +189,3 @@ img {
   color: #353135;
 }
 
-#map { height: 700px; }
