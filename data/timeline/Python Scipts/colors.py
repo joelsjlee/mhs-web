@@ -74,6 +74,7 @@ def getcolors(datafile, output, collection):
     topics = list(pd.read_csv(master_folder / "data" / collection / "timeline" / datafile)["Role"].drop_duplicates())
 
     for topic in topics:
+        topic = topic.replace("Topic, ","")
 
         # skips header if present
         if list(topic)[0] == " ":

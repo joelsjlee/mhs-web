@@ -54,6 +54,12 @@ def format_union_of_date_ranges(data, header):
 
     return formatted_output
 
+# gets umbrellas list
+with open(master_folder / "data" / "timeline" / 'umbrellas.json', 'r') as file:
+    umbs = json.load(file)
+
+umbs = list(umbs.keys())
+
 
 # Gets a dict of topic : umbrella
 with open(master_folder / "data" / "timeline" / 'topiccategories.json', 'r') as file:
@@ -119,12 +125,17 @@ def createTimelineData(filepath, output,collection):
     # The headers for the timeline
     csv_lines = [["Role", "Name", "Start", "End"]]
 
+
     for subject in sub_dict:
 
         # Creates a new line in the csv for each time range entry
         for year_range in sub_dict[subject]:
-            new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
 
+            if subject in umbs:
+
+                new_line = ["Topic, "+subject, "Topic, "+subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
+            else:
+                new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
             csv_lines.append(new_line)
 
     # Removes headers and gets list of categories
@@ -138,7 +149,9 @@ def createTimelineData(filepath, output,collection):
 
         for line in range(len(csv_lines)):
 
-            if Category_list[csv_lines[line][1]] == cat:
+
+
+            if Category_list[csv_lines[line][1].replace("Topic, ","")] == cat:
                 incat.append(csv_lines[line])
 
         # A len of one means this is an umbrella with no entries (other than the header column)
@@ -154,7 +167,7 @@ def createTimelineData(filepath, output,collection):
 
             formatted_union = format_union_of_date_ranges(incat, incat[0][0])
 
-            # Print the result
+
 
             incat[0] = formatted_union[0]
             formatted_union.pop(0)

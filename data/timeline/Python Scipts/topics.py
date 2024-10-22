@@ -100,8 +100,7 @@ create_umbrellas(['1779_1848.csv', 'cmsol_subjects.csv', 'rbt_subjects.csv'])
 
 """
 Output is: 
-{'Elections', 'Religion', 'Fo_Editing The Timeline (Gannt) Chart_
-od and Drink', 'Slavery and Enslaved Persons', 'Economics', 'Politics', 'Education', 'Work'}
+{'Elections', 'Religion', 'Food and Drink', 'Slavery and Enslaved Persons', 'Economics', 'Politics', 'Education', 'Work'}
 
 - Elections, Religion, Food and Drink, Economics, Politics, Education, Work are topics of their own umbrella 
 

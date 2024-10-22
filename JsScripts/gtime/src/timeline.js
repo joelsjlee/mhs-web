@@ -539,7 +539,7 @@ export default function (collection) {
         .style("background", "none")
         .on("click", function (event, d) {
           // Cleans text for link 
-          const cleanedText = d.replace(/ • /g, "");
+          const cleanedText = d.replace(/ • /g, "").replace("Topic, ", "");
           const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
 
           const url = `https://www.primarysourcecoop.org/publications/${collection}/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
@@ -630,7 +630,7 @@ export default function (collection) {
           else {
 
             // Remove all dashes from the link text but keep displayed text as is
-            const cleanedText = d.replace(/ • /g, "");  // Remove dashes for the link
+            const cleanedText = d.replace(/ • /g, "").replace("Topic, ", "");  // Remove dashes for the link
             const searchSubject = cleanedText.replace(" ", "%20");  // Replace spaces with %20 for the URL
 
             const url = `https://www.primarysourcecoop.org/publications/${collection}/search#q%3D%2Bsubject%3A%22${searchSubject}%22`;
@@ -721,8 +721,10 @@ expanded_rows = NumHeaders;
 
           // Extracts subject and formats space 
           var subjecttitle = String(d[1]);
-          var SearchSubject = subjecttitle.replace(" ", "%20");
+          var SearchSubject = subjecttitle.replace(/ /g, "%20");
 
+        
+          var SearchSubject= SearchSubject.replace("Topic,%20", "")
 
           // Extracts start date and formats it 
           var Ystart = d[2];
@@ -740,17 +742,7 @@ expanded_rows = NumHeaders;
         .style("fill", pipe(names, cScale));
 
 
-      tasks_enter
-        .append("text")
-        .attr("text-anchor", "start")
-        // .attr('fill', d => textColor(cScale(names(d))))
-        // .attr('fill', compose(textColor, cScale, names))
-        .attr("fill", d => ends(d) - starts(d) ? pipe(names, cScale, textColor)(d) : 'black')
-        .attr("pointer-events", "none")
-        .attr("dx", padding)
-        .attr("y", yScale.bandwidth() / 2)
-        .attr("dy", "0.32em")
-        .text(names);
+ 
 
 
 
@@ -768,7 +760,7 @@ expanded_rows = NumHeaders;
         .attr("transform", (d) => translate(xScale(starts(d)), yScale(labels(d))))
         .selectAll("rect")
         .attr("width", (d) => xScale(ends(d)) - xScale(starts(d)) || milestone_width)
-        .on("start", tween_text(yAxis));
+   
 
       if (today)
         g.append("path")
