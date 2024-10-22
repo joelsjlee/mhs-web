@@ -1,89 +1,87 @@
+function Leafmap(files) {
+    // Makes map and sets it to Boston (.setView([long, lat], zoom))
+    var map = L.map('map').setView([42.3601, -71.0589], 12);
 
-const files = ["1840-dateline-geojson.json", "1841-dateline-geojson.json", "1842-dateline-geojson.json",
-    "1843-dateline-geojson.json", "1844-dateline-geojson.json", "1845-dateline-geojson.json", "1846-dateline-geojson.json",
-    "1847-dateline-geojson.json", "1848-dateline-geojson.json"
-];
+    // Sets background image for map and attribution. There are probably some cool directions we can go with this 
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+        maxZoom: 16,
+    }).addTo(map);
 
-// Makes map and sets it to Boston (.setView([long, lat], zoom))
-var map = L.map('map').setView([42.3601, -71.0589], 12);
+    // The marker cluster group (all markers are one cluster)
+    const markers = L.markerClusterGroup();
 
-// Sets background image for map and attribution. There are probably some cool directions we can go with this 
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
-    maxZoom: 16
-}).addTo(map);
+    // Keeps track of info to be used later for legend 
+    const removedMarkers = {};
+    const legendData = [];
 
-// The marker cluster group (all markers are one cluster)
-const markers = L.markerClusterGroup();
+    // Each file is 
+    files.forEach((file, index) => {
 
-// Keeps track of info to be used later for legend 
-const removedMarkers = {};
-const legendData = [];
+        // Assuming first 4 chars in a file name are the year 
+        const year = file.substring(0, 4);
 
-// Each file is 
-files.forEach((file, index) => {
+        // To avoid needing custom icons, I just adjust the hue for each year. Added benefit that it allows users to interpret how far apart two icons are 
+        const hueRotation = index * 30;
 
-    // Assuming first 4 chars in a file name are the year 
-    const year = file.substring(0, 4);
+        // ALlows the legend to have the info needed (year and the amount to adjust the icon hue by)
+        legendData.push({ year, hueRotation });
 
-    // To avoid needing custom icons, I just adjust the hue for each year. Added benefit that it allows users to interpret how far apart two icons are 
-    const hueRotation = index * 30;
+        // Fetches the data 
+        fetch("../../../data/jqa/geo/" + file)
+            .then(response => {
+                return response.json();
+            })
 
-    // ALlows the legend to have the info needed (year and the amount to adjust the icon hue by)
-    legendData.push({ year, hueRotation });
+            // Operates on it 
+            .then(data => {
 
-    // Fetches the data 
-    fetch("../../../data/jqa/geo/" + file)
-        .then(response => {
-            return response.json();
-        })
+                // Add markers to the cluster group from the GeoJSON data
+                const geoJsonLayer = L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        const marker = L.marker(latlng);
 
-        // Operates on it 
-        .then(data => {
-
-            // Add markers to the cluster group from the GeoJSON data
-            const geoJsonLayer = L.geoJSON(data, {
-                pointToLayer: function (feature, latlng) {
-                    const marker = L.marker(latlng);
-
-                    // Changes color by adjusting hue by the amount specified above 
-                    marker.on('add', function () {
-                        marker._icon.style.filter = `hue-rotate(${hueRotation}deg)`;
-                    });
-
-
-                    // Adds popup with the full date 
-                    marker.bindTooltip(feature.properties.date, {
-                        permanent: false,
-                        direction: "top"
-                    });
-
-                    return marker;
-                },
-
-                // Click event, opens the pge on the primary source co-op website 
-                onEachFeature: function (feature, layer) {
-                    if (feature.properties && feature.properties.link) {
-                        layer.on('click', function () {
-                            window.open(feature.properties.link, '_blank');
+                        // Changes color by adjusting hue by the amount specified above 
+                        marker.on('add', function () {
+                            marker._icon.style.filter = `hue-rotate(${hueRotation}deg)`;
                         });
+
+
+                        // Adds popup with the full date 
+                        marker.bindTooltip(feature.properties.date, {
+                            permanent: false,
+                            direction: "top"
+                        });
+
+                        return marker;
+                    },
+
+                    // Click event, opens the pge on the primary source co-op website 
+                    onEachFeature: function (feature, layer) {
+                        if (feature.properties && feature.properties.link) {
+                            layer.on('click', function () {
+                                window.open(feature.properties.link, '_blank');
+                            });
+                        }
                     }
-                }
-            });
+                });
 
-            // Each file is a "layer", adds this layer to the cluster group 
-            markers.addLayer(geoJsonLayer);
+                // Each file is a "layer", adds this layer to the cluster group 
+                markers.addLayer(geoJsonLayer);
 
-            // Add the marker cluster group to the map
-            map.addLayer(markers);
-        })
+                // Add the marker cluster group to the map
+                map.addLayer(markers);
+            })
 
 
-});
+    });
 
-createLegend(legendData);
+    createLegend(legendData, map, markers, removedMarkers);
+}
 
-function createLegend(legendData) {
+
+
+function createLegend(legendData, map, markers, removedMarkers) {
     // Keeps the legend in the bottom right 
     const legend = L.control({ position: 'bottomright' });
 
@@ -101,16 +99,15 @@ function createLegend(legendData) {
                      style="filter: hue-rotate(${item.hueRotation}deg);">
                 <span>${item.year}</span>
             `;
-
             // toggles markers on click 
-            legendItem.addEventListener('click', () => toggleMarkersByYear(item.year, legendItem));
+            legendItem.addEventListener('click', () => toggleMarkersByYear(item.year, legendItem, markers, removedMarkers));
         });
         return div;
     };
     legend.addTo(map);
 }
 
-function hideMarkersByYear(targetYear) {
+function hideMarkersByYear(targetYear, markers, removedMarkers) {
 
     // If markers for the year are not already stored, make a space for them 
     if (!removedMarkers[targetYear]) {
@@ -136,7 +133,7 @@ function hideMarkersByYear(targetYear) {
     markers.refreshClusters();
 }
 
-function showMarkersByYear(targetYear) {
+function showMarkersByYear(targetYear, markers, removedMarkers) {
     // Check if there are removed markers for the target year
 
     removedMarkers[targetYear].forEach(marker => {
@@ -160,15 +157,15 @@ function updateLegendItemStyle(legendItem, isHidden) {
     }
 }
 
-function toggleMarkersByYear(targetYear, legendItem) {
+function toggleMarkersByYear(targetYear, legendItem, markers, removedMarkers) {
 
     if (removedMarkers[targetYear] && removedMarkers[targetYear].length > 0) {
         // If markers are hidden, show them and their legend entry
-        showMarkersByYear(targetYear);
+        showMarkersByYear(targetYear, markers, removedMarkers);
         updateLegendItemStyle(legendItem, false);
     } else {
         // If markers are shown, hide them  and their legend entry
-        hideMarkersByYear(targetYear);
+        hideMarkersByYear(targetYear, markers, removedMarkers);
         updateLegendItemStyle(legendItem, true);
     }
 }
