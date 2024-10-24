@@ -90,6 +90,7 @@ function Leafmap(files) {
         }
     });
 
+    createInfoIcon(map); // Add info icon to the map
     createLegend(legendData, map, markers, removedMarkers);
 }
 
@@ -182,5 +183,51 @@ function toggleMarkersByYear(targetYear, legendItem, markers, removedMarkers) {
         updateLegendItemStyle(legendItem, true);
     }
 }
+
+function createInfoIcon(map) {
+    const infoIcon = L.control({ position: 'topright' });
+
+    infoIcon.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info-icon');
+        div.innerHTML = `
+            <i class="fas fa-info-circle" 
+               style="font-size: 24px; cursor: pointer; color: white;"></i>
+        `;
+        div.onclick = openInfoPopup;
+        return div;
+    };
+
+    infoIcon.addTo(map);
+}
+
+function openInfoPopup() {
+    const overlay = document.createElement('div');
+    overlay.className = 'info-popup-overlay';
+    overlay.innerHTML = `
+        <div class="info-popup-content">
+        <h2 style="text-align: center;">How to Use the Map</h2>
+
+        <p style="text-align: left;">This interactive map uses GeoJSON to showcase a figure's location throughout time. You can interact with it using the following features:</p>
+        
+        <ul style="text-align: left;">
+            <li><strong>Markers:</strong> Click on any marker to see detailed information, including the date, location, and a link to the original entry.</li>
+            <li><strong>Legend:</strong> The legend at the bottom right helps you identify markers by year. Click on a year in the legend to filter markers from that year.</li>
+            <li><strong>Clustered Markers:</strong> Some markers are grouped in clusters. Click on a cluster to zoom in and view individual markers.</li>
+        </ul>
+
+        <p style="text-align: left;">
+            Use the <strong>information icon</strong> in the top-right corner to revisit these instructions at any time.
+        </p>
+            <button onclick="closeInfoPopup()">Close</button>
+        </div>
+    `;
+    document.querySelector('#map').appendChild(overlay);
+}
+
+function closeInfoPopup() {
+    const overlay = document.querySelector('.info-popup-overlay');
+    if (overlay) overlay.remove();
+}
+
 
 
