@@ -10,32 +10,25 @@ function Leafmap(files) {
 
     // The marker cluster group (all markers are one cluster)
     const markers = L.markerClusterGroup();
-
     // Keeps track of info to be used later for legend 
     const removedMarkers = {};
     const legendData = [];
+    let openPopup = null; // Track the currently open popup
 
     // Each file is 
     files.forEach((file, index) => {
-
         // Assuming first 4 chars in a file name are the year 
         const year = file.substring(0, 4);
-
         // To avoid needing custom icons, I just adjust the hue for each year. Added benefit that it allows users to interpret how far apart two icons are 
         const hueRotation = index * 30;
-
         // ALlows the legend to have the info needed (year and the amount to adjust the icon hue by)
         legendData.push({ year, hueRotation });
 
         // Fetches the data 
         fetch("../../../data/jqa/geo/" + file)
-            .then(response => {
-                return response.json();
-            })
-
+            .then(response => response.json())
             // Operates on it 
             .then(data => {
-
                 // Add markers to the cluster group from the GeoJSON data
                 const geoJsonLayer = L.geoJSON(data, {
                     pointToLayer: function (feature, latlng) {
@@ -46,39 +39,59 @@ function Leafmap(files) {
                             marker._icon.style.filter = `hue-rotate(${hueRotation}deg)`;
                         });
 
+                        // This is the popup 
+                        const dateline = feature.properties.dateline;
+                        const date = feature.properties.date;
+                        const place = feature.properties.entity;
+                        const link = feature.properties.link;
 
-                        // Adds popup with the full date 
-                        marker.bindTooltip(feature.properties.date, {
-                            permanent: false,
-                            direction: "top"
+                        const popupContent = `
+                            <div style="text-align: center; font-weight: bold;">
+                                ${dateline}
+                                ${link ? `<div><a href="${link}" target="_blank">View entry</a></div>` : ''}
+                            </div>
+                            <div style="text-align: left; margin-top: 5px;">
+                                <strong>Date:</strong> ${date}
+                            </div>
+                            <div style="text-align: left; margin-top: 5px;">
+                                <strong>Place:</strong> ${place}
+                            </div>
+                        `;
+
+
+                        // Bind the popup with the above
+                        marker.bindPopup(popupContent);
+
+                        // Handle popup opening and tracking the currently open popup
+                        marker.on('click', function () {
+
+                            if (openPopup) openPopup.closePopup(); // Close any open popup
+
+                            marker.openPopup(); // Open the clicked marker's popup
+                            openPopup = marker; // Track the currently open popup
                         });
 
                         return marker;
-                    },
-
-                    // Click event, opens the pge on the primary source co-op website 
-                    onEachFeature: function (feature, layer) {
-                        if (feature.properties && feature.properties.link) {
-                            layer.on('click', function () {
-                                window.open(feature.properties.link, '_blank');
-                            });
-                        }
                     }
                 });
 
-                // Each file is a "layer", adds this layer to the cluster group 
+                // Add the geoJson layer to the cluster group and the map
                 markers.addLayer(geoJsonLayer);
-
                 // Add the marker cluster group to the map
                 map.addLayer(markers);
-            })
+            });
+    });
 
-
+    // Close the open popup when clicking on the map
+    map.on('click', function () {
+        if (openPopup) {
+            openPopup.closePopup();
+            openPopup = null; // Reset the open popup tracker
+        }
     });
 
     createLegend(legendData, map, markers, removedMarkers);
 }
-
 
 
 function createLegend(legendData, map, markers, removedMarkers) {

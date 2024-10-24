@@ -239,14 +239,19 @@ let nodeColor = d3.scaleOrdinal()
                     .attr("x2", d => d.target.x)
                     .attr("y2", d => d.target.y)
 
+                    
                     // Sets the color and width of each line 
                     .attr('stroke', d => nodeColor(d.source['modularity']) )
                     .attr('stroke-width', d => edgeScale(d.__proto__.weight) )
-                    .attr('opacity', 0.6),
+                    .attr('opacity', 0.6)
+                    ,
+                    
                 
                 update => update, // Unchanged
                 exit => exit.transition().remove() // When links no longer have corrosponding data points, they fade out
             );
+
+
 
         // Draw nodes.
         node = d3.select('.nodes')
