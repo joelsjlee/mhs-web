@@ -14,8 +14,8 @@ a {
 body {
     background-color: #f5f5f5;
     font-size: 18px;
-    font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
     color: #353135;
+    font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
     background-image: url('../images/boston.jpg');
@@ -129,6 +129,16 @@ img {
 
 .subtitle span {
     letter-spacing: 0.02em; 
+}
+
+.about-holder ul li span {
+    font-weight: bold;
+}
+
+.about-holder ul li  {
+    color: #353135;
+    font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
 }
 
 
