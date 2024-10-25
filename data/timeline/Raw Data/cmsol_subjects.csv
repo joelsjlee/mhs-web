@@ -545,145 +545,163 @@
 543,1821,Unitarianism,4,102,4.0
 544,1821,Urban Life,1,102,1.0
 545,1821,Work,3,102,3.0
-546,1822,Aging,1,237,0.0
-547,1822,Authorship,9,237,4.0
-548,1822,Bible,7,237,3.0
-549,1822,Childbirth,2,237,1.0
-550,1822,Childcare,2,237,1.0
-551,1822,Childhood,7,237,3.0
-552,1822,Class,1,237,0.0
-553,1822,Clothing,2,237,1.0
-554,1822,Courtship,3,237,1.0
-555,1822,Crime,1,237,0.0
-556,1822,Death,5,237,2.0
-557,1822,Domestic Animals,1,237,0.0
-558,1822,Domestic Life and Duties,8,237,3.0
-559,1822,Education,2,237,1.0
-560,1822,Family Finances (Sedgwick Family),3,237,1.0
-561,1822,Family Relations (Sedgwick Family),12,237,5.0
-562,1822,Family Residences (Sedgwick Family),3,237,1.0
-563,1822,Fatherhood,1,237,0.0
-564,1822,Food and Drink,1,237,0.0
-565,1822,Friendship,11,237,5.0
-566,1822,Gardens,2,237,1.0
-567,1822,Gender Roles,10,237,4.0
-568,1822,Gifts,1,237,0.0
-569,1822,Health and Illness,14,237,6.0
-570,1822,Holidays and Celebrations,1,237,0.0
-571,1822,Legal Issues,1,237,0.0
-572,1822,Leisure Activities,2,237,1.0
-573,1822,Literature and History,9,237,4.0
-574,1822,Manners,5,237,2.0
-575,1822,Marriage,6,237,3.0
-576,1822,Morality and Ethics,4,237,2.0
-577,1822,Motherhood,6,237,3.0
-578,1822,National Identity,1,237,0.0
-579,1822,Natural World,6,237,3.0
-580,1822,Pregnancy,1,237,0.0
-581,1822,Press,3,237,1.0
-582,1822,Publication,3,237,1.0
-583,1822,Recreation,2,237,1.0
-584,1822,Regional Identity,1,237,0.0
-585,1822,Religion,11,237,5.0
-586,1822,Self-reflection,7,237,3.0
-587,1822,Shays's Rebellion,1,237,0.0
-588,1822,Shopping and Material Exchange,5,237,2.0
-589,1822,Singlehood,5,237,2.0
-590,1822,Social Life and Networks,16,237,7.000000000000001
-591,1822,Transportation,4,237,2.0
-592,1822,"Travel and Touring, International",2,237,1.0
-593,1822,"Travel and Touring, US",3,237,1.0
-594,1822,Unitarianism,6,237,3.0
-595,1822,Urban Life,3,237,1.0
-596,1822,Village Life,6,237,3.0
-597,1822,Women's Rights,2,237,1.0
-598,1822,Work,6,237,3.0
-599,1823,"Arts, Visual and Performing",1,190,1.0
-600,1823,Authorship,2,190,1.0
-601,1823,Bible,6,190,3.0
-602,1823,Charity,3,190,2.0
-603,1823,Childcare,5,190,3.0
-604,1823,Childhood,11,190,6.0
-605,1823,Clothing,3,190,2.0
-606,1823,Courtship,3,190,2.0
-607,1823,Crime,1,190,1.0
-608,1823,Death,2,190,1.0
-609,1823,Domestic Animals,1,190,1.0
-610,1823,Domestic Life and Duties,8,190,4.0
-611,1823,Education,4,190,2.0
-612,1823,Family Finances (Sedgwick Family),2,190,1.0
-613,1823,Family Relations (Sedgwick Family),11,190,6.0
-614,1823,Family Residences (Sedgwick Family),7,190,4.0
-615,1823,Fatherhood,2,190,1.0
-616,1823,Food and Drink,1,190,1.0
-617,1823,Friendship,3,190,2.0
-618,1823,Gender Roles,6,190,3.0
-619,1823,Gifts,2,190,1.0
-620,1823,Health and Illness,9,190,5.0
-621,1823,Holidays and Celebrations,1,190,1.0
-622,1823,Housewares and Furnishings,1,190,1.0
-623,1823,Legal Issues,1,190,1.0
-624,1823,Leisure Activities,3,190,2.0
-625,1823,Literature and History,6,190,3.0
-626,1823,Manners,1,190,1.0
-627,1823,Marriage,6,190,3.0
-628,1823,Morality and Ethics,4,190,2.0
-629,1823,Motherhood,5,190,3.0
-630,1823,National Identity,1,190,1.0
-631,1823,Natural World,4,190,2.0
-632,1823,Politics,1,190,1.0
-633,1823,Recreation,3,190,2.0
-634,1823,Religion,10,190,5.0
-635,1823,Romanticism,2,190,1.0
-636,1823,Second Great Awakening,1,190,1.0
-637,1823,Self-reflection,9,190,5.0
-638,1823,Shopping and Material Exchange,4,190,2.0
-639,1823,Singlehood,1,190,1.0
-640,1823,Social Life and Networks,10,190,5.0
-641,1823,Transcendentalism,2,190,1.0
-642,1823,Transportation,2,190,1.0
-643,1823,"Travel and Touring, US",4,190,2.0
-644,1823,Unitarianism,5,190,3.0
-645,1823,Village Life,4,190,2.0
-646,1823,Work,6,190,3.0
-647,1826,Charity,1,38,3.0
-648,1826,Childbirth,1,38,3.0
-649,1826,Childhood,1,38,3.0
-650,1826,Education,2,38,5.0
-651,1826,Family Relations (Sedgwick Family),2,38,5.0
-652,1826,Friendship,2,38,5.0
-653,1826,Gender Roles,2,38,5.0
-654,1826,Gifts,1,38,3.0
-655,1826,Health and Illness,2,38,5.0
-656,1826,Legal Issues,1,38,3.0
-657,1826,Leisure Activities,1,38,3.0
-658,1826,Literature and History,3,38,8.0
-659,1826,Manners,2,38,5.0
-660,1826,Morality and Ethics,1,38,3.0
-661,1826,Motherhood,1,38,3.0
-662,1826,National Identity,1,38,3.0
-663,1826,Natural World,1,38,3.0
-664,1826,Politics,1,38,3.0
-665,1826,Publication,1,38,3.0
-666,1826,Religion,3,38,8.0
-667,1826,Romanticism,2,38,5.0
-668,1826,Self-reflection,1,38,3.0
-669,1826,Shopping and Material Exchange,1,38,3.0
-670,1826,Social Life and Networks,2,38,5.0
-671,1826,Unitarianism,2,38,5.0
-672,1828,Bible,1,16,6.0
-673,1828,Childbirth,1,16,6.0
-674,1828,Education,1,16,6.0
-675,1828,Family Finances (Sedgwick Family),1,16,6.0
-676,1828,Family Relations (Sedgwick Family),1,16,6.0
-677,1828,Gender Roles,1,16,6.0
-678,1828,Health and Illness,1,16,6.0
-679,1828,Leisure Activities,1,16,6.0
-680,1828,Literature and History,1,16,6.0
-681,1828,Pregnancy,1,16,6.0
-682,1828,Reform Movements,1,16,6.0
-683,1828,Religion,1,16,6.0
-684,1828,Self-reflection,1,16,6.0
-685,1828,Shopping and Material Exchange,1,16,6.0
-686,1828,Social Life and Networks,1,16,6.0
-687,1828,Work,1,16,6.0
+546,1822,Aging,1,247,0.0
+547,1822,Authorship,10,247,4.0
+548,1822,Bible,7,247,3.0
+549,1822,Childbirth,2,247,1.0
+550,1822,Childcare,2,247,1.0
+551,1822,Childhood,8,247,3.0
+552,1822,Class,1,247,0.0
+553,1822,Clothing,2,247,1.0
+554,1822,Courtship,3,247,1.0
+555,1822,Crime,1,247,0.0
+556,1822,Death,5,247,2.0
+557,1822,Domestic Animals,1,247,0.0
+558,1822,Domestic Life and Duties,8,247,3.0
+559,1822,Economics,1,247,0.0
+560,1822,Education,2,247,1.0
+561,1822,Family Finances (Sedgwick Family),4,247,2.0
+562,1822,Family Relations (Sedgwick Family),13,247,5.0
+563,1822,Family Residences (Sedgwick Family),3,247,1.0
+564,1822,Fatherhood,1,247,0.0
+565,1822,Food and Drink,1,247,0.0
+566,1822,Friendship,11,247,4.0
+567,1822,Gardens,2,247,1.0
+568,1822,Gender Roles,11,247,4.0
+569,1822,Gifts,2,247,1.0
+570,1822,Health and Illness,14,247,6.0
+571,1822,Holidays and Celebrations,2,247,1.0
+572,1822,Legal Issues,1,247,0.0
+573,1822,Leisure Activities,2,247,1.0
+574,1822,Literature and History,9,247,4.0
+575,1822,Manners,5,247,2.0
+576,1822,Marriage,6,247,2.0
+577,1822,Morality and Ethics,4,247,2.0
+578,1822,Motherhood,6,247,2.0
+579,1822,National Identity,1,247,0.0
+580,1822,Natural World,6,247,2.0
+581,1822,Pregnancy,1,247,0.0
+582,1822,Press,3,247,1.0
+583,1822,Publication,3,247,1.0
+584,1822,Recreation,2,247,1.0
+585,1822,Regional Identity,1,247,0.0
+586,1822,Religion,12,247,5.0
+587,1822,Self-reflection,7,247,3.0
+588,1822,Shays's Rebellion,1,247,0.0
+589,1822,Shopping and Material Exchange,5,247,2.0
+590,1822,Singlehood,5,247,2.0
+591,1822,Social Life and Networks,16,247,6.0
+592,1822,Transportation,4,247,2.0
+593,1822,"Travel and Touring, International",2,247,1.0
+594,1822,"Travel and Touring, US",3,247,1.0
+595,1822,Unitarianism,6,247,2.0
+596,1822,Urban Life,3,247,1.0
+597,1822,Village Life,6,247,2.0
+598,1822,Women's Rights,2,247,1.0
+599,1822,Work,7,247,3.0
+600,1823,"Arts, Visual and Performing",1,190,1.0
+601,1823,Authorship,2,190,1.0
+602,1823,Bible,6,190,3.0
+603,1823,Charity,3,190,2.0
+604,1823,Childcare,5,190,3.0
+605,1823,Childhood,11,190,6.0
+606,1823,Clothing,3,190,2.0
+607,1823,Courtship,3,190,2.0
+608,1823,Crime,1,190,1.0
+609,1823,Death,2,190,1.0
+610,1823,Domestic Animals,1,190,1.0
+611,1823,Domestic Life and Duties,8,190,4.0
+612,1823,Education,4,190,2.0
+613,1823,Family Finances (Sedgwick Family),2,190,1.0
+614,1823,Family Relations (Sedgwick Family),11,190,6.0
+615,1823,Family Residences (Sedgwick Family),7,190,4.0
+616,1823,Fatherhood,2,190,1.0
+617,1823,Food and Drink,1,190,1.0
+618,1823,Friendship,3,190,2.0
+619,1823,Gender Roles,6,190,3.0
+620,1823,Gifts,2,190,1.0
+621,1823,Health and Illness,9,190,5.0
+622,1823,Holidays and Celebrations,1,190,1.0
+623,1823,Housewares and Furnishings,1,190,1.0
+624,1823,Legal Issues,1,190,1.0
+625,1823,Leisure Activities,3,190,2.0
+626,1823,Literature and History,6,190,3.0
+627,1823,Manners,1,190,1.0
+628,1823,Marriage,6,190,3.0
+629,1823,Morality and Ethics,4,190,2.0
+630,1823,Motherhood,5,190,3.0
+631,1823,National Identity,1,190,1.0
+632,1823,Natural World,4,190,2.0
+633,1823,Politics,1,190,1.0
+634,1823,Recreation,3,190,2.0
+635,1823,Religion,10,190,5.0
+636,1823,Romanticism,2,190,1.0
+637,1823,Second Great Awakening,1,190,1.0
+638,1823,Self-reflection,9,190,5.0
+639,1823,Shopping and Material Exchange,4,190,2.0
+640,1823,Singlehood,1,190,1.0
+641,1823,Social Life and Networks,10,190,5.0
+642,1823,Transcendentalism,2,190,1.0
+643,1823,Transportation,2,190,1.0
+644,1823,"Travel and Touring, US",4,190,2.0
+645,1823,Unitarianism,5,190,3.0
+646,1823,Village Life,4,190,2.0
+647,1823,Work,6,190,3.0
+648,1824,African Americans,1,17,6.0
+649,1824,"Arts, Visual and Performing",1,17,6.0
+650,1824,Authorship,1,17,6.0
+651,1824,Family Finances (Sedgwick Family),1,17,6.0
+652,1824,Family Relations (Sedgwick Family),1,17,6.0
+653,1824,Family Residences (Sedgwick Family),1,17,6.0
+654,1824,Food and Drink,1,17,6.0
+655,1824,Holidays and Celebrations,1,17,6.0
+656,1824,Legal Issues,1,17,6.0
+657,1824,Leisure Activities,1,17,6.0
+658,1824,Morality and Ethics,1,17,6.0
+659,1824,Public Service,1,17,6.0
+660,1824,Religion,1,17,6.0
+661,1824,Shopping and Material Exchange,1,17,6.0
+662,1824,Social Life and Networks,1,17,6.0
+663,1824,Village Life,1,17,6.0
+664,1824,Work,1,17,6.0
+665,1826,Charity,1,38,3.0
+666,1826,Childbirth,1,38,3.0
+667,1826,Childhood,1,38,3.0
+668,1826,Education,2,38,5.0
+669,1826,Family Relations (Sedgwick Family),2,38,5.0
+670,1826,Friendship,2,38,5.0
+671,1826,Gender Roles,2,38,5.0
+672,1826,Gifts,1,38,3.0
+673,1826,Health and Illness,2,38,5.0
+674,1826,Legal Issues,1,38,3.0
+675,1826,Leisure Activities,1,38,3.0
+676,1826,Literature and History,3,38,8.0
+677,1826,Manners,2,38,5.0
+678,1826,Morality and Ethics,1,38,3.0
+679,1826,Motherhood,1,38,3.0
+680,1826,National Identity,1,38,3.0
+681,1826,Natural World,1,38,3.0
+682,1826,Politics,1,38,3.0
+683,1826,Publication,1,38,3.0
+684,1826,Religion,3,38,8.0
+685,1826,Romanticism,2,38,5.0
+686,1826,Self-reflection,1,38,3.0
+687,1826,Shopping and Material Exchange,1,38,3.0
+688,1826,Social Life and Networks,2,38,5.0
+689,1826,Unitarianism,2,38,5.0
+690,1828,Bible,1,16,6.0
+691,1828,Childbirth,1,16,6.0
+692,1828,Education,1,16,6.0
+693,1828,Family Finances (Sedgwick Family),1,16,6.0
+694,1828,Family Relations (Sedgwick Family),1,16,6.0
+695,1828,Gender Roles,1,16,6.0
+696,1828,Health and Illness,1,16,6.0
+697,1828,Leisure Activities,1,16,6.0
+698,1828,Literature and History,1,16,6.0
+699,1828,Pregnancy,1,16,6.0
+700,1828,Reform Movements,1,16,6.0
+701,1828,Religion,1,16,6.0
+702,1828,Self-reflection,1,16,6.0
+703,1828,Shopping and Material Exchange,1,16,6.0
+704,1828,Social Life and Networks,1,16,6.0
+705,1828,Work,1,16,6.0
