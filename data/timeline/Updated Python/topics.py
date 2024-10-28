@@ -2,8 +2,10 @@ import requests
 import json
 import pandas as pd
 from pathlib import Path
+import argparse
+import certifi
 
-master_folder = Path(__file__).parent.parent.parent.parent
+
 
 def writeJSON(input_dict, output_filepath):
     """
@@ -20,10 +22,7 @@ def writeJSON(input_dict, output_filepath):
         print("Succesfully wrote to " + output_filepath)
         json.dump(input_dict, outfile, indent=4)
 
-
-
-
-def create_umbrellas(datafile):
+def create_umbrellas(folder_path):
     # Get the current directory of the script
 
     """
@@ -40,7 +39,7 @@ def create_umbrellas(datafile):
     umbrellas_dict = {}
 
     # Gets all topics in the API data
-    APITopics = json.loads(requests.get('https://primarysourcecoop.org/subjectsmanager/ext/getallfromdb/').text)
+    APITopics = json.loads(requests.get('https://primarysourcecoop.org/subjectsmanager/ext/getallfromdb/').text, verify=certifi.where())
 
 
     for topic in APITopics:
@@ -54,13 +53,12 @@ def create_umbrellas(datafile):
     # Topics that fall under a particular umbrella
     umb_topics = []
     for umbrella in all_umbrellas:
-        res = requests.get('https://www.primarysourcecoop.org/subjectsmanager/getsubtopics?topic=' + umbrella)
+        res = requests.get('https://www.primarysourcecoop.org/subjectsmanager/getsubtopics?topic=' + umbrella, verify=certifi.where())
         data = json.loads(res.text)
 
         # list of all topics under a certain umbrella
         topics_list = list(set().union(*(d.values() for d in data)))
 
-        print(topics_list)
         # keeps track of topics with an umbrella
         umb_topics.extend(topics_list)
 
@@ -70,17 +68,17 @@ def create_umbrellas(datafile):
     # Gets a set of all topics that do not fall under an umbrella
     no_umb1 = set(all_topics) - set(umb_topics)
 
-    if len(datafile) == 1:
-        no_umb2 = set(pd.read_csv(master_folder / "data" / "timeline" / "Raw Data" / datafile[0])["subjects"]) - set(
-            all_topics)
-    elif len(datafile) > 1:
-        all_subjects = set()
+    # Collect all CSV files from the provided folder
+    folder = Path(folder_path)
+    csv_files = list(folder.glob("*.csv"))
+    all_subjects = set()
 
-        for i in range(len(datafile)):
-            subjects = pd.read_csv(master_folder / "data" / "timeline" / "Raw Data" / datafile[i])["subjects"]
-            all_subjects.update(subjects)
+    for file in csv_files:
+        subjects = pd.read_csv(file)["subjects"]
+        all_subjects.update(subjects)
 
-        no_umb2 = all_subjects - set(all_topics)
+    # All the topics in the data
+    no_umb2 = all_subjects - set(all_topics)
 
     umbrellas_dict["Uncategorized"] = list(no_umb1 | no_umb2)
 
@@ -88,18 +86,17 @@ def create_umbrellas(datafile):
     topics_umbrellas = {}
 
     # For each topic under a certain umbrella-
-    for umbrella in (list(umbrellas_dict.keys())):
+    for umbrella in list(umbrellas_dict.keys()):
+        print(umbrella)
 
+        # If it already has an entry in the dictionary, add the new umbrella
         for topic in umbrellas_dict[umbrella]:
 
-            # If it already has an entry in the dictionary, add the new umbrella
-            try:
-                len(topics_umbrellas[topic])
-
+            if topic in topics_umbrellas:
                 topics_umbrellas[topic].append(umbrella)
 
-            # If it has not yet been added, create a new entry with the umbrella
-            except:
+             # If it has not yet been added, create a new entry with the umbrella
+            else:
                 topics_umbrellas[topic] = [umbrella]
 
 
@@ -107,6 +104,12 @@ def create_umbrellas(datafile):
     writeJSON(umbrellas_dict, "umbrellas.json")
     writeJSON(topics_umbrellas, "topiccategories.json")
 
+def main():
+    parser = argparse.ArgumentParser(description="Create umbrella topic mappings from API and CSV data.")
+    parser.add_argument('folder', help='Folder containing CSV data files.')
+    args = parser.parse_args()
 
+    create_umbrellas(args.folder)
 
-create_umbrellas(['1779_1848.csv', 'cmsol_subjects.csv', 'rbt_subjects.csv'])
+if __name__ == "__main__":
+    main()

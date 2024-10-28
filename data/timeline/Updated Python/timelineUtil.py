@@ -2,13 +2,11 @@ import pandas as pd
 import csv
 import json
 from datetime import datetime
-from pathlib import Path
-master_folder = Path(__file__).parent.parent.parent.parent
+import argparse
 
 # Function to parse date strings
 def parse_date(date_str):
     return datetime.strptime(date_str, '%Y-%m-%d')
-
 
 # Function to get the union of date ranges
 def get_union_of_date_ranges(data):
@@ -31,7 +29,7 @@ def get_union_of_date_ranges(data):
     current_start, current_end = date_ranges[0]
 
     for start, end in date_ranges[1:]:
-        if start <= current_end:  # Overlapping or consecutive ranges
+        if start <= current_end:  # Overlapping or conscutive ranges
             current_end = max(current_end, end)
         else:
             merged_ranges.append((current_start, current_end))
@@ -41,35 +39,85 @@ def get_union_of_date_ranges(data):
 
     return merged_ranges
 
-
-# Function to return the union of date ranges in the requested structure, following the exact format
+# Function to return the union of date ranges in the requested structure
 def format_union_of_date_ranges(data, header):
     title = header.replace(" • ", "").strip()
     union_ranges = get_union_of_date_ranges(data)
 
-    # Prepare the output list where each range gets its own entry, following the format
+    # Prepare the output list where each range gets its own entry
     formatted_output = []
     for start, end in union_ranges:
         formatted_output.append([header, title, str(start.date()), str(end.date())])
 
     return formatted_output
 
-# gets umbrellas list
-with open(master_folder / "data" / "timeline" / 'umbrellas.json', 'r') as file:
-    umbs = json.load(file)
+colors = ['#9C125F',
+          '#5F9C28',
+          '#ED1555',
+          '#7DE635',
+          '#A94946',
+          '#FDB2CC',
+          '#FF108B',
+          '#B730C8',
+          '#3EE0B8',
+          '#C2E0FC',
+          '#B635CA',
+          '#5DCA76',
+          '#4F6608',
+          '#9A8FEC',
+          '#382D03',
+          '#2029F3',
+          '#254B14',
+          '#BBD44A',
+          '#295126',
+          '#5FFFDF',
+          '#79886D',
+          '#439E82',
+          '#B01127',
+          '#A150BB',
+          '#0982CE',
+          '#DBADAC',
+          '#F48CB2',
+          '#22E6CF',
+          '#79227B',
+          '#441580',
+          '#BDF266',
+          '#E12498',
+          '#6468A2',
+          '#D49F59',
+          '#B20813',
+          '#AEB268',
+          '#63F98D',
+          '#BE7E10',
+          '#65E40D',
+          '#775493',
+          '#7C8A9E',
+          '#32FF14',
+          '#423322',
+          '#C9F446',
+          '#E03084']
 
+# gets umbrellas list
+with open('umbrellas.json', 'r') as file:
+    umbs = json.load(file)
 umbs = list(umbs.keys())
 
+i = 0
+# Pairs each category with a color
+color_dict = {}
+for umb in umbs:
+    color_dict[umb] = colors[i]
+    i += 1
 
 # Gets a dict of topic : umbrella
-with open(master_folder / "data" / "timeline" / 'topiccategories.json', 'r') as file:
-    data = json.load(file)
+with open('topiccategories.json', 'r') as file:
+    categories = json.load(file)
 
 # Right now, just taking the first umbrella for a certain topic
-Category_list = {key: value[0] for key, value in data.items()}
+Category_list = {key: value[0] for key, value in categories.items()}
 
 
-def createTimelineData(filepath, output,collection):
+def createTimelineData(filepath, output):
     """
 
     Args:
@@ -83,7 +131,7 @@ def createTimelineData(filepath, output,collection):
     # Subject : Year Ranges
     sub_dict = {}
 
-    df = pd.read_csv(master_folder/"data"/"timeline"/"Raw Data"/filepath, sep=",")
+    df = pd.read_csv(filepath, sep=",")
 
     # Iterates through each subject..
     for subject in df.subjects.unique():
@@ -149,8 +197,6 @@ def createTimelineData(filepath, output,collection):
 
         for line in range(len(csv_lines)):
 
-
-
             if Category_list[csv_lines[line][1].replace("Topic, ","")] == cat:
                 incat.append(csv_lines[line])
 
@@ -168,7 +214,6 @@ def createTimelineData(filepath, output,collection):
             formatted_union = format_union_of_date_ranges(incat, incat[0][0])
 
 
-
             incat[0] = formatted_union[0]
             formatted_union.pop(0)
             for entry in formatted_union:
@@ -178,14 +223,54 @@ def createTimelineData(filepath, output,collection):
 
             newlines += catlines
 
-    with open(master_folder/"data"/collection/"timeline"/output, 'w', newline='') as f:
+    with open(output, 'w', newline='') as f:
         print('Successfully wrote to: ' + output)
         writer = csv.writer(f)
         writer.writerows(newlines)
 
+def getcolors(datafile, output):
+    colors_list = []
 
-createTimelineData("1779_1848.csv", "sortedtimeline.csv","jqa")
 
-createTimelineData("rbt_subjects.csv", "sortedtimeline.csv","rbt")
+    # Unique rows in the order they appear
+    topics = list(pd.read_csv(datafile)["Role"].drop_duplicates())
 
-createTimelineData("cmsol_subjects.csv", "sortedtimeline.csv","cmsol")
+    for topic in topics:
+        topic = topic.replace("Topic, ","")
+
+        # skips header if present
+        if list(topic)[0] == " ":
+            colors_list.append(color_dict[topic.replace(" • ", "").strip()])
+
+        # Adds color to color list in order it will appear
+        else:
+            colors_list.append(color_dict[categories[topic][0]])
+
+    with open(output, 'w') as file:
+        wr = csv.writer(file, quoting=csv.QUOTE_ALL, delimiter=',')
+        wr.writerow(colors_list)
+
+def timelineFunc(filepath,datafile,colorfile):
+    createTimelineData(filepath, datafile)
+    getcolors(datafile, colorfile)
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate timeline data and colors.")
+    parser.add_argument('input', type=str, help='Input CSV file with subjects and years.')
+    parser.add_argument('datafile', type=str, help='Output CSV file for timeline data.')
+    parser.add_argument('colorfile', type=str, help='Output CSV file for color mapping.')
+
+    args = parser.parse_args()
+    timelineFunc(args.input, args.datafile, args.colorfile)
+
+if __name__ == "__main__":
+    main()
+
+
+#createTimelineData("1779_1848.csv", "sortedtimeline.csv")
+
+#createTimelineData("rbt_subjects.csv", "sortedtimeline.csv")
+
+#createTimelineData("cmsol_subjects.csv", "sortedtimeline.csv")
+
+#timelineFunc("rbt_subjects.csv", "sortedtimeline.csv","sortedcolors.csv")

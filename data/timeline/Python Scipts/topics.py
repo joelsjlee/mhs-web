@@ -76,13 +76,12 @@ def create_umbrellas(datafile):
         for topic in umbrellas_dict[umbrella]:
 
             # If it already has an entry in the dictionary, add the new umbrella
-            try:
-                len(topics_umbrellas[topic])
 
+            if topic in topics_umbrellas:
                 topics_umbrellas[topic].append(umbrella)
 
             # If it has not yet been added, create a new entry with the umbrella
-            except:
+            else:
                 topics_umbrellas[topic] = [umbrella]
 
     # This writes the JSON file that is Umbrella: all that fall under it
