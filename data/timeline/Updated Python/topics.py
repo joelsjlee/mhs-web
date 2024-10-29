@@ -39,7 +39,7 @@ def create_umbrellas(folder_path):
     umbrellas_dict = {}
 
     # Gets all topics in the API data
-    APITopics = json.loads(requests.get('https://primarysourcecoop.org/subjectsmanager/ext/getallfromdb/').text, verify=certifi.where())
+    APITopics = json.loads(requests.get('https://primarysourcecoop.org/subjectsmanager/ext/getallfromdb/').text, verify=False)
 
 
     for topic in APITopics:
@@ -53,7 +53,7 @@ def create_umbrellas(folder_path):
     # Topics that fall under a particular umbrella
     umb_topics = []
     for umbrella in all_umbrellas:
-        res = requests.get('https://www.primarysourcecoop.org/subjectsmanager/getsubtopics?topic=' + umbrella, verify=certifi.where())
+        res = requests.get('https://www.primarysourcecoop.org/subjectsmanager/getsubtopics?topic=' + umbrella, verify=False)
         data = json.loads(res.text)
 
         # list of all topics under a certain umbrella
@@ -87,7 +87,6 @@ def create_umbrellas(folder_path):
 
     # For each topic under a certain umbrella-
     for umbrella in list(umbrellas_dict.keys()):
-        print(umbrella)
 
         # If it already has an entry in the dictionary, add the new umbrella
         for topic in umbrellas_dict[umbrella]:
