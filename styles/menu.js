@@ -4,7 +4,7 @@ const header = document.getElementById('menu');
 // Create <link> element for CSS.
 const link = document.createElement('link');
 link.setAttribute('rel', 'stylesheet');
-link.setAttribute('href', '/styles/menu.css?v20');
+link.setAttribute('href', '/styles/menu.css');
 header.appendChild(link);
 
 // Create <ul> element.
@@ -107,7 +107,24 @@ tools.append(toolsDiv); // Append <div> to project
 ul.append(tools);
 
 
+
+// Create first dropdown menu.
+const about = document.createElement('li');
+about.setAttribute('class', 'dropdown');
+
+const aboutA = document.createElement('a');
+aboutA.setAttribute('href', '/about/index.html');
+aboutA.setAttribute('class', 'dropbtn');
+
+const aboutAText = document.createTextNode('About Us');
+aboutA.append(aboutAText);
+about.append(aboutA);
+
+ul.append(about);
+
+
 // Append <link> & <ul> to <header>.
 header.append(link);
 header.appendChild(ul);
+
 
