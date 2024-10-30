@@ -235,8 +235,33 @@ img {
     background-color: #b0b7b6;
 }
 
+body {
+    height: 100%;
+    margin: 0;
+}
+html {
+    padding-bottom: 70px;
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+
 #footer-box{
+    height: 70px;
     text-align: center;
     background-color:#94b3ae ;
     color: #FFF;
+    position:absolute;
+    bottom:0;
+    width: 100%;
 }
