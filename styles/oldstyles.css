@@ -234,3 +234,9 @@ img {
 .button-1:focus {
     background-color: #b0b7b6;
 }
+
+#footer-box{
+    text-align: center;
+    background-color:#94b3ae ;
+    color: #FFF;
+}

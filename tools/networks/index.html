@@ -12,6 +12,17 @@
     </link>
     <link rel="stylesheet" href="/../styles/bookshelf.css" />
     <script type="module" src="/../styles/bookshelf.js?v4"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+
+<script> 
+$(function(){
+  $("#footer").load("footer.html"); 
+});
+</script> 
 </head>
 
 <body>
@@ -80,7 +91,7 @@
         </div>
 
     </div>
-
+    <div id="footer"></div>
 </body>
 
 </html>
