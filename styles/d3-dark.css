@@ -32,7 +32,7 @@ Whitesmoke: f5f5f5
 }
 
 /* Networks */
-div.network > svg {
+div.network>svg {
     background-color: #f5f5f5;
     border-radius: 10px;
     border: thick solid #94b3ae;
@@ -40,7 +40,7 @@ div.network > svg {
     margin: 0 auto;
 }
 
-g.network-labels > text.label {
+g.network-labels>text.label {
     fill: #110b11;
     font-size: 22px;
     font-weight: 500;
@@ -63,17 +63,20 @@ g.network-labels > text.label {
     margin-left: auto;
     margin-right: 0;
 }
+
 text.svgTitle {
     text-align: center;
     font-size: 22px;
     font-weight: 500;
     fill: #fdeed8;
 }
+
 text.svgSubTitle {
     font-size: 16px;
     font-weight: 500;
     fill: #fdeed8;
 }
+
 text.label {
     fill: #110b11;
     font-weight: 600;
@@ -90,4 +93,3 @@ text.yearText {
     font-weight: 700;
     opacity: 0.25;
 }
-

@@ -44,14 +44,16 @@
     <div style="width: 65%;" class="main-body">
 
         <!-- This is a tab based navigation system. You can add new tabs following this method-->
- 
+
         <h3 class="subtitle">Catharine Maria Sedgwick Co-reference Network Map</h3>
-        
+
         <div style="position: absolute; left: 50%; transform: translateX(-50%); margin-top: 10px; margin-bottom: 40px;">
-        <button class="button-1" role="button" onclick="window.location.href='/projects/CMSOL';">Back to CMS</button>
-        <button class="button-1" role="button" onclick="window.location.href='/tools/networks';">Back to Network Maps</button>
-    </div>
-    <br>
+            <button class="button-1" role="button" onclick="window.location.href='/projects/CMSOL';">Back to
+                CMS</button>
+            <button class="button-1" role="button" onclick="window.location.href='/tools/networks';">Back to Network
+                Maps</button>
+        </div>
+        <br>
         <div class="tab-menu">
 
             <ul class="menu__tabs">
@@ -74,43 +76,43 @@
                     <h3 class="subtitle">About</h3>
 
                     <div class="about-holder">
-                    <p style="padding-left: 5%; padding-right: 5%;">
-                        Network visualizations showcase the interconnectivity between different entities.
-                        Here, they show the co-references of people mentioned in Catharine Sedgwick's letters.
-                    </p>
-                    <br>
+                        <p style="padding-left: 5%; padding-right: 5%;">
+                            Network visualizations showcase the interconnectivity between different entities.
+                            Here, they show the co-references of people mentioned in Catharine Sedgwick's letters.
+                        </p>
+                        <br>
 
-                    <ul style="padding-left: 5%; padding-right: 5%;">
-                        <li>
-                            <span>Node:</span> The circles, each representing a different person.
-                        </li>
-                        <li>
-                            <span>Edge:</span> The lines, each representing a connection between two people.
-                        </li>
-                        <li>
-                            <span>Degree:</span> Counts the number of edges connected to a node.
-                            A node with more connections will appear larger in the visualization.
-                        </li>
-                        <li>
-                            <span>Modularity/Community:</span> Groups nodes into distinct communities
-                            based on the strength of their connections with one another. Nodes within the
-                            same community are more interconnected, and each community is represented by
-                            a unique color.
-                        </li>
-                        <li>
-                            <span>Betweenness:</span> A measure of importance. Specifically, this measures
-                            how important a node is for connecting other nodes, by capturing how often a
-                            node is on the shortest path between other nodes.
-                        </li>
-                        <li>
-                            <span>Eigenvector:</span> A measure of importance. Specifically, it both counts
-                            the number of connections a node has and also how well-connected its connections are.
-                            A node scores higher if it links to other nodes that themselves have many connections.
-                        </li>
-                    </ul>
+                        <ul style="padding-left: 5%; padding-right: 5%;">
+                            <li>
+                                <span>Node:</span> The circles, each representing a different person.
+                            </li>
+                            <li>
+                                <span>Edge:</span> The lines, each representing a connection between two people.
+                            </li>
+                            <li>
+                                <span>Degree:</span> Counts the number of edges connected to a node.
+                                A node with more connections will appear larger in the visualization.
+                            </li>
+                            <li>
+                                <span>Modularity/Community:</span> Groups nodes into distinct communities
+                                based on the strength of their connections with one another. Nodes within the
+                                same community are more interconnected, and each community is represented by
+                                a unique color.
+                            </li>
+                            <li>
+                                <span>Betweenness:</span> A measure of importance. Specifically, this measures
+                                how important a node is for connecting other nodes, by capturing how often a
+                                node is on the shortest path between other nodes.
+                            </li>
+                            <li>
+                                <span>Eigenvector:</span> A measure of importance. Specifically, it both counts
+                                the number of connections a node has and also how well-connected its connections are.
+                                A node scores higher if it links to other nodes that themselves have many connections.
+                            </li>
+                        </ul>
 
-                    <br><br>
-                </div>
+                        <br><br>
+                    </div>
                     <!--The graph will go inside of this div. This is replicated for all tabs that have possbilities for a graph-->
                     <div id="G-1" class="Chart-Holder">
 

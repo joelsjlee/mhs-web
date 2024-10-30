@@ -1,11 +1,11 @@
 /* // Template from Cara Marta Messina
 // https://github.com/caramessina/caramessina.github.io */
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .topnav {
-    width: 100%;
+  width: 100%;
 
 }
 
@@ -14,19 +14,21 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:   #688F88;
+  background-color: #688F88;
 }
 
 ul.topnav li.logo {
-    float: left;
-    color: white;
-    font-size: 20px;
-    padding: 10px 12px;
-    font-weight: bold;
-    font-family: "Arial Black", Gadget, sans-serif;
+  float: left;
+  color: white;
+  font-size: 20px;
+  padding: 10px 12px;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -37,15 +39,24 @@ ul.topnav li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul.topnav li a:hover:not(.active) {background-color:  #f3989d;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #f3989d;
+}
 
-ul.topnav li a.active {background-color:  #666699;}
+ul.topnav li a.active {
+  background-color: #666699;
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {
+  float: right;
+}
 
 @media screen and (max-width: 600px) {
+
   ul.topnav li.right,
-  ul.topnav li {float: none;}
+  ul.topnav li {
+    float: none;
+  }
 }
 
 li a .dropbtn {
@@ -61,7 +72,7 @@ li a .dropbtn {
   position: absolute;
   background-color: #688f8885;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
 
@@ -73,7 +84,9 @@ li a .dropbtn {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #111;}
+.dropdown-content a:hover {
+  background-color: #111;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;

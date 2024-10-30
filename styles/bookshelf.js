@@ -1,4 +1,4 @@
-import { getRootCssStyles} from './cssUtils.js';
+import { getRootCssStyles } from './cssUtils.js';
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
