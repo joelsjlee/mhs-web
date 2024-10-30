@@ -129,6 +129,19 @@ function shiftcolumns(headerRowElement, yGroupSelection, adjvalue) {
 
   });
 
+  // Changes the x ticks 
+  d3.selectAll(".tick line")
+  .each(function () {
+    const tick = d3.select(this);
+    const currentY1 = parseFloat(tick.attr("y1")) 
+
+
+    if (!isNaN(currentY1)){
+      tick.attr("y1", currentY1+ adjvalue);
+    }
+    
+  });
+
   // Select the <path> element with stroke-width="1.75"
   const pathElement = document.querySelector('path[stroke-width="1.75"]');
   let pathD = pathElement.getAttribute('d');
@@ -365,7 +378,7 @@ function collapseAll() {
       const adjustment = rows.length * 38;
 
       let collapsePromise = transitionDown(headerElement, rows, "none").then(() => {
-        shiftcolumns(headerElement, d3.select(headerElement.parentNode), -adjustment);
+        shiftcolumns(headerElement,d3.select(headerElement.parentNode), -adjustment);
         d3.select(this).text("+").style("font-size", "20px"); // Change to plus sign and adjust font
       });
 
@@ -492,7 +505,7 @@ export default function (collection) {
     if (today) dates = d3.extent(dates.concat(new Date()));
 
     selection.each(function (data) {
-      const width = const_width || this.getBoundingClientRect().width,
+      const width = const_width || this.getBoundingClientRect().width - 15,
         height = rows.size * (getFontSize(this) + 4 * padding),
         yScale = d3.scaleBand().domain(rows).range([0, height]), //.padding(0.1),
         xScale = d3.scaleTime().domain(dates),
@@ -655,6 +668,7 @@ expanded_rows = NumHeaders;
       xScale.range([range[0] + padding, range[1] - padding]).clamp(true);
 
       const xAxis = d3.axisBottom(xScale);
+      
       const xGroup = g
         .append("g")
         .attr("class", "x axis")
@@ -665,7 +679,8 @@ expanded_rows = NumHeaders;
         .attr("dy", "-1.5em");  // Move text up by 1em
 
       xGroup.selectAll(".tick line")
-        .attr("y2", "-5");
+        .attr("y2", "-5")
+        .attr("y1", height);
 
       const xAxisBottom = d3.axisBottom(xScale);  // Standard bottom axis
       const xGroupBottom = svg

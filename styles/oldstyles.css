@@ -254,14 +254,3 @@ footer {
     right: 0;
     height: 70px;
 }
-
-
-#footer-box{
-    height: 70px;
-    text-align: center;
-    background-color:#94b3ae ;
-    color: #FFF;
-    position:absolute;
-    bottom:0;
-    width: 100%;
-}
