@@ -133,7 +133,7 @@ def createTimelineData(filepath, output, collection):
 
         # Creates a new line in the csv for each time range entry
         for year_range in sub_dict[subject]:
-            if (len(year_range) == 2):
+            if (year_range[0] == year_range[1]):
 
                 count = df.loc[(df['year'] == year_range[0]) & (df['subjects'] == subject), 'count'].values[0]
 

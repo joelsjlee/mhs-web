@@ -4,7 +4,7 @@ const css =
   "div.tooltip {\
         position: absolute;\
         text-align: center;\
-        padding: 10px 15px 10px 10px; /* Extra padding on the right for the X button */\
+        padding: 10px 20px 10px 10px; /* Extra padding on the right for the X button */\
         background: white;\
         border: 1px solid #AAA;\
         border-radius: 2px;\

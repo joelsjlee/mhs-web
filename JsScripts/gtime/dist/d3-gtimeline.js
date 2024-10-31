@@ -1,7 +1,7 @@
 import * as d from "d3";
 export * from "d3";
 import et from "dayjs";
-const Tt = "div.tooltip {        position: absolute;        text-align: center;        padding: 10px 15px 10px 10px; /* Extra padding on the right for the X button */        background: white;        border: 1px solid #AAA;        border-radius: 2px;        pointer-events: auto;        min-width: 150px; /* Minimum width to accommodate shorter text */        white-space: nowrap; /* Prevent text wrapping */      }      div.tooltip .close-btn {        position: absolute;        top: 5px;        right: 5px;        padding: 2px 5px;        cursor: pointer;        font-weight: bold;        color: #333;        font-size: 14px;      }      div.tooltip .close-btn:hover {        color: red;      }";
+const Tt = "div.tooltip {        position: absolute;        text-align: center;        padding: 10px 20px 10px 10px; /* Extra padding on the right for the X button */        background: white;        border: 1px solid #AAA;        border-radius: 2px;        pointer-events: auto;        min-width: 150px; /* Minimum width to accommodate shorter text */        white-space: nowrap; /* Prevent text wrapping */      }      div.tooltip .close-btn {        position: absolute;        top: 5px;        right: 5px;        padding: 2px 5px;        cursor: pointer;        font-weight: bold;        color: #333;        font-size: 14px;      }      div.tooltip .close-btn:hover {        color: red;      }";
 function ut(t) {
   d.select("head").selectAll("#tooltip").data([1]).enter().append("style").attr("id", "tooltip").text(Tt);
   let e;
