@@ -3,7 +3,9 @@ import csv
 import json
 from datetime import datetime
 from pathlib import Path
+
 master_folder = Path(__file__).parent.parent.parent.parent
+
 
 # Function to parse date strings
 def parse_date(date_str):
@@ -15,7 +17,7 @@ def get_union_of_date_ranges(data):
     date_ranges = []
 
     for row in data:
-        if len(row) == 4:  # Only process rows with date ranges
+        if len(row) == 5:  # Only process rows with date ranges
             start_date = parse_date(row[2])
             end_date = parse_date(row[3])
             date_ranges.append((start_date, end_date))
@@ -54,22 +56,23 @@ def format_union_of_date_ranges(data, header):
 
     return formatted_output
 
+
 # gets umbrellas list
 with open(master_folder / "data" / "timeline" / 'umbrellas.json', 'r') as file:
-    umbs = json.load(file)
+    umbrellas = json.load(file)
 
-umbs = list(umbs.keys())
-
+umbs = list(umbrellas.keys())
 
 # Gets a dict of topic : umbrella
 with open(master_folder / "data" / "timeline" / 'topiccategories.json', 'r') as file:
-    data = json.load(file)
+    d = json.load(file)
 
 # Right now, just taking the first umbrella for a certain topic
-Category_list = {key: value[0] for key, value in data.items()}
+Category_list = {key: value[0] for key, value in d.items()}
 
 
-def createTimelineData(filepath, output,collection):
+
+def createTimelineData(filepath, output, collection):
     """
 
     Args:
@@ -83,7 +86,7 @@ def createTimelineData(filepath, output,collection):
     # Subject : Year Ranges
     sub_dict = {}
 
-    df = pd.read_csv(master_folder/"data"/"timeline"/"Raw Data"/filepath, sep=",")
+    df = pd.read_csv(master_folder / "data" / "timeline" / "Raw Data" / filepath, sep=",")
 
     # Iterates through each subject..
     for subject in df.subjects.unique():
@@ -122,37 +125,46 @@ def createTimelineData(filepath, output,collection):
 
         sub_dict[subject] = year_ranges
 
-    # The headers for the timeline
-    csv_lines = [["Role", "Name", "Start", "End"]]
 
+    # The headers for the timeline
+    csv_lines = [["Role", "Name", "Start", "End", "Count"]]
 
     for subject in sub_dict:
 
         # Creates a new line in the csv for each time range entry
         for year_range in sub_dict[subject]:
+            if (len(year_range) == 2):
+
+                count = df.loc[(df['year'] == year_range[0]) & (df['subjects'] == subject), 'count'].values[0]
+
+            else:
+                count = 0
+                for year in year_range:
+                    count += df.loc[(df['year'] == year) & (df['subjects'] == subject), 'count'].values[0]
 
             if subject in umbs:
-
-                new_line = ["Topic, "+subject, "Topic, "+subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
+                new_line = ["Topic, " + subject, "Topic, " + subject, str(min(year_range)) + "-01-02",
+                            str(max(year_range)) + "-12-31", count]
             else:
-                new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
+                new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31", count]
             csv_lines.append(new_line)
 
     # Removes headers and gets list of categories
     csv_lines.pop(0)
     categories = list(set(list(Category_list.values())))
-    newlines = [["Role", "Name", "Start", "End"]]
+    newlines = [["Role", "Name", "Start", "End", "Count"]]
 
     # Adds a header row for each category, followed by the relevant topics
-    for cat in categories:
-        incat = [[" • " + cat + " • "]]
+    for cate in categories:
+        incat = [[" • " + cate + " • "]]
+
 
         for line in range(len(csv_lines)):
 
+            if Category_list[csv_lines[line][1].replace("Topic, ", "")] == cate:
 
-
-            if Category_list[csv_lines[line][1].replace("Topic, ","")] == cat:
                 incat.append(csv_lines[line])
+
 
         # A len of one means this is an umbrella with no entries (other than the header column)
         if len(incat) > 1:
@@ -162,30 +174,63 @@ def createTimelineData(filepath, output,collection):
 
             catlines = []
             for each in all:
-                new = [cat[0], each[1], each[2], each[3]]
+
+                new = [cat[0], each[1], each[2], each[3],0]
+
                 catlines.append(new)
 
             formatted_union = format_union_of_date_ranges(incat, incat[0][0])
 
 
-
             incat[0] = formatted_union[0]
+
+
             formatted_union.pop(0)
+
             for entry in formatted_union:
-                incat.append(entry)
+
+
+                if entry[1] != "Uncategorized":
+                    tops = (umbrellas[entry[1]])
+
+
+                    years = list(range(int(entry[2][:4]), int(entry[3][:4])+1))
+
+                    count = 0
+
+                    for top in tops:
+                        for year in years:
+
+                            matching = (df.loc[(df['year'] == year) & (df['subjects'] == top), 'count'].values)
+
+
+                            if len(matching) > 0:
+                                count += df.loc[(df['year'] == year) & (df['subjects'] == top), 'count'].values[0]
+
+                else:
+                    count = 0
+
+
+                new_entry = entry
+
+                new_entry.append(count)
+
+
+                incat.append(new_entry)
 
             catlines.extend(incat)
 
-            newlines += catlines
+            newlines.extend(catlines)
 
-    with open(master_folder/"data"/collection/"timeline"/output, 'w', newline='') as f:
+
+    with open(master_folder / "data" / collection / "timeline" / output, 'w', newline='') as f:
         print('Successfully wrote to: ' + output)
         writer = csv.writer(f)
         writer.writerows(newlines)
 
 
-createTimelineData("1779_1848.csv", "sortedtimeline.csv","jqa")
+createTimelineData("1779_1848.csv", "sortedtimeline.csv", "jqa")
 
-createTimelineData("rbt_subjects.csv", "sortedtimeline.csv","rbt")
+createTimelineData("rbt_subjects.csv", "sortedtimeline.csv", "rbt")
 
-createTimelineData("cmsol_subjects.csv", "sortedtimeline.csv","cmsol")
+createTimelineData("cmsol_subjects.csv", "sortedtimeline.csv", "cmsol")

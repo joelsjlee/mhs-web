@@ -80,7 +80,8 @@ $(function(){
 					role: row.Role,
 					name: row.Name,
 					start: new Date(row.Start),
-					end: new Date(row.End)
+					end: new Date(row.End),
+					count: parseInt(row.Count)
 				};
 			}).then(function (data) {
 				// Transform the data into the format needed by the timeline
@@ -145,7 +146,8 @@ $(function(){
 					d.role,
 					d.name,
 					new Date(d.start),
-					new Date(d.end)
+					new Date(d.end),
+					parseInt(d.count)
 				]);
 			}
 

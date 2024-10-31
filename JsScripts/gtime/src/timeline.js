@@ -729,31 +729,7 @@ expanded_rows = NumHeaders;
         .attr("y", padding)
         .style("cursor", "pointer")
         .attr("height", yScale.bandwidth() - 2 * padding)
-        .on("mouseover", tip.show)
-        .on("mouseout", tip.hide)
-        .on("click", function (event, d) {
-          // Takes you to primary source co-op realted data 
-
-          // Extracts subject and formats space 
-          var subjecttitle = String(d[1]);
-          var SearchSubject = subjecttitle.replace(/ /g, "%20");
-
-        
-          var SearchSubject= SearchSubject.replace("Topic,%20", "")
-
-          // Extracts start date and formats it 
-          var Ystart = d[2];
-          var StartDateStr = formatDate(Ystart);
-
-          // Extracts end date and formats it 
-          var Yend = d[3];
-          var EndDateStr = formatDate(Yend);
-
-          var url = ("https://www.primarysourcecoop.org/publications/" +collection +"/search#q%3D%2Bsubject%3A%22" + SearchSubject + "%22%20%2Bdate_when%3A%5B" + StartDateStr + "%20TO%20" + EndDateStr + "%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning")
-
-          window.open(url, "_blank")
-
-        })
+        .on("click", tip.show)
         .style("fill", pipe(names, cScale));
 
 
@@ -818,10 +794,30 @@ expanded_rows = NumHeaders;
   return chart;
 
   function tooltip_html(event, d) {
-    const format = pipe(d3.isoParse, d3.timeFormat("%Y-%m-%d")),
-      header = `<b>${names(d)}</b><hr style="margin: 2px 0 2px 0">${format(starts(d))}`,
-      body = ends(d) - starts(d) ? ` - ${format(ends(d))}<br>${durationFormat(starts(d), ends(d))}` : "";
-
-    return header + body;
+    const format = pipe(d3.isoParse, d3.timeFormat("%Y"));
+  
+    // Header with the name and a horizontal rule
+    const header = `<b>${names(d)}</b><hr style="margin: 2px 0 2px 0">${format(starts(d))}`;
+  
+    // Body with the formatted end date and duration (if applicable)
+    const body = ends(d) - starts(d) 
+      ? ` - ${format(ends(d))}, ${durationFormat(starts(d), ends(d))}` 
+      : "";
+  
+    // Generate the dynamic URL for the docs link
+    const subjectTitle = String(d[1]);
+    let searchSubject = subjectTitle.replace(/ /g, "%20").replace("Topic,%20", "");
+  
+    const startDateStr = formatDate(d[2]);  // Format start date
+    const endDateStr = formatDate(d[3]);    // Format end date
+  
+    const url = `https://www.primarysourcecoop.org/publications/${collection}/search#q%3D%2Bsubject%3A%22${searchSubject}%22%20%2Bdate_when%3A%5B${startDateStr}%20TO%20${endDateStr}%5D%7Crows=20%7Cstart=0%7Chl=true%7Chl.fl=text_merge%7Csort=date_when%20asc%7Cff=person_keyword;subject%7Cfl=id%20index%20title%20filename%20resource_group_name%20date_when%20date_to%20author%20recipient%20person_keyword%20subject%20doc_beginning`;
+  
+    // Add the clickable link to the tooltip
+    const link = `<br><a href="${url}" target="_blank">${d[4]} Docs</a>`;
+    // Combine the header, body, and link into the final tooltip content
+    return `${header}${body}${link}`;
   }
 }
+
+
