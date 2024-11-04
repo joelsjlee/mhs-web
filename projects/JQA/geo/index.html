@@ -52,7 +52,13 @@ $(function(){
             <button class="button-1" role="button" onclick="window.location.href='/tools/geos';">Back to Geo-Reference
                 Maps</button>
         </div>
-        <br><br><br>
+        <br><br>
+        <p>Below is a map plotting John Quincy Adam’s movements and locations from his diary entries from 1840-1848. Each marker indicates a diary entry he wrote, and the location is generated from the dateline he would write at the top of each entry. These datelines were tagged by the editors, and then extracted by a parser script and ran through a Named Entity Recognition model that would identify location-related entities. They were then hand-checked and after manual verification ran through a geocoding API.
+            <br><br>
+            You can click on the information icon in the top right for more information on how to specifically interact with the map.
+            </p>
+
+        <br>
 
         <div id="map"></div>
 
