@@ -51,7 +51,155 @@ def format_union_of_date_ranges(data, header):
 
     return formatted_output
 
-colors = ['#9C125F',
+
+def create_sub_dict(filepath):
+    """
+
+    Args:
+
+        filepath: (str) csv file of data
+        output: (str) csv filename to output
+
+    Returns:
+
+    """
+    # Subject : Year Ranges
+    sub_dict = {}
+
+    df = pd.read_csv(filepath, sep=",")
+
+    # Iterates through each subject..
+ # Iterates through each subject..
+    for subject in df.subjects.unique():
+        year_ranges = []
+
+        # A list of all the years a particular subject is mentioned
+        filtered_years = df['year'][df['subjects'] == subject].tolist()
+        if subject == 'American Revolution':
+            print(filtered_years)
+
+        # If the subject only appears in one year, then set it as start and end date and skip loop
+        if len(filtered_years) == 1:
+            year_ranges.append([filtered_years[0], filtered_years[0]])
+
+        # If the subject appears in more than one year, start loop
+        else:
+            # current range is a list of the current successive range of years that a subject occurs
+            current_range = [filtered_years[0]]
+
+            for i in range(1, len(filtered_years)):
+                # If the current year is consecutive to the previous year,
+                # extend the range and continue
+                if filtered_years[i] == filtered_years[i - 1] + 1:
+                    current_range.append(filtered_years[i])
+                # Else, stop the current range and append it. Two scenarios:
+                else:
+                    # If the subject appears in a standalone year,
+                    # set that year as the start and end date
+                    if len(current_range) == 1:
+                        current_range.append(current_range[0])
+                    # Otherwise, close the current consecutive range and start a new one
+                    year_ranges.append(current_range)
+                    current_range = [filtered_years[i]]
+
+            # If the subject ends on a standalone year, set that year as the start and end date
+            if len(current_range) == 1:
+                current_range.append(current_range[0])
+
+            # Add the last range to the list
+            if current_range:
+                year_ranges.append(current_range)
+        sub_dict[subject] = year_ranges
+    return sub_dict
+
+
+    # The headers for the timeline
+def create_timelines(sub_dict, output, umbs, json_categories):
+    category_list = {key: value[0] for key, value in json_categories.items()}
+    csv_lines = []
+    # Gets a dict of topic : umbrella
+    for subject, year_ranges in sub_dict.items():
+        for year_range in year_ranges:
+            if subject in umbs:
+                new_line = ["Topic, "+subject, "Topic, "+subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
+            else:
+                new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
+            csv_lines.append(new_line)
+
+    # Removes headers and gets list of categories
+    categories = list(set(list(category_list.values())))
+    newlines = [["Role", "Name", "Start", "End"]]
+
+    # Adds a header row for each category, followed by the relevant topics
+    for cat in categories:
+        incat = [[" • " + cat + " • "]]
+
+        for line in csv_lines:
+        # If the current category in the csv is under the umbrella cat we are looping on, then add the line to the umbrella and topics list of lists
+            if category_list[line[1].replace("Topic, ","")] == cat:
+                incat.append(line)
+
+        # A len of one means this is an umbrella with no entries (other than the header column)
+        if len(incat) > 1:
+            all = incat[:]
+            cat = all.pop(0)
+
+            catlines = []
+            for each in all:
+                new = [cat[0], each[1], each[2], each[3]]
+                catlines.append(new)
+            
+            print(catlines)
+            formatted_union = format_union_of_date_ranges(incat, incat[0][0])
+
+
+            incat[0] = formatted_union[0]
+            formatted_union.pop(0)
+            for entry in formatted_union:
+                incat.append(entry)
+
+            catlines.extend(incat)
+
+            newlines += catlines
+
+    with open(output, 'w', newline='') as f:
+        print('Successfully wrote to: ' + output)
+        writer = csv.writer(f)
+        writer.writerows(newlines)
+
+def getcolors(datafile, output, colors, umbs, json_categories):
+    # Pairs each category with a color
+    color_dict = {}
+    colors_list = []
+    for index, umb in enumerate(umbs):
+        color_dict[umb] = colors[index]
+    # Unique rows in the order they appear
+    topics = list(pd.read_csv(datafile)["Role"].drop_duplicates())
+
+    for topic in topics:
+        topic = topic.replace("Topic, ","")
+
+        # skips header if present
+        if list(topic)[0] == " ":
+            colors_list.append(color_dict[topic.replace(" • ", "").strip()])
+
+        # Adds color to color list in order it will appear
+        else:
+            colors_list.append(color_dict[json_categories[topic][0]])
+
+    with open(output, 'w') as file:
+        wr = csv.writer(file, quoting=csv.QUOTE_ALL, delimiter=',')
+        wr.writerow(colors_list)
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate timeline data and colors.")
+    parser.add_argument('input', type=str, help='Input CSV file with subjects and years.')
+    parser.add_argument('datafile', type=str, help='Output CSV file for timeline data.')
+    parser.add_argument('colorfile', type=str, help='Output CSV file for color mapping.')
+    parser.add_argument('umbrellafile', type=str, help='Input CSV file for the umbrella file.')
+    parser.add_argument('topiccategoryfile', type=str, help='Input CSV file for the topiccategory file.')
+    # gets umbrellas list
+    colors = ['#9C125F',
           '#5F9C28',
           '#ED1555',
           '#7DE635',
@@ -96,172 +244,16 @@ colors = ['#9C125F',
           '#423322',
           '#C9F446',
           '#E03084']
-
-# gets umbrellas list
-with open('umbrellas.json', 'r') as file:
-    umbs = json.load(file)
-umbs = list(umbs.keys())
-
-i = 0
-# Pairs each category with a color
-color_dict = {}
-for umb in umbs:
-    color_dict[umb] = colors[i]
-    i += 1
-
-# Gets a dict of topic : umbrella
-with open('topiccategories.json', 'r') as file:
-    categories = json.load(file)
-
-# Right now, just taking the first umbrella for a certain topic
-Category_list = {key: value[0] for key, value in categories.items()}
-
-
-def createTimelineData(filepath, output):
-    """
-
-    Args:
-
-        filepath: (str) csv file of data
-        output: (str) csv filename to output
-
-    Returns:
-
-    """
-    # Subject : Year Ranges
-    sub_dict = {}
-
-    df = pd.read_csv(filepath, sep=",")
-
-    # Iterates through each subject..
-    for subject in df.subjects.unique():
-        year_ranges = []
-
-        # All the years a particular subject is mentioned
-        filtered_years = df['year'][df['subjects'] == subject].tolist()
-
-        # If there is only oen year, it is set as the start and end date
-        if len(filtered_years) == 1:
-            year_ranges.append([filtered_years[0], filtered_years[0]])
-
-        # If there is more than one -
-        else:
-            current_range = [filtered_years[0]]
-
-            for i in range(1, len(filtered_years)):
-                # If the current year is consecutive to the previous year, extend the range
-                if filtered_years[i] == filtered_years[i - 1] + 1:
-                    current_range.append(filtered_years[i])
-                else:
-                    # If there is only oen year, it is set as the start and end date
-                    if len(current_range) == 1:
-                        current_range.append(current_range[0])
-                    # Otherwise, close the current range and start a new one
-                    year_ranges.append(current_range)
-                    current_range = [filtered_years[i]]
-
-            # If there is only oen year, it is set as the start and end date
-            if len(current_range) == 1:
-                current_range.append(current_range[0])
-
-            # Add the last range to the list
-            if current_range:
-                year_ranges.append(current_range)
-
-        sub_dict[subject] = year_ranges
-
-    # The headers for the timeline
-    csv_lines = [["Role", "Name", "Start", "End"]]
-
-
-    for subject in sub_dict:
-
-        # Creates a new line in the csv for each time range entry
-        for year_range in sub_dict[subject]:
-
-            if subject in umbs:
-
-                new_line = ["Topic, "+subject, "Topic, "+subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
-            else:
-                new_line = [subject, subject, str(min(year_range)) + "-01-02", str(max(year_range)) + "-12-31"]
-            csv_lines.append(new_line)
-
-    # Removes headers and gets list of categories
-    csv_lines.pop(0)
-    categories = list(set(list(Category_list.values())))
-    newlines = [["Role", "Name", "Start", "End"]]
-
-    # Adds a header row for each category, followed by the relevant topics
-    for cat in categories:
-        incat = [[" • " + cat + " • "]]
-
-        for line in range(len(csv_lines)):
-
-            if Category_list[csv_lines[line][1].replace("Topic, ","")] == cat:
-                incat.append(csv_lines[line])
-
-        # A len of one means this is an umbrella with no entries (other than the header column)
-        if len(incat) > 1:
-
-            all = incat[:]
-            cat = all.pop(0)
-
-            catlines = []
-            for each in all:
-                new = [cat[0], each[1], each[2], each[3]]
-                catlines.append(new)
-
-            formatted_union = format_union_of_date_ranges(incat, incat[0][0])
-
-
-            incat[0] = formatted_union[0]
-            formatted_union.pop(0)
-            for entry in formatted_union:
-                incat.append(entry)
-
-            catlines.extend(incat)
-
-            newlines += catlines
-
-    with open(output, 'w', newline='') as f:
-        print('Successfully wrote to: ' + output)
-        writer = csv.writer(f)
-        writer.writerows(newlines)
-
-def getcolors(datafile, output):
-    colors_list = []
-
-
-    # Unique rows in the order they appear
-    topics = list(pd.read_csv(datafile)["Role"].drop_duplicates())
-
-    for topic in topics:
-        topic = topic.replace("Topic, ","")
-
-        # skips header if present
-        if list(topic)[0] == " ":
-            colors_list.append(color_dict[topic.replace(" • ", "").strip()])
-
-        # Adds color to color list in order it will appear
-        else:
-            colors_list.append(color_dict[categories[topic][0]])
-
-    with open(output, 'w') as file:
-        wr = csv.writer(file, quoting=csv.QUOTE_ALL, delimiter=',')
-        wr.writerow(colors_list)
-
-def timelineFunc(filepath,datafile,colorfile):
-    createTimelineData(filepath, datafile)
-    getcolors(datafile, colorfile)
-
-def main():
-    parser = argparse.ArgumentParser(description="Generate timeline data and colors.")
-    parser.add_argument('input', type=str, help='Input CSV file with subjects and years.')
-    parser.add_argument('datafile', type=str, help='Output CSV file for timeline data.')
-    parser.add_argument('colorfile', type=str, help='Output CSV file for color mapping.')
-
     args = parser.parse_args()
-    timelineFunc(args.input, args.datafile, args.colorfile)
+    with open(args.umbrellafile, 'r') as file:
+        umbs = json.load(file)
+    umbs = list(umbs.keys())
+    with open(args.topiccategoryfile, 'r') as file:
+        json_categories = json.load(file)
+    # Right now, just taking the first umbrella for a certain topic
+    sub_dict = create_sub_dict(args.input)
+    create_timelines(sub_dict, args.output, umbs, json_categories)
+    getcolors(args.datafile, args.colorfile, colors, umbs, json_categories)
 
 if __name__ == "__main__":
     main()
